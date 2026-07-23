@@ -1,0 +1,1747 @@
+{
+  "all_units": [
+    {
+      "unit_no": 1,
+      "name": "Internet Basic",
+      "mcqs": [
+        {
+          "question": "A ........................... is a software application which enables a user to display and interact with text, images, videos, music, and other information that could be on a website.",
+          "options": [
+            { "text": "Browser", "correct": true },
+            { "text": "Scripting language", "correct": false },
+            { "text": "compiler", "correct": false },
+            { "text": "interpreter", "correct": false }
+          ]
+        },
+        {
+          "question": "A ........................... is what you see on the screen when you type in a web address, click on a link, or put a query in a search engine.",
+          "options": [
+            { "text": "Web Server", "correct": false },
+            { "text": "Web Page", "correct": true },
+            { "text": "Web Client", "correct": false },
+            { "text": "Web Browser", "correct": false }
+          ]
+        },
+        {
+          "question": "A ..........................., or domain name, is an address where you can be found online.",
+          "options": [
+            { "text": "Web Address", "correct": true },
+            { "text": "DNS", "correct": false },
+            { "text": "Web Server", "correct": false },
+            { "text": "Web Browser", "correct": false }
+          ]
+        },
+        {
+          "question": "A ........................... is an identification string that defines a realm of administrative autonomy, authority, or control on the Internet.",
+          "options": [
+            { "text": "Web address", "correct": false },
+            { "text": "Web server", "correct": false },
+            { "text": "Domain Name", "correct": true },
+            { "text": "URL", "correct": false }
+          ]
+        },
+        {
+          "question": "A ........................... is a label that is assigned to a device connected to a computer network and that is used to identify the device in various forms of electronic communication.",
+          "options": [
+            { "text": "Hostname", "correct": true },
+            { "text": "server name", "correct": false },
+            { "text": "DNS", "correct": false },
+            { "text": "URL", "correct": false }
+          ]
+        },
+        {
+          "question": "........................... splits the signal in the telephone wire in two: voice and broadband.",
+          "options": [
+            { "text": "Micro signal", "correct": false },
+            { "text": "Micro Filter", "correct": true },
+            { "text": "Splitter", "correct": false },
+            { "text": "modem", "correct": false }
+          ]
+        },
+        {
+          "question": "The ........................... tab allows you to access the set of \"Available\" networks.",
+          "options": [
+            { "text": "Bowser", "correct": false },
+            { "text": "Wireless Networks", "correct": true },
+            { "text": "internet", "correct": false },
+            { "text": "available", "correct": false }
+          ]
+        },
+        {
+          "question": "The IP address could be used either for ........................... or authentication purposes.",
+          "options": [
+            { "text": "login", "correct": false },
+            { "text": "Statistic", "correct": true },
+            { "text": "attack", "correct": false },
+            { "text": "verification", "correct": false }
+          ]
+        },
+        {
+          "question": "Using the ........................... function we get a list of all the IP addresses the hostname resolves to.",
+          "options": [
+            { "text": "System.Net.Dns.Get Host Entry", "correct": true },
+            { "text": "System.Net.Dns.Set Server Entry", "correct": false },
+            { "text": "System.Net.Dns.Get DNS Entry", "correct": false },
+            { "text": "System.Net.Dns.Set DNS Entry", "correct": false }
+          ]
+        },
+        {
+          "question": "A ........................... is the standard hostname given to the address assigned to the loopback network interface.",
+          "options": [
+            { "text": "Domain name", "correct": false },
+            { "text": "Local Host", "correct": true },
+            { "text": "IP address", "correct": false },
+            { "text": "scott", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Discuss www and Internet.",
+        "How to communicate on the Internet?",
+        "Explain the Domain Name system.",
+        "Write the procedure of connectivity to the Internet.",
+        "Write a note on IP addressing.",
+        "Describe the classes of IP address.",
+        "Write a note on TCP/IP.",
+        "Make distinction between website and webpage.",
+        "Explain the concept of domain name system with example.",
+        "Domain names are formed by the rules and procedures of the Domain Name System (DNS). Comment."
+      ]
+    },
+    {
+      "unit_no": 2,
+      "name": "HTML Introduction",
+      "mcqs": [
+        {
+          "question": "........................... is a markup language which tells the web browser how to display content.",
+          "options": [
+            { "text": "Web Browser", "correct": false },
+            { "text": "DNS", "correct": false },
+            { "text": "HTML", "correct": true },
+            { "text": "URL", "correct": false }
+          ]
+        },
+        {
+          "question": "A ....................... is a language that annotates text so that the computer can manipulate the text.",
+          "options": [
+            { "text": "High level language", "correct": false },
+            { "text": "Markup Language", "correct": true },
+            { "text": "Assembly Language", "correct": false },
+            { "text": "DNS", "correct": false }
+          ]
+        },
+        {
+          "question": "........................... Language can be described as a combination of several technologies like HTML client-side java script and cascading Style Sheets.",
+          "options": [
+            { "text": "JavaScript", "correct": false },
+            { "text": "PHP", "correct": false },
+            { "text": "ASP", "correct": false },
+            { "text": "Dynamic Hyper Text Markup", "correct": true }
+          ]
+        },
+        {
+          "question": "...........................is a document markup language used mainly be mathematicians, authors, etc. to typeset their content.",
+          "options": [
+            { "text": "LaTeX", "correct": true },
+            { "text": "DHTML", "correct": false },
+            { "text": "HTML", "correct": false },
+            { "text": "PHP", "correct": false }
+          ]
+        },
+        {
+          "question": ".......................... is used in voice interaction between humans and computer.",
+          "options": [
+            { "text": "HTML", "correct": false },
+            { "text": "VoiceXML", "correct": true },
+            { "text": "VXML", "correct": false },
+            { "text": "XDHTML", "correct": false }
+          ]
+        },
+        {
+          "question": "A ........................... is a program that, using the client/server model and the World Wide Web’s Hypertext Transfer Protocol ( HTTP ), serves the files that form Web pages to Web users.",
+          "options": [
+            { "text": "Web server", "correct": true },
+            { "text": "Web Client", "correct": false },
+            { "text": "Web Browser", "correct": false },
+            { "text": "DNS", "correct": false }
+          ]
+        },
+        {
+          "question": "Every computer on the Internet that contains a ........................... must have a Web server program.",
+          "options": [
+            { "text": "URL", "correct": false },
+            { "text": "Browser", "correct": false },
+            { "text": "NIC", "correct": false },
+            { "text": "Web site", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... is a software application used to locate, retrieve and also display content on the World Wide Web, including Web pages, images, video and other files.",
+          "options": [
+            { "text": "DNS", "correct": false },
+            { "text": "Web browser", "correct": true },
+            { "text": "Web Server", "correct": false },
+            { "text": "URI", "correct": false }
+          ]
+        },
+        {
+          "question": "A/An ........................... is identified by a Uniform Resource Identifier (URI) and may be a web page, image, video or other piece of content.",
+          "options": [
+            { "text": "Web Server", "correct": false },
+            { "text": "browser", "correct": false },
+            { "text": "URL", "correct": false },
+            { "text": "information resource", "correct": true }
+          ]
+        },
+        {
+          "question": "Unpaired tags are also known as ........................... Tags.",
+          "options": [
+            { "text": "non closing", "correct": false },
+            { "text": "Singular or Stand-Alone", "correct": true },
+            { "text": "non terminating", "correct": false },
+            { "text": "inline", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Discuss the history of HTML.",
+        "Discuss some of the text manipulating tags used in HTML.",
+        "List out various advantages and limitation of HTML.",
+        "Differentiate between singular and paired tags.",
+        "How to work on web server?",
+        "What is advantage of HTML?",
+        "Define the web browser.",
+        "What is markup language?",
+        "Make distinction between DHTML and XHTML.",
+        "Explain the creation of HTML."
+      ]
+    },
+    {
+      "unit_no": 3,
+      "name": "HTML Command, Structure & Formatting",
+      "mcqs": [
+        {
+          "question": "HTML ........................... tells a web browser where the HTML part in your document begins and ends.",
+          "options": [
+            { "text": "URL", "correct": false },
+            { "text": "tags", "correct": true },
+            { "text": "server", "correct": false },
+            { "text": "title", "correct": false }
+          ]
+        },
+        {
+          "question": "The “...........................” contains all of the document’s header information like the web document’s title and information about the document itself.",
+          "options": [
+            { "text": "body", "correct": false },
+            { "text": "title", "correct": false },
+            { "text": "script", "correct": false },
+            { "text": "head", "correct": true }
+          ]
+        },
+        {
+          "question": "The HTML pre element inserts a block of ........................... text.",
+          "options": [
+            { "text": "preformatted", "correct": true },
+            { "text": "unformatted", "correct": false },
+            { "text": "preformatted and unformatted", "correct": false },
+            { "text": "hyper", "correct": false }
+          ]
+        },
+        {
+          "question": "A ........................... tag controls how the characters are formatted.",
+          "options": [
+            { "text": "logical", "correct": false },
+            { "text": "physical", "correct": true },
+            { "text": "anchor", "correct": false },
+            { "text": "meta", "correct": false }
+          ]
+        },
+        {
+          "question": "A ........................... tag describes how the text is being used, not necessarily how it is formatted.",
+          "options": [
+            { "text": "meta", "correct": false },
+            { "text": "pre", "correct": false },
+            { "text": "header", "correct": false },
+            { "text": "logical character", "correct": true }
+          ]
+        },
+        {
+          "question": "The ........................... font style slants the text to the right and thus can also be used to draw special attention to one or more words",
+          "options": [
+            { "text": "italics", "correct": true },
+            { "text": "strong", "correct": false },
+            { "text": "pre", "correct": false },
+            { "text": "slant", "correct": false }
+          ]
+        },
+        {
+          "question": "A HTML ........................... is basically separated in two parts: the head and the body.",
+          "options": [
+            { "text": "program", "correct": false },
+            { "text": "URL", "correct": false },
+            { "text": "tag", "correct": false },
+            { "text": "Document", "correct": true }
+          ]
+        },
+        {
+          "question": "Every well written HTML document begins with a basic declaration that defines what type of document it is and this declaration is made using the ........................... tag.",
+          "options": [
+            { "text": "head", "correct": false },
+            { "text": "title", "correct": false },
+            { "text": "!DOCTYPE", "correct": true },
+            { "text": "meta", "correct": false }
+          ]
+        },
+        {
+          "question": "........................... tag is used to create a horizontal line on your page you use the empty tag.",
+          "options": [
+            { "text": "<HR>", "correct": true },
+            { "text": "<HL>", "correct": false },
+            { "text": "<dr>", "correct": false },
+            { "text": "<br>", "correct": false }
+          ]
+        },
+        {
+          "question": "In HTML, bold copy is created by using the ........................... tag.",
+          "options": [
+            { "text": "bold", "correct": false },
+            { "text": "Headline", "correct": true },
+            { "text": "strong", "correct": false },
+            { "text": "pre", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What are HTML commands? How they are used?",
+        "Discuss various advantages and limitations of HTML.",
+        "What is the structure of an HTML program?",
+        "Describe text formatting tags with the help of example.",
+        "What do you mean by text effect?",
+        "What are the different types of header tags? Explain with example.",
+        "What do you mean by preformatted text?",
+        "What is Preformatted Text? Discuss.",
+        "Discuss the guidelines used to render HTML pre element.",
+        "Explain the tags used for Text Formatting."
+      ]
+    },
+    {
+      "unit_no": 4,
+      "name": "HTML List",
+      "mcqs": [
+        {
+          "question": "The ........................... classes allow you to easily create lists within your HTML pages.",
+          "options": [
+            { "text": "HTML List", "correct": true },
+            { "text": "bullets", "correct": false },
+            { "text": "ordered", "correct": false },
+            { "text": "unordered", "correct": false }
+          ]
+        },
+        {
+          "question": "The ........................... OrderedList and OrderedListItem are used to create ordered lists in your HTML pages.",
+          "options": [
+            { "text": "tags", "correct": false },
+            { "text": "groups", "correct": false },
+            { "text": "Classes", "correct": true },
+            { "text": "items", "correct": false }
+          ]
+        },
+        {
+          "question": "By using the methods in ..........................., you can override the numbering and type for a specific item in the list.",
+          "options": [
+            { "text": "UnorderedListItem", "correct": false },
+            { "text": "List", "correct": false },
+            { "text": "classes", "correct": false },
+            { "text": "OrderedListItem", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... lists are purely a list of related items, in which their order does not matter nor do they have a numbered or alphabetical list element.",
+          "options": [
+            { "text": "ordered", "correct": false },
+            { "text": "Unordered", "correct": true },
+            { "text": "definition", "correct": false },
+            { "text": "ordered and unordered", "correct": false }
+          ]
+        },
+        {
+          "question": "By default most browsers represent each list item with a ...........................",
+          "options": [
+            { "text": "circle", "correct": false },
+            { "text": "square", "correct": false },
+            { "text": "bullet", "correct": false },
+            { "text": "solid dot", "correct": true }
+          ]
+        },
+        {
+          "question": "The solid dot is referred to as the list item element and can be changed using ...........................",
+          "options": [
+            { "text": "JavaScript", "correct": false },
+            { "text": "HTML", "correct": false },
+            { "text": "CSS", "correct": true },
+            { "text": "jQuery", "correct": false }
+          ]
+        },
+        {
+          "question": "........................... lists place strong importance on the order of items.",
+          "options": [
+            { "text": "Ordered", "correct": true },
+            { "text": "definition", "correct": false },
+            { "text": "unordered", "correct": false },
+            { "text": "description", "correct": false }
+          ]
+        },
+        {
+          "question": "Creating a definition list in HTML is accomplished using the ........................... element.",
+          "options": [
+            { "text": "dd", "correct": false },
+            { "text": "dt", "correct": false },
+            { "text": "li", "correct": false },
+            { "text": "d1", "correct": true }
+          ]
+        },
+        {
+          "question": "The ........................... actually requires two elements: the definition term element, dt, and the definition description element, dd.",
+          "options": [
+            { "text": "description list", "correct": false },
+            { "text": "definition list", "correct": true },
+            { "text": "data list", "correct": false },
+            { "text": "data description", "correct": false }
+          ]
+        },
+        {
+          "question": "An image which is displayed on a web browser is referred to as an “...........................”",
+          "options": [
+            { "text": "offline image", "correct": false },
+            { "text": "animated image", "correct": false },
+            { "text": "Inline image", "correct": true },
+            { "text": "hyper image", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "On what information we should emphasize while preparing an order list?",
+        "Discuss the methods for HTML List.",
+        "Discuss the methods to create ordered lists, unordered lists, and nested lists.",
+        "Discuss IMG Attributes.",
+        "Explain with examples about graphic image alignment parameters in the HTML.",
+        "Explain the three different types of HTML lists.",
+        "Differentiate between UnorderedList and OrderedListItem.",
+        "Discuss the methods for Methods for UnorderedListItem.",
+        "How can you insert an image in the current page?",
+        "What are the classes of HTML List? Discuss."
+      ]
+    },
+    {
+      "unit_no": 5,
+      "name": "Creating Tables and Frames",
+      "mcqs": [
+        {
+          "question": "Tables are defined with the ........................... tag.",
+          "options": [
+            { "text": "<br>", "correct": false },
+            { "text": "<h1>", "correct": false },
+            { "text": "<table>.", "correct": true },
+            { "text": "<hr>", "correct": false }
+          ]
+        },
+        {
+          "question": "The letters ........................... stands for “table data,” which is the content of a data cell.",
+          "options": [
+            { "text": "TD", "correct": true },
+            { "text": "DT", "correct": false },
+            { "text": "TR", "correct": false },
+            { "text": "<LI>", "correct": false }
+          ]
+        },
+        {
+          "question": "A ........................... can contain text, images, lists, paragraphs, forms, horizontal rules, tables,etc.",
+          "options": [
+            { "text": "data item", "correct": false },
+            { "text": "data cell", "correct": true },
+            { "text": "data block.", "correct": false },
+            { "text": "Item", "correct": false }
+          ]
+        },
+        {
+          "question": "A table row is defined by ........................... tag.",
+          "options": [
+            { "text": "<th>", "correct": false },
+            { "text": "<td>", "correct": false },
+            { "text": "<tt>", "correct": false },
+            { "text": "<tr>", "correct": true }
+          ]
+        },
+        {
+          "question": "When you finish all of the cells for a row, you would then close the row with the ending rowtag, ...........................",
+          "options": [
+            { "text": "</TD>", "correct": false },
+            { "text": "</TT>", "correct": false },
+            { "text": "</TR>", "correct": true },
+            { "text": "</TH>", "correct": false }
+          ]
+        },
+        {
+          "question": "If you do not specify a ........................... attribute the table will be displayed without any borders.",
+          "options": [
+            { "text": "border", "correct": true },
+            { "text": "font", "correct": false },
+            { "text": "table", "correct": false },
+            { "text": "style", "correct": false }
+          ]
+        },
+        {
+          "question": "Headings in a table are defined with the ........................... tag.",
+          "options": [
+            { "text": "<td>", "correct": false },
+            { "text": "<th>", "correct": true },
+            { "text": "<tt>", "correct": false },
+            { "text": "<tr>", "correct": false }
+          ]
+        },
+        {
+          "question": "Links are defined with the ........................... tag.",
+          "options": [
+            { "text": "<li>", "correct": false },
+            { "text": "<hr>", "correct": false },
+            { "text": "<br>", "correct": false },
+            { "text": "<a>", "correct": true }
+          ]
+        },
+        {
+          "question": "The text between the <a> and the </a> is used as the ........................... for the link.",
+          "options": [
+            { "text": "body", "correct": false },
+            { "text": "text", "correct": false },
+            { "text": "caption", "correct": true },
+            { "text": "meta", "correct": false }
+          ]
+        },
+        {
+          "question": "You can use a/an ........................... to separate words in your file names.",
+          "options": [
+            { "text": "underscore, “_”", "correct": true },
+            { "text": "space “ “", "correct": false },
+            { "text": "<br>", "correct": false },
+            { "text": "<hr>", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Explain how HTML Tables are created?",
+        "Define and Explain the steps involved in creating HTML Tables.",
+        "Discuss in brief about Linking Document.",
+        "What are the three attributes that can be specified with the <BODY> tag? Explain each ofthem.",
+        "Define and explain Hyperlinks and their types.",
+        "Justify the use of link list creation in html document.",
+        "Explain how to display a table with borders.",
+        "Discuss how to link to a page on another web site. Illustrate with example.",
+        "Explain the steps used to move to a specific location on a Web page."
+      ]
+    },
+    {
+      "unit_no": 6,
+      "name": "DHTML",
+      "mcqs": [
+        {
+          "question": "........................ enables authors to create visually compelling Web sites without the overhead of server-side programs or complicated sets of controls to achieve special effects.",
+          "options": [
+            { "text": "HTML", "correct": false },
+            { "text": "DHTML", "correct": true },
+            { "text": "jQuery", "correct": false },
+            { "text": "JavaScript", "correct": false }
+          ]
+        },
+        {
+          "question": "............................ is used for the presentation part of the web page.",
+          "options": [
+            { "text": "Pre", "correct": false },
+            { "text": "Meta", "correct": false },
+            { "text": "CSS (Cascading Style Sheet)", "correct": true },
+            { "text": "HTML", "correct": false }
+          ]
+        },
+        {
+          "question": ".......................... is the weakest link in DHTML as many of the browser does not support the DOM functionality.",
+          "options": [
+            { "text": "<script>", "correct": false },
+            { "text": "DSM (Dynamic Support Model)", "correct": false },
+            { "text": "DOM (Dynamic Object Model)", "correct": true },
+            { "text": "CSS", "correct": false }
+          ]
+        },
+        {
+          "question": "CSS was first developed in ................................., as a way for Web developers to define the look and feel of their Web pages.",
+          "options": [
+            { "text": "1997", "correct": true },
+            { "text": "1987", "correct": false },
+            { "text": "1977", "correct": false },
+            { "text": "1985", "correct": false }
+          ]
+        },
+        {
+          "question": "External style sheet is also known as ...................................",
+          "options": [
+            { "text": "inline style sheet", "correct": false },
+            { "text": "embedded style sheet", "correct": false },
+            { "text": "outer style sheet", "correct": false },
+            { "text": "linked style sheet", "correct": true }
+          ]
+        },
+        {
+          "question": ".......................... style sheet is used when you want to define styles for the current page.",
+          "options": [
+            { "text": "External", "correct": false },
+            { "text": "Embedded", "correct": true },
+            { "text": "Outer", "correct": false },
+            { "text": "Dynamic", "correct": false }
+          ]
+        },
+        {
+          "question": "An ...................................... style sheet is a separate file where you can declare all the styles that you want to use on your website.",
+          "options": [
+            { "text": "External", "correct": true },
+            { "text": "Embedded", "correct": false },
+            { "text": "Outer", "correct": false },
+            { "text": "Dynamic", "correct": false }
+          ]
+        },
+        {
+          "question": "The ................... element changes the style of the text it encloses.",
+          "options": [
+            { "text": "Pre", "correct": false },
+            { "text": "Font", "correct": false },
+            { "text": "SPAN", "correct": true },
+            { "text": "DIV", "correct": false }
+          ]
+        },
+        {
+          "question": "The ......................... element includes a paragraph break.",
+          "options": [
+            { "text": "Pre", "correct": false },
+            { "text": "Font", "correct": false },
+            { "text": "SPAN", "correct": false },
+            { "text": "DIV", "correct": true }
+          ]
+        },
+        {
+          "question": "The DIV elements defines ......................... divisions in your web page.",
+          "options": [
+            { "text": "external", "correct": false },
+            { "text": "Logical", "correct": true },
+            { "text": "internal", "correct": false },
+            { "text": "table", "correct": false }
+          ]
+        },
+        {
+          "question": "The DIV element gives you the chance to define the ........................ of whole sections of the HTML.",
+          "options": [
+            { "text": "Style", "correct": true },
+            { "text": "Logic", "correct": false },
+            { "text": "scope", "correct": false },
+            { "text": "base class", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Differentiate between HTML and DHTML.",
+        "What are the advantages of DHTML over HTML?",
+        "What is the advantage of using an external style sheet?",
+        "What is CSS? Discuss.",
+        "What is class? Discuss.",
+        "What is external Style Sheet? How to link?",
+        "What are the features of DHTML?",
+        "How does DHTML work with JavaScript?",
+        "What are the attributes that make up a DHTML?",
+        "Illustrate the concept of embedded style sheet with example."
+      ]
+    },
+    {
+      "unit_no": 7,
+      "name": "Introduction to Java Script",
+      "mcqs": [
+        {
+          "question": "Developed under the name ..........................., Live Script was the official name for the language when it first shipped in beta releases of Netscape Navigator 2.0.",
+          "options": [
+            { "text": "Latte", "correct": false },
+            { "text": "Espresso", "correct": false },
+            { "text": "Mocha", "correct": true },
+            { "text": "Cappuccino", "correct": false }
+          ]
+        },
+        {
+          "question": "The change of name from ........................... to JavaScript roughly coincided with Netscape adding support for Java technology in its Netscape Navigator web browser.",
+          "options": [
+            { "text": "JScript", "correct": false },
+            { "text": "LiveScript", "correct": true },
+            { "text": "LivelyScript", "correct": false },
+            { "text": "NetScript", "correct": false }
+          ]
+        },
+        {
+          "question": "........................... is a scripting language designed primarily for adding interactivity to WebPages and creating Web applications.",
+          "options": [
+            { "text": "HTML", "correct": false },
+            { "text": "DHTML", "correct": false },
+            { "text": "jQuery", "correct": false },
+            { "text": "JavaScript", "correct": true }
+          ]
+        },
+        {
+          "question": "JavaScript is the scripting language implemented on...........................",
+          "options": [
+            { "text": "Web", "correct": true },
+            { "text": "client", "correct": false },
+            { "text": "server", "correct": false },
+            { "text": "browser", "correct": false }
+          ]
+        },
+        {
+          "question": "JavaScript can put ........................... text into an HTML page.",
+          "options": [
+            { "text": "Static", "correct": false },
+            { "text": "Hyper", "correct": false },
+            { "text": "Java", "correct": false },
+            { "text": "Dynamic", "correct": true }
+          ]
+        },
+        {
+          "question": "A JavaScript can be used to validate form data before it is submitted to a ...........................",
+          "options": [
+            { "text": "Web Browser", "correct": false },
+            { "text": "Server", "correct": true },
+            { "text": "Client", "correct": false },
+            { "text": "DNS", "correct": false }
+          ]
+        },
+        {
+          "question": "In JavaScript, ........................... tags can be inserted into three places: in between the two BODY tags, in between the two HEAD tags, and as a link to an external file, also in the HEAD section.",
+          "options": [
+            { "text": "SCRIPT", "correct": true },
+            { "text": "HEAD", "correct": false },
+            { "text": "TITLE", "correct": false },
+            { "text": "CSS", "correct": false }
+          ]
+        },
+        {
+          "question": "If your JavaScript references any of the web pages ..........................., there may be a slight delay in the fancy effects you want to apply, or it may just not work at all.",
+          "options": [
+            { "text": "attributes", "correct": false },
+            { "text": "properties", "correct": false },
+            { "text": "elements", "correct": true },
+            { "text": "references", "correct": false }
+          ]
+        },
+        {
+          "question": "Browsers that do not support JavaScript, will display JavaScript as ...........................",
+          "options": [
+            { "text": "Page URL Data", "correct": false },
+            { "text": "Page Content", "correct": true },
+            { "text": "Images", "correct": false },
+            { "text": "Error Messages", "correct": false }
+          ]
+        },
+        {
+          "question": "Add an HTML comment tag ................before the first JavaScript statement, and a —> (end of comment) after the last JavaScript statement.",
+          "options": [
+            { "text": "<-- !", "correct": false },
+            { "text": "<!", "correct": true },
+            { "text": "<-!-", "correct": false },
+            { "text": "<--", "correct": false }
+          ]
+        },
+        {
+          "question": ".......................... data types are the types that can be assigned a single literal value.",
+          "options": [
+            { "text": "Boolean", "correct": false },
+            { "text": "Bitwise", "correct": false },
+            { "text": "User defined", "correct": false },
+            { "text": "Primitive", "correct": true }
+          ]
+        },
+        {
+          "question": ".......................... are rows of characters enclosed in either double or single quotes.",
+          "options": [
+            { "text": "String Literals", "correct": true },
+            { "text": "Character Literals", "correct": false },
+            { "text": "Alphanumeric Literals", "correct": false },
+            { "text": "Text Literals", "correct": false }
+          ]
+        },
+        {
+          "question": "To get the value of the ........................... element, we can use the value property of the text input object",
+          "options": [
+            { "text": "Test Box", "correct": false },
+            { "text": "Text Area", "correct": false },
+            { "text": "Text Input", "correct": true },
+            { "text": "Input", "correct": false }
+          ]
+        },
+        {
+          "question": "The code for obtaining a reference to a ........................... element is oTextarea =oForm.elements[“textarea_element_name”].",
+          "options": [
+            { "text": "Test Box", "correct": false },
+            { "text": "Text Area", "correct": true },
+            { "text": "input", "correct": false },
+            { "text": "Text input", "correct": false }
+          ]
+        },
+        {
+          "question": "........................... allows you to access a specific value as if it were of a different type.",
+          "options": [
+            { "text": "Type face", "correct": false },
+            { "text": "Data Casting", "correct": false },
+            { "text": "Type Conversion", "correct": false },
+            { "text": "Type Casting", "correct": true }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Why scripting languages are used?",
+        "Write the brief history about JavaScript.",
+        "What is the difference between Java and JavaScript?",
+        "Describe about the data types in JavaScript.",
+        "How JavaScript can be tagged with HTML?",
+        "Describe JavaScript Browsers compatibility.",
+        "Why JavaScript named as JavaScript?",
+        "Explain the Typecasting in JavaScript.",
+        "Describe the arrays in JavaScript.",
+        "How do you convert numbers between different bases in JavaScript?",
+        "What is the purpose of backslash in JavaScript?",
+        "What is operator? Discuss with example.",
+        "Differentiate between arithmetic and bitwise operators.",
+        "Why comparison operators are used?",
+        "Describe logical operators with the help of example.",
+        "What is === operator?",
+        "What does the delete operator do?",
+        "What is function of Boolean operators in JavaScript?",
+        "Evaluate “1”+2+4.",
+        "Solve 2+5+”8\".",
+        "What do you mean by expression in JavaScript?"
+      ]
+    },
+    {
+      "unit_no": 8,
+      "name": "Programming Constructs in JavaScript",
+      "mcqs": [
+        {
+          "question": "........................... statements give the JavaScript code you are writing the ability to make decisions or perform single or multiple tasks.",
+          "options": [
+            { "text": "conditional", "correct": true },
+            { "text": "decision", "correct": false },
+            { "text": "header", "correct": false },
+            { "text": "filter", "correct": false }
+          ]
+        },
+        {
+          "question": "The ........................... conditional statement is used to perform an action if the condition is met.",
+          "options": [
+            { "text": "do-while", "correct": false },
+            { "text": "if", "correct": true },
+            { "text": "continue", "correct": false },
+            { "text": "break", "correct": false }
+          ]
+        },
+        {
+          "question": "The ........................... conditional statement is used to test all of the possible outcomes for the application you are designing.",
+          "options": [
+            { "text": "Switch case", "correct": true },
+            { "text": "for", "correct": false },
+            { "text": "if", "correct": false },
+            { "text": "while", "correct": false }
+          ]
+        },
+        {
+          "question": "The ........................... loop is used when you know in advance how many times the script should run.",
+          "options": [
+            { "text": "For", "correct": true },
+            { "text": "do-while", "correct": false },
+            { "text": "if", "correct": false },
+            { "text": "while", "correct": false }
+          ]
+        },
+        {
+          "question": "The ........................... loop loops through a block of code while a specified condition is true.",
+          "options": [
+            { "text": "For", "correct": false },
+            { "text": "do-while", "correct": false },
+            { "text": "While.", "correct": true },
+            { "text": "if", "correct": false }
+          ]
+        },
+        {
+          "question": "The ........................... loop will execute the block of code ONCE, and then it will repeat the loop as long as the specified condition is true.",
+          "options": [
+            { "text": "while", "correct": false },
+            { "text": "do-while", "correct": true },
+            { "text": "if", "correct": false },
+            { "text": "switch", "correct": false }
+          ]
+        },
+        {
+          "question": "The ........................... statement will break the loop and continue executing the code that follows after the loop (if any).",
+          "options": [
+            { "text": "continue", "correct": false },
+            { "text": "else", "correct": false },
+            { "text": "if", "correct": false },
+            { "text": "break", "correct": true }
+          ]
+        },
+        {
+          "question": "The ........................... statement will break the current loop and continue with the next value.",
+          "options": [
+            { "text": "break", "correct": false },
+            { "text": "else", "correct": false },
+            { "text": "continue", "correct": true },
+            { "text": "if", "correct": false }
+          ]
+        },
+        {
+          "question": "A/An ........................... dialog box is mostly used to give a warning message to the users.",
+          "options": [
+            { "text": "alert", "correct": true },
+            { "text": "confirmation", "correct": false },
+            { "text": "prompt", "correct": false },
+            { "text": "control", "correct": false }
+          ]
+        },
+        {
+          "question": "The ........................... dialog box is very useful when you want to pop-up a text box to get user input.",
+          "options": [
+            { "text": "alert", "correct": false },
+            { "text": "confirmation", "correct": false },
+            { "text": "control", "correct": false },
+            { "text": "prompt", "correct": true }
+          ]
+        },
+        {
+          "question": "A ……………. dialog box is mostly used to take user's consent on any option",
+          "options": [
+            { "text": "alert", "correct": false },
+            { "text": "confirmation", "correct": true },
+            { "text": "control", "correct": false },
+            { "text": "prompt", "correct": false }
+          ]
+        },
+        {
+          "question": "In…………….. loop, you know in advance how many times the script should run.",
+          "options": [
+            { "text": "while", "correct": false },
+            { "text": "for", "correct": true },
+            { "text": "if", "correct": false },
+            { "text": "do-while", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What is the use of if-else and switch statements?",
+        "Discuss break-continue statements with example.",
+        "What is the difference between for and while loop statements?",
+        "What is the difference between do-while and while loop statements?",
+        "“The switch case conditional statement is used to test all of the possible outcomes for the application being designed”. Do you agree with the statement? Give reasons to support your answer."
+      ]
+    },
+    {
+      "unit_no": 9,
+      "name": "Functions in JavaScript",
+      "mcqs": [
+        {
+          "question": "To keep the browser from executing a script when the page loads, you can put your script into a .....................",
+          "options": [
+            { "text": "function", "correct": true },
+            { "text": "web page", "correct": false },
+            { "text": "jQuery", "correct": false },
+            { "text": "macro", "correct": false }
+          ]
+        },
+        {
+          "question": "A/an ........................... is an expression that defines an unnamed function.",
+          "options": [
+            { "text": "arithmetic literal", "correct": false },
+            { "text": "control statement", "correct": false },
+            { "text": "function literal", "correct": true },
+            { "text": "macro", "correct": false }
+          ]
+        },
+        {
+          "question": "An ........................... function saves us from rewriting the same code again and again and helps us to make our application smaller.",
+          "options": [
+            { "text": "Built-in", "correct": false },
+            { "text": "derived", "correct": false },
+            { "text": "micro", "correct": false },
+            { "text": "user-defined", "correct": true }
+          ]
+        },
+        {
+          "question": "The ........................... object is a local variable available within all functions.",
+          "options": [
+            { "text": "derived", "correct": false },
+            { "text": "arguments", "correct": true },
+            { "text": "global", "correct": false },
+            { "text": "static", "correct": false }
+          ]
+        },
+        {
+          "question": "..........................variables exist only inside a particular function hence they have Local Scope.",
+          "options": [
+            { "text": "global", "correct": false },
+            { "text": "static", "correct": false },
+            { "text": "local", "correct": true },
+            { "text": "dynamic", "correct": false }
+          ]
+        },
+        {
+          "question": "An ........................... dialog box is mostly used to give a warning message to the users.",
+          "options": [
+            { "text": "prompt", "correct": false },
+            { "text": "alert", "correct": true },
+            { "text": "input", "correct": false },
+            { "text": "control", "correct": false }
+          ]
+        },
+        {
+          "question": "The ........................... dialog box is very useful when you want to pop-up a text box to get user input.",
+          "options": [
+            { "text": "prompt", "correct": true },
+            { "text": "control", "correct": false },
+            { "text": "alert", "correct": false },
+            { "text": "input", "correct": false }
+          ]
+        },
+        {
+          "question": "……………… are blocks of JavaScript code that perform a specific task and often return a value.",
+          "options": [
+            { "text": "prompt", "correct": false },
+            { "text": "Routines", "correct": false },
+            { "text": "Functions", "correct": true },
+            { "text": "Parameters", "correct": false }
+          ]
+        },
+        {
+          "question": "…………….. are a standard technique via which control data can be passed to a function.",
+          "options": [
+            { "text": "prompt", "correct": false },
+            { "text": "strings", "correct": false },
+            { "text": "URL", "correct": false },
+            { "text": "Parameters.", "correct": true }
+          ]
+        },
+        {
+          "question": "JavaScript provides the ability to pick up user input or display small amount of the text to the user by using …………….",
+          "options": [
+            { "text": "prompt", "correct": false },
+            { "text": "dialog boxes", "correct": true },
+            { "text": "code", "correct": false },
+            { "text": "alert", "correct": false }
+          ]
+        },
+        {
+          "question": "A function contains ……… that will be executed by an event or by a call to the function.",
+          "options": [
+            { "text": "code", "correct": true },
+            { "text": "prompt", "correct": false },
+            { "text": "dialog box", "correct": false },
+            { "text": "literal", "correct": false }
+          ]
+        },
+        {
+          "question": "A …………. is an expression that defines an unnamed function.",
+          "options": [
+            { "text": "prompt", "correct": false },
+            { "text": "function literal", "correct": true },
+            { "text": "code", "correct": false },
+            { "text": "alert", "correct": false }
+          ]
+        },
+        {
+          "question": "A ……………. function saves us from rewriting the same code again and again and helps us to make our application smaller.",
+          "options": [
+            { "text": "prompt", "correct": false },
+            { "text": "built-in", "correct": false },
+            { "text": "derived", "correct": false },
+            { "text": "user-defined", "correct": true }
+          ]
+        },
+        {
+          "question": "……………. can be used to raise and alert, or to get confirmation on any input or to have a kind of input from the users.",
+          "options": [
+            { "text": "prompt", "correct": false },
+            { "text": "dialog boxes", "correct": true },
+            { "text": "code", "correct": false },
+            { "text": "alert", "correct": false }
+          ]
+        },
+        {
+          "question": "……………….. function takes a string as parameter and parses it to a floating point number.",
+          "options": [
+            { "text": "parseFloat()", "correct": true },
+            { "text": "isNaN()", "correct": false },
+            { "text": "string()", "correct": false },
+            { "text": "number()", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Differentiate between functions and statements in JavaScript.",
+        "What are the built-in functions in JavaScript?",
+        "Differentiate between built-in functions and user-defined functions.",
+        "What is the use of dialog boxes in JavaScript? Notes",
+        "Differentiate between alert and prompt dialog boxes in JavaScript.",
+        "What is the use of confirm dialog box in JavaScript?",
+        "What are the differences between confirm and alert dialog boxes in JavaScript?"
+      ]
+    },
+    {
+      "unit_no": 10,
+      "name": "DOM Model & Browser Objects",
+      "mcqs": [
+        {
+          "question": "The ........................... is a programming API for documents.",
+          "options": [
+            { "text": "jQuery", "correct": false },
+            { "text": "JavaScript", "correct": false },
+            { "text": "Document Object Model", "correct": true },
+            { "text": "CSS", "correct": false }
+          ]
+        },
+        {
+          "question": "The DOM Core represents the functionality used for ........................... documents.",
+          "options": [
+            { "text": "CSS", "correct": false },
+            { "text": "XML", "correct": true },
+            { "text": "jQuery", "correct": false },
+            { "text": "JavaScript", "correct": false }
+          ]
+        },
+        {
+          "question": "Variables associated with an object are called ........................... of the object.",
+          "options": [
+            { "text": "properties", "correct": true },
+            { "text": "values", "correct": false },
+            { "text": "descriptors", "correct": false },
+            { "text": "associates", "correct": false }
+          ]
+        },
+        {
+          "question": "The M in DOM stands for Model, but it could just as easily stand for ...........................",
+          "options": [
+            { "text": "Mark", "correct": false },
+            { "text": "Meta", "correct": false },
+            { "text": "Meter", "correct": false },
+            { "text": "Map", "correct": true }
+          ]
+        },
+        {
+          "question": "A ........................... is an interface from which a number of DOM types inherit, and allows these various types to be treated (or tested) similarly.",
+          "options": [
+            { "text": "Node", "correct": true },
+            { "text": "attribute", "correct": false },
+            { "text": "object", "correct": false },
+            { "text": "Meta", "correct": false }
+          ]
+        },
+        {
+          "question": "The ........................... tag is used to include objects such as images, audio, videos, Java applets, ActiveX, PDF, and Flash into a webpage.",
+          "options": [
+            { "text": "<Meta>", "correct": false },
+            { "text": "<ins>", "correct": false },
+            { "text": "<object>", "correct": true },
+            { "text": "<Script>", "correct": false }
+          ]
+        },
+        {
+          "question": "The Document object is the root of a/an ...........................",
+          "options": [
+            { "text": "DOM", "correct": false },
+            { "text": "Object", "correct": false },
+            { "text": "attribute", "correct": false },
+            { "text": "Document tree", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... is used to create an attribute node.",
+          "options": [
+            { "text": "setAttribute()", "correct": false },
+            { "text": "createAttribute()", "correct": true },
+            { "text": "newAttribute()", "correct": false },
+            { "text": "Attribute()", "correct": false }
+          ]
+        },
+        {
+          "question": "........................... method is used to import a node from another document.",
+          "options": [
+            { "text": "callNode()", "correct": false },
+            { "text": "importNode()", "correct": true },
+            { "text": "inNode()", "correct": false },
+            { "text": "iNode()", "correct": false }
+          ]
+        },
+        {
+          "question": "........................... are actions that can be detected by JavaScript.",
+          "options": [
+            { "text": "Event", "correct": true },
+            { "text": "Attributes", "correct": false },
+            { "text": "Codes", "correct": false },
+            { "text": "Data Lists", "correct": false }
+          ]
+        },
+        {
+          "question": "Every element on a ........................... has certain events which can trigger a JavaScript.",
+          "options": [
+            { "text": "Web Browser", "correct": false },
+            { "text": "Web Server", "correct": false },
+            { "text": "Web page", "correct": true },
+            { "text": "Web Link", "correct": false }
+          ]
+        },
+        {
+          "question": "The ........................... event is often used to check the visitor’s browser type and browser version, and load the proper version of the web page based on the information.",
+          "options": [
+            { "text": "onClick", "correct": false },
+            { "text": "onSubmit", "correct": false },
+            { "text": "onLoad", "correct": true },
+            { "text": "onMouseOver", "correct": false }
+          ]
+        },
+        {
+          "question": "The ........................... event is used to validate ALL form fields before submitting it.",
+          "options": [
+            { "text": "onMouseOver", "correct": false },
+            { "text": "onClick", "correct": false },
+            { "text": "onLoad", "correct": false },
+            { "text": "onSubmit", "correct": true }
+          ]
+        },
+        {
+          "question": "onMouseOver and onMouseOut are often used to create “...........................” buttons.",
+          "options": [
+            { "text": "Hypertext", "correct": false },
+            { "text": "Animated", "correct": true },
+            { "text": "Reference", "correct": false },
+            { "text": "Link", "correct": false }
+          ]
+        },
+        {
+          "question": "........................... is a frame set, document, or form object such as a text field loses the focus for input.",
+          "options": [
+            { "text": "Del", "correct": false },
+            { "text": "Blur", "correct": true },
+            { "text": "Mark", "correct": false },
+            { "text": "Nav", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What is DOM?",
+        "Explain the DOM interface.",
+        "How do you define DOM?",
+        "How do you define nodes in HTML DOM?",
+        "How do you define node tree in HTML DOM?",
+        "What are the properties and methods of HTML DOM?",
+        "Write a short note on HTML Element Properties.",
+        "Describe the properties of Document Object.",
+        "Illustrate the representation of DOM with example.",
+        "Make distinction between onMouseOver and onMouseOut.",
+        "What is History object function in JavaScript?",
+        "Write a short note on Location object properties.",
+        "What is document object model?",
+        "How do you assign object properties?",
+        "How do you create a new object in JavaScript?",
+        "What is the function of NaN?",
+        "What is the function of document object model?",
+        "Define screen object properties.",
+        "Discuss the methods of navigator object."
+      ]
+    },
+    {
+      "unit_no": 11,
+      "name": "Handling Events Using JavaScript",
+      "mcqs": [
+        {
+          "question": ".............................. are normally used in combination with functions, and the function will not be executed before the event occurs!",
+          "options": [
+            { "text": "Methods", "correct": false },
+            { "text": "Procedures", "correct": false },
+            { "text": "Events", "correct": true },
+            { "text": "Validations", "correct": false }
+          ]
+        },
+        {
+          "question": "The .............................. and onUnload events are triggered when the user enters or leaves the page.",
+          "options": [
+            { "text": "onload", "correct": true },
+            { "text": "onclick", "correct": false },
+            { "text": "onSelect", "correct": false },
+            { "text": "onSubmit", "correct": false }
+          ]
+        },
+        {
+          "question": "The ..................................... event is often used to check the visitor’s browser type and browser version, and load the proper version of the web page based on the information.",
+          "options": [
+            { "text": "onclick", "correct": false },
+            { "text": "onSelect", "correct": false },
+            { "text": "onSubmit", "correct": false },
+            { "text": "onLoad", "correct": true }
+          ]
+        },
+        {
+          "question": "The onFocus, onBlur and onChange events are often used in combination with ............................ of form fields.",
+          "options": [
+            { "text": "Selection", "correct": false },
+            { "text": "Validation", "correct": true },
+            { "text": "Submission", "correct": false },
+            { "text": "Clicking", "correct": false }
+          ]
+        },
+        {
+          "question": "The ................................. event is used to validate ALL form fields before submitting it.",
+          "options": [
+            { "text": "onLoad", "correct": false },
+            { "text": "onclick", "correct": false },
+            { "text": "MouseEvent", "correct": false },
+            { "text": "onSubmit", "correct": true }
+          ]
+        },
+        {
+          "question": "onMouseOver and onMouseOut are often used to create “............................” buttons.",
+          "options": [
+            { "text": "Animation", "correct": true },
+            { "text": "Validation", "correct": false },
+            { "text": "Submission", "correct": false },
+            { "text": "Selection", "correct": false }
+          ]
+        },
+        {
+          "question": "The ............................ property returns the onClick event handler code on the current element.",
+          "options": [
+            { "text": "onLoad", "correct": false },
+            { "text": "onSelect", "correct": false },
+            { "text": "onclick", "correct": true },
+            { "text": "onSubmit", "correct": false }
+          ]
+        },
+        {
+          "question": "............................ is often a name of a function declared elsewhere or a function expression.",
+          "options": [
+            { "text": "memberFunction.", "correct": false },
+            { "text": "functionRef", "correct": true },
+            { "text": "globalDeclaration", "correct": false },
+            { "text": "staticDeclaredFunc", "correct": false }
+          ]
+        },
+        {
+          "question": "The event object passed to the specified event handler function is a ............................",
+          "options": [
+            { "text": "MouseEvent", "correct": true },
+            { "text": "onSubmit", "correct": false },
+            { "text": "onclick.", "correct": false },
+            { "text": "onLoad", "correct": false }
+          ]
+        },
+        {
+          "question": "A ............................ event occurs when a user selects some of the text within a text ortextarea field.",
+          "options": [
+            { "text": "onclick.", "correct": false },
+            { "text": "onLoad", "correct": false },
+            { "text": "Select", "correct": true },
+            { "text": "onSubmit", "correct": false }
+          ]
+        },
+        {
+          "question": "The .............................. handler executes JavaScript code when a select event occurs.",
+          "options": [
+            { "text": "onLoad", "correct": false },
+            { "text": "onclick", "correct": false },
+            { "text": "onSubmit", "correct": false },
+            { "text": "onSelect event", "correct": true }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What do you mean by events?",
+        "Why we use events in JavaScript?",
+        "How to use onMouseOver and onMouseOut events?",
+        "How to change the background color of an element?",
+        "How do you define onLoad and onUnload event?",
+        "Define onLoad calls and onUnload calls.",
+        "Explain onBlur Event Handler.",
+        "Why we use onSelect Event Handler?",
+        "Describe onSubmit Event Handler.",
+        "Make distinction between onMouseOver and onMouseOut."
+      ]
+    },
+    {
+      "unit_no": 12,
+      "name": "Web Programming",
+      "mcqs": [
+        {
+          "question": "................................. method sends the form information by including it on the URL.",
+          "options": [
+            { "text": "post", "correct": false },
+            { "text": "action", "correct": false },
+            { "text": "get", "correct": true },
+            { "text": "href", "correct": false }
+          ]
+        },
+        {
+          "question": "................................. method sends the form information in the HTTP environment.",
+          "options": [
+            { "text": "get", "correct": false },
+            { "text": "Post", "correct": true },
+            { "text": "action", "correct": false },
+            { "text": "href", "correct": false }
+          ]
+        },
+        {
+          "question": "................................. attribute specifies the URL to send the data to.",
+          "options": [
+            { "text": "Action", "correct": true },
+            { "text": "method", "correct": false },
+            { "text": "get", "correct": false },
+            { "text": "post", "correct": false }
+          ]
+        },
+        {
+          "question": "We use the .......................... tag to create a basic button.",
+          "options": [
+            { "text": "button", "correct": false },
+            { "text": "font", "correct": false },
+            { "text": "meta", "correct": false },
+            { "text": "<input>", "correct": true }
+          ]
+        },
+        {
+          "question": "Within the code, we use type=”.................................“ to set the control to a button.",
+          "options": [
+            { "text": "button", "correct": true },
+            { "text": "input", "correct": false },
+            { "text": "text", "correct": false },
+            { "text": "submit", "correct": false }
+          ]
+        },
+        {
+          "question": "A text field is placed on a web page using the <input> tag, with the ............................... attribute set with a value of “text”.",
+          "options": [
+            { "text": "text", "correct": false },
+            { "text": "text area", "correct": false },
+            { "text": "type", "correct": true },
+            { "text": "name", "correct": false }
+          ]
+        },
+        {
+          "question": "The HTML ............................ tag represents a group of introductory or navigational aids.",
+          "options": [
+            { "text": "<title>", "correct": false },
+            { "text": "<header>", "correct": true },
+            { "text": "<head>", "correct": false },
+            { "text": "<input>", "correct": false }
+          ]
+        },
+        {
+          "question": "................................. are text fields that can span several lines.",
+          "options": [
+            { "text": "Texts", "correct": false },
+            { "text": "Options", "correct": false },
+            { "text": "Lists", "correct": false },
+            { "text": "Text areas", "correct": true }
+          ]
+        },
+        {
+          "question": "We use .............................. tag to end the text area.",
+          "options": [
+            { "text": "</textarea>", "correct": true },
+            { "text": "</pre>", "correct": false },
+            { "text": "</input>", "correct": false },
+            { "text": "<end>", "correct": false }
+          ]
+        },
+        {
+          "question": "............................ are used when you want to let the visitor select one or more options from a set of alternatives.",
+          "options": [
+            { "text": "Data lists", "correct": false },
+            { "text": "Radio", "correct": false },
+            { "text": "Check boxes", "correct": true },
+            { "text": "Range", "correct": false }
+          ]
+        },
+        {
+          "question": "If only one option is to be selected at a time you should use ............................",
+          "options": [
+            { "text": "Radio buttons", "correct": true },
+            { "text": "Check boxes", "correct": false },
+            { "text": "Range", "correct": false },
+            { "text": "Data Lists", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What are forms? How they are created?",
+        "How do you use scripts on HTML?",
+        "How do you use Form’s Action Attribute and Submit Button in HTML?",
+        "How do you use Text Field and Radio Button in Form?",
+        "How do you understand about Forms output?",
+        "How to create tables in HTML?",
+        "Write some useful table tags that we use in HTML.",
+        "Discuss the significance of comments in HTML.",
+        "Illustrate how to use HTML Checkboxes in form. Give example.",
+        "Describe the use of <font> with example."
+      ]
+    },
+    {
+      "unit_no": 13,
+      "name": "Building Object of JavaScript",
+      "mcqs": [
+        {
+          "question": "JavaScript’s ................................... object provides advanced arithmetic and trigonometric functions, expanding on JavaScript’s basic arithmetic operators.",
+          "options": [
+            { "text": "var", "correct": false },
+            { "text": "ins", "correct": false },
+            { "text": "Math", "correct": true },
+            { "text": "samp", "correct": false }
+          ]
+        },
+        {
+          "question": "The ............................ object is useful when you want to display a date or use a timestamp in some sort of calculation.",
+          "options": [
+            { "text": "Date", "correct": true },
+            { "text": "Time", "correct": false },
+            { "text": "Year", "correct": false },
+            { "text": "Summary", "correct": false }
+          ]
+        },
+        {
+          "question": "A ............................. is a value or set of values (in the form of an array or object) that is a member of an object.",
+          "options": [
+            { "text": "field", "correct": false },
+            { "text": "method", "correct": false },
+            { "text": "nav", "correct": false },
+            { "text": "Property", "correct": true }
+          ]
+        },
+        {
+          "question": "A ............................ is a function that is a member of an object.",
+          "options": [
+            { "text": "Field", "correct": false },
+            { "text": "Method", "correct": true },
+            { "text": "Script", "correct": false },
+            { "text": "Track", "correct": false }
+          ]
+        },
+        {
+          "question": "The .......................... object let’s you work with a series of characters and wraps Javascript’s string primitive data type with a number of helper methods.",
+          "options": [
+            { "text": "noscript", "correct": false },
+            { "text": "meta", "correct": false },
+            { "text": "String", "correct": true },
+            { "text": "noframe", "correct": false }
+          ]
+        },
+        {
+          "question": "The ............................ property allows you to add properties and methods to an object.",
+          "options": [
+            { "text": "Prototype", "correct": true },
+            { "text": "Option", "correct": false },
+            { "text": "Param", "correct": false },
+            { "text": "Progress", "correct": false }
+          ]
+        },
+        {
+          "question": "Unlike the other global objects, Math is not a/an .................................",
+          "options": [
+            { "text": "field", "correct": false },
+            { "text": "property", "correct": false },
+            { "text": "attribute", "correct": false },
+            { "text": "constructor", "correct": true }
+          ]
+        },
+        {
+          "question": "All properties and methods of Math are .......................... and can be called by using Math as an object without creating it.",
+          "options": [
+            { "text": "dynamic", "correct": false },
+            { "text": "mapped", "correct": false },
+            { "text": "linked", "correct": false },
+            { "text": "static", "correct": true }
+          ]
+        },
+        {
+          "question": "The ............................. is used to work with dates and times.",
+          "options": [
+            { "text": "Time", "correct": false },
+            { "text": "Date Object", "correct": true },
+            { "text": "Div", "correct": false },
+            { "text": "Track", "correct": false }
+          ]
+        },
+        {
+          "question": "Date objects are created with the ................................. constructor.",
+          "options": [
+            { "text": "Date()", "correct": true },
+            { "text": "Time()", "correct": false },
+            { "text": "DateAndTime()", "correct": false },
+            { "text": "Dialog", "correct": false }
+          ]
+        },
+        {
+          "question": "All user-defined objects and built-in objects are descendants of an object called...................",
+          "options": [
+            { "text": "Param", "correct": false },
+            { "text": "Samp", "correct": false },
+            { "text": "Object", "correct": true },
+            { "text": "Progress", "correct": false }
+          ]
+        },
+        {
+          "question": "The .......................... operator is used to create an instance of an object.",
+          "options": [
+            { "text": "Object", "correct": false },
+            { "text": "New", "correct": true },
+            { "text": "Var", "correct": false },
+            { "text": "Legend", "correct": false }
+          ]
+        },
+        {
+          "question": "A ............................ is a function that creates and initializes an object.",
+          "options": [
+            { "text": "Dialog", "correct": false },
+            { "text": "Object", "correct": false },
+            { "text": "New", "correct": false },
+            { "text": "Constructor", "correct": true }
+          ]
+        },
+        {
+          "question": "The ............................... contains a reference to the new object.",
+          "options": [
+            { "text": "Attribute", "correct": false },
+            { "text": "Variable", "correct": true },
+            { "text": "Link", "correct": false },
+            { "text": "Li", "correct": false }
+          ]
+        },
+        {
+          "question": "The properties assigned to the object are not variables and are not defined with the .............",
+          "options": [
+            { "text": "Var", "correct": true },
+            { "text": "Atr", "correct": false },
+            { "text": "Dir", "correct": false },
+            { "text": "Div", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Explain, how JavaScript used as a scientific calculator.",
+        "What are the objects in JavaScript?",
+        "Define the methods of math object in JavaScript.",
+        "Discuss the properties of math object used in JavaScript.",
+        "How do you create a new object in JavaScript?",
+        "What are the user defined objects?",
+        "Explain the property and methods of date object.",
+        "What is string object?",
+        "Explain the Get methods of date object.",
+        "Differentiate between indexOf and lastindexOf methods in string object."
+      ]
+    },
+    {
+      "unit_no": 14,
+      "name": "Basics of jQuery",
+      "mcqs": [
+        {
+          "question": "The ______________ property returns the number of the internet host port (of the current page)",
+          "options": [
+            { "text": "window.location.port", "correct": true },
+            { "text": "window.location.hostname", "correct": false },
+            { "text": "window.location.href", "correct": false },
+            { "text": "window.location.assign()", "correct": false }
+          ]
+        },
+        {
+          "question": "The ______________ property returns the URL of the current page.",
+          "options": [
+            { "text": "window.location.port", "correct": false },
+            { "text": "window.location.hostname", "correct": false },
+            { "text": "window.location.href", "correct": true },
+            { "text": "window.location.assign()", "correct": false }
+          ]
+        },
+        {
+          "question": "How are the objects organized in the HTML DOM?",
+          "options": [
+            { "text": "list", "correct": false },
+            { "text": "stack", "correct": false },
+            { "text": "queue", "correct": false },
+            { "text": "hierarchy", "correct": true }
+          ]
+        },
+        {
+          "question": "The DOM is a ____W3C________ standard.",
+          "options": [
+            { "text": "WWW", "correct": false },
+            { "text": "W3C", "correct": true },
+            { "text": "W3B", "correct": false },
+            { "text": "WMB", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is/are the part/parts of the W3C DOM standard",
+          "options": [
+            { "text": "Core DOM and HTML DOM", "correct": false },
+            { "text": "XML DOM and HTML DOM", "correct": false },
+            { "text": "Core DOM and XML DOM", "correct": false },
+            { "text": "Core DOM, XML DOM and HTML DOM", "correct": true }
+          ]
+        },
+        {
+          "question": "_________ standard model for all document types.",
+          "options": [
+            { "text": "Core DOM", "correct": true },
+            { "text": "XML DOM", "correct": false },
+            { "text": "HTML DOM", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "What among the following is an appropriate event handler for input text among the below options ?",
+          "options": [
+            { "text": "onclick", "correct": false },
+            { "text": "onchange", "correct": true },
+            { "text": "onkeyup", "correct": false },
+            { "text": "onblur", "correct": false }
+          ]
+        },
+        {
+          "question": "What among the following is an appropriate when an event occurs when the user clicks on an element?",
+          "options": [
+            { "text": "onclick", "correct": true },
+            { "text": "onchange", "correct": false },
+            { "text": "onkeyup", "correct": false },
+            { "text": "onblur", "correct": false }
+          ]
+        },
+        {
+          "question": "What is the purpose of the Legacy DOM?",
+          "options": [
+            { "text": "Modify the nodes", "correct": false },
+            { "text": "Making the script modular", "correct": false },
+            { "text": "Allows access to few keys and elements", "correct": true },
+            { "text": "Makes the scripting easier", "correct": false }
+          ]
+        },
+        {
+          "question": "What is the purpose of the NamedNodeMap object?",
+          "options": [
+            { "text": "Unordered collection of arrays", "correct": false },
+            { "text": "Unordered collection of elements", "correct": false },
+            { "text": "Unordered collection of nodes", "correct": false },
+            { "text": "Unordered collection of attributes", "correct": true }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Should jQuery be used? Give reasons to support your answer.",
+        "What are the different ways of selecting elements in HTML and performing action on them",
+        "Elaborate the different jQuery selectors with the help of suitable examples.",
+        "What is a jQuery event method? discuss the different ways by which they can be implemented.",
+        "With the help of a suitable code demonstrate the replacing of an element to the HTML DOM using DOM. Also elaborate the use of the replaceChild() method."
+      ]
+    }
+  ]
+}

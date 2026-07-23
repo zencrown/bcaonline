@@ -1,0 +1,2087 @@
+{
+  "all_units": [
+    {
+      "unit_no": 1,
+      "name": "Basic Concepts",
+      "mcqs": [
+        {
+          "question": "Which of the following is linear data structure?",
+          "options": [
+            { "text": "Trees", "correct": false },
+            { "text": "Graphs", "correct": false },
+            { "text": "Arrays", "correct": true },
+            { "text": "None of these", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is non-linear data structure?",
+          "options": [
+            { "text": "Array", "correct": false },
+            { "text": "Linked lists", "correct": false },
+            { "text": "Stacks", "correct": false },
+            { "text": "None of these", "correct": true }
+          ]
+        },
+        {
+          "question": "User defined data type is also called?",
+          "options": [
+            { "text": "Primitive", "correct": false },
+            { "text": "Non-primitive", "correct": true },
+            { "text": "Identifier", "correct": false },
+            { "text": "None of these", "correct": false }
+          ]
+        },
+        {
+          "question": "Stack is based on which principle",
+          "options": [
+            { "text": "FIFO", "correct": false },
+            { "text": "Push", "correct": false },
+            { "text": "LIFO", "correct": true },
+            { "text": "None of these", "correct": false }
+          ]
+        },
+        {
+          "question": "Describes the running time of an algorithm",
+          "options": [
+            { "text": "Asymptotic Notation", "correct": true },
+            { "text": "Time complexity", "correct": false },
+            { "text": "Performance Analysis", "correct": false },
+            { "text": "None of these", "correct": false }
+          ]
+        },
+        {
+          "question": "A procedure for solving a problem in terms of action and their order is called as",
+          "options": [
+            { "text": "Process", "correct": false },
+            { "text": "Program instruction", "correct": false },
+            { "text": "Algorithm", "correct": true },
+            { "text": "Template", "correct": false }
+          ]
+        },
+        {
+          "question": "Algorithm can be represented as",
+          "options": [
+            { "text": "Pseudocode", "correct": false },
+            { "text": "Flowchart", "correct": false },
+            { "text": "None of the above", "correct": false },
+            { "text": "both Pseudocode and Flowchart", "correct": true }
+          ]
+        },
+        {
+          "question": "Algorithm should have finite number of steps",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is not a Characteristics of a Data Structure?",
+          "options": [
+            { "text": "Completeness", "correct": true },
+            { "text": "Correctness", "correct": false },
+            { "text": "Time Complexity", "correct": false },
+            { "text": "Space Complexity", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is not a data structure operation",
+          "options": [
+            { "text": "Deletion", "correct": false },
+            { "text": "Traverse", "correct": false },
+            { "text": "Code", "correct": true },
+            { "text": "Sorting", "correct": false }
+          ]
+        },
+        {
+          "question": "An algorithm should have _________ well-defined outputs.",
+          "options": [
+            { "text": "0", "correct": false },
+            { "text": "1", "correct": false },
+            { "text": "0 or more", "correct": false },
+            { "text": "1 or more", "correct": true }
+          ]
+        },
+        {
+          "question": "LIFO stands for",
+          "options": [
+            { "text": "Last In First Out", "correct": true },
+            { "text": "Late In First Out", "correct": false },
+            { "text": "Light In Figure Out", "correct": false },
+            { "text": "None of the Above", "correct": false }
+          ]
+        },
+        {
+          "question": "Implementation of non – linear data structure is easy",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "____ can be defined as process of combining elements of two data structure",
+          "options": [
+            { "text": "Insertion", "correct": false },
+            { "text": "Deletion", "correct": false },
+            { "text": "Sorting", "correct": false },
+            { "text": "Merging", "correct": true }
+          ]
+        },
+        {
+          "question": "_________ can be defined as process of arranging elements of data structure",
+          "options": [
+            { "text": "Insertion", "correct": false },
+            { "text": "Deletion", "correct": false },
+            { "text": "Sorting", "correct": true },
+            { "text": "Merging", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Describe the types of Data Structures?",
+        "What do you mean by linear data structure?",
+        "How nonlinear data structure are different from linear data structure. Explain your answer with suitable example.",
+        "What is an algorithm? Write an algorithm to check entered number is even or odd.",
+        "Explain data structure operations with suitable example.",
+        "What are the advantages of data structures?",
+        "Write good qualities of algorithm.",
+        "What is importance of an algorithm?",
+        "How linked list is different from array.",
+        "Give any real life example of data structure."
+      ]
+    },
+    {
+      "unit_no": 2,
+      "name": "Complexity of Algorithms",
+      "mcqs": [
+        {
+          "question": "Space complexity of an algorithm is the maximum amount of _______ required by it during execution.",
+          "options": [
+            { "text": "Time", "correct": false },
+            { "text": "Operations", "correct": false },
+            { "text": "Memory space", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "To measure Time complexity of an algorithm Big O notation is used which:",
+          "options": [
+            { "text": "describes limiting behaviour of the function", "correct": false },
+            { "text": "characterises a function based on growth of function", "correct": false },
+            { "text": "upper bound on growth rate of the function", "correct": false },
+            { "text": "all of the mentioned", "correct": true }
+          ]
+        },
+        {
+          "question": "How is time complexity measured?",
+          "options": [
+            { "text": "By counting the number of statements in an algorithm", "correct": false },
+            { "text": "By counting the number of primitive operations performed by the algorithm on a given input size", "correct": false },
+            { "text": "By counting the size of data input to the algorithm", "correct": false },
+            { "text": "None of the above", "correct": true }
+          ]
+        },
+        {
+          "question": "Data space is",
+          "options": [
+            { "text": "Amount of space used by the variables and data types", "correct": false },
+            { "text": "Amount of space used by the variables and constants", "correct": true },
+            { "text": "Amount of space used by the constants and data types", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following case does not exist in complexity theory",
+          "options": [
+            { "text": "Best case", "correct": false },
+            { "text": "Average case", "correct": false },
+            { "text": "Worst case", "correct": false },
+            { "text": "Null case", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following are types of assumption notations.",
+          "options": [
+            { "text": "Big Theta", "correct": false },
+            { "text": "Big Oh", "correct": false },
+            { "text": "Big Omega", "correct": false },
+            { "text": "All of above", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following best describes the useful criterion for comparing the efficiency of algorithms?",
+          "options": [
+            { "text": "Time", "correct": false },
+            { "text": "Memory", "correct": false },
+            { "text": "Both of the above", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which are not looping structures?",
+          "options": [
+            { "text": "For loop", "correct": false },
+            { "text": "While loop", "correct": false },
+            { "text": "Do...while loop", "correct": false },
+            { "text": "if…else", "correct": true }
+          ]
+        },
+        {
+          "question": "The first expression in a for… loop is",
+          "options": [
+            { "text": "Step value of loop", "correct": false },
+            { "text": "Value of the counter variable", "correct": true },
+            { "text": "Condition statement", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following control structures is an exit-controlled loop?",
+          "options": [
+            { "text": "For loop", "correct": false },
+            { "text": "While loop", "correct": false },
+            { "text": "Const and Goto", "correct": false },
+            { "text": "Do-While loop", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is an invalid if-else statement?",
+          "options": [
+            { "text": "if (if (a == 1)){}", "correct": true },
+            { "text": "if (func1 (a)){}", "correct": false },
+            { "text": "if (a){}", "correct": false },
+            { "text": "if ((char) a){}", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following statement about for loop is true?",
+          "options": [
+            { "text": "Index value is retained outside the loop", "correct": false },
+            { "text": "Index value can be changed from within the loop", "correct": false },
+            { "text": "Goto can be used to jump, out of the loop", "correct": false },
+            { "text": "All of these", "correct": true }
+          ]
+        },
+        {
+          "question": "Some algorithm control structures are",
+          "options": [
+            { "text": "Sequencing, if-else, for loop, while loop", "correct": true },
+            { "text": "Insertion, deletion", "correct": false },
+            { "text": "Sorting and merging", "correct": false },
+            { "text": "All of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Loops in C Language are implemented using?",
+          "options": [
+            { "text": "While Block", "correct": false },
+            { "text": "For Block", "correct": false },
+            { "text": "Do While Block", "correct": false },
+            { "text": "All the above", "correct": true }
+          ]
+        },
+        {
+          "question": "Which loop is guaranteed to execute at least one time?",
+          "options": [
+            { "text": "For", "correct": false },
+            { "text": "While", "correct": false },
+            { "text": "do while", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "“Mathematical notation is a system of symbolic representations of mathematical objects and ideas.” Discuss.",
+        "“To select the best algorithm, it is necessary to check the efficiency of each algorithm.” Justify.",
+        "“Big-O notation describes the performance or time complexity of an algorithm.” Comment.",
+        "“The omega notation can be defined as f(n)≥ c∗ g(n).” Describe.",
+        "“Floor function gives the largest integer lesser than or equal to x.” Describe with an example.",
+        "Describe modular arithmetic with the help of a 12 hour clock.",
+        "“Efficiency of an algorithm can be determined by calculating its performance.” Comment.",
+        "“Time complexity of an algorithm is the amount of time required by an algorithm to execute.” Discuss with an example.",
+        "“Time space tradeoff in context of algorithms relates to the execution of an algorithm.” Comment.",
+        "“Analysis of an algorithm is required to determine the amount of resources it requires.” Discuss."
+      ]
+    },
+    {
+      "unit_no": 3,
+      "name": "Introduction to Pointers",
+      "mcqs": [
+        {
+          "question": "Which one is incorrect statement?",
+          "options": [
+            { "text": "int x=90;", "correct": false },
+            { "text": "int *ptr1,*ptr2;", "correct": false },
+            { "text": "ptr1=&x;", "correct": true },
+            { "text": "ptr2=ptr1;", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following symbol is used for declare a pointer.",
+          "options": [
+            { "text": "#", "correct": false },
+            { "text": "@", "correct": false },
+            { "text": "$", "correct": false },
+            { "text": "*", "correct": true }
+          ]
+        },
+        {
+          "question": "What are the applications of pointers?",
+          "options": [
+            { "text": "Implement data structure", "correct": false },
+            { "text": "Dynamic memory allocation", "correct": false },
+            { "text": "Accessing array and functions", "correct": false },
+            { "text": "Above all", "correct": true }
+          ]
+        },
+        {
+          "question": "What are the correct statements about pointers?",
+          "options": [
+            { "text": "Pointer is a variable that stores the address of another variable", "correct": false },
+            { "text": "Pointer can also be used to refer to another pointer function", "correct": false },
+            { "text": "Pointers assign and releases the memory as well", "correct": false },
+            { "text": "All of above.", "correct": true }
+          ]
+        },
+        {
+          "question": "What format specifier is used for pointers?",
+          "options": [
+            { "text": "%c", "correct": false },
+            { "text": "%d", "correct": false },
+            { "text": "%p", "correct": true },
+            { "text": "%s", "correct": false }
+          ]
+        },
+        {
+          "question": "What is the output of following program?\n#include<stdio.h>\nint main(){\nint *ptr=NULL;\nprintf(“Value of null pointer is= %d”,ptr);\nreturn 0;\n}",
+          "options": [
+            { "text": "1", "correct": false },
+            { "text": "2", "correct": false },
+            { "text": "0", "correct": true },
+            { "text": "4", "correct": false }
+          ]
+        },
+        {
+          "question": "Which one is incorrect statement?",
+          "options": [
+            { "text": "int x=90;", "correct": false },
+            { "text": "int *ptr1,*ptr2;", "correct": false },
+            { "text": "ptr1=&x;", "correct": true },
+            { "text": "ptr2=ptr1;", "correct": false }
+          ]
+        },
+        {
+          "question": "What type of arithmetic operations can be performed on pointers?",
+          "options": [
+            { "text": "Addition", "correct": false },
+            { "text": "Subtraction", "correct": false },
+            { "text": "Multiply", "correct": false },
+            { "text": "Above all", "correct": true }
+          ]
+        },
+        {
+          "question": "What is the output of following program?\n#include<stdio.h>\nint main(){\nint x=90,y=10,result;\nint *ptr1,*ptr2;\nptr1=&x;\nptr2=&y;\nresult=*ptr1**ptr2;\nprintf(\"Product of x and y using pointers is %d\\n\",result);\nreturn 0;\n}",
+          "options": [
+            { "text": "100", "correct": false },
+            { "text": "80", "correct": false },
+            { "text": "900", "correct": true },
+            { "text": "10", "correct": false }
+          ]
+        },
+        {
+          "question": "Which one is incorrect statement?",
+          "options": [
+            { "text": "int a=10,*ptr;", "correct": false },
+            { "text": "ptr=/a;", "correct": true },
+            { "text": "ptr--;", "correct": false },
+            { "text": "above all", "correct": false }
+          ]
+        },
+        {
+          "question": "What are the different operations that can be performed on pointers?",
+          "options": [
+            { "text": "Decrement", "correct": false },
+            { "text": "Addition", "correct": false },
+            { "text": "Subtraction", "correct": false },
+            { "text": "Above all", "correct": true }
+          ]
+        },
+        {
+          "question": "Structure can be nested by",
+          "options": [
+            { "text": "separate structure", "correct": false },
+            { "text": "Embedded structure", "correct": false },
+            { "text": "both separate structure and Embedded structure", "correct": true },
+            { "text": "none of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Self Referential Structures are_____",
+          "options": [
+            { "text": "Have one or more pointers which point to the same type of structure, as their member.", "correct": false },
+            { "text": "Can dynamically be expanded or contracted", "correct": false },
+            { "text": "Both of them", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "What are the types of Self Referential Structures?",
+          "options": [
+            { "text": "Structure with Single Link", "correct": false },
+            { "text": "Structure with Multiple Links", "correct": false },
+            { "text": "Both Structure with Single Link and Structure with Multiple Links", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "What are the correct statements about pointers?",
+          "options": [
+            { "text": "Pointer is a variable that stores the address of another variable", "correct": false },
+            { "text": "Pointer can also be used to refer to another pointer function", "correct": false },
+            { "text": "Pointers assign and releases the memory as well", "correct": false },
+            { "text": "All of above.", "correct": true }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Define ‘Pointer’. List down the various advantages of using pointers in a C program.",
+        "How pointer are initialized and implemented in C? Write a program to explain the concept.",
+        "Explain with the help of a C program, the concept of Pointer Arithmetic in C.",
+        "How printer in C incorporates the concept of Arrays? Write a suitable program to demonstrate the concept.",
+        "Differentiate the followings:\n(a) Pointer and arrays\n(b) Pointer to a variable and pointer to a pointer\n(c) Pointer and variable\n(d) Value in a function and address in a function",
+        "Twenty-five numbers are entered from the keyboard into an array. Write a program to find out how many of them are positive, how many are negative, how many are even and how many odd.",
+        "Write a function to calculate the factorial value of any integer entered through the keyboard.",
+        "Write a program that demonstrate the working of self-referential structure.",
+        "Explain pointers and functions with suitable example.",
+        "As pointer declaration does not allocate memory to store the objects it points at, therefore, Memory is allocated at run time known as dynamic memory allocation."
+      ]
+    },
+    {
+      "unit_no": 4,
+      "name": "Arrays",
+      "mcqs": [
+        {
+          "question": "What is an Array?",
+          "options": [
+            { "text": "A group of elements of same data type.", "correct": false },
+            { "text": "An array contains more than one element.", "correct": false },
+            { "text": "Array elements are stored in memory in continuous or contiguous locations.", "correct": false },
+            { "text": "All the above.", "correct": true }
+          ]
+        },
+        {
+          "question": "An array Index starts with?",
+          "options": [
+            { "text": "1", "correct": false },
+            { "text": "0", "correct": true },
+            { "text": "-1", "correct": false },
+            { "text": "2", "correct": false }
+          ]
+        },
+        {
+          "question": "Arrays can",
+          "options": [
+            { "text": "store data elements of same data type at contiguous memory location.", "correct": false },
+            { "text": "be used for CPU scheduling.", "correct": false },
+            { "text": "be used for reverse data elements, sort data elements etc.", "correct": false },
+            { "text": "All of above", "correct": true }
+          ]
+        },
+        {
+          "question": "How many kinds of elements an array can have?",
+          "options": [
+            { "text": "Char and int type", "correct": false },
+            { "text": "Only char type", "correct": false },
+            { "text": "Only int type", "correct": false },
+            { "text": "All of them have same type", "correct": true }
+          ]
+        },
+        {
+          "question": "Choose the correct statement",
+          "options": [
+            { "text": "Array stores data of the same type", "correct": false },
+            { "text": "Array can be a part of a structure", "correct": false },
+            { "text": "Array of structure is allowed", "correct": false },
+            { "text": "All of the above", "correct": true }
+          ]
+        },
+        {
+          "question": "Two dimensional arrays in C",
+          "options": [
+            { "text": "An array of arrays is known as two dimensional array.", "correct": true },
+            { "text": "An array of loops", "correct": false },
+            { "text": "An array of tokens", "correct": false },
+            { "text": "All of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Choose the correct syntax for two dimensional array",
+          "options": [
+            { "text": "data_type name_of_array;", "correct": false },
+            { "text": "data_type name_of_array[rows][columns];", "correct": true },
+            { "text": "data_type [rows][columns];", "correct": false },
+            { "text": "name_of_array[rows][columns];", "correct": false }
+          ]
+        },
+        {
+          "question": "What will be the output of the following C code?\n#include <stdio.h>\nvoid main()\n{\nint a[2][3] = {1, 2, 3, 4, 5};\nint i = 0, j = 0;\nfor (i = 0; i< 2; i++)\nfor (j = 0; j < 3; j++)\nprintf(\"%d\", a[i][j]);\n}",
+          "options": [
+            { "text": "1 2 3 4 5 0", "correct": true },
+            { "text": "1 2 3 4 5 junk", "correct": false },
+            { "text": "1 2 3 4 5 5", "correct": false },
+            { "text": "Run time error", "correct": false }
+          ]
+        },
+        {
+          "question": "How do you initialize an array in C programming?",
+          "options": [
+            { "text": "int arr[3] = (1,2,3);", "correct": false },
+            { "text": "int arr(3) = {1,2,3};", "correct": false },
+            { "text": "int arr[3] = {1,2,3};", "correct": true },
+            { "text": "int arr(3) = (1,2,3);", "correct": false }
+          ]
+        },
+        {
+          "question": "Matrix can be represented using one dimension array.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "What are the advantages of arrays?",
+          "options": [
+            { "text": "Objects of mixed data types can be stored", "correct": false },
+            { "text": "Elements in an array cannot be sorted", "correct": false },
+            { "text": "Index of first element of an array is 1", "correct": false },
+            { "text": "Easier to store elements of same data type", "correct": true }
+          ]
+        },
+        {
+          "question": "What is the maximum number of dimensions an array in C may have?",
+          "options": [
+            { "text": "Two", "correct": false },
+            { "text": "Eight", "correct": false },
+            { "text": "Sixteen", "correct": false },
+            { "text": "Theoretically no limit. The only practical limits are memory size and compilers", "correct": true }
+          ]
+        },
+        {
+          "question": "Array can be considered as set of elements stored in consecutive memory locations but having __________.",
+          "options": [
+            { "text": "Same data type", "correct": true },
+            { "text": "Different data type", "correct": false },
+            { "text": "Same scope", "correct": false },
+            { "text": "None of these", "correct": false }
+          ]
+        },
+        {
+          "question": "Array is an example of _______ type memory allocation.",
+          "options": [
+            { "text": "Compile time", "correct": true },
+            { "text": "Run time", "correct": false },
+            { "text": "All of above", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "Array elements assessed using index of array.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Explain the usefulness of Arrays in C.",
+        "What do you mean by ‘Array’? How it can be declared & initialized in a C program?",
+        "Draw a diagram to represent the internal storage of an Array.",
+        "Describe the different types of Array. Give suitable programs.",
+        "Find the smallest number in an array using pointers.",
+        "If an array arr contains n elements, then write a program to check if arr[0] = arr[n-1], arr[1] = arr[n-2] and so on.",
+        "Write a program to copy the contents of one array into another in the reverse order.",
+        "Write a program to pick up the largest number from any 5 row by 5 column matrix.",
+        "Write a program to obtain transpose of a 4 x 4 matrix. The transpose of a matrix is obtained by exchanging the elements of each row with the elements of the corresponding column.",
+        "Write a program that interchanges the odd and even components of an array."
+      ]
+    },
+    {
+      "unit_no": 5,
+      "name": "Operations on Arrays",
+      "mcqs": [
+        {
+          "question": "Choose the correct statement",
+          "options": [
+            { "text": "Search in array is delete an element from array", "correct": false },
+            { "text": "Search in array is insert an element in array", "correct": false },
+            { "text": "Search in array is find an element from array", "correct": false },
+            { "text": "None of above", "correct": true }
+          ]
+        },
+        {
+          "question": "Choose the correct statement",
+          "options": [
+            { "text": "Search in array is delete an element from array", "correct": false },
+            { "text": "Search in array is insert an element in array", "correct": false },
+            { "text": "Search in array is update an element in array", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Searching is a process in which we find element in array",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "What are the disadvantages of arrays?",
+          "options": [
+            { "text": "Data structure like queue or stack cannot be implemented", "correct": false },
+            { "text": "There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size", "correct": true },
+            { "text": "Index value of an array can be negative", "correct": false },
+            { "text": "Elements are sequentially accessed", "correct": false }
+          ]
+        },
+        {
+          "question": "Traversal is process of visit each element of an array",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "A ___ is required to perform traversal of an array",
+          "options": [
+            { "text": "Loop", "correct": true },
+            { "text": "Switch Statement", "correct": false },
+            { "text": "Constant", "correct": false },
+            { "text": "All of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Insertion in array insert a new element into array",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Choose the correct statement",
+          "options": [
+            { "text": "We can’t perform insertion on array", "correct": false },
+            { "text": "We can’t perform deletion on array", "correct": false },
+            { "text": "We can’t traverse an array elements", "correct": false },
+            { "text": "None of above", "correct": true }
+          ]
+        },
+        {
+          "question": "Choose the right statement",
+          "options": [
+            { "text": "Insert an element at beginning is possible", "correct": false },
+            { "text": "Insert an element at end is possible", "correct": false },
+            { "text": "Insert an element at given location is possible", "correct": false },
+            { "text": "All of above", "correct": true }
+          ]
+        },
+        {
+          "question": "Deletion of an element from the array reduces the size of the array by________.",
+          "options": [
+            { "text": "one", "correct": true },
+            { "text": "Two", "correct": false },
+            { "text": "Three", "correct": false },
+            { "text": "Four", "correct": false }
+          ]
+        },
+        {
+          "question": "Deletion of an element from the array is",
+          "options": [
+            { "text": "Remove value from array", "correct": true },
+            { "text": "Insert Value in array", "correct": false },
+            { "text": "Merge an array", "correct": false },
+            { "text": "All of above", "correct": false }
+          ]
+        },
+        {
+          "question": "After performing deletion on array, its required to re-organizing all elements of array",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is allowed in case of arrays",
+          "options": [
+            { "text": "Insertion in Array", "correct": false },
+            { "text": "Deletion in Array", "correct": false },
+            { "text": "Concatenate two Arrays", "correct": false },
+            { "text": "All of above", "correct": true }
+          ]
+        },
+        {
+          "question": "To merge two arrays we need at least three array variables",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "To perform merge operation on array, minimum ____ arrays required",
+          "options": [
+            { "text": "2", "correct": true },
+            { "text": "1", "correct": false },
+            { "text": "-2", "correct": false },
+            { "text": "0", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Write a program that perform insertion on an array.",
+        "Discuss in detail operations of an array.",
+        "What do you mean by ‘Array’? How it can be declared & initialized in a C program?",
+        "Draw a diagram to represent the internal storage of an Array.",
+        "Describe the different types of Array. Give suitable programs.",
+        "Delete the element from an array.",
+        "If an array arr contains n elements, then write a program to check if arr[0] = arr[n-1], arr[1] = arr[n-2] and so on.",
+        "Write a program to merge different arrays.",
+        "Write a program to pick up the largest number from any 5 row by 5 column matrix.",
+        "Write a program that interchanges the odd and even components of an array."
+      ]
+    },
+    {
+      "unit_no": 6,
+      "name": "Linked Lists",
+      "mcqs": [
+        {
+          "question": "A linear collection of data elements where the linear node is given by means of pointer is called?",
+          "options": [
+            { "text": "Linked list", "correct": true },
+            { "text": "Node list", "correct": false },
+            { "text": "Primitive list", "correct": false },
+            { "text": "None of these", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following are type of linked list",
+          "options": [
+            { "text": "Single Linked List", "correct": false },
+            { "text": "Circular Linked List", "correct": false },
+            { "text": "Double Linked List", "correct": false },
+            { "text": "All of above", "correct": true }
+          ]
+        },
+        {
+          "question": "Linked list is considered as an example of ___________ type of memory allocation.",
+          "options": [
+            { "text": "Static", "correct": false },
+            { "text": "Compile time", "correct": false },
+            { "text": "Heap", "correct": false },
+            { "text": "Dynamic", "correct": true }
+          ]
+        },
+        {
+          "question": "Among 4 header files, which should be included to use the memory allocation functions like malloc(), calloc(), realloc() and free()?",
+          "options": [
+            { "text": "#include<string.h>", "correct": false },
+            { "text": "#include<stdlib.h>", "correct": true },
+            { "text": "#include<memory.h>", "correct": false },
+            { "text": "All of above", "correct": false }
+          ]
+        },
+        {
+          "question": "DMA stands for",
+          "options": [
+            { "text": "Dynamite Memory Access", "correct": false },
+            { "text": "Dynamic Memory Available", "correct": false },
+            { "text": "Direct Memory Access", "correct": true },
+            { "text": "None of Above", "correct": false }
+          ]
+        },
+        {
+          "question": "Dynamic memory allocation is",
+          "options": [
+            { "text": "More efficient", "correct": true },
+            { "text": "Less efficient", "correct": false },
+            { "text": "Don’t know", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which function is used to delete the allocated memory space?",
+          "options": [
+            { "text": "Dealloc()", "correct": false },
+            { "text": "free()", "correct": true },
+            { "text": "Both A and B", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following advantages of linked list over arrays?",
+          "options": [
+            { "text": "Dynamic Size", "correct": false },
+            { "text": "Ease of insertion and deletion", "correct": false },
+            { "text": "All of above", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Linked list can be represented in the memory using",
+          "options": [
+            { "text": "One array", "correct": false },
+            { "text": "Two arrays", "correct": true },
+            { "text": "Six arrays", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following operations is performed for visit nodes in linked list?",
+          "options": [
+            { "text": "Deletion", "correct": false },
+            { "text": "User Define Function", "correct": false },
+            { "text": "Traversing", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following operations is performed for visit nodes in linked list?",
+          "options": [
+            { "text": "Deletion", "correct": false },
+            { "text": "User Define Function", "correct": false },
+            { "text": "Traversing", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Searching in a linked list is",
+          "options": [
+            { "text": "Find element in linked list", "correct": false },
+            { "text": "Find element in linked list and move element to another location", "correct": false },
+            { "text": "Find element in linked list, if match found then the address of the node is returned otherwise we process the next node", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Insertion into linked list is process of",
+          "options": [
+            { "text": "Create a new linked list", "correct": false },
+            { "text": "Insert a new node to linked list", "correct": true },
+            { "text": "All of above", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Insertion in a linked list can be done at",
+          "options": [
+            { "text": "The beginning of linked list", "correct": false },
+            { "text": "The end of linked list", "correct": false },
+            { "text": "A particular position in linked list", "correct": false },
+            { "text": "All of above", "correct": true }
+          ]
+        },
+        {
+          "question": "Deleting a node at the beginning is",
+          "options": [
+            { "text": "Delete the first node of linked list", "correct": true },
+            { "text": "Delete all nodes of liked list", "correct": false },
+            { "text": "All of above", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following operation remove node from linked list",
+          "options": [
+            { "text": "Traversing", "correct": false },
+            { "text": "Inversing", "correct": false },
+            { "text": "Deletion", "correct": true },
+            { "text": "Insertion", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Define array and its types.",
+        "Give an example of multidimensional array.",
+        "Discuss any two types of array initialization methods with example.",
+        "Discuss different sorting methods.",
+        "Write a program to sort the elements of a linked list.",
+        "Differentiate between array and linked list with suitable example.",
+        "Discuss different operation performed with linked list.",
+        "Discuss advantages of linked list as compared to arrays."
+      ]
+    },
+    {
+      "unit_no": 7,
+      "name": "Doubly Linked Lists",
+      "mcqs": [
+        {
+          "question": "Which of the following statements about a doubly linked list is not correct?",
+          "options": [
+            { "text": "We can navigate in both the directions", "correct": false },
+            { "text": "It requires more space than a singly linked list", "correct": false },
+            { "text": "The insertion and deletion of a node take a bit longer", "correct": false },
+            { "text": "None of above", "correct": true }
+          ]
+        },
+        {
+          "question": "What is a memory efficient double linked list?",
+          "options": [
+            { "text": "Each node has only one pointer to traverse the list back and forth", "correct": true },
+            { "text": "The list has breakpoints for faster traversal", "correct": false },
+            { "text": "An auxiliary singly linked list acts as a helper list to traverse through the doubly linked list", "correct": false },
+            { "text": "A doubly linked list that uses bitwise AND operator for storing addresses", "correct": false }
+          ]
+        },
+        {
+          "question": "Traversing doubly linked list refer to visit each element of list.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "In doubly linked lists, traversal can be performed?",
+          "options": [
+            { "text": "Only in forward direction", "correct": false },
+            { "text": "Only in reverse direction", "correct": false },
+            { "text": "In both directions", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "What is the worst case time complexity of inserting a node in a doubly linked list?",
+          "options": [
+            { "text": "O(nlogn)", "correct": false },
+            { "text": "O(logn)", "correct": false },
+            { "text": "O(n)", "correct": true },
+            { "text": "O(1)", "correct": false }
+          ]
+        },
+        {
+          "question": "What is the functionality of following code\npublic class insertFront(int data)\n{\nNode node = new Node(data, head, head.getNext());\nnode.getNext().setPrev(node);\nhead.setNext(node);\nsize++;\n}",
+          "options": [
+            { "text": "Insert a node at the beginning of the list", "correct": true },
+            { "text": "Delete Node", "correct": false },
+            { "text": "Traverse List", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Insertion into doubly linked list is",
+          "options": [
+            { "text": "Insert new node", "correct": true },
+            { "text": "Insert USB stick into CPU", "correct": false },
+            { "text": "All of above", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following operations does a doubly linked list execute more efficiently than a singly linked list?",
+          "options": [
+            { "text": "Deleting a node whose location in given", "correct": true },
+            { "text": "Searching of an unsorted list for a given item", "correct": false },
+            { "text": "Inverting a node after the node with given location", "correct": false },
+            { "text": "Traversing a list to process each node", "correct": false }
+          ]
+        },
+        {
+          "question": "Deletion at the beginning in the doubly linked list is possible.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following basic operation of doubly linked list is responsible for delete element from list?",
+          "options": [
+            { "text": "Insert a node", "correct": false },
+            { "text": "Insert node at end", "correct": false },
+            { "text": "Delete a node", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Deletion at the given position in the doubly linked list is possible.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Is there a linked list version in which the list's last node points to the list's beginning node?",
+          "options": [
+            { "text": "Singly linked list", "correct": false },
+            { "text": "Doubly linked list", "correct": false },
+            { "text": "Circular linked list", "correct": true },
+            { "text": "Multiply linked list", "correct": false }
+          ]
+        },
+        {
+          "question": "In circular linked list, insertion of node requires modification of?",
+          "options": [
+            { "text": "One pointer", "correct": false },
+            { "text": "Two pointer", "correct": true },
+            { "text": "Three pointer", "correct": false },
+            { "text": "Requires no modification", "correct": false }
+          ]
+        },
+        {
+          "question": "A variant of the linked list in which none of the node contains NULL pointer is?",
+          "options": [
+            { "text": "Singly linked list", "correct": false },
+            { "text": "Doubly linked list", "correct": false },
+            { "text": "Circular linked list", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following are disadvantages of circular linked list?",
+          "options": [
+            { "text": "Depending on the implementation, inserting at start of the list would require doing a search for last node which could be expensive.", "correct": false },
+            { "text": "Finding the end of the list and loop control is harder (no NULL’s to mark the beginning and end).", "correct": false },
+            { "text": "All of above", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Define circular linked list.",
+        "Give an example of doubly linked list.",
+        "Discuss any two operations on doubly linked list.",
+        "Discuss different delete operation of doubly linked.",
+        "Write a program to traverse doubly linked list.",
+        "Differentiate between singly linked list and doubly linked list.",
+        "Write a program to delete element from a doubly linked list."
+      ]
+    },
+    {
+      "unit_no": 8,
+      "name": "Introduction to Stacks",
+      "mcqs": [
+        {
+          "question": "What type of data structure does a Stack is?",
+          "options": [
+            { "text": "Linear", "correct": true },
+            { "text": "Non-linear", "correct": false },
+            { "text": "Both Linear and Non-Linear", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "It is impossible to do ___ operation on empty stack.",
+          "options": [
+            { "text": "PUSH", "correct": false },
+            { "text": "POP", "correct": true },
+            { "text": "STATUS", "correct": false },
+            { "text": "None", "correct": false }
+          ]
+        },
+        {
+          "question": "Can we delete a node at front of a stack by using POP operation?",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "At which position in the stacks, the operations are being done.",
+          "options": [
+            { "text": "TOP", "correct": true },
+            { "text": "SIZE", "correct": false },
+            { "text": "POP", "correct": false },
+            { "text": "PUSH", "correct": false }
+          ]
+        },
+        {
+          "question": "Other names for the insertion and deletion operations in Stacks?",
+          "options": [
+            { "text": "PUSH – insertion, POP –Deletion.", "correct": true },
+            { "text": "PUSH – Deletion, POP – Insertion.", "correct": false },
+            { "text": "Both A and B are valid.", "correct": false },
+            { "text": "None.", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is an application of stack?",
+          "options": [
+            { "text": "Finding factorial", "correct": false },
+            { "text": "tower of Hanoi", "correct": false },
+            { "text": "infix to postfix", "correct": false },
+            { "text": "all of the above", "correct": true }
+          ]
+        },
+        {
+          "question": "A pointer variable which contains the location at the top element of the stack is called …..",
+          "options": [
+            { "text": "Top", "correct": true },
+            { "text": "Last", "correct": false },
+            { "text": "Final", "correct": false },
+            { "text": "End", "correct": false }
+          ]
+        },
+        {
+          "question": "……… is the term used to delete an element from the stack.",
+          "options": [
+            { "text": "Push", "correct": false },
+            { "text": "Pull", "correct": false },
+            { "text": "Pop", "correct": true },
+            { "text": "Pump", "correct": false }
+          ]
+        },
+        {
+          "question": "The elements are removal from a stack in ………. order.",
+          "options": [
+            { "text": "Reverse", "correct": true },
+            { "text": "Hierarchical", "correct": false },
+            { "text": "Alternative", "correct": false },
+            { "text": "Sequential", "correct": false }
+          ]
+        },
+        {
+          "question": "In the linked representation of the stack ……… behaves as the top pointer variable of stack.",
+          "options": [
+            { "text": "Stop pointer", "correct": false },
+            { "text": "Begin pointer", "correct": false },
+            { "text": "Start pointer", "correct": true },
+            { "text": "Avail pointer", "correct": false }
+          ]
+        },
+        {
+          "question": "Choose the correct statement",
+          "options": [
+            { "text": "Linked list allocates the memory dynamically. However, the time complexity in both the scenario is the same for all the operations, i.e. push, pop and peek.", "correct": true },
+            { "text": "Array allocates the memory dynamically. However, the time complexity in both the scenario is the same for all the operations, i.e. push, pop and peek.", "correct": false },
+            { "text": "All of above", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Stack can be implemented using",
+          "options": [
+            { "text": "Array", "correct": false },
+            { "text": "Linked list", "correct": false },
+            { "text": "Both array and linked list", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "The representation of stack can be done in ____________.",
+          "options": [
+            { "text": "One way", "correct": false },
+            { "text": "Two ways", "correct": true },
+            { "text": "Three", "correct": false },
+            { "text": "None", "correct": false }
+          ]
+        },
+        {
+          "question": "Select true statement for implementation of stack using array is",
+          "options": [
+            { "text": "The stack is formed by using the array.", "correct": false },
+            { "text": "All the operations regarding the stack are performed using arrays.", "correct": false },
+            { "text": "All of the above", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is true about linked list implementation of stack?",
+          "options": [
+            { "text": "In push operation, if new nodes are inserted at the beginning of linked list, then in pop operation, nodes must be removed from end.", "correct": false },
+            { "text": "In push operation, if new nodes are inserted at the end, then in pop operation, nodes must be removed from the beginning.", "correct": false },
+            { "text": "Both of the above", "correct": false },
+            { "text": "None of the above", "correct": true }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What do you mean by stack? Explain different applications of stack.",
+        "What are the advantages of implementing a stack using dynamic memory allocation method?",
+        "Explain concept of tower of Hanoi.",
+        "What are the different methods for implementing stacks?",
+        "Give an example of push and pop operation using stack.",
+        "Write an algorithm to reverse an input string of characters using a stack."
+      ]
+    },
+    {
+      "unit_no": 9,
+      "name": "Introduction to Queues",
+      "mcqs": [
+        {
+          "question": "A linear list of elements in which deletion can be done from one end (front) and insertion can take place only at the other end (rear) is known as a?",
+          "options": [
+            { "text": "Queue", "correct": true },
+            { "text": "Stack", "correct": false },
+            { "text": "Tree", "correct": false },
+            { "text": "Linked list", "correct": false }
+          ]
+        },
+        {
+          "question": "Process of inserting an elements at the end of queue is known as?",
+          "options": [
+            { "text": "Dequeue", "correct": false },
+            { "text": "Enqueue", "correct": true },
+            { "text": "Push", "correct": false },
+            { "text": "Pop", "correct": false }
+          ]
+        },
+        {
+          "question": "The maximum size of the queue?",
+          "options": [
+            { "text": "Can be changed", "correct": false },
+            { "text": "Cannot be change", "correct": true },
+            { "text": "Independent", "correct": false },
+            { "text": "None of these", "correct": false }
+          ]
+        },
+        {
+          "question": "Application of queue is",
+          "options": [
+            { "text": "Serving request of a single shared resource, like a printer, CPU task scheduling", "correct": false },
+            { "text": "Call center phone system using queue to hold people calling", "correct": false },
+            { "text": "Handling of interrupt in real time system", "correct": false },
+            { "text": "All of above", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is not a basic operation of a queue?",
+          "options": [
+            { "text": "enqueue()", "correct": false },
+            { "text": "dequeue()", "correct": false },
+            { "text": "input()", "correct": true },
+            { "text": "peek()", "correct": false }
+          ]
+        },
+        {
+          "question": "peek() function is",
+          "options": [
+            { "text": "This function helps to add the data at the front of queue.", "correct": false },
+            { "text": "This function helps to delete the data at the front of queue.", "correct": false },
+            { "text": "This function helps to see the data at the front of queue.", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "isempty() function is",
+          "options": [
+            { "text": "If the value of front is less than MIN or 0, it tells that queue is empty.", "correct": true },
+            { "text": "If the value of rear is less than MIN or 0, it tells that queue is empty.", "correct": false },
+            { "text": "All of above", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "What kind of a data structure does a queue is?",
+          "options": [
+            { "text": "Linear", "correct": true },
+            { "text": "Non-linear", "correct": false },
+            { "text": "Both Linear and Non Linear", "correct": false },
+            { "text": "None", "correct": false }
+          ]
+        },
+        {
+          "question": "What is the operation we perform on Queues?",
+          "options": [
+            { "text": "FIRST-IN –LAST-OUT", "correct": false },
+            { "text": "FIRST-IN-FIRST-OUT", "correct": true },
+            { "text": "Sum", "correct": false },
+            { "text": "All of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Queue can be implemented",
+          "options": [
+            { "text": "Sequential", "correct": false },
+            { "text": "Linked", "correct": false },
+            { "text": "Both sequential and linked", "correct": true },
+            { "text": "Neither sequential nor linked", "correct": false }
+          ]
+        },
+        {
+          "question": "Sequential implementation of queue means",
+          "options": [
+            { "text": "Queue is implemented using array", "correct": true },
+            { "text": "Queue is implemented using linked list", "correct": false },
+            { "text": "All of above", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Sequential implementation of queue means",
+          "options": [
+            { "text": "Queue is implemented using array", "correct": false },
+            { "text": "Queue is implemented using linked list", "correct": true },
+            { "text": "All of above", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "In linked list implementation of queue, if only front pointer is maintained, which of the following operation take worst case linear time?",
+          "options": [
+            { "text": "Insertion", "correct": false },
+            { "text": "Deletion", "correct": false },
+            { "text": "To empty a queue", "correct": false },
+            { "text": "Both insertion and deletion", "correct": true }
+          ]
+        },
+        {
+          "question": "In Queue, ENQUEUE means____ whereas DEQUEUE refers____.",
+          "options": [
+            { "text": "An insertion operation, a deletion operation.", "correct": true },
+            { "text": "End of the queue, defining a queue.", "correct": false },
+            { "text": "Traverse operation, Insert operation", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "push() and pop() functions are found in",
+          "options": [
+            { "text": "Queue", "correct": false },
+            { "text": "Stack", "correct": true },
+            { "text": "Tree", "correct": false },
+            { "text": "All of above", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "“Using double ended queues is more advantageous than using circular queues. “Discuss",
+        "“Stacks are different from queues.” Justify.",
+        "“Using priority queues is advantageous in job scheduling algorithms. “Analyze",
+        "Can a basic queue be implemented to function as a dynamic queue? Discuss",
+        "Describe the application of queue.",
+        "How will you insert and delete an element in queue?",
+        "Explain dynamic memory allocation advantages."
+      ]
+    },
+    {
+      "unit_no": 10,
+      "name": "Introduction to Queues",
+      "mcqs": [
+        {
+          "question": "Circular Queue is also known as ________",
+          "options": [
+            { "text": "Ring Buffer", "correct": true },
+            { "text": "Square Buffer", "correct": false },
+            { "text": "Rectangle Buffer", "correct": false },
+            { "text": "Curve Buffer", "correct": false }
+          ]
+        },
+        {
+          "question": "A data structure in which elements can be inserted or deleted at/from both ends but not in the middle is?",
+          "options": [
+            { "text": "Queue", "correct": false },
+            { "text": "Circular queue", "correct": true },
+            { "text": "Dequeue", "correct": false },
+            { "text": "Priority queue", "correct": false }
+          ]
+        },
+        {
+          "question": "Choose the application of circular queue",
+          "options": [
+            { "text": "Looped execution of the slides of a presentation.", "correct": false },
+            { "text": "Assigning turns to play for multiplayer gaming systems.", "correct": false },
+            { "text": "Process management tasks by Operating System.", "correct": false },
+            { "text": "All of above", "correct": true }
+          ]
+        },
+        {
+          "question": "Circular queues can also be represented in memory using following ways.",
+          "options": [
+            { "text": "Using contiguous memory allocation", "correct": false },
+            { "text": "Using non-contiguous memory allocation", "correct": false },
+            { "text": "Circular queue cannot be represented in memory", "correct": false },
+            { "text": "Using contiguous and non-contiguous memory allocation", "correct": true }
+          ]
+        },
+        {
+          "question": "A circular queue is one in which the insertion of a new element is done at the very first location of the queue if the last location of the queue is full.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "A data structure in which elements can be inserted or deleted at/from both ends but not in the middle is?",
+          "options": [
+            { "text": "Queue", "correct": false },
+            { "text": "Circular queue", "correct": false },
+            { "text": "Dequeue", "correct": true },
+            { "text": "Priority queue", "correct": false }
+          ]
+        },
+        {
+          "question": "Similarly in DEQUEUEs, insertion is performed at ___ end whereas the deletion is performed at __ end.",
+          "options": [
+            { "text": "FRONT, REAR", "correct": false },
+            { "text": "REAR, FRONT.", "correct": false },
+            { "text": "FRONT, REAR & REAR, FRONT", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "What the applications are of dequeue?",
+          "options": [
+            { "text": "A-Steal job scheduling algorithm", "correct": false },
+            { "text": "Can be used as both stack and queue", "correct": false },
+            { "text": "To find the maximum of all sub arrays of size k", "correct": false },
+            { "text": "All of above", "correct": true }
+          ]
+        },
+        {
+          "question": "What is a dequeue?",
+          "options": [
+            { "text": "A queue with insert/delete defined for both front and rear ends of the queue", "correct": true },
+            { "text": "A queue implemented with a doubly linked list", "correct": false },
+            { "text": "A queue implemented with both singly and doubly linked lists", "correct": false },
+            { "text": "None of the mentioned", "correct": false }
+          ]
+        },
+        {
+          "question": "What is the functionality of the following piece of code?\npublic void function(Object item)\n{\nNode temp=new Node(item,trail);\nif(isEmpty())\n{\nhead.setNext(temp);\ntemp.setNext(trail);\n}\nelse\n{\nNode cur=head.getNext();\nwhile(cur.getNext()!=trail)\n{\ncur=cur.getNext();\n}\ncur.setNext(temp);\n}\nsize++;\n}",
+          "options": [
+            { "text": "Insert at the front end of the dequeue", "correct": false },
+            { "text": "Insert at the rear end of the dequeue", "correct": true },
+            { "text": "Fetch the element at the rear end of the dequeue", "correct": false },
+            { "text": "Fetch the element at the front end of the dequeue", "correct": false }
+          ]
+        },
+        {
+          "question": "A function is called indirect recursive ______",
+          "options": [
+            { "text": "If it calls the same function.", "correct": false },
+            { "text": "If it calls another function.", "correct": true },
+            { "text": "Execute other function", "correct": false },
+            { "text": "Above all", "correct": false }
+          ]
+        },
+        {
+          "question": "Function which call itself is called______",
+          "options": [
+            { "text": "Static function", "correct": false },
+            { "text": "Auto function", "correct": false },
+            { "text": "Recursive function", "correct": true },
+            { "text": "All of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following statements is true?",
+          "options": [
+            { "text": "Recursion is always better than iteration", "correct": false },
+            { "text": "Recursion uses more memory compared to iteration", "correct": true },
+            { "text": "Recursion uses less memory compared to iteration", "correct": false },
+            { "text": "Iteration is always better and simpler than recursion", "correct": false }
+          ]
+        },
+        {
+          "question": "Recursion is similar to which of the following?",
+          "options": [
+            { "text": "Switch Case", "correct": false },
+            { "text": "Loop", "correct": true },
+            { "text": "If-else", "correct": false },
+            { "text": "if el if else", "correct": false }
+          ]
+        },
+        {
+          "question": "When any function is called from main(), the memory is allocated to it on the stack.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false },
+            { "text": "Can be true or false", "correct": false },
+            { "text": "Neither true nor false", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "“Using double ended queues is more advantageous than using circular queues. “Discuss",
+        "“Stacks are different from queues.” Justify.",
+        "Write a program that implement circular queue data structure.",
+        "Can a basic queue be implemented to function as a dynamic queue? Discuss",
+        "Describe the application of circular queue.",
+        "How will you insert and delete an element in circular queue?",
+        "Explain dynamic memory allocation advantages."
+      ]
+    },
+    {
+      "unit_no": 11,
+      "name": "Trees",
+      "mcqs": [
+        {
+          "question": "Root is",
+          "options": [
+            { "text": "The topmost node of a tree.", "correct": true },
+            { "text": "The child node of a tree.", "correct": false },
+            { "text": "The positive node of a tree.", "correct": false },
+            { "text": "None of above.", "correct": false }
+          ]
+        },
+        {
+          "question": "Degree of a Node is",
+          "options": [
+            { "text": "The degree of a node is the X number of branches of that node.", "correct": false },
+            { "text": "The degree of a node is the X+Y number of branches of that node.", "correct": false },
+            { "text": "The degree of a node is the total number of branches of that node.", "correct": true },
+            { "text": "All of above.", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is not a type of tree data structure?",
+          "options": [
+            { "text": "General Tree", "correct": false },
+            { "text": "Primary Tree", "correct": true },
+            { "text": "Binary Tree", "correct": false },
+            { "text": "Binary Search Tree", "correct": false }
+          ]
+        },
+        {
+          "question": "Tree is a nonlinear data structure.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Choose the right statement about binary tree.",
+          "options": [
+            { "text": "Every node in a binary tree has a left and right reference along with the data element.", "correct": false },
+            { "text": "A binary tree is a tree-type non-linear data structure with a maximum of two children for each parent.", "correct": false },
+            { "text": "The node at the top of the hierarchy of a tree is called the root node. The nodes that hold other sub-nodes are the parent nodes.", "correct": false },
+            { "text": "All of above.", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is not component of binary tree.",
+          "options": [
+            { "text": "Data element", "correct": false },
+            { "text": "Pointer to left subtree", "correct": false },
+            { "text": "Pointer to right subtree", "correct": false },
+            { "text": "Super tree", "correct": true }
+          ]
+        },
+        {
+          "question": "Binary tree can be represented using",
+          "options": [
+            { "text": "Arrays", "correct": false },
+            { "text": "Linked list", "correct": false },
+            { "text": "Both Array and Linked list", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is application of binary search tree.",
+          "options": [
+            { "text": "In multilevel indexing in the database.", "correct": false },
+            { "text": "For dynamic sorting.", "correct": false },
+            { "text": "For managing virtual memory areas in Unix kernel.", "correct": false },
+            { "text": "All of above.", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is way of tree traversal?",
+          "options": [
+            { "text": "In-order Traversal", "correct": false },
+            { "text": "Pre-order Traversal", "correct": false },
+            { "text": "Post-order Traversal", "correct": false },
+            { "text": "All of above", "correct": true }
+          ]
+        },
+        {
+          "question": "Select the traversal method in which root is visited after visit left sub-tree and right sub-tree.",
+          "options": [
+            { "text": "In order Traversal", "correct": false },
+            { "text": "Pre-order Traversal", "correct": false },
+            { "text": "Post-order Traversal", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Choose the tree traversal method from following",
+          "options": [
+            { "text": "Recursive", "correct": false },
+            { "text": "Non Recursive", "correct": false },
+            { "text": "Both recursive and non-recursive", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Post order traversal is",
+          "options": [
+            { "text": "Traverse the left sub-tree, than traverse the right sub-tree, finally traverse the root", "correct": true },
+            { "text": "Traverse the root, than traverse the right sub-tree, finally traverse the left sub-tree", "correct": false },
+            { "text": "Traverse the left sub-tree, than traverse the right sub-tree", "correct": false },
+            { "text": "Traverse root only", "correct": false }
+          ]
+        },
+        {
+          "question": "Node within a data structure.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "______ is time complexity for insertion operation.",
+          "options": [
+            { "text": "O(n)", "correct": false },
+            { "text": "O(1)", "correct": true },
+            { "text": "O(n)", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "O(n) is time complexity for",
+          "options": [
+            { "text": "Search Operation", "correct": false },
+            { "text": "Insertion Operation", "correct": false },
+            { "text": "Deletion Operation", "correct": true },
+            { "text": "Merge operation", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "“Choosing the best data structure for a program is a challenging task”. Discuss.",
+        "“The trees can be represented as graphs”. Justify.",
+        "“There are different kinds of trees and it is important to understand the difference between them”. Analyze.",
+        "Explain binary search tree.",
+        "What is searching in tree?",
+        "How insertion performed in tree.",
+        "Differentiate between in-order traversal and pre-order traversal."
+      ]
+    },
+    {
+      "unit_no": 12,
+      "name": "Graphs",
+      "mcqs": [
+        {
+          "question": "A simple graph does not have which of the following properties?",
+          "options": [
+            { "text": "Must be connected", "correct": true },
+            { "text": "Must be unweighted", "correct": false },
+            { "text": "Must have no loops or multiple edges", "correct": false },
+            { "text": "Must have no multiple edges", "correct": false }
+          ]
+        },
+        {
+          "question": "A graph consist of the following components",
+          "options": [
+            { "text": "Vertices", "correct": false },
+            { "text": "Edges", "correct": false },
+            { "text": "Both edges and vertices", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is true?",
+          "options": [
+            { "text": "A graph may contain no edges and many vertices", "correct": false },
+            { "text": "A graph may contain many edges and no vertices", "correct": true },
+            { "text": "A graph may contain no edges and no vertices", "correct": false },
+            { "text": "A graph may contain no vertices and many edges", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is not a graph?\na) [image]\nb) [image]\nc) [image]\nd) [image]",
+          "options": [
+            { "text": "a)", "correct": false },
+            { "text": "b)", "correct": false },
+            { "text": "c)", "correct": false },
+            { "text": "d)", "correct": true }
+          ]
+        },
+        {
+          "question": "directed graph is",
+          "options": [
+            { "text": "A graph contains ordered pair of vertices.", "correct": true },
+            { "text": "A graph contains 2 pair of vertices.", "correct": false },
+            { "text": "A graph contains vertices.", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "The Depth First Search traversal of a graph will result into?",
+          "options": [
+            { "text": "Linked List", "correct": false },
+            { "text": "Tree", "correct": true },
+            { "text": "Queue", "correct": false },
+            { "text": "Array", "correct": false }
+          ]
+        },
+        {
+          "question": "The data structure which is being used in DFS is ______.",
+          "options": [
+            { "text": "Stack", "correct": true },
+            { "text": "Tree", "correct": false },
+            { "text": "Queue", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Choose the incorrect statement about DFS and BFS from the following.",
+          "options": [
+            { "text": "BFS is equivalent to level order traversal in trees", "correct": false },
+            { "text": "DFS is equivalent to post order traversal in trees", "correct": true },
+            { "text": "DFS and BFS code has same time complexity", "correct": false },
+            { "text": "DFS is implemented using stack", "correct": false }
+          ]
+        },
+        {
+          "question": "Choose the correct statement from following",
+          "options": [
+            { "text": "Depth-first search is an algorithm for insert node into tree or graph data structures.", "correct": false },
+            { "text": "Depth-first search is an algorithm for traversing or searching tree or graph data structures.", "correct": true },
+            { "text": "DFS is delete first style from data structure.", "correct": false },
+            { "text": "Depth-first search is an algorithm for count elements in the data structure.", "correct": false }
+          ]
+        },
+        {
+          "question": "In Depth First Search, how many times a node is visited?",
+          "options": [
+            { "text": "Once", "correct": false },
+            { "text": "Twice", "correct": false },
+            { "text": "Thrice", "correct": false },
+            { "text": "Equivalent to number of in-degree of the node", "correct": true }
+          ]
+        },
+        {
+          "question": "The Data structure used in standard implementation of Breadth First Search is?",
+          "options": [
+            { "text": "Stack", "correct": false },
+            { "text": "Queue", "correct": true },
+            { "text": "Linked List", "correct": false },
+            { "text": "Tree", "correct": false }
+          ]
+        },
+        {
+          "question": "What can be the applications of Breadth First Search?",
+          "options": [
+            { "text": "Finding shortest path between two nodes", "correct": false },
+            { "text": "Finding bipartiteness of a graph", "correct": false },
+            { "text": "GPS navigation system", "correct": false },
+            { "text": "All of the mentioned", "correct": true }
+          ]
+        },
+        {
+          "question": "Choose the correct statement from following",
+          "options": [
+            { "text": "Breadth-first search is an algorithm for searching a tree data structure for a node that satisfies a given property.", "correct": true },
+            { "text": "Breadth-first search is an algorithm used for insertion.", "correct": false },
+            { "text": "Breadth-first search is an algorithm for delete an element from array.", "correct": false },
+            { "text": "All of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is not an application of Breadth First Search?",
+          "options": [
+            { "text": "Finding shortest path between two nodes", "correct": false },
+            { "text": "Finding bipartiteness of a graph", "correct": false },
+            { "text": "GPS navigation system", "correct": false },
+            { "text": "Path Finding", "correct": true }
+          ]
+        },
+        {
+          "question": "The data structure which is being used in DFS is stack.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "“A graph in which each edge is assigned a direction is called a directed graph”. Discuss with example.",
+        "“A graph consists of a set of vertices and edges/arcs”. Explain with diagram.",
+        "Write and explain breadth first search algorithm.",
+        "Write and explain depth first search algorithm.",
+        "Differentiate between tree and graph.",
+        "Discuss in detail applications of graph data structure.",
+        "Explain how graphs are different from tree."
+      ]
+    },
+    {
+      "unit_no": 13,
+      "name": "Searching",
+      "mcqs": [
+        {
+          "question": "Which of the following is not a searching technique?",
+          "options": [
+            { "text": "Linear Search", "correct": false },
+            { "text": "Binary Search", "correct": false },
+            { "text": "Queue Search", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Where is linear searching used?",
+          "options": [
+            { "text": "When the list has only a few elements", "correct": false },
+            { "text": "When performing a single search in an unordered list", "correct": false },
+            { "text": "Used all the time", "correct": false },
+            { "text": "When the list has only a few elements and when performing a single search in an unordered list", "correct": true }
+          ]
+        },
+        {
+          "question": "What is the best case for linear search?",
+          "options": [
+            { "text": "O(nlogn)", "correct": false },
+            { "text": "O(logn)", "correct": false },
+            { "text": "O(n)", "correct": false },
+            { "text": "O(1)", "correct": true }
+          ]
+        },
+        {
+          "question": "What is the worst case for linear search?",
+          "options": [
+            { "text": "O(nlogn)", "correct": false },
+            { "text": "O(logn)", "correct": false },
+            { "text": "O(n)", "correct": true },
+            { "text": "O(1)", "correct": false }
+          ]
+        },
+        {
+          "question": "_________ Search is often called sequential search.",
+          "options": [
+            { "text": "Binary Search", "correct": false },
+            { "text": "Linear Search", "correct": true },
+            { "text": "Both linear search and binary search", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Linear search is mostly used to search an unordered list in which the items are not sorted.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false },
+            { "text": "Sometimes true", "correct": false },
+            { "text": "Sometimes false", "correct": false }
+          ]
+        },
+        {
+          "question": "Finding the location of a given item in a collection of items is called......",
+          "options": [
+            { "text": "Discovering", "correct": false },
+            { "text": "Finding", "correct": false },
+            { "text": "Searching", "correct": true },
+            { "text": "Mining", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following algorithm type is iterative in nature?",
+          "options": [
+            { "text": "Binary Search", "correct": false },
+            { "text": "Linear Search", "correct": true },
+            { "text": "Both binary search and linear search", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "The binary search algorithm uses",
+          "options": [
+            { "text": "Linear way to search values", "correct": false },
+            { "text": "Divide and conquer method", "correct": true },
+            { "text": "Bubble sorting technique", "correct": false },
+            { "text": "None of them", "correct": false }
+          ]
+        },
+        {
+          "question": "Best case complexity of binary search algorithm is",
+          "options": [
+            { "text": "O(1)", "correct": true },
+            { "text": "O(log n)", "correct": false },
+            { "text": "O(log n)", "correct": false },
+            { "text": "O(1)", "correct": false }
+          ]
+        },
+        {
+          "question": "Average case complexity of binary search algorithm is",
+          "options": [
+            { "text": "O(1)", "correct": false },
+            { "text": "O(log n)", "correct": true },
+            { "text": "O(log n)", "correct": false },
+            { "text": "O(1)", "correct": false }
+          ]
+        },
+        {
+          "question": "Average case complexity and worst case complexity of binary search algorithm are same",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Worst case complexity of binary search algorithm is",
+          "options": [
+            { "text": "O(1)", "correct": false },
+            { "text": "O(log n)", "correct": false },
+            { "text": "O(log n)", "correct": true },
+            { "text": "O(1)", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is right statement for binary search",
+          "options": [
+            { "text": "Binary search is a fast search algorithm with a run-time complexity of (log n).", "correct": true },
+            { "text": "Binary search is a fast search algorithm with a run-time complexity of (m log n).", "correct": false },
+            { "text": "Binary search is a fast search algorithm with a run-time complexity of (x log n).", "correct": false },
+            { "text": "Binary search is a fast search algorithm with a run-time complexity of (log X).", "correct": false }
+          ]
+        },
+        {
+          "question": "Which from the following technique is used for finding a value from an array?",
+          "options": [
+            { "text": "Linear Search", "correct": false },
+            { "text": "Binary Search", "correct": false },
+            { "text": "Bubble sort", "correct": false },
+            { "text": "All above", "correct": true }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What is searching? Explain different types of searching in data structure.",
+        "Differentiate between linear search and binary search.",
+        "Linear search also known as sequential search. Comment.",
+        "What is the role of searching in data structure?",
+        "What are applications of searching?"
+      ]
+    },
+    {
+      "unit_no": 14,
+      "name": "Sorting",
+      "mcqs": [
+        {
+          "question": "Selection sort is a simple sorting algorithm which finds the smallest element in the array and exchanges it with the element in the first position.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false },
+            { "text": "Sometimes true", "correct": false },
+            { "text": "Sometimes false", "correct": false }
+          ]
+        },
+        {
+          "question": "In the following scenarios, when will you use selection sort?",
+          "options": [
+            { "text": "The input is already sorted", "correct": false },
+            { "text": "A large file has to be sorted", "correct": false },
+            { "text": "Large values need to be sorted with small keys", "correct": true },
+            { "text": "Small values need to be sorted with large keys", "correct": false }
+          ]
+        },
+        {
+          "question": "What is the worst case complexity of selection sort?",
+          "options": [
+            { "text": "O(nlogn)", "correct": false },
+            { "text": "O(logn)", "correct": false },
+            { "text": "O(n)", "correct": false },
+            { "text": "O(n2)", "correct": true }
+          ]
+        },
+        {
+          "question": "Shell sort algorithm is an example of?",
+          "options": [
+            { "text": "External sorting", "correct": false },
+            { "text": "Internal sorting", "correct": true },
+            { "text": "In-place sorting", "correct": false },
+            { "text": "Bottom-up sorting", "correct": false }
+          ]
+        },
+        {
+          "question": "Shell short is also used for searching",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following method is used for sorting in merge sort?",
+          "options": [
+            { "text": "Merging", "correct": true },
+            { "text": "Partitioning", "correct": false },
+            { "text": "Selection", "correct": false },
+            { "text": "Exchanging", "correct": false }
+          ]
+        },
+        {
+          "question": "What will be the best case time complexity of merge sort?",
+          "options": [
+            { "text": "O(n log n)", "correct": true },
+            { "text": "O(n2)", "correct": false },
+            { "text": "O(n2 log n)", "correct": false },
+            { "text": "O(n log n2)", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is a stable sorting algorithm?",
+          "options": [
+            { "text": "Merge sort", "correct": true },
+            { "text": "Typical in-place quick sort", "correct": false },
+            { "text": "Heap sort", "correct": false },
+            { "text": "Selection sort", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following sorting algorithm is in-place",
+          "options": [
+            { "text": "Counting sort", "correct": false },
+            { "text": "Radix sort", "correct": true },
+            { "text": "Bucket sort", "correct": false },
+            { "text": "None", "correct": false }
+          ]
+        },
+        {
+          "question": "Best case complexity of radix sort is",
+          "options": [
+            { "text": "(n log n)", "correct": true },
+            { "text": "n log n", "correct": false },
+            { "text": "(nk)", "correct": false },
+            { "text": "(n + k)", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is not a sorting technique?",
+          "options": [
+            { "text": "Bubble Sort", "correct": false },
+            { "text": "Linear Sort", "correct": true },
+            { "text": "Selection Sort", "correct": false },
+            { "text": "Merge Sort", "correct": false }
+          ]
+        },
+        {
+          "question": "Bubble sort is",
+          "options": [
+            { "text": "Bubble sort is a type of sorting.", "correct": false },
+            { "text": "It is used for sorting 'n' (number of items) elements.", "correct": false },
+            { "text": "It compares all the elements one by one and sort them based on their values.", "correct": false },
+            { "text": "All of above", "correct": true }
+          ]
+        },
+        {
+          "question": "What is the average case complexity of bubble sort?",
+          "options": [
+            { "text": "O(nlogn)", "correct": false },
+            { "text": "O(logn)", "correct": false },
+            { "text": "O(n)", "correct": false },
+            { "text": "O(n2)", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is correct with regard to insertion sort?",
+          "options": [
+            { "text": "Insertion sort is stable and it sorts In-place", "correct": true },
+            { "text": "Insertion sort is unstable and it sorts In-place", "correct": false },
+            { "text": "Insertion sort is stable and it does not sort In-place", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Insertion sort sorting method sorts the array by shifting elements one by one.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What is sorting? How it is different from searching.",
+        "Discuss the advantages of using sorting in the data structure.",
+        "Differentiate between selection sort and merge sort.",
+        "Write a program that demonstrates the working of merge sort.",
+        "Write a program that demonstrates the working of selection sort.",
+        "Write a program that demonstrates the working of bubble sort.",
+        "Differentiate between insertion sort and selection sort.",
+        "Write and explain insertion sort algorithm. What is the complexity of the algorithm?"
+      ]
+    }
+  ]
+}
