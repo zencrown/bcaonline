@@ -173,6 +173,7 @@ body {
     background: var(--bg);
     color: var(--text);
     font-size: 1rem;
+    width:100%;
     cursor: pointer;
     transition: border var(--transition);
 }
