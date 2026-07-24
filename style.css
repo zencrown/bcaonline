@@ -236,7 +236,7 @@ body {
 	font-weight: bold;
 	padding: 0.4rem 0.8rem;
 	background: var(--primary);
-	border-radius: 10px;
+	border-radius: 25rem;
 	text-decoration: none;
 	user-select: none;
 }
