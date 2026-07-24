@@ -260,7 +260,18 @@ unitSelect.addEventListener('change', () => {
 // ---------- Primary Color Toggles ---------
 function change_primary_color(color) {
     document.documentElement.style.setProperty('--primary', color);
+    localStorage.setItem('primary_theme_color', color);
 }
+
+if (localStorage.getItem("primary_theme_color") === null) {
+	// 1. Code runs here if "this_data" DOES NOT exist
+	console.log("primary_theme_color data not forund!");
+} else {
+    // 2. Code runs here if "this_data" DOES exist
+    let primary_theme_color_jar = localStorage.getItem('primary_theme_color');
+    document.documentElement.style.setProperty('--primary', primary_theme_color_jar);
+}
+
 
 // ----------- POPUP HELP ------------
 function popup_help() {

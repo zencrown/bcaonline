@@ -222,6 +222,33 @@ body {
     outline-offset: 2px;
 }
 
+.control-group .take-test-div {
+	height: 100%;
+	padding: 0rem;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+	
+.control-group .take-test-div .test-btn {
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	padding: 0.4rem 0.8rem;
+	background: var(--primary);
+	border-radius: 10px;
+	text-decoration: none;
+	user-select: none;
+}
+
+.control-group .take-test-div .test-btn i {
+	transition: all var(--transition);
+}
+
+.control-group .take-test-div .test-btn:hover i {
+	transform: translateX(0.3rem);
+}
+
 /* ---------- Loading / Error ---------- */
 .loading {
     text-align: center;

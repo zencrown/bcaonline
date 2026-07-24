@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Mode · Study Notes</title>
+    <link rel="icon" type="image/png" href="../favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header class="app-header">
+        <div class="header-left">
+            <i class="fas fa-graduation-cap"></i>
+            <h1>Test Mode</h1>
+        </div>
+        <div class="header-right">
+            <div class="primary_colors_block">
+                <span class="x_primary_color off" style="background:#007D82;" onclick="change_primary_color('#007D82')"></span>
+                <span class="x_primary_color" style="background:#FF0000;" onclick="change_primary_color('#FF0000')"></span>
+                <span class="x_primary_color off" style="background:#FFB600;" onclick="change_primary_color('#FFB600')"></span>
+                <span class="x_primary_color" style="background:#18AC00;" onclick="change_primary_color('#18AC00')"></span>
+                <span class="x_primary_color" style="background:#0090FF;" onclick="change_primary_color('#0090FF')"></span>
+                <span class="x_primary_color off" style="background:#8900E3;" onclick="change_primary_color('#8900E3')"></span>
+                <span class="x_primary_color off" style="background:#9E003D;" onclick="change_primary_color('#9E003D')"></span>
+            </div>
+            <button id="darkToggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="app-main">
+        <!-- Controls -->
+        <section class="controls">
+            <div class="control-group">
+                <div class="check_the_help" onclick="popup_help()">
+                    <i class="fa fa-question" style="font-size:0.7rem"></i>
+                </div>
+                <label for="subjectSelect"><i class="fas fa-book"></i> Subject</label>
+                <select id="subjectSelect">
+                	<option value="" selected>— Select a subject —</option>
+                    <option value="web_fundamentals">Web Fundamentals</option>
+                    <option value="data_structures">Data Structures</option>
+                    <option value="operating_system">Operating System</option>
+                    <option value="business_law">Business Law</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="unitSelect"><i class="fas fa-list"></i> Unit</label>
+                <select id="unitSelect">
+                    <option value="">— Select a unit —</option>
+                </select>
+            </div>
+
+            <!-- NEW: MCQ & Subjective counters + Generate button -->
+            <div class="control-group">
+                <label for="numMCQs"><i class="fas fa-check-circle"></i> MCQs</label>
+                <input type="number" id="numMCQs" min="1" max="55" value="7" />
+            </div>
+            <div class="control-group">
+                <label for="numSubjective"><i class="fas fa-pen"></i> Subjective</label>
+                <input type="number" id="numSubjective" min="1" max="35" value="3" />
+            </div>
+            <div class="control-group" style="flex:0 0 auto; justify-content:flex-end;">
+                <button id="generateTestBtn" class="generate-btn">
+                    <i class="fas fa-play"></i> Generate Test
+                </button>
+            </div>
+        </section>
+
+        <!-- Loading -->
+        <div id="loading" class="loading" style="display:none;">
+            <i class="fas fa-spinner fa-spin"></i> Loading…
+        </div>
+
+        <!-- Error -->
+        <div id="error" class="error" style="display:none;">
+            <i class="fas fa-exclamation-triangle"></i>
+            <span id="errorMsg">Failed to load data.</span>
+        </div>
+
+        <!-- Content -->
+        <section id="content" class="content" style="display:none;">
+            <div class="unit-header">
+                <h2 id="unitTitle">Test</h2>
+                <span id="unitCounter" class="unit-counter"></span>
+            </div>
+
+            <!-- MCQs -->
+            <div id="mcqSection" class="section">
+                <h3 class="section-title"><i class="fas fa-question-circle"></i> Multiple Choice Questions</h3>
+                <div id="mcqList"></div>
+            </div>
+
+            <!-- Subjective -->
+            <div id="subjectiveSection" class="section">
+                <h3 class="section-title"><i class="fas fa-pen-fancy"></i> Subjective Questions</h3>
+                <div id="subjectiveList"></div>
+            </div>
+
+            <!-- Test footer -->
+            <div style="margin-top:2rem; text-align:center; font-size:0.9rem; color:var(--text); opacity:0.7;">
+                <i class="fas fa-check-circle" style="color:var(--primary);"></i>
+                Click an option to check your answer.
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <p><i class="fas fa-graduation-cap"></i> Test Mode <i class="fas fa-terminal"></i></p>
+    </footer>
+
+    <section class="help_popup" id="help_popup_X888">
+        <div><i class="fa fa-exclamation-circle"></i><b style="margin-left:0.5rem">SOURCE</b></div>
+        <hr/><br/>
+        <p><b>Source of the content:</b><br/>
+            <i> – E-books > Self Assessment.<br/>
+            – <span style="text-decoration:line-through">E-Tutorials > Self Assessment MCQs.</span></i>
+        </p><br/>
+        <div class="popup-close"><span onclick="popup_help()">CLOSE</span></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
