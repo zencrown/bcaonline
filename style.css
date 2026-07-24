@@ -383,7 +383,7 @@ body.dark .error {
 .subjective-list .q-num {
     color: var(--primary);
     font-weight: 600;
-    min-width: 2rem;
+    min-width: 1rem;
 }
 
 /* HELP POPUP X */
