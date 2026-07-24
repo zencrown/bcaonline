@@ -119,8 +119,8 @@ function generateTest() {
     let subjCount = parseInt(numSubjectiveInput.value, 10);
     if (isNaN(mcqCount) || mcqCount < 1) mcqCount = 1;
     if (isNaN(subjCount) || subjCount < 1) subjCount = 1;
-    if (mcqCount > 55) mcqCount = 55;
-    if (subjCount > 35) subjCount = 35;
+    if (mcqCount > 70) mcqCount = 70;
+    if (subjCount > 40) subjCount = 40;
     numMCQsInput.value = mcqCount;
     numSubjectiveInput.value = subjCount;
 
@@ -314,18 +314,18 @@ unitSelect.addEventListener('change', () => {
 
 generateBtn.addEventListener('click', generateTest);
 
-// MCQs – max 55
+// MCQs – max 70
 numMCQsInput.addEventListener('blur', function() {
     let val = parseInt(this.value, 10);
     if (isNaN(val) || val < 1) val = 1;
-    if (val > 55) val = 55;
+    if (val > 70) val = 70;
     this.value = val;
 });
 
-// Subjective – max 35 (keep intact)
+// Subjective – max 40 (keep intact)
 numSubjectiveInput.addEventListener('blur', function() {
     let val = parseInt(this.value, 10);
     if (isNaN(val) || val < 1) val = 1;
-    if (val > 35) val = 35;
+    if (val > 40) val = 40;
     this.value = val;
 });
