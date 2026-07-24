@@ -25,6 +25,16 @@ body.dark {
     --opt-icon-text2: #4D4D4D;
 }
 
+::selection {
+  color: white;
+  background: var(--primary);
+}
+
+::-moz-selection {
+  color: white;
+  background: var(--primary);
+}
+
 /* ---------- Reset ---------- */
 * {
     margin: 0;
