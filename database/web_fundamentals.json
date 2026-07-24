@@ -93,6 +93,38 @@
             { "text": "IP address", "correct": false },
             { "text": "scott", "correct": false }
           ]
+        },
+        {
+          "question": "Communication technologies are unique to networked computer environments and have come into wide popularity because of the Internet.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Communication technologies does not require more multimedia capabilities of computer systems and are more taxing of network resources than the others.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "An ........................... is an identifier for a computer or device on a TCP/IP network.",
+          "options": [
+            { "text": "IP Address", "correct": true }
+          ]
+        },
+        {
+          "question": "TCP handles ........................... between systems and IP handles the routing of packets.",
+          "options": [
+            { "text": "Packet Flow", "correct": true }
+          ]
+        },
+        {
+          "question": "The ........................... protocol with seven layers is the usual reference model.",
+          "options": [
+            { "text": "ISO/OSI", "correct": true }
+          ]
         }
       ],
       "subjective_questions": [
@@ -200,6 +232,36 @@
             { "text": "Singular or Stand-Alone", "correct": true },
             { "text": "non terminating", "correct": false },
             { "text": "inline", "correct": false }
+          ]
+        },
+        {
+          "question": "........................... present in resources enable users easily to navigate their browsers to related resources.",
+          "options": [
+            { "text": "Hyperlinks", "correct": true }
+          ]
+        },
+        {
+          "question": "Many browsers offer ........................... which extend the capabilities of a browser so it can display multimedia information.",
+          "options": [
+            { "text": "Plug ins", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... are instructions that are embedded directly into the text of a HTMLdocument.",
+          "options": [
+            { "text": "Tags", "correct": true }
+          ]
+        },
+        {
+          "question": "In paired tags, the first tag is referred to as Opening Tag and the second tag is referred toas ........................... Tag.",
+          "options": [
+            { "text": "Closing", "correct": true }
+          ]
+        },
+        {
+          "question": "A tag is said to be a ........................... tag if the text is placed between a tag and its companiontag.",
+          "options": [
+            { "text": "Paired", "correct": true }
           ]
         }
       ],
@@ -309,6 +371,36 @@
             { "text": "strong", "correct": false },
             { "text": "pre", "correct": false }
           ]
+        },
+        {
+          "question": "Using ........................... is helpful in situations where you just need one or two spaces inbetween characters or words for stylistic or aesthetic effect.",
+          "options": [
+            { "text": "&nbsp;", "correct": true }
+          ]
+        },
+        {
+          "question": "The tag ........................... changes the color of a few words or a section of text.",
+          "options": [
+            { "text": "Font Color", "correct": true }
+          ]
+        },
+        {
+          "question": "The code to align text in HTML for a post or single page is...........................",
+          "options": [
+            { "text": "<P ALIGN=direction>", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... tag is a non-standard tag and can be very irritating if used on large areas oftext, so use it sparingly.",
+          "options": [
+            { "text": "<blink>", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... tag is used to create a moving text effect, similar to some “matrix” typeLED and illuminated signs.",
+          "options": [
+            { "text": "<marquee>", "correct": true }
+          ]
         }
       ],
       "subjective_questions": [
@@ -326,7 +418,7 @@
     },
     {
       "unit_no": 4,
-      "name": "HTML List",
+      "name": "HTML Lists and Graphs",
       "mcqs": [
         {
           "question": "The ........................... classes allow you to easily create lists within your HTML pages.",
@@ -410,12 +502,42 @@
           ]
         },
         {
-          "question": "An image which is displayed on a web browser is referred to as an “...........................”",
+          "question": "An image which is displayed on a web browser is referred to as an “...........................",
           "options": [
             { "text": "offline image", "correct": false },
             { "text": "animated image", "correct": false },
             { "text": "Inline image", "correct": true },
             { "text": "hyper image", "correct": false }
+          ]
+        },
+        {
+          "question": "...........................tag indicates that an image—such as a photograph, icon, animation, cartoon,or other graphic—is to be displayed at that location.",
+          "options": [
+            { "text": "<IMG>", "correct": true }
+          ]
+        },
+        {
+          "question": "The only way to center a graphic horizontally on a page is to use <CENTER>&</CENTER>tags around the ........................... tag.",
+          "options": [
+            { "text": "<IMG SRC>", "correct": true }
+          ]
+        },
+        {
+          "question": "“...........................” aligns the bottom of the image with the bottom of the current line.",
+          "options": [
+            { "text": "ABSBOTTOM", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... indicates a server-side image map. Notes",
+          "options": [
+            { "text": "ISMAP", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... indicates a client-side image map .",
+          "options": [
+            { "text": "USEMAP", "correct": true }
           ]
         }
       ],
@@ -524,6 +646,36 @@
             { "text": "space “ “", "correct": false },
             { "text": "<br>", "correct": false },
             { "text": "<hr>", "correct": false }
+          ]
+        },
+        {
+          "question": "If the file is not present in the current directory, a ........................... path can be specified.",
+          "options": [
+            { "text": "relative or absolute", "correct": true }
+          ]
+        },
+        {
+          "question": "If you want to preserve all of your links and space of your blog you can use ...........................boxwhich contains link list.",
+          "options": [
+            { "text": "Scrollable", "correct": true }
+          ]
+        },
+        {
+          "question": "The ........................... tag defines a division or a section in an HTML document.In div element overflow property is set to auto.",
+          "options": [
+            { "text": "<div>", "correct": true }
+          ]
+        },
+        {
+          "question": "<Img> causes an “...........................” to be inserted into the output.",
+          "options": [
+            { "text": "inline image", "correct": true }
+          ]
+        },
+        {
+          "question": "Image ........................... are constructed by embedding an <img> tag inside of an anchorelement<a>.",
+          "options": [
+            { "text": "Links", "correct": true }
           ]
         }
       ],
@@ -641,6 +793,34 @@
             { "text": "scope", "correct": false },
             { "text": "base class", "correct": false }
           ]
+        },
+        {
+          "question": "CSS would not be very useful if it did not allow you to have many different types of formats for a single HTML tag.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "For using classes, you are not required to add an extension to the typical CSS code.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "DHTML files are huge compared to other interactive media.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "The World Wide Web Consortium or the W3C is currently implementing standards forDHTML technologies.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
         }
       ],
       "subjective_questions": [
@@ -738,7 +918,7 @@
             { "text": "Page URL Data", "correct": false },
             { "text": "Page Content", "correct": true },
             { "text": "Images", "correct": false },
-            { "text": "Error Messages", "correct": false }
+            { "text": ".Error Messages", "correct": false }
           ]
         },
         {
@@ -794,6 +974,114 @@
             { "text": "Type Conversion", "correct": false },
             { "text": "Type Casting", "correct": true }
           ]
+        },
+        {
+          "question": "Type casts ........................... casts the given value as a number.",
+          "options": [
+            { "text": "Number(value)", "correct": true }
+          ]
+        },
+        {
+          "question": "An ........................... is a special variable, which can hold more than one value, at a time.",
+          "options": [
+            { "text": "Array", "correct": true }
+          ]
+        },
+        {
+          "question": "Each element in the array has its own ........................... so that it can be easily accessed.",
+          "options": [
+            { "text": "ID", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... operators test to see if two variables relate to each other in the specified way.",
+          "options": [
+            { "text": "Comparison", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... is called Bitwise NOT Operator which is a is a unary operator and operates by reversing all bits in the operand.",
+          "options": [
+            { "text": "~", "correct": true }
+          ]
+        },
+        {
+          "question": "The operator ........................... is the multiply AND assignment operator, it multiplies right operand with the left operand and assign the result to left operand.",
+          "options": [
+            { "text": "*=", "correct": true }
+          ]
+        },
+        {
+          "question": "The decrement operator ........................... the variable.",
+          "options": [
+            { "text": "Reduces", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... Operator first evaluates an expression for a true or false value and then execute one of the two given statements depending upon the result of the evaluation.",
+          "options": [
+            { "text": "Conditional", "correct": true }
+          ]
+        },
+        {
+          "question": "The ........................... is a unary operator that is placed before its single operand, which can be of any type.",
+          "options": [
+            { "text": "Type of", "correct": true }
+          ]
+        },
+        {
+          "question": "The ........................... of operators determines the order they are applied when evaluating an expression.",
+          "options": [
+            { "text": "Precedence", "correct": true }
+          ]
+        },
+        {
+          "question": "The operator ........................... checks if the value of two operands is equal or not, if values are not equal then condition becomes true.",
+          "options": [
+            { "text": "!=", "correct": true }
+          ]
+        },
+        {
+          "question": "Due to the possibly confusing nature of pre-and post-increment behavior, code can be easier to read if the ........................... operators are avoided.",
+          "options": [
+            { "text": "Increment", "correct": true }
+          ]
+        },
+        {
+          "question": "An operator | is called........................... Operator. It performs a Boolean OR operation on each bit of its integer arguments.",
+          "options": [
+            { "text": "Bitwise OR", "correct": true }
+          ]
+        },
+        {
+          "question": "An ........................... is any valid set of literals, variables, operators, and expressions that evaluates to a single value.",
+          "options": [
+            { "text": "Expression", "correct": true }
+          ]
+        },
+        {
+          "question": "The special keyword null denotes a...........................",
+          "options": [
+            { "text": "Null Value", "correct": true }
+          ]
+        },
+        {
+          "question": "A expression can have one of two values based on a...........................",
+          "options": [
+            { "text": "Condition", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... expression evaluates to a character string",
+          "options": [
+            { "text": "String", "correct": true }
+          ]
+        },
+        {
+          "question": "Variables that have not been assigned a value are undefined, and cannot be used without a ........................... error.",
+          "options": [
+            { "text": "Run-Time", "correct": true }
+          ]
         }
       ],
       "subjective_questions": [
@@ -816,7 +1104,7 @@
         "What does the delete operator do?",
         "What is function of Boolean operators in JavaScript?",
         "Evaluate “1”+2+4.",
-        "Solve 2+5+”8\".",
+        "Solve 2+5+”8”.",
         "What do you mean by expression in JavaScript?"
       ]
     },
@@ -852,7 +1140,7 @@
           ]
         },
         {
-          "question": "The ........................... loop is used when you know in advance how many times the script should run.",
+          "question": "The ........................... loop is used when you know in advance how many times the scriptshould run.",
           "options": [
             { "text": "For", "correct": true },
             { "text": "do-while", "correct": false },
@@ -870,7 +1158,7 @@
           ]
         },
         {
-          "question": "The ........................... loop will execute the block of code ONCE, and then it will repeat the loop as long as the specified condition is true.",
+          "question": "The ........................... loop will execute the block of code ONCE, and then it will repeat theloop aslong as the specified condition is true.",
           "options": [
             { "text": "while", "correct": false },
             { "text": "do-while", "correct": true },
@@ -879,7 +1167,7 @@
           ]
         },
         {
-          "question": "The ........................... statement will break the loop and continue executing the code that follows after the loop (if any).",
+          "question": "The ........................... statement will break the loop and continue executing the code thatfollows after the loop (if any).",
           "options": [
             { "text": "continue", "correct": false },
             { "text": "else", "correct": false },
@@ -888,7 +1176,7 @@
           ]
         },
         {
-          "question": "The ........................... statement will break the current loop and continue with the next value.",
+          "question": "The ........................... statement will break the current loop and continue with the nextvalue.",
           "options": [
             { "text": "break", "correct": false },
             { "text": "else", "correct": false },
@@ -906,7 +1194,7 @@
           ]
         },
         {
-          "question": "The ........................... dialog box is very useful when you want to pop-up a text box to get user input.",
+          "question": "The ........................... dialog box is very useful when you want to pop-up a text box to getuser input.",
           "options": [
             { "text": "alert", "correct": false },
             { "text": "confirmation", "correct": false },
@@ -930,6 +1218,24 @@
             { "text": "for", "correct": true },
             { "text": "if", "correct": false },
             { "text": "do-while", "correct": false }
+          ]
+        },
+        {
+          "question": "The ………………… gives the JavaScript code you are writing the ability to make decisions or perform single or multiple tasks.",
+          "options": [
+            { "text": "control statement", "correct": true }
+          ]
+        },
+        {
+          "question": "To test all of the possible outcomes for the application being designed, the ……………conditional statement is used.",
+          "options": [
+            { "text": "Switchcase", "correct": true }
+          ]
+        },
+        {
+          "question": "In case of the …………… loop, the block of code will execute ONCE, and then it will repeat the loop as long as the specified condition is true.",
+          "options": [
+            { "text": "dowhile", "correct": true }
           ]
         }
       ],
@@ -1229,6 +1535,96 @@
             { "text": "Mark", "correct": false },
             { "text": "Nav", "correct": false }
           ]
+        },
+        {
+          "question": "For a ........................... window, the parent and top properties refer to the window itself.",
+          "options": [
+            { "text": "top-level", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... method decodes a string of encoding data using base-64 encoding.",
+          "options": [
+            { "text": "Atob", "correct": true }
+          ]
+        },
+        {
+          "question": "...........................evaluates an expression or calls a function after a specified number of milliseconds.",
+          "options": [
+            { "text": "setTimeout", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... contains information about the version, mimetype and what plug-ins users have installed of Navigator in use.",
+          "options": [
+            { "text": "Navigator objects", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... property specifies version information for the Navigator.",
+          "options": [
+            { "text": "appVersion", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... property tests whether Java is enabled.",
+          "options": [
+            { "text": "javaEnabled", "correct": true }
+          ]
+        },
+        {
+          "question": "The JavaScript ........................... is property of the window object.",
+          "options": [
+            { "text": "History Object", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... function will accept an integer or a string.",
+          "options": [
+            { "text": "go(relPos | string)", "correct": true }
+          ]
+        },
+        {
+          "question": "The ........................... property specifies the number of entries in the history object.",
+          "options": [
+            { "text": "length", "correct": true }
+          ]
+        },
+        {
+          "question": "The JavaScript ........................... is a property of the window object.",
+          "options": [
+            { "text": "location object", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... is the part of the URL that is used to point to point to a particular part of a page where a named anchor is.",
+          "options": [
+            { "text": "Hash", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... property specifies the URL hostname and port.",
+          "options": [
+            { "text": "Host", "correct": true }
+          ]
+        },
+        {
+          "question": "The JavaScript ........................... is the container for all HTML HEAD and BODY objects associated within the HTML tags of an HTML document.",
+          "options": [
+            { "text": "Document object", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... property sets the background color of the web page.",
+          "options": [
+            { "text": "bgColor", "correct": true }
+          ]
+        },
+        {
+          "question": "........................... property specifies the text color attribute set in the <body> tag.",
+          "options": [
+            { "text": "fgColor", "correct": true }
+          ]
         }
       ],
       "subjective_questions": [
@@ -1355,6 +1751,34 @@
             { "text": "onSubmit", "correct": false },
             { "text": "onSelect event", "correct": true }
           ]
+        },
+        {
+          "question": "The onSubmit event is used to validate ALL form fields before submitting it.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "When using the onclick event to trigger an action, there is no need to consider adding this same action to the onkeydown event.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "The onclick property returns the onClick event handler code on the previous element.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "MouseEvent is an event object passed to the specified event handler function.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
         }
       ],
       "subjective_questions": [
@@ -1471,6 +1895,30 @@
             { "text": "Check boxes", "correct": false },
             { "text": "Range", "correct": false },
             { "text": "Data Lists", "correct": false }
+          ]
+        },
+        {
+          "question": "The Radio Button in HTML are type of ............................ form, which allows a user to select any one option from the alternative options.",
+          "options": [
+            { "text": "Input", "correct": true }
+          ]
+        },
+        {
+          "question": "The ................................. specify the output value of input element in html page, when it is clicked.",
+          "options": [
+            { "text": "<value>", "correct": true }
+          ]
+        },
+        {
+          "question": "HTML ..............................fields provide essentially the same functionality as HTML Checkbox Fields.",
+          "options": [
+            { "text": "Select", "correct": true }
+          ]
+        },
+        {
+          "question": "Depending on your settings, .................................. can serve the same purpose as radio buttons or check boxes.",
+          "options": [
+            { "text": "dropdown menus", "correct": true }
           ]
         }
       ],
@@ -1730,8 +2178,38 @@
           "options": [
             { "text": "Unordered collection of arrays", "correct": false },
             { "text": "Unordered collection of elements", "correct": false },
-            { "text": "Unordered collection of nodes", "correct": false },
-            { "text": "Unordered collection of attributes", "correct": true }
+            { "text": "Unordered collection of nodes", "correct": true },
+            { "text": "Unordered collection of attributes", "correct": false }
+          ]
+        },
+        {
+          "question": "According to the W3C HTML DOM standard, everything in an HTML document is a ______",
+          "options": [
+            { "text": "NODE", "correct": true }
+          ]
+        },
+        {
+          "question": "The _________ Constraint Validation HTML Input attribute specifies that the input field requires an element.",
+          "options": [
+            { "text": "required", "correct": true }
+          ]
+        },
+        {
+          "question": "The ________ HTML object property returns the domain name of the document server",
+          "options": [
+            { "text": "document.domain", "correct": true }
+          ]
+        },
+        {
+          "question": "The ________ JavaScript DOM method is used to create an HTML element.",
+          "options": [
+            { "text": "document.createElement(element)", "correct": true }
+          ]
+        },
+        {
+          "question": "The __________ object lies at the top of the DOM hierarchy.",
+          "options": [
+            { "text": "window object", "correct": true }
           ]
         }
       ],
