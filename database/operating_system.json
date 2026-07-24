@@ -1,0 +1,1724 @@
+{
+  "all_units": [
+    {
+      "unit_no": 1,
+      "name": "Introduction to Operating System",
+      "mcqs": [
+        {
+          "question": "A ........................ is a program in execution.",
+          "options": [{ "text": "process", "correct": true }]
+        },
+        {
+          "question": "........................ is a large array of words or bytes, each with its own address.",
+          "options": [{ "text": "Memory", "correct": true }]
+        },
+        {
+          "question": "A ........................ is a collection of related information defined by its creator.",
+          "options": [{ "text": "file", "correct": true }]
+        },
+        {
+          "question": "A ........................ provides the user with access to the various resources the system maintains.",
+          "options": [{ "text": "distributed system", "correct": true }]
+        },
+        {
+          "question": "An RTOS typically has very little user-interface capability, and no ........................",
+          "options": [{ "text": "end-user utilities", "correct": true }]
+        },
+        {
+          "question": "A ........................ cannot always keep CPU or I/O devices busy at all times.",
+          "options": [{ "text": "single user", "correct": true }]
+        },
+        {
+          "question": "A multiprocessing system is a computer hardware configuration that includes more than ........................ independent processing unit.",
+          "options": [{ "text": "one", "correct": true }]
+        },
+        {
+          "question": "A ........................ system is a collection of physical interconnected computers.",
+          "options": [{ "text": "networked computing", "correct": true }]
+        },
+        {
+          "question": "A system task, such as ........................, is also a process.",
+          "options": [{ "text": "spooling", "correct": true }]
+        },
+        {
+          "question": "The ........ process is achieved through a sequence of reads or writes of specific memory address.",
+          "options": [{ "text": "Interaction", "correct": true }]
+        },
+        {
+          "question": "....................... process is achieved through a sequence of reads or writes of specific memory address.",
+          "options": [{ "text": "Memory Management Process", "correct": true }]
+        },
+        {
+          "question": "Which is not the function of the operating system?",
+          "options": [
+            { "text": "Memory management", "correct": false },
+            { "text": "Disk management", "correct": false },
+            { "text": "Application management", "correct": false },
+            { "text": "Virus protection", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is a goal of the operating System?",
+          "options": [
+            { "text": "Execute user programs and make solving user problems easier.", "correct": false },
+            { "text": "Make the computer system convenient to use.", "correct": false },
+            { "text": "Use the computer hardware in an efficient manner.", "correct": false },
+            { "text": "All of the given choices", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following statement is false with respect to the operating systems?",
+          "options": [
+            { "text": "Operating System is a software, which makes a computer to work.", "correct": false },
+            { "text": "It is the software that enables all the programs we use.", "correct": false },
+            { "text": "The OS does not organize or control the hardware.", "correct": true },
+            { "text": "OS acts as an interface between the application programs and the machine hardware.", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is not a component of the operating system?",
+          "options": [
+            { "text": "Hardware", "correct": false },
+            { "text": "Application Programs", "correct": false },
+            { "text": "Application programs", "correct": false },
+            { "text": "None of the given choices", "correct": true }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Write short note on Distributed System.",
+        "Explain the nature of real time system.",
+        "What is batch system? What are the shortcomings of early batch systems? Explain it.",
+        "Under what circumstances would a user be better off using a timesharing system rather than a PC or a single-user workstation?",
+        "Describe real time operating system. Give an example of it.",
+        "Explain parallel system with suitable example.",
+        "Write the differences between the real time system and personal system.",
+        "“Most modern computer systems use disks as the primary on-line storage of information,of both programs and data”. Explain.",
+        "Write short note on networking.",
+        "“The operating system picks one of the programs and starts executing”. Discuss."
+      ]
+    },
+    {
+      "unit_no": 2,
+      "name": "Operating System Services",
+      "mcqs": [
+        {
+          "question": "A/an .................... is a software program that manages the hardware and software resources of a computer.",
+          "options": [{ "text": "operating system", "correct": true }]
+        },
+        {
+          "question": "Operating systems can be explored from two viewpoints: the .................... and the system.",
+          "options": [{ "text": "user", "correct": true }]
+        },
+        {
+          "question": "A .................... manages the execution of user programs.",
+          "options": [{ "text": "control program", "correct": true }]
+        },
+        {
+          "question": "A .................... is the mechanism used by an application program to request service from the operating system.",
+          "options": [{ "text": "system call", "correct": true }]
+        },
+        {
+          "question": "A ........................ is a program in execution.",
+          "options": [
+            { "text": "process", "correct": true },
+            { "text": "file", "correct": false },
+            { "text": "system", "correct": false },
+            { "text": "None of the choices", "correct": false }
+          ]
+        },
+        {
+          "question": "The operating system is responsible for which of the following activities in connections with memory management?\nI) Keep track of the parts of memory currently being used and by whom.\nII) Decide which processes to load when memory space becomes available.\nIII) Allocate and deallocate memory space as needed.\nIV) Support of primitives for manipulating files and directories.",
+          "options": [
+            { "text": "I, II and IV", "correct": false },
+            { "text": "I, II and III", "correct": true },
+            { "text": "II, III and IV", "correct": false },
+            { "text": "I, III and IV", "correct": false }
+          ]
+        },
+        {
+          "question": "A ........................ is a collection of related information defined by its creator.",
+          "options": [
+            { "text": "File", "correct": true },
+            { "text": "Storage", "correct": false },
+            { "text": "Record", "correct": false },
+            { "text": "File", "correct": false }
+          ]
+        },
+        {
+          "question": "The operating system manages",
+          "options": [
+            { "text": "Memory", "correct": false },
+            { "text": "Processes", "correct": false },
+            { "text": "Disks and I/O devices", "correct": false },
+            { "text": "All of the above", "correct": true }
+          ]
+        },
+        {
+          "question": "The key components of the I/O system do not consist of:",
+          "options": [
+            { "text": "A buffer-caching system.", "correct": false },
+            { "text": "A general device-driver interface.", "correct": false },
+            { "text": "Drivers for specific hardware devices.", "correct": false },
+            { "text": "File backup on stable (nonvolatile) storage media.", "correct": true }
+          ]
+        },
+        {
+          "question": "The operating system is not responsible for which of the following activities in connection with disk management:",
+          "options": [
+            { "text": "Free space management", "correct": false },
+            { "text": "Buffer caching system", "correct": true },
+            { "text": "Storage allocation", "correct": false },
+            { "text": "Disk scheduling", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following statements is not true?",
+          "options": [
+            { "text": "A distributed system is a collection of processors that share memory or a clock.", "correct": true },
+            { "text": "Each processor has its own local memory.", "correct": false },
+            { "text": "The processors in the system are connected through a communication network.", "correct": false },
+            { "text": "Communication takes place using a protocol.", "correct": false }
+          ]
+        },
+        {
+          "question": "........................ is a large array of words or bytes, each with its own address.",
+          "options": [
+            { "text": "Storage", "correct": false },
+            { "text": "Memory", "correct": true },
+            { "text": "File", "correct": false },
+            { "text": "Record", "correct": false }
+          ]
+        },
+        {
+          "question": "A ........................ provides the user with access to the various resources the system maintains.",
+          "options": [{ "text": "distributed system", "correct": true }]
+        },
+        {
+          "question": "What is a shell?",
+          "options": [
+            { "text": "It is a hardware component", "correct": false },
+            { "text": "It is a command interpreter", "correct": true },
+            { "text": "It is a part in compiler", "correct": false },
+            { "text": "It is a tool in CPU scheduling", "correct": false }
+          ]
+        },
+        {
+          "question": "Multiprogramming systems",
+          "options": [
+            { "text": "Are easier to develop than single programming systems", "correct": false },
+            { "text": "Execute each job faster", "correct": false },
+            { "text": "Execute more jobs in the same time", "correct": true },
+            { "text": "Are used only on large main frame computers", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following operating systems is better for implementing a Client Server network?",
+          "options": [
+            { "text": "MS DOS", "correct": false },
+            { "text": "Windows 95", "correct": false },
+            { "text": "Windows 98", "correct": false },
+            { "text": "Windows 2000", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is not an example of the multi-programming operating system?",
+          "options": [
+            { "text": "Atlas supervisor", "correct": false },
+            { "text": "Multics Operating System", "correct": true },
+            { "text": "Exec II system", "correct": false },
+            { "text": "All of the given choices", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Discuss the Simple Operating System Structure. Describe the layered approach.",
+        "What are the services that the operating system provides to both the users and to the programs?",
+        "What is system calls in OS? Explain in detail with its types.",
+        "Explain operating system functions and services in detail.",
+        "“With the help of a virtual machine, the user can operate software located on the computer platform”. Do you agree with the statement? Give reasons to support your answer."
+      ]
+    },
+    {
+      "unit_no": 3,
+      "name": "Process",
+      "mcqs": [
+        {
+          "question": "Interrupt driven processes will normally run at a very ........................ priority.",
+          "options": [{ "text": "high priority", "correct": true }]
+        },
+        {
+          "question": "Processes are often called ........................ in embedded operating systems.",
+          "options": [{ "text": "tasks", "correct": true }]
+        },
+        {
+          "question": "The term “process” was first used by the designers of the ........................ in ........................",
+          "options": [{ "text": "MULTICS, 1960’s", "correct": true }]
+        },
+        {
+          "question": "In new state, the process awaits admission to the ........................ state.",
+          "options": [{ "text": "ready", "correct": true }]
+        },
+        {
+          "question": "The operating system groups all information that it needs about a particular process into a data structure called a process descriptor or ........................",
+          "options": [{ "text": "Process Control Block (PCB)", "correct": true }]
+        },
+        {
+          "question": "........................ is a set of techniques for the exchange of data among two or more threads in one or more processes.",
+          "options": [{ "text": "Inter-process Communication (IPC)", "correct": true }]
+        },
+        {
+          "question": "........................ are a way for a program to fork itself into two or more simultaneously running tasks.",
+          "options": [{ "text": "Threads", "correct": true }]
+        },
+        {
+          "question": "........................ is the ability of an operating system to execute more than one program simultaneously.",
+          "options": [{ "text": "Multitasking", "correct": true }]
+        },
+        {
+          "question": "The threads library is implemented by time-sharing on a ........................",
+          "options": [{ "text": "single processor", "correct": true }]
+        },
+        {
+          "question": "A process includes PC, registers, and ........................",
+          "options": [{ "text": "variables", "correct": true }]
+        },
+        {
+          "question": "A process does not include which of the following:",
+          "options": [
+            { "text": "program counter", "correct": false },
+            { "text": "stack", "correct": false },
+            { "text": "data section", "correct": false },
+            { "text": "queue", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is true regarding programs and processes?",
+          "options": [
+            { "text": "Program is passive entity stored on disk", "correct": false },
+            { "text": "Process is active.", "correct": false },
+            { "text": "Program becomes process when executable file loaded into memory", "correct": false },
+            { "text": "All of the above", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following are not the states of a process?",
+          "options": [
+            { "text": "New, running, waiting, ready and terminated", "correct": true },
+            { "text": "New, running, waiting and ready", "correct": false },
+            { "text": "New, running, waiting, terminating and terminated", "correct": false },
+            { "text": "New, executing, waiting, ready and terminated", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is not true regarding process creation?",
+          "options": [
+            { "text": "Process creation means the construction of a new process for the execution.", "correct": false },
+            { "text": "Process creation might be performed by system, user or old process itself.", "correct": false },
+            { "text": "A process cannot create a new process itself while executing.", "correct": true },
+            { "text": "The system creates several background processes on starting the computer.", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following statements is not true?",
+          "options": [
+            { "text": "Dispatching is done by operating system when the resources are free or the process has higher priority than the ongoing process.", "correct": false },
+            { "text": "Scheduling means the operating system puts the process from running state to the ready state.", "correct": true },
+            { "text": "Block mode is basically a mode where process waits for input-output.", "correct": false },
+            { "text": "All of the given choices", "correct": false }
+          ]
+        },
+        {
+          "question": "The state of a process after it encounters an I/O instruction is ......................",
+          "options": [
+            { "text": "Ready", "correct": false },
+            { "text": "Blocked/Waiting", "correct": true },
+            { "text": "Idle", "correct": false },
+            { "text": "Running", "correct": false }
+          ]
+        },
+        {
+          "question": "Identify the incorrect statement with respect to the Blocking Process State",
+          "options": [
+            { "text": "When a process invokes an input-output system call, it blocks the process", "correct": false },
+            { "text": "When a process invokes an input-output system call, it puts the operating system in the block mode.", "correct": false },
+            { "text": "Block mode is basically a mode where process waits for input-output.", "correct": false },
+            { "text": "All of the Above", "correct": true }
+          ]
+        },
+        {
+          "question": "In operating system each process has its own",
+          "options": [
+            { "text": "Address space and global variables", "correct": false },
+            { "text": "Open files", "correct": false },
+            { "text": "Pending alarms signals and signal handlers", "correct": false },
+            { "text": "All of the mentioned", "correct": true }
+          ]
+        },
+        {
+          "question": "A process can be terminated due to",
+          "options": [
+            { "text": "Normal exit", "correct": false },
+            { "text": "Fatal error", "correct": false },
+            { "text": "Killed by another process", "correct": false },
+            { "text": "All of the mentioned", "correct": true }
+          ]
+        },
+        {
+          "question": "What is the ready state of a process?",
+          "options": [
+            { "text": "When process is scheduled to run after some execution", "correct": true },
+            { "text": "When process is unable to run until some task has been completed", "correct": false },
+            { "text": "When process is using the CPU", "correct": false },
+            { "text": "None of the mentioned", "correct": false }
+          ]
+        },
+        {
+          "question": "What is the inter process communication?",
+          "options": [
+            { "text": "communication between two processes", "correct": true },
+            { "text": "communication within the process", "correct": false },
+            { "text": "communication between two threads of same process", "correct": false },
+            { "text": "none of the mentioned", "correct": false }
+          ]
+        },
+        {
+          "question": "A process stack does not contain.",
+          "options": [
+            { "text": "Function parameters", "correct": false },
+            { "text": "Local variables", "correct": false },
+            { "text": "Return addresses", "correct": false },
+            { "text": "PID of child process", "correct": true }
+          ]
+        },
+        {
+          "question": "A parent process may terminate the execution of one of its children for which of the following reasons?",
+          "options": [
+            { "text": "The child has exceeded its usage of some of the resources that it has been allocated.", "correct": false },
+            { "text": "The task assigned to the child is no longer required.", "correct": false },
+            { "text": "The parent is exiting, and the operating system does not allow a child to continue", "correct": false },
+            { "text": "All of these", "correct": true }
+          ]
+        },
+        {
+          "question": "In new state, the process awaits admission to the ........................ state.",
+          "options": [
+            { "text": "Running", "correct": false },
+            { "text": "Ready", "correct": true },
+            { "text": "Waiting", "correct": false },
+            { "text": "Blocked", "correct": false }
+          ]
+        },
+        {
+          "question": "The operating system groups all information that it needs about a particular process into a data structure called a process descriptor or ........................",
+          "options": [
+            { "text": "Process Management", "correct": false },
+            { "text": "Process State", "correct": false },
+            { "text": "Process Control Block", "correct": true },
+            { "text": "None of these", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Do you think a single user system requires process communication? Support your answer with logic.",
+        "Suppose a user program faced an error during memory access. What will it do then? Will it be informed to the OS? Explain.",
+        "What resources are used when a thread created? How do they differ from those when a process is created?",
+        "What are the different process states? What is the state of the processor, when a process is waiting for some event to occur?",
+        "Write a brief description on process state transition.",
+        "What is PCB? What is the function of PCB?",
+        "How a process is created?",
+        "What is process hierarchy?",
+        "How a process terminated?",
+        "What is cooperating process? Explain it with example.",
+        "Why inter-process communication required?"
+      ]
+    },
+    {
+      "unit_no": 4,
+      "name": "Process Management",
+      "mcqs": [
+        {
+          "question": "Any process that shares data with other processes is a ....................... process.",
+          "options": [{ "text": "Cooperating", "correct": true }]
+        },
+        {
+          "question": "Message sent by a process can be of either fixed or ....................... size.",
+          "options": [{ "text": "Variable", "correct": true }]
+        },
+        {
+          "question": "A ....................... is associated with more than two processes.",
+          "options": [{ "text": "Link", "correct": true }]
+        },
+        {
+          "question": "A ....................... owned by the operating system is independent.",
+          "options": [{ "text": "mailbox", "correct": true }]
+        },
+        {
+          "question": "The Mach kernel supports the creation and destruction of multiple task.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Window 2000 uses two types of message passing techniques over a port.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "The Information associated with each process in a Process Control Block does not include which of the following?",
+          "options": [
+            { "text": "Process State", "correct": false },
+            { "text": "CPU Scheduling Information", "correct": false },
+            { "text": "Accounting Information", "correct": false },
+            { "text": "Program-management information", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is not a type of queue maintained in the Process Scheduling Queues?",
+          "options": [
+            { "text": "Job Queue", "correct": false },
+            { "text": "Ready Queue", "correct": false },
+            { "text": "Waiting Queue", "correct": true },
+            { "text": "Device Queue", "correct": false }
+          ]
+        },
+        {
+          "question": "In a tightly coupled system or parallel systems, the processor shares________?",
+          "options": [
+            { "text": "Memory and clock", "correct": false },
+            { "text": "All of the choices", "correct": true },
+            { "text": "Only memory is shared, not the clock", "correct": false },
+            { "text": "Only clock is shared, memory is not shared", "correct": false }
+          ]
+        },
+        {
+          "question": "In operating system each process has its own",
+          "options": [
+            { "text": "Address space and global variables", "correct": false },
+            { "text": "Open files", "correct": false },
+            { "text": "Pending alarms signals and signal handlers", "correct": false },
+            { "text": "All of the mentioned", "correct": true }
+          ]
+        },
+        {
+          "question": "To access the services of operating system, the interface is provided by which of the following?",
+          "options": [
+            { "text": "System calls", "correct": true },
+            { "text": "API", "correct": false },
+            { "text": "library", "correct": false },
+            { "text": "assembly instructions", "correct": false }
+          ]
+        },
+        {
+          "question": "The medium-term scheduler can be added if_________?",
+          "options": [
+            { "text": "The degree of multiple programming needs to increase", "correct": false },
+            { "text": "Process is removed from memory and brought back to the disk", "correct": false },
+            { "text": "The degree of multiple programming needs to decrease", "correct": true },
+            { "text": "All of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "The iOS provides_________?",
+          "options": [
+            { "text": "Multiple background processes running in the memory with limits", "correct": false },
+            { "text": "Single foreground process controlled via user interface", "correct": false },
+            { "text": "Multiple background processes running in the memory but not on the display", "correct": false },
+            { "text": "All of the given choices", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is not true regarding Android?",
+          "options": [
+            { "text": "Background process uses a service to perform tasks", "correct": false },
+            { "text": "Service can keep running even if background process is suspended", "correct": false },
+            { "text": "Service has no user interface", "correct": false },
+            { "text": "It requires larger memory use due to the user interface.", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is not true regarding context-switching?",
+          "options": [
+            { "text": "Context of a process is represented in the Process Control Block", "correct": false },
+            { "text": "Context-switch time is an overhead for the system", "correct": false },
+            { "text": "Context switching time is independent of the hardware support", "correct": true },
+            { "text": "None of the choices", "correct": false }
+          ]
+        },
+        {
+          "question": "What is operating system?",
+          "options": [
+            { "text": "collection of programs that manages hardware resources", "correct": false },
+            { "text": "system service provider to the application programs", "correct": false },
+            { "text": "link to interface the hardware and application programs", "correct": false },
+            { "text": "all of the mentioned", "correct": true }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What is a process?",
+        "What about process states?",
+        "What is a process control block?",
+        "How do processes inter-communicate?",
+        "How do processes synchronize their activity?",
+        "How do processes protect critical data (Critical sections)?",
+        "Consider the inter-process-communication scheme where mailboxes are used:\na) Suppose a process P wants to wait for two messages, one from mailbox A and one from mailbox B. What sequence of send and receive should it execute?\nb) What sequence of send and receive should P execute if P wants to wait for one message from mailbox A or from mailbox B (or from both)?",
+        "What are the benefits and the detriments of each of the following? Consider both the systems and the programmers’ levels.\na) Direct and indirect communication\nb) Symmetric and asymmetric communication\nc) Automatic and explicit buffering\nd) Send by copy and send by reference Notes\ne) Fixed-sized and variable-sized messages",
+        "Describe the actions taken by a kernel to switch context between processes.",
+        "Write a socket-based Fortune Teller server. Your program should create a server that listens to a specified port. When a client receives a connection, the server should respond with a random fortune chosen from its database of fortunes.",
+        "Describe the actions used in Buffering in the processes.",
+        "Describe about the process scheduling in the operating system.",
+        "How do processes inter-process communication?",
+        "What are the benefits and the detriments of Cooperating process.",
+        "Describe the Process States in operating system."
+      ]
+    },
+    {
+      "unit_no": 5,
+      "name": "Inter-Process Communication",
+      "mcqs": [
+        {
+          "question": "Interrupt driven processes will normally run at a very ........................ priority.",
+          "options": [{ "text": "high priority", "correct": true }]
+        },
+        {
+          "question": "Processes are often called ........................ in embedded operating systems.",
+          "options": [{ "text": "tasks", "correct": true }]
+        },
+        {
+          "question": "The term “process” was first used by the designers of the ........................ in ........................",
+          "options": [{ "text": "MULTICS, 1960’s", "correct": true }]
+        },
+        {
+          "question": "In new state, the process awaits admission to the ........................ state.",
+          "options": [{ "text": "ready", "correct": true }]
+        },
+        {
+          "question": "The operating system groups all information that it needs about a particular process into a data structure called a process descriptor or ........................",
+          "options": [{ "text": "Process Control Block (PCB)", "correct": true }]
+        },
+        {
+          "question": "........................ is a set of techniques for the exchange of data among two or more threads in one or more processes.",
+          "options": [{ "text": "Inter-process Communication (IPC)", "correct": true }]
+        },
+        {
+          "question": "........................ are a way for a program to fork itself into two or more simultaneously running tasks.",
+          "options": [{ "text": "Threads", "correct": true }]
+        },
+        {
+          "question": "........................ is the ability of an operating system to execute more than one program simultaneously.",
+          "options": [{ "text": "Multitasking", "correct": true }]
+        },
+        {
+          "question": "The threads library is implemented by time-sharing on a ........................",
+          "options": [{ "text": "single processor", "correct": true }]
+        },
+        {
+          "question": "A process includes PC, registers, and ........................",
+          "options": [{ "text": "variables", "correct": true }]
+        },
+        {
+          "question": "A process does not include which of the following:",
+          "options": [
+            { "text": "program counter", "correct": false },
+            { "text": "stack", "correct": false },
+            { "text": "data section", "correct": false },
+            { "text": "queue", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is not related to the physical implementation of communication link?",
+          "options": [
+            { "text": "Shared memory", "correct": false },
+            { "text": "Automatic or explicit buffering", "correct": true },
+            { "text": "Hardware bus", "correct": false },
+            { "text": "Network", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is a shortcut for sending an INT signal using the keyboard?",
+          "options": [
+            { "text": "Ctrl-Z", "correct": false },
+            { "text": "Ctrl-C", "correct": true },
+            { "text": "Ctrl-K", "correct": false },
+            { "text": "Ctrl-I", "correct": false }
+          ]
+        },
+        {
+          "question": "A single threaded process is the one in which ………………?",
+          "options": [
+            { "text": "One command is processed at a time", "correct": true },
+            { "text": "Multiple parts of the program are allowed to executed at the same time", "correct": false },
+            { "text": "There are lightweight processes available within the process", "correct": false },
+            { "text": "None of the given choices", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is not an advantage of the Cooperating Processes?",
+          "options": [
+            { "text": "Information Privacy", "correct": true },
+            { "text": "Communication speed-up", "correct": false },
+            { "text": "Modularity", "correct": false },
+            { "text": "Convenience", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Do you think a single user system requires process communication? Support your answer with logic.",
+        "Suppose a user program faced an error during memory access. What will it do then? Will it be informed to the OS? Explain.",
+        "What resources are used when a thread created? How do they differ from those when a process is created?",
+        "What are the different process states? What is the state of the processor, when a process is waiting for some event to occur?",
+        "Write a brief description on process state transition.",
+        "What is PCB? What is the function of PCB?",
+        "How a process is created?",
+        "What is process hierarchy?",
+        "How a process terminated?",
+        "What is cooperating process? Explain it with example. Also explain why inter-process communication is required?"
+      ]
+    },
+    {
+      "unit_no": 6,
+      "name": "CPU Scheduling",
+      "mcqs": [
+        {
+          "question": "A ......................... header will contain pointers to the first and last PCBs in the list.",
+          "options": [{ "text": "ready queue", "correct": true }]
+        },
+        {
+          "question": "......................... scheduling is the basics of multiprogramming.",
+          "options": [{ "text": "CPU", "correct": true }]
+        },
+        {
+          "question": "A major task of an operating system is to manage a collection of .........................",
+          "options": [{ "text": "Processes", "correct": true }]
+        },
+        {
+          "question": "The CPU is ......................... to the selected process by the dispatcher.",
+          "options": [{ "text": "allocated", "correct": true }]
+        },
+        {
+          "question": ".......................is a method of CPU scheduling that is a preemptive version of shortest job next scheduling.",
+          "options": [{ "text": "Shortest remaining time", "correct": true }]
+        },
+        {
+          "question": "A .................scheduling algorithm will simply put the new process at the head of the ready queue.",
+          "options": [{ "text": "non preemptive priority", "correct": true }]
+        },
+        {
+          "question": "......................... scheduling is essentially concerned with memory management.",
+          "options": [{ "text": "Medium term", "correct": true }]
+        },
+        {
+          "question": "The most common goal of scheduling is to ......................... of a task set.",
+          "options": [{ "text": "minimize the expected runtime", "correct": true }]
+        },
+        {
+          "question": "......................... scheduling involves assigning a task to a particular processor within the system.",
+          "options": [{ "text": "Global", "correct": true }]
+        },
+        {
+          "question": "......................... scheduling is really the easiest way of scheduling.",
+          "options": [{ "text": "Round robin", "correct": true }]
+        },
+        {
+          "question": "………….. is a kind of program without any kind of user interaction.",
+          "options": [
+            { "text": "User Program", "correct": false },
+            { "text": "Job", "correct": true },
+            { "text": "Process", "correct": false },
+            { "text": "System Program", "correct": false }
+          ]
+        },
+        {
+          "question": "The goal of CPU scheduling is to maximize the………….",
+          "options": [
+            { "text": "Turnaround time", "correct": false },
+            { "text": "Waiting time", "correct": false },
+            { "text": "Throughput", "correct": true },
+            { "text": "Response time", "correct": false }
+          ]
+        },
+        {
+          "question": "The time required by the process to complete the execution is called ………?",
+          "options": [
+            { "text": "Burst Time", "correct": true },
+            { "text": "Arrival Time", "correct": false },
+            { "text": "Finish Time", "correct": false },
+            { "text": "None of these", "correct": false }
+          ]
+        },
+        {
+          "question": "The condition when a number of programs which can be present in the memory at the same time is called …………….?",
+          "options": [
+            { "text": "Multi-tasking", "correct": false },
+            { "text": "Multi-programming", "correct": true },
+            { "text": "Time sharing", "correct": false },
+            { "text": "Real time", "correct": false }
+          ]
+        },
+        {
+          "question": "In a soft real-time system, a process is ………………...",
+          "options": [
+            { "text": "required to move between the queues using the concept of aging", "correct": false },
+            { "text": "required to complete a critical task within a guaranteed amount of time", "correct": false },
+            { "text": "the scheduling technique which requires that critical processes receive priority over less fortunate ones.", "correct": true },
+            { "text": "A technique that does not make use of priority scheduling", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Suppose that a scheduling algorithm favors those processes that have used the least processor time in the recent past. Why will this algorithm favor I/O-bound programs and yet not permanently starve CPU-bound programs?",
+        "Assume you have the following\na) Suppose a system uses FCFS scheduling. Create a Gantt chart illustrating the execution of these processes?\nb) What is the turnaround time for process p3?\nc) What is the average wait time for the processes?",
+        "Suppose a new process in a system arrives at an average of six processes per minute and each such process requires an average of 8 seconds of service time. Estimate the fraction of time the CPU is busy in a system with a single processor.",
+        "A CPU scheduling algorithm determines an order for the execution of its scheduled processes. Given n processes to be scheduled on one processor, how many possible different schedules are there? Give a formula in terms of n.",
+        "Many CPU-scheduling algorithms are parameterized. For example, the RR algorithm requires a parameter to indicate the time slice. Multilevel feedback queues require parameters to define the number of queues, the scheduling algorithms for each queue, the criteria used to move processes between queues, and so on.\nThese algorithms are a really sets of algorithms (for example, the set of RR algorithms for all time slices, and so on). One set of algorithms may include another (for example, the FCFS algorithm is the RR algorithm with an infinite time quantum). What (if any) relation holds between the following pairs of sets of algorithms?\na) Priority and SJF\nb) Multilevel Feedback Queues and FCFS\nc) Priority and FCFS\nd) RR and SJF",
+        "Distinguish between long term and short-term scheduling.",
+        "Consider the following set of processes, with the length of the CPU burst given in milliseconds.\nThe processes are assumed to have arrived in the order P1, P2, P3, P4, P5 all at time 0.\na) Draw four Gantt charts that illustrate the execution of these processes using the following scheduling algorithms: FCFS, SJF, non-preemptive priority (a smaller priority number implies a higher priority), and RR (quantum = 1).\nb) What is the turnaround time of each process for each of the scheduling algorithms in part a?\nc) What is the waiting time of each process for each of the scheduling algorithms in part a?\nConsider the following set of processes, with the length of the CPU burst and arrival time given in milliseconds.\na) Draw four Gantt charts that illustrate the execution of these processes using the following scheduling algorithms: FCFS, SJF, (the algorithm can look into the future and wait for a shorter process that will arrive).\nb) What is the turnaround time of each process for each of the scheduling algorithms in part a?\nc) What is the waiting time of each process for each of the scheduling algorithms in part a?",
+        "Explain the differences in the degree to which the following scheduling algorithms discriminate in favor of short processes:\na) First Come First Served\nb) Round Robin\nc) Multilevel Feedback Queues",
+        "Write short notes on:\na) Waiting time\nb) Response time\nc) Throughput"
+      ]
+    },
+    {
+      "unit_no": 7,
+      "name": "Scheduling Algorithms",
+      "mcqs": [
+        {
+          "question": "A thread",
+          "options": [
+            { "text": "is a lightweight process where the context switching is low.", "correct": true },
+            { "text": "is a lightweight process where the context switching is high.", "correct": false },
+            { "text": "is used to speed up paging.", "correct": false },
+            { "text": "none of the above.", "correct": false }
+          ]
+        },
+        {
+          "question": "Process is",
+          "options": [
+            { "text": "program in High level language kept on disk", "correct": false },
+            { "text": "contents of main memory", "correct": false },
+            { "text": "a program in execution", "correct": true },
+            { "text": "a job in secondary memory", "correct": false }
+          ]
+        },
+        {
+          "question": "Fork is",
+          "options": [
+            { "text": "the dispatching of a task", "correct": false },
+            { "text": "the creation of a new job", "correct": false },
+            { "text": "the creation of a new process", "correct": true },
+            { "text": "increasing the priority of a task", "correct": false }
+          ]
+        },
+        {
+          "question": "The components that process data are located in the:",
+          "options": [
+            { "text": "input devices", "correct": false },
+            { "text": "output devices", "correct": false },
+            { "text": "system unit", "correct": true },
+            { "text": "storage component", "correct": false }
+          ]
+        },
+        {
+          "question": "System software is the set of programs that enables your computer’s hardware devices and ....................... software to work together.",
+          "options": [
+            { "text": "management", "correct": false },
+            { "text": "processing", "correct": false },
+            { "text": "utility", "correct": false },
+            { "text": "application", "correct": true }
+          ]
+        },
+        {
+          "question": "......................... is a method of CPU scheduling that is a preemptive version of shortest job next scheduling.",
+          "options": [
+            { "text": "Shortest remaining time", "correct": true },
+            { "text": "Round robin", "correct": false },
+            { "text": "Multilevel queue", "correct": false },
+            { "text": "First come first serve", "correct": false }
+          ]
+        },
+        {
+          "question": "A ......................... scheduling algorithm will simply put the new process at the head of the ready queue.",
+          "options": [
+            { "text": "preemptive", "correct": false },
+            { "text": "non-preemptive priority", "correct": true },
+            { "text": "preemptive priority", "correct": false },
+            { "text": "non-preemptive and non-priority", "correct": false }
+          ]
+        },
+        {
+          "question": "......................... scheduling is essentially concerned with memory management.",
+          "options": [
+            { "text": "Medium term", "correct": true },
+            { "text": "Short term", "correct": false },
+            { "text": "Long term", "correct": false },
+            { "text": "End term", "correct": false }
+          ]
+        },
+        {
+          "question": "The most common goal of scheduling is to ......................... of a task set.",
+          "options": [
+            { "text": "maximize the expected runtime", "correct": false },
+            { "text": "minimize the expected runtime", "correct": true },
+            { "text": "eliminate the runtime", "correct": false },
+            { "text": "estimate the expected runtime", "correct": false }
+          ]
+        },
+        {
+          "question": "......................... scheduling involves assigning a task to a particular processor within the system.",
+          "options": [
+            { "text": "Global", "correct": true },
+            { "text": "Local", "correct": false },
+            { "text": "Multilevel queue", "correct": false },
+            { "text": "Priority", "correct": false }
+          ]
+        },
+        {
+          "question": "The number of processes completed per unit time are known as .......................",
+          "options": [{ "text": "throughput", "correct": true }]
+        },
+        {
+          "question": "...................... in the sum of periods spent waiting in the ready queue.",
+          "options": [{ "text": "Waiting time", "correct": true }]
+        },
+        {
+          "question": "A ...................... process is one which is repeatedly executed once in each period.",
+          "options": [{ "text": "periodic", "correct": true }]
+        },
+        {
+          "question": "On-line scheduling algorithms does not compute a schedule in real-time as processes arrive.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "Runnable state in a thread can be thought of as a default state.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What is a thread? Describe the differences among short-term, medium-term, and long-term scheduling.",
+        "Provide two programming examples in which multi-threading does not provide better performance than a single-threaded solution.",
+        "Describe the actions taken by a thread library to context switch between user-level threads.",
+        "Under what circumstances does a multithreaded solution using multiple kernel threads provide better performance than a single-threaded solution on a single-processor system?",
+        "Which of the following components of program state are shared across threads in a multithreaded process?\n(a) Register values (b) Heap memory\n(c) Global variables (d) Stack memory",
+        "Can a multi-threaded solution using multiple user-level threads achieve better performance on multi-processor system than on a single-processor system?",
+        "Consider multi-processor system and a multi-threaded program written using the many-to-many threading model. Let the number of user-level threads in the program be more than the number of processors in the system. Discuss the performance implications of the following scenarios.\na) The number of kernel threads allocated to the program is less than the number of processors.\nb) The number of kernel threads allocated to the program is equal to the number of processors.\nc) The number of kernel threads allocated to the program is greater than the number of processors but less than the number of user level threads.",
+        "Write a multi-threaded Java, Pthreads, or Win32 program that outputs prime numbers. This program should work as follows: The user will run the program and will enter a number on the command line. The program will then create a separate thread that outputs all the prime numbers less than or equal to the number entered by the user.",
+        "Why is it important for the scheduler to distinguish I/O-bound programs from CPU-bound programs?",
+        "Discuss how the following pairs of scheduling criteria conflict in certain settings.\na) CPU utilization and response time\nb) Average turnaround time and maximum waiting time\nc) I/O device utilization and CPU utilization",
+        "Which of the following scheduling algorithms could result in starvation?\na) First-come, first-served\nb) Shortest job first\nc) Round robin",
+        "Consider a system implementing multilevel queue scheduling. What strategy can a computer user employ to maximize the amount of CPU time allocated to the user’s process?",
+        "Explain the differences in the degree to which the following scheduling algorithms discriminate in favor of short processes:\na) FCFS\nb) RR\nc) Multilevel feedback queues",
+        "Using the Windows XP scheduling algorithm, what is the numeric priority of a thread for the following scenarios?\na) A thread in the REALTIME PRIORITY CLASS with a relative priority of HIGHEST.\nb) A thread in the NORMAL PRIORITY CLASS with a relative priority of NORMAL.\nc) A thread in the HIGH PRIORITY CLASS with a relative priority of ABOVE NORMAL.",
+        "Consider the scheduling algorithm in the Solaris operating system for time sharing threads:\na) What is the time quantum (in milliseconds) for a thread with priority 10? With priority 55?\nb) Assume a thread with priority 35 has used its entire time quantum without blocking. What new priority will the scheduler assign this thread?\nc) Assume a thread with priority 35 blocks for I/O before its time quantum has expired. What new priority will the scheduler assign this thread?"
+      ]
+    },
+    {
+      "unit_no": 8,
+      "name": "Process Synchronization",
+      "mcqs": [
+        {
+          "question": "Process synchronization facilitates in getting the maximum ……………..",
+          "options": [{ "text": "Throughput", "correct": true }]
+        },
+        {
+          "question": ".......................... are used in software systems in much the same way as they are in railway systems.",
+          "options": [{ "text": "Semaphores", "correct": true }]
+        },
+        {
+          "question": "Part of the program where the shared memory is accessed is called the ...........................",
+          "options": [{ "text": "Critical Section", "correct": true }]
+        },
+        {
+          "question": "A .......................... is a software synchronization tool with high-level of abstraction that provides a convenient and effective mechanism for process synchronization?",
+          "options": [{ "text": "Monitor", "correct": true }]
+        },
+        {
+          "question": "To avoid the race condition, the number of processes that may be simultaneously inside their critical section is ……………",
+          "options": [{ "text": "one", "correct": true }]
+        },
+        {
+          "question": "Algorithms that avoid mutual exclusion are called .......................... synchronization algorithms.",
+          "options": [{ "text": "nonblocking", "correct": true }]
+        },
+        {
+          "question": ".......................... abstracted the key notion of mutual exclusion in his concepts of semaphores.",
+          "options": [{ "text": "E.W. Dijkstra (1965)", "correct": true }]
+        },
+        {
+          "question": "“No preemption” condition also known as ...........................",
+          "options": [{ "text": "lockout", "correct": true }]
+        },
+        {
+          "question": ".......................... processes share a common, fixed-size (bounded) buffer.",
+          "options": [{ "text": "Two", "correct": true }]
+        },
+        {
+          "question": "Binary Semaphores can assume only the value 0 or the value ...........................",
+          "options": [{ "text": "1", "correct": true }]
+        },
+        {
+          "question": "Process Synchronization coordinates the execution of processes such that no two processes can have access to the same shared data and resources.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Maintaining data consistency requires a mechanism to ensure the orderly execution of cooperating processes.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "A critical region is a piece of code which only one process executes at a time",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "When a process is executing in the critical section, then only one additional process can execute in the critical section.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "The critical section is a code segment where the shared variables can be accessed.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Race conditions in critical sections can be avoided if the critical section is treated as non-atomic instruction",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "The schedules which have interleaving of operations are called serial schedules.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What is the meaning of the term busy waiting? What other kinds of waiting are there in an operating system? Can busy waiting be avoided altogether? Explain your answer.",
+        "What do you mean by mutual exclusion conditions? Explain",
+        "Show that, if the wait and signal operations are not executed atomically, then mutual exclusion may be violated.",
+        "Demonstrate that monitors, conditional critical regions, and semaphores are all equivalent, insofar as the same types of synchronization problems can be implemented with them. 6.10 Write a bounded-buffer monitor in which the buffers (portions) are embedded within the monitor itself.",
+        "Consider a system consisting of processes P₁, P2, P, each of which has a unique priority number. Write a monitor that allocates three identical line printers to these processes, using the priority numbers for deciding the order of allocation.",
+        "A file is to be shared among different processes, each of which has a unique number. The file can be accessed simultaneously by several processes, subject to the following constraint. The sum of all unique numbers associated with all the processes currently accessing the file must be less than n. Write a monitor to coordinate access to the file."
+      ]
+    },
+    {
+      "unit_no": 9,
+      "name": "Deadlocks",
+      "mcqs": [
+        {
+          "question": ".......................... involves the orderly sharing of system resources by processes.",
+          "options": [{ "text": "Synchronization", "correct": true }]
+        },
+        {
+          "question": ".......................... are used in software systems in much the same way as they are in railway systems.",
+          "options": [{ "text": "Semaphores", "correct": true }]
+        },
+        {
+          "question": "Part of the program where the shared memory is accessed is called the ...........................",
+          "options": [{ "text": "Critical Section", "correct": true }]
+        },
+        {
+          "question": "A .......................... is a software synchronization tool with high-level of abstraction that provides a convenient and effective mechanism for process synchronization?",
+          "options": [{ "text": "Monitor", "correct": true }]
+        },
+        {
+          "question": "Resource Allocation Graphs (RAGs) are .......................... labeled graphs.",
+          "options": [{ "text": "directed", "correct": true }]
+        },
+        {
+          "question": "Algorithms that avoid mutual exclusion are called .......................... synchronization algorithms.",
+          "options": [{ "text": "non-blocking", "correct": true }]
+        },
+        {
+          "question": ".......................... abstracted the key notion of mutual exclusion in his concepts of semaphores.",
+          "options": [{ "text": "E.W. Dijkstra (1965)", "correct": true }]
+        },
+        {
+          "question": "“No preemption” condition also known as ...........................",
+          "options": [{ "text": "lockout", "correct": true }]
+        },
+        {
+          "question": ".......................... processes share a common, fixed-size (bounded) buffer.",
+          "options": [{ "text": "Two", "correct": true }]
+        },
+        {
+          "question": "A process can be said to be in the deadlock state, if it was waiting for an event that will never occur.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "A system has 3 processes sharing 4 resources. If each process needs a maximum of 2 units, then deadlocks may occur",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "Algorithms that avoid mutual exclusion are called non-blocking synchronization algorithms.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Algorithms that avoid mutual exclusion are called .......................... synchronization algorithms.",
+          "options": [
+            { "text": "Blocking", "correct": false },
+            { "text": "non-blocking", "correct": true },
+            { "text": "restricting", "correct": false },
+            { "text": "non-restricting", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following helps us in identifying a deadlock condition?",
+          "options": [
+            { "text": "Starvation graph", "correct": false },
+            { "text": "Resource allocation graph", "correct": true },
+            { "text": "Inversion graph", "correct": false },
+            { "text": "None of the given choices", "correct": false }
+          ]
+        },
+        {
+          "question": "A process can be said to be in the ………. state, if it was waiting for an event that will never occur.",
+          "options": [
+            { "text": "safe", "correct": false },
+            { "text": "unsafe", "correct": false },
+            { "text": "Starvation", "correct": false },
+            { "text": "Deadlock", "correct": true }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What is a safe state? What is its use in deadlock avoidance?",
+        "Describe briefly any one method of deadlock prevention.",
+        "What is concurrency? Explain with example deadlock and starvation.",
+        "Explain the different deadlock strategies.",
+        "Can a process be allowed to request multiple resources simultaneously in a system where deadlock is avoided? Discuss why or why not.",
+        "How deadlock situation is avoided and prevented so that no systems are locked by deadlock?",
+        "Consider the following resource allocation situation:\nProcess P = {P1, P2, P3, P4, P5}\nResources R = {R1, R2, R3}\nAllocation E = {P1®R1, P1®R2, P2®R2, P3®R2, P4®R3, P5®R2, R2®P4, R3®P1}\nResource instances n(R1) =3, n(R2) =4, n(R3) =1\nDraw the precedence graph. Determine whether there is a deadlock in the above situation.",
+        "Explain process synchronization process.",
+        "What do you mean by mutual exclusion conditions? Explain",
+        "Write short note on semaphore."
+      ]
+    },
+    {
+      "unit_no": 10,
+      "name": "Memory Management– I",
+      "mcqs": [
+        {
+          "question": "The principal of locality of reference justifies the use of ______________",
+          "options": [{ "text": "cache memory", "correct": true }]
+        },
+        {
+          "question": "_______________is an address generated by the CPU during execution",
+          "options": [{ "text": "Logical address", "correct": true }]
+        },
+        {
+          "question": "In address binding, the logical address undergoes translation by the _____________",
+          "options": [{ "text": "address translation unit", "correct": true }]
+        },
+        {
+          "question": "The process of bringing the program from the secondary memory to the main memory is known as ________",
+          "options": [{ "text": "Loading", "correct": true }]
+        },
+        {
+          "question": "___________ loads the entire program into main memory before start of the program execution",
+          "options": [{ "text": "Static loading", "correct": true }]
+        },
+        {
+          "question": "In __________linking load time might be reduced if the shared library code is already present in memory.",
+          "options": [{ "text": "Dynamic", "correct": true }]
+        },
+        {
+          "question": "In the Physical Address Space, the Physical Address identifies a ______ of required data in a memory.",
+          "options": [{ "text": "physical location", "correct": true }]
+        },
+        {
+          "question": "Static loading loads the program into the main memory when required.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "Dynamic loading leads to slow program execution.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "In Physical Address Space, the user directly deals with the physical address but can access by its corresponding logical address.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "In the concept of locality of reference, the page reference being made by a process __________.",
+          "options": [
+            { "text": "will always be to the page used in the previous page reference.", "correct": false },
+            { "text": "is likely to be, to one of the pages used in the last few page references.", "correct": true },
+            { "text": "will always be to one of the pages existing in memory.", "correct": false },
+            { "text": "will always lead to a Page fault.", "correct": false }
+          ]
+        },
+        {
+          "question": "The load time might be reduced in case of dynamic linking if_____________",
+          "options": [
+            { "text": "The shared library code is already present in memory.", "correct": true },
+            { "text": "If we recompile the program", "correct": false },
+            { "text": "If we relink the program", "correct": false },
+            { "text": "If we recompile and relink again", "correct": false }
+          ]
+        },
+        {
+          "question": "Primary memory stores ____________",
+          "options": [
+            { "text": "Data alone", "correct": false },
+            { "text": "Programs alone", "correct": false },
+            { "text": "Results alone", "correct": false },
+            { "text": "All of these", "correct": true }
+          ]
+        },
+        {
+          "question": "Memory is made up of ______________",
+          "options": [
+            { "text": "Set of wires", "correct": false },
+            { "text": "Set of circuits", "correct": false },
+            { "text": "Large number of cells", "correct": false },
+            { "text": "All of these", "correct": true }
+          ]
+        },
+        {
+          "question": "The principal of locality of reference justifies the use of",
+          "options": [
+            { "text": "re-enterable", "correct": false },
+            { "text": "non-reusable", "correct": false },
+            { "text": "virtual memory", "correct": false },
+            { "text": "cache memory", "correct": true }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Write a short description on:\n(a) Binding of Instructions and Data to Memory\n(b) Memory-Management Unit\n(c) CPU utilization\n(d) Memory Relocation",
+        "What is high-speed cache?",
+        "What is overlaying? Explain it.",
+        "Consider a logical address space of eight pages of 1,024 words each, mapped onto a physical memory of 32 frames.",
+        "How many bits are there in the logical address?",
+        "How many bits are there in the physical address?",
+        "Why are segmentation and paging sometimes combined into one scheme?",
+        "Describe a mechanism by which one segment could belong to the address space of two different processes."
+      ]
+    },
+    {
+      "unit_no": 11,
+      "name": "Memory Management – II",
+      "mcqs": [
+        {
+          "question": "In the concept of ____________, whenever a process is running, it will not use the complete program at the same time",
+          "options": [{ "text": "overlays", "correct": true }]
+        },
+        {
+          "question": "The place in memory where an overlay is loaded is called a _______________region.",
+          "options": [{ "text": "destination", "correct": true }]
+        },
+        {
+          "question": "The method assumes dividing a program into self-contained object code blocks called _________",
+          "options": [{ "text": "Overlays", "correct": true }]
+        },
+        {
+          "question": "In ________________ memory allocation method the memory manager places a process in the largest block of unallocated memory available.",
+          "options": [{ "text": "worst fit", "correct": true }]
+        },
+        {
+          "question": "Belady’s Optimal Algorithm is also known as _____________________",
+          "options": [{ "text": "perfect prediction", "correct": true }]
+        },
+        {
+          "question": "The Best-Fit approach in the Dynamic Storage-Allocation Problem allocate the smallest hole that is big enough.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "The main problem in Fixed partitioning is that the size of process is independent of the maximum size of the partition.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "In the concept of overlays, once a part of the program is done with the execution, it is pulled back and a new required part is run.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Purpose of the swapping is to access the data present in the hard disk and bring it to RAM.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "Program counter (PC) contains",
+          "options": [
+            { "text": "Address of an instruction to be fetched", "correct": true },
+            { "text": "Instructions most recently fetched", "correct": false },
+            { "text": "Data to be written into memory", "correct": false },
+            { "text": "Data to be read from memory", "correct": false }
+          ]
+        },
+        {
+          "question": "To move a program from fast-access memory to a slow-access memory is known as ____________",
+          "options": [
+            { "text": "Swap-in", "correct": false },
+            { "text": "Swap-out", "correct": true },
+            { "text": "Memory reallocation", "correct": false },
+            { "text": "None of the given choices", "correct": false }
+          ]
+        },
+        {
+          "question": "The process of translating virtual addresses into real addresses is called ............................",
+          "options": [
+            { "text": "Mapping", "correct": true },
+            { "text": "Loading", "correct": false },
+            { "text": "Linking", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": ".................................. happens when a hard drive has to move its heads over the swap area many times due to the high number of page faults.",
+          "options": [
+            { "text": "Thrashing", "correct": true },
+            { "text": "Spooling", "correct": false },
+            { "text": "Mapping", "correct": false },
+            { "text": "None of the given choices", "correct": false }
+          ]
+        },
+        {
+          "question": "The contiguous memory allocation is the one in which____________",
+          "options": [
+            { "text": "every process is contained in a single contiguous section of memory", "correct": true },
+            { "text": "all processes are contained in a single contiguous section of memory", "correct": false },
+            { "text": "the memory space is contiguous", "correct": false },
+            { "text": "none of the mentioned", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is not a partition allocation method used in contiguous memory allocations?",
+          "options": [
+            { "text": "Best Fit", "correct": false },
+            { "text": "Average Fit", "correct": true },
+            { "text": "Worst Fit", "correct": false },
+            { "text": "First Fit", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Write a short description on:\na) Binding of Instructions and Data to Memory\nb) Memory-Management Unit\nc) CPU utilization\nd) Memory Relocation",
+        "What is high-speed cache?",
+        "What is overlaying? Explain it.",
+        "Consider a logical address space of eight pages of 1,024 words each, mapped onto a physical memory of 32 frames.",
+        "How many bits are there in the logical address?",
+        "How many bits are there in the physical address?",
+        "Why are segmentation and paging sometimes combined into one scheme?",
+        "Describe a mechanism by which one segment could belong to the address space of two different processes.",
+        "Given memory partitions of l00K, 500K, 200K, 300K, and 600K (in order), how would each of the first-fit, best-fit, and worst-fit algorithms place processes of 212K, 417K, 112K, and 426K (in order)? Which algorithm makes the most efficient use of memory?",
+        "Why is it that, on a system with paging, a process cannot access memory that it does not own? How could the operating system allow access to other memory? Why should it or should it not?",
+        "What is the cause of thrashing? How does the system detect thrashing? Once it detects thrashing, what can the system do to eliminate this problem?",
+        "What is virtual memory? Explain the working of virtual memory.",
+        "Describe the dynamic page replacement method."
+      ]
+    },
+    {
+      "unit_no": 12,
+      "name": "Memory Management – III",
+      "mcqs": [
+        {
+          "question": "The algorithm in which we split m frames among n processes, to give everyone an equal share, m/n frames is known as ____________",
+          "options": [{ "text": "equal allocation algorithm", "correct": true }]
+        },
+        {
+          "question": "Thrashing _______ the CPU utilization.",
+          "options": [{ "text": "Decreases", "correct": true }]
+        },
+        {
+          "question": "A program is generally composed of several different localities, which _____ overlap.",
+          "options": [{ "text": "May", "correct": true }]
+        },
+        {
+          "question": "A page fault occurs when a page is not available in memory and cannot be accessed.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "At least a minimum number of frames should be allocated to each process because a lesser number of frames for allocation, leads to a less number of page faults",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "Thrashing leads to a constant state of paging and page faults",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "question": "When a process becomes inactive, its working set cannot migrate to disk.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "question": "Thrashing",
+          "options": [
+            { "text": "reduces page I/O", "correct": false },
+            { "text": "decreases the degree of multiprogramming", "correct": false },
+            { "text": "implies excessive page I/O", "correct": true },
+            { "text": "improves the system performance", "correct": false }
+          ]
+        },
+        {
+          "question": "Dirty bit for a page in a page table",
+          "options": [
+            { "text": "helps avoid unnecessary writes on a paging device", "correct": true },
+            { "text": "helps maintain LRU information", "correct": false },
+            { "text": "allows only read on a page", "correct": false },
+            { "text": "none of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "The page replacement algorithm with the lowest fault rate is___________",
+          "options": [
+            { "text": "Optimal page replacement algorithm", "correct": true },
+            { "text": "LRU replacement algorithm", "correct": false },
+            { "text": "FIFO", "correct": false },
+            { "text": "Counting based", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following algorithms is commonly not used to allocate frames to a process?",
+          "options": [
+            { "text": "Equal allocation algorithm", "correct": false },
+            { "text": "Proportional allocation algorithm", "correct": false },
+            { "text": "Final allocation algorithm", "correct": true },
+            { "text": "None of the given choices", "correct": false }
+          ]
+        },
+        {
+          "question": "With either equal or proportional algorithm, a high priority process is treated ___________ a low priority process.",
+          "options": [
+            { "text": "greater than", "correct": false },
+            { "text": "same as", "correct": true },
+            { "text": "lesser than", "correct": false },
+            { "text": "none of the mentioned", "correct": false }
+          ]
+        },
+        {
+          "question": "The working set model is used in memory management to implement the concept of____?",
+          "options": [
+            { "text": "Thrashing", "correct": false },
+            { "text": "segmentation", "correct": false },
+            { "text": "principle of locality", "correct": true },
+            { "text": "paging", "correct": false }
+          ]
+        },
+        {
+          "question": "in which of the following conditions can we say that a process is thrashing?",
+          "options": [
+            { "text": "If it spends a lot of time executing, rather than paging", "correct": false },
+            { "text": "If it spends a lot of time paging than executing", "correct": true },
+            { "text": "If it has no memory allocated to it", "correct": false },
+            { "text": "None of the mentioned", "correct": false }
+          ]
+        },
+        {
+          "question": "By locality we mean______________?",
+          "options": [
+            { "text": "a set of pages that are actively used together", "correct": true },
+            { "text": "a space in memory", "correct": false },
+            { "text": "an area near a set of processes", "correct": false },
+            { "text": "none of the mentioned", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Write a short description on:\na) Binding of Instructions and Data to Memory\nb) Memory-Management Unit\nc) CPU utilization\n(d) Memory Relocation",
+        "What is high-speed cache?",
+        "What is overlaying? Explain it.",
+        "Consider a logical address space of eight pages of 1,024 words each, mapped onto a physical memory of 32 frames.",
+        "How many bits are there in the logical address?",
+        "How many bits are there in the physical address?",
+        "Why are segmentation and paging sometimes combined into one scheme?",
+        "Describe a mechanism by which one segment could belong to the address space of two different processes.",
+        "Given memory partitions of l00K, 500K, 200K, 300K, and 600K (in order), how would each of the first-fit, best-fit, and worst-fit algorithms place processes of 212K, 417K, 112K, and 426K (in order)? Which algorithm makes the most efficient use of memory?",
+        "Why is it that, on a system with paging, a process cannot access memory that it does not own? How could the operating system allow access to other memory? Why should it or should it not?",
+        "What is the cause of thrashing? How does the system detect thrashing? Once it detects thrashing, what can the system do to eliminate this problem?",
+        "What is virtual memory? Explain the working of virtual memory.",
+        "Describe the dynamic page replacement method."
+      ]
+    },
+    {
+      "unit_no": 13,
+      "name": "File Management",
+      "mcqs": [
+        {
+          "question": "Shareable files are those that can be accessed .......................... and by .......................... .",
+          "options": [{ "text": "locally, remote hosts", "correct": true }]
+        },
+        {
+          "question": "Three major methods of allocating disk space are .................., ..................... and .......................... .",
+          "options": [{ "text": "contiguous, linked, and indexed", "correct": true }]
+        },
+        {
+          "question": "The difficulty with contiguous allocation is .......................... for a new file.",
+          "options": [{ "text": "finding space", "correct": true }]
+        },
+        {
+          "question": "There is no external fragmentation with .......................... allocation.",
+          "options": [{ "text": "linked", "correct": true }]
+        },
+        {
+          "question": "FAT stands for .......................... .",
+          "options": [{ "text": "File allocation table", "correct": true }]
+        },
+        {
+          "question": "NTFS stands for ........................... .",
+          "options": [{ "text": "NT File system", "correct": true }]
+        },
+        {
+          "question": "Direct access is based on a .......................... of a file.",
+          "options": [{ "text": "disk model", "correct": true }]
+        },
+        {
+          "question": ".......................... files support both formatted and unformatted record types.",
+          "options": [{ "text": "direct access", "correct": true }]
+        },
+        {
+          "question": "A .......................... system is a file system designed for storing files on flash memory devices.",
+          "options": [{ "text": "flash file", "correct": true }]
+        },
+        {
+          "question": "A .......................... is a collection of letters, numbers and special characters.",
+          "options": [{ "text": "file", "correct": true }]
+        },
+        {
+          "question": "Which of the following is an approach to restricting system access to authorized users.",
+          "options": [
+            { "text": "Role-based access control", "correct": true },
+            { "text": "Process-based access control", "correct": false },
+            { "text": "Job-based access control", "correct": false },
+            { "text": "None of the mentioned", "correct": false }
+          ]
+        },
+        {
+          "question": "Contiguous allocation of a file is defined by _____________",
+          "options": [
+            { "text": "disk address of the first block & length", "correct": true },
+            { "text": "length & size of the block", "correct": false },
+            { "text": "size of the block", "correct": false },
+            { "text": "total size of the file", "correct": false }
+          ]
+        },
+        {
+          "question": "In which method, a filed-length logical record exists that allows the program to read and write record rapidly in no particular order?",
+          "options": [
+            { "text": "Sequential access", "correct": false },
+            { "text": "Direct access", "correct": true },
+            { "text": "Indexed sequential access", "correct": false },
+            { "text": "None of the given choices", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following techniques always reads or writes a large block of data, which contains several file records, from or to the I/O medium?",
+          "options": [
+            { "text": "Buffering of records", "correct": false },
+            { "text": "Blocking of records", "correct": true },
+            { "text": "Buffering and blocking of records", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "A Domain may be defined as a _____________",
+          "options": [
+            { "text": "set of all objects", "correct": false },
+            { "text": "collection of protection policies", "correct": false },
+            { "text": "set of access-rights", "correct": true },
+            { "text": "None of the mentioned", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What is a directory? Can we consider a directory as a file? Explain your answer.",
+        "What is a flash file system? Give an example of it.",
+        "What are the differences between file system and file manager?",
+        "Write short notes on:\n(a) Disk file system\n(b) Flat file system\n(c) Network file system",
+        "What are the differences between a file system and a directory?",
+        "What is logical damage of data? How can it be recovered?",
+        "Write a short note on free space management.",
+        "What is indexed allocation method? How differs does it from linked list allocation?",
+        "Compare and contrast between contiguous disk space allocation method and linked list allocation method.",
+        "What is disk scheduling? Describe different disk scheduling policies."
+      ]
+    },
+    {
+      "unit_no": 14,
+      "name": "Disk Management",
+      "mcqs": [
+        {
+          "question": "An online backing storage system capable of storing larger quantities of data is",
+          "options": [
+            { "text": "CPU", "correct": false },
+            { "text": "Memory", "correct": false },
+            { "text": "Mass storage", "correct": true },
+            { "text": "Secondary storage", "correct": false }
+          ]
+        },
+        {
+          "question": "Which is an item of storage medium in the form of circular plate?",
+          "options": [
+            { "text": "Disk", "correct": true },
+            { "text": "CPU", "correct": false },
+            { "text": "Printer", "correct": false },
+            { "text": "ALU", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following disk scheduling techniques has a drawback of starvation?",
+          "options": [
+            { "text": "SCAN", "correct": false },
+            { "text": "SSTF", "correct": true },
+            { "text": "FCFS", "correct": false },
+            { "text": "LIFO", "correct": false }
+          ]
+        },
+        {
+          "question": "The total time to prepare a disk drive mechanism for a block of data to be read from is its",
+          "options": [
+            { "text": "latency", "correct": false },
+            { "text": "latency plus transmission time", "correct": false },
+            { "text": "latency plus seek time", "correct": true },
+            { "text": "latency plus seek time plus transmission time", "correct": false }
+          ]
+        },
+        {
+          "question": "Which among the following are the best tools for fixing errors on disks?",
+          "options": [
+            { "text": "Fdisk", "correct": false },
+            { "text": "Scandisk", "correct": true },
+            { "text": "Chkdsk", "correct": false },
+            { "text": "Fixdsk", "correct": false }
+          ]
+        },
+        {
+          "question": "Which command can be used to create the disk’s tracks and sectors?",
+          "options": [
+            { "text": "Fdisk", "correct": false },
+            { "text": "Format", "correct": true },
+            { "text": "Chkdsk", "correct": false },
+            { "text": "Attrib", "correct": false }
+          ]
+        },
+        {
+          "question": "Which command is used to create root directory and FAT on disk?",
+          "options": [
+            { "text": "Chkdsk", "correct": false },
+            { "text": "Command.com", "correct": false },
+            { "text": "Format", "correct": true },
+            { "text": "Fat", "correct": false }
+          ]
+        },
+        {
+          "question": "...................... is a technique of temporarily removing inactive programs from the memory of computer system.",
+          "options": [
+            { "text": "Swapping", "correct": true },
+            { "text": "Spooling", "correct": false },
+            { "text": "Semaphore", "correct": false },
+            { "text": "Scheduler", "correct": false }
+          ]
+        },
+        {
+          "question": "___________is the time taken in locating the disk arm to a specified track where the read/write request will be satisfied.",
+          "options": [
+            { "text": "Latency time", "correct": false },
+            { "text": "Seek time", "correct": true },
+            { "text": "Disk response time", "correct": false },
+            { "text": "Disk access time", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following algorithm performs better for systems that place a heavy load on the disk.",
+          "options": [
+            { "text": "FCFS", "correct": false },
+            { "text": "SSTF", "correct": false },
+            { "text": "LOOK", "correct": false },
+            { "text": "SCAN", "correct": true }
+          ]
+        },
+        {
+          "question": "Low-level formatting fill the ...................... with a special data structure for each sector.",
+          "options": [{ "text": "Disk", "correct": true }]
+        },
+        {
+          "question": "System memory used for swap-space is called ...................... space.",
+          "options": [{ "text": "pseudoswap", "correct": true }]
+        },
+        {
+          "question": "If multiple devices have the same priority, swap-space is allocated from the devices in a ................. fashion.",
+          "options": [{ "text": "round robin", "correct": true }]
+        },
+        {
+          "question": "The set of tracks that are at one arm position make up a ___________",
+          "options": [{ "text": "Cylinders", "correct": true }]
+        },
+        {
+          "question": "The time taken for the desired sector to rotate to the disk head is called _____",
+          "options": [{ "text": "rotational latency", "correct": true }]
+        }
+      ],
+      "subjective_questions": [
+        "In what situations would using memory as a RAM disk be more useful than using it as a disk cache?",
+        "None of the disk-scheduling disciplines, except FCFS, are truly fair (starvation may occur).\na. Explain why this assertion is true.\nb. Describe a way to modify algorithms such as SCAN to ensure fairness.\nc. Explain why fairness is an important goal in a time-sharing system.\nd. Give three or more examples of circumstances in which it is important that the operating system be unfair in serving I/O requests.",
+        "What is the function of a system disk controller?",
+        "Write short notes on:\na) Pseudo swap space\nb) Device swap space\nc) File system swap space",
+        "Suppose that a disk drive has 5,000 cylinders, numbered 0 to 4999. The drive is currently serving a request at cylinder 143, and the previous request was at cylinder 125. The queue of pending requests, in FIFO order, is86, 1470, 913, 1774, 948, 1509, 1022, 1750, 130.Starting from the current head position, what is the total distance (in cylinders) that the disk arm moves to satisfy all the pending requests for each of the following disk scheduling algorithms?\na) FCFS\nb) SSTF\ne) C-SCAN\nc) SCAN\nd) LOOK\nf) C-LOOK",
+        "Is disk scheduling, other than FCFS scheduling, useful in a single-user environment? Explain your answer.",
+        "Compare the performance of C-SCAN and SCAN scheduling, assuming a uniform distribution of requests. Consider the average response time (the time between the arrival of a request and the completion of that request’s service), the variation in response time, and the effective bandwidth. How does performance depend on the relative sizes of seek time and rotational latency?",
+        "Why is rotational latency usually not considered in disk scheduling? How would you modify SSTF, SCAN, and C-SCAN to include latency optimization?"
+      ]
+    }
+  ]
+}

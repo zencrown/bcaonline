@@ -1,0 +1,2076 @@
+{
+  "all_units": [
+    {
+      "unit_no": 1,
+      "name": "The Indian Contract Act, 1872",
+      "mcqs": [
+        {
+          "question": "Sheena invited Meena over a cup of tea at their mutually favourite Cha Cha Chai restaurant on 8th February, 2021. Sheena does not reach the restaurant but Meena kept waiting for her about 2 hours. Meena files a case against Sheena to recover her charges of Mineral Bottle that she purchased while waiting for Sheena and Ola cab charges to reach the restaurant. Decide will she succeed in recovering her expenses?",
+          "options": [
+            { "text": "Yes, as Meena has done those expenses out of her own pocket.", "correct": false },
+            { "text": "No, as it is a societal agreement, which always have a missing element of intention to create a legal relationship among parties.", "correct": true },
+            { "text": "No, as Meena must have the bills to show as a proof in the court to make a claim.", "correct": false },
+            { "text": "Yes, as under the Contract Act,1872 both parties mutually agreed to get together.", "correct": false }
+          ]
+        },
+        {
+          "question": "Jango, a television actor entered into an agreement with Drug Peddler Eagle to supply him 10 kg hash and 30 kg weed for a new year rave party. Jango paid around 1 crore in advance to procure the drugs for party but Eagle does not fulfil his promise. As such Jango comes to you and seeks an advice to recover his money. Decide what will be your answer to Jango out of the given statements?",
+          "options": [
+            { "text": "You can recover your paid amount as it was an express contract and hence very much enforceable.", "correct": false },
+            { "text": "You cannot recover your amount as the contract is not in written and hence unenforceable.", "correct": false },
+            { "text": "You cannot recover any amount as the subject matter of contract is illegal and hence the contract is void.", "correct": true },
+            { "text": "You cannot recover the amount as none of the parties are competent to contract", "correct": false }
+          ]
+        },
+        {
+          "question": "Maya runs a Nursery business and mainly deals in indoor plants and vase. Amru comes to buy terracota vase and asks for price. Maya tells her that mostly vase begins from Rs. 150 on wards and generally their price depends upon their size. Aru picks 2 vase thinking he has to pay Rs. 300 only. Can a valid contract formulate between parties?",
+          "options": [
+            { "text": "No, as there is lack of consensus among parties about rate and definite vase size.", "correct": true },
+            { "text": "Yes, as Amru is willing to pay a sum of Rs.200 to get vase.", "correct": false },
+            { "text": "Yes, as subject matter of contract is valid.", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "This Deewali, Ms. Malini made up her mind to buy Vitamin C cream from Khadi Naturals to reverse her ageing after looking at facebook advertisement. As per the offer, the shoppers would get a complimentary Aloe Gel cream on buying any product above Rs. 999. She thought to buy 60 gm of product @ RS. 1,200 and got excited to get a free gift. Decide whether this can result in a valid contract?",
+          "options": [
+            { "text": "Terms and conditions of payment of product price should also be decided", "correct": false },
+            { "text": "The seller may get out of stock with that product", "correct": false },
+            { "text": "Friends of Malini can give acceptance to the offered product on her behalf", "correct": false },
+            { "text": "No, as mental acceptance to buy product is no acceptance of offer", "correct": true }
+          ]
+        },
+        {
+          "question": "Harry puts a pistol on his forehead, forcing his wife to transfer all her property in his name. Being scared she does so but later go to court that her consent is not free. Identify the nature of consent so received by Harry.",
+          "options": [
+            { "text": "The contract is voidable since consent received is through coercion.", "correct": true },
+            { "text": "The contract is voidable since consent received is through undue influence.", "correct": false },
+            { "text": "The contract is voidable since consent received is through mistake.", "correct": false },
+            { "text": "The contract is voidable since consent received is through mistake.", "correct": false }
+          ]
+        },
+        {
+          "question": "Every promise and every set of promises, forming the consideration for each other, is called as:",
+          "options": [
+            { "text": "A voidable contract", "correct": false },
+            { "text": "A contract", "correct": false },
+            { "text": "A void contract", "correct": false },
+            { "text": "An agreement", "correct": true }
+          ]
+        },
+        {
+          "question": "An agreement was entered into with the minor. This is agreement is:",
+          "options": [
+            { "text": "Voidable", "correct": false },
+            { "text": "Bad", "correct": false },
+            { "text": "Void", "correct": true },
+            { "text": "Illegal", "correct": false }
+          ]
+        },
+        {
+          "question": "Alex took his wife Bella to England for vacations. Due to some business emergency Alex had to go back to his place of work immediately while leaving Bella in England owing to her ill-health. Alex promised to pay Bella 300 pounds per week as maintenance during her stay in England, but failed to pay. If Alex is sued by Bella then………….",
+          "options": [
+            { "text": "Alex is liable for breach of contract", "correct": false },
+            { "text": "Alex is not liable because he cannot be presumed to have any intention to enter into a contract with his wife", "correct": true },
+            { "text": "Alex is not liable because of the lack of consideration on the part of Bella", "correct": false },
+            { "text": "Alex is liable because a promise to one’s wife result in a binding contract even in the absence of a consideration for the promise", "correct": false }
+          ]
+        },
+        {
+          "question": "A telegraphed B, 'Will you sell your house, telegraph the lowest cash price.' B also replied by telegram, 'lowest price for the house of Rs. 15,00,000/-' This is a _______",
+          "options": [
+            { "text": "Complete Agreement.", "correct": false },
+            { "text": "Complete Contract", "correct": false },
+            { "text": "Voidable Contract", "correct": false },
+            { "text": "No Contract", "correct": true }
+          ]
+        },
+        {
+          "question": "A catalogue of books, listing price of each book and specifying the place where the listed books are available is:",
+          "options": [
+            { "text": "An invitation to offer", "correct": true },
+            { "text": "A promise to make available the book at the listed price", "correct": false },
+            { "text": "An offer", "correct": false },
+            { "text": "An invitation to visit the book shop", "correct": false }
+          ]
+        },
+        {
+          "question": "Pawans’ son had been missing for some time. Pawan sent his servant Pankaj in search of son. Thereafter, through hand bill Pawan offered a reward of Rs. 5,000/- to whoever was able to trace the whereabouts of his son. Pankaj was successful in tracing the son and brought him to Pawan. Then he came to know of the reward and claimed it. Pawan refused to pay. In this case:",
+          "options": [
+            { "text": "Pankaj is entitled to the reward because Pawan made a general offer and whoever fulfil the condition of the offer was entitled the reward. Pankaj had, in fact, fulfilled the condition of the offer", "correct": false },
+            { "text": "Since Pankaj was not aware of the offer at the time when he acted upon it, no valid acceptance could come into existence Thus he is not entitled to the reward", "correct": true },
+            { "text": "Since Pankaj was Pawan’s servant and was sent by him to trace the son, he cannot claim reward", "correct": false },
+            { "text": "Pankaj is not entitled to the reward. It would be P’s grace if he gives him Rs. 501vany amount by way of reward", "correct": false }
+          ]
+        },
+        {
+          "question": "Suppose Brownie own 10 acres of land. No one in the general public can enter into his property nor can they use it. What right does Brownie has as per the Indian Contract Act?",
+          "options": [
+            { "text": "Jus in against government", "correct": false },
+            { "text": "Jus in Personam", "correct": false },
+            { "text": "Consensus ad idem", "correct": false },
+            { "text": "Jus in Rem", "correct": true }
+          ]
+        },
+        {
+          "question": "Mariya orders a cup of Chocolate Fudge in a local restaurant. After she finishes consuming it, she pays the bill to the waiter including GST. Identify the true nature of this transaction.",
+          "options": [
+            { "text": "It is a bilateral contract as waiter served the coffee and Mariya paid the bill.", "correct": true },
+            { "text": "It is an unenforceable contract as there is no proof contract between the parties.", "correct": false },
+            { "text": "It is a unilateral contract as Waiter has not yet served her the coffee.", "correct": false },
+            { "text": "It is a voidable contract as Mariya may not have liked the Chocolatae Fudge.", "correct": false }
+          ]
+        },
+        {
+          "question": "Jaggu entered into a contract with Raghu as per which he shall deliver 10 kg rice at his residence for a price of Rs. 70 per kg on 10th October 2020. On the said date he deliver the goods but Raghu does not pay him cash. He promises to pay the money to him after 2 days. Identify the nature of contract between Jaggu and Raghu.",
+          "options": [
+            { "text": "Illegal Contract as Raghu is yet to perform his obligation.", "correct": false },
+            { "text": "Bilateral Contract as Raghu is yet to perform his obligation.", "correct": false },
+            { "text": "Unilateral Contract as Raghu is yet to perform his obligation.", "correct": true },
+            { "text": "Void Contract as Raghu is yet to perform his obligation.", "correct": false }
+          ]
+        },
+        {
+          "question": "Mr. Adam owns 5 acres land on which he grows mustard flowers. If a villager from his own village tries to trespass his land, can he become owner?",
+          "options": [
+            { "text": "Yes, as the villager can exercise right of lien", "correct": false },
+            { "text": "No, as Adam is entitled to exercise jus in Rem and remain protected", "correct": true },
+            { "text": "No, as Adam is entitled to exercise jus in Personam and remain protected", "correct": false },
+            { "text": "Yes, as the villager must have paid some consideration to become lawful owner of land belonging to Adam", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Explain the essentials of a valid contract in detail",
+        "What is an offer? Explain the legal rules of a valid offer?",
+        "Explain the various kinds of Contract with suitable examples.",
+        "What is meant by the term acceptance? Explain the legal rules of a valid acceptance?",
+        "Write a note on: i. Voidable Contract ii. General Offer iii. Classification of Contract on basis of its performance iv. Illegal Contract v. Implied Offer"
+      ]
+    },
+    {
+      "unit_no": 2,
+      "name": "The Indian Contract Act, 1872",
+      "mcqs": [
+        {
+          "question": "Xavier forcibly kidnaps the son of David and asks him to execute a promissory note of rupees one lakh in his favour. Now under the threatening David executes a promissory note in favour of Xavier. Is the promissory note enforceable?",
+          "options": [
+            { "text": "No, such a promissory note cannot be enforced in the court of law as the consent was not free and was induced by coercion.", "correct": true },
+            { "text": "Yes, such a promissory note can be enforced in the court of law as the consent was free", "correct": false },
+            { "text": "Yes, all essentials of a valid contract can be observed in this case", "correct": false },
+            { "text": "No, as the person getting kidnapped is a minor", "correct": false }
+          ]
+        },
+        {
+          "question": "The contract in which consent is caused by the way of fraud is",
+          "options": [
+            { "text": "Illegal", "correct": false },
+            { "text": "Voidable", "correct": true },
+            { "text": "Either (A) or (B)", "correct": false },
+            { "text": "Valid", "correct": false }
+          ]
+        },
+        {
+          "question": "A’s threat to kidnap B’s daughter if he does not sell his car worth ₹ 20,00,000 for ₹ 5,00,000. This Contract is void due to —",
+          "options": [
+            { "text": "Inadequacy of Consideration", "correct": false },
+            { "text": "Incompetence of Parties", "correct": false },
+            { "text": "Absence of Free Consent", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "Arjun promises to give his son Bobby a sum of Rs. 5,000. Arjun puts his promise to Bobby in writing and registers it. Can a valid contract get formed?",
+          "options": [
+            { "text": "No, as there is no consideration provided by Bobby to his father", "correct": false },
+            { "text": "Yes, as a valid contract may form where a father has given a written promise.", "correct": true },
+            { "text": "No, as Bobby may refuse to take Rs. 5,000", "correct": false },
+            { "text": "No, as father may change his mind any time", "correct": false }
+          ]
+        },
+        {
+          "question": "Identify in which of the given situation, a consent is obtained by Coercion?",
+          "options": [
+            { "text": "Threat to stop talking", "correct": false },
+            { "text": "Threat to break friendship by a friend", "correct": false },
+            { "text": "Threat to stop shopping by a customer if a handsome discount is not given by shopkeeper", "correct": false },
+            { "text": "Threat to commit suicide by a wife if husband does not give her diamond ring", "correct": true }
+          ]
+        },
+        {
+          "question": "Aman helped Ankit to reach the office on time where he had an important meeting to attend. Two days later, Ankit promised to pay Rs. 10000 to Aman in gratitude. This contract is:",
+          "options": [
+            { "text": "Void because there is no consideration", "correct": false },
+            { "text": "Valid as Amit’s action of helping amount to past consideration", "correct": true },
+            { "text": "Valid", "correct": false },
+            { "text": "Voidable", "correct": false }
+          ]
+        },
+        {
+          "question": "The consideration must be:",
+          "options": [
+            { "text": "Adequate", "correct": false },
+            { "text": "Must be adequate", "correct": false },
+            { "text": "Need not be adequate", "correct": true },
+            { "text": "Substantially adequate", "correct": false }
+          ]
+        },
+        {
+          "question": "If any part of a single consideration for one or more objects, or any one or any part of any one of several considerations for a single object, is unlawful:",
+          "options": [
+            { "text": "The agreement is void.", "correct": true },
+            { "text": "The agreement is voidable.", "correct": false },
+            { "text": "The agreement is enforceable.", "correct": false },
+            { "text": "The agreement is unenforceable.", "correct": false }
+          ]
+        },
+        {
+          "question": "A and B make a contract grounded on the erroneous belief that a particular debt is barred by the Indian Law of Limitation:",
+          "options": [
+            { "text": "The contract illegal.", "correct": false },
+            { "text": "The contract is voidable.", "correct": false },
+            { "text": "The contract is void.", "correct": false },
+            { "text": "The contract is not voidable.", "correct": true }
+          ]
+        },
+        {
+          "question": "Where one party is in position to dominate the will of another and uses his superior position to obtain the consent of the weaker party, the consent is said to be obtained by:",
+          "options": [
+            { "text": "Undue influence", "correct": true },
+            { "text": "Fraud", "correct": false },
+            { "text": "Misrepresentation", "correct": false },
+            { "text": "Coercion", "correct": false }
+          ]
+        },
+        {
+          "question": "If there is no consideration, then",
+          "options": [
+            { "text": "The agreement is valid", "correct": false },
+            { "text": "The agreement is void", "correct": false },
+            { "text": "The agreement is illegal", "correct": true },
+            { "text": "The agreement is voidable", "correct": false }
+          ]
+        },
+        {
+          "question": "An agreement made with free consent to which the consideration is lawful but inadequate, is",
+          "options": [
+            { "text": "Void", "correct": false },
+            { "text": "Valid", "correct": true },
+            { "text": "Voidable", "correct": false },
+            { "text": "Unlawful", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following relationships raise presumption of undue influence?",
+          "options": [
+            { "text": "Doctor and Patient", "correct": false },
+            { "text": "Solicitor and Client", "correct": false },
+            { "text": "Trustee and Beneficiary", "correct": false },
+            { "text": "All of the above", "correct": true }
+          ]
+        },
+        {
+          "question": "A poor widow was persuaded by a money lender to agree to pay 100 per cent rate of interest on money lent by him to her. She needed the money to establish her right to maintenance. Is it a valid contract?",
+          "options": [
+            { "text": "No, as the money lender should show some humanity towards the women", "correct": false },
+            { "text": "No, as the money lender has applied undue influence on women inducing her to pay 100 per cent rate of interest.", "correct": true },
+            { "text": "No, as consideration is not adequate", "correct": false },
+            { "text": "Yes, as there is a free consent of poor widow women", "correct": false }
+          ]
+        },
+        {
+          "question": "In which of the following cases is a contract not voidable at the option of the party whose consent was so caused:",
+          "options": [
+            { "text": "When the consent was caused by coercion", "correct": false },
+            { "text": "When the consent was caused by misrepresentation", "correct": false },
+            { "text": "When the consent was caused by silence but the party had the means of discovering the truth", "correct": true },
+            { "text": "When the consent was caused by fraud", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What is Consideration? Discuss the legal rules to a valid Consideration.",
+        "What is meant by the term ‘Free Consent’? Discuss the situations when the consent of a party to a contract may not be free and what impact may it cause on the validity of a contract?",
+        "Explain the term Coercion and Influence. How would you differentiate them?",
+        "What is meant by the term ‘Mistake’? Explain its types with relevant examples in detail.",
+        "Discuss with suitable examples of each such situation when a Contract without Consideration is not Void?"
+      ]
+    },
+    {
+      "unit_no": 3,
+      "name": "The Indian Contract Act, 1872",
+      "mcqs": [
+        {
+          "question": "Capacity to contract means______________",
+          "options": [
+            { "text": "the parties are financially unsound to make contracts", "correct": false },
+            { "text": "the parties are physically unable to enter into contracts", "correct": false },
+            { "text": "the parties are legally competent to enter into contracts", "correct": true },
+            { "text": "All of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "A drunken or intoxicated person falls in the category of:",
+          "options": [
+            { "text": "Persons disqualified by law", "correct": false },
+            { "text": "Persons of unsound mind", "correct": true },
+            { "text": "Persons discarded by society", "correct": false },
+            { "text": "Enemies of society", "correct": false }
+          ]
+        },
+        {
+          "question": "Hitesh is 17 years 11 months 15 days old. Legally he can be considered as:",
+          "options": [
+            { "text": "Minor", "correct": false },
+            { "text": "Major", "correct": false },
+            { "text": "Adult", "correct": true },
+            { "text": "Cannot say", "correct": false }
+          ]
+        },
+        {
+          "question": "Tony, a minor is an agent of Samantha. She asks him to sell her bicycle for Rs. 2,000. He finds a suitable buyer and sells the bicycle for the said price through a written contract. Can later Samantha get the contract set aside on grounds that agent is minor?",
+          "options": [
+            { "text": "No, as principal is legally responsible for acts of agent", "correct": true },
+            { "text": "Yes, as minor is incapable to contract", "correct": false },
+            { "text": "No, as once a minor becomes major the contract can be ratified by him", "correct": false },
+            { "text": "Yes, as the contract is against sovereignty and integrity of India", "correct": false }
+          ]
+        },
+        {
+          "question": "Can a person who is usually of unsound mind, but occasionally of sound mind, make a contract?",
+          "options": [
+            { "text": "No, he cannot make a contract", "correct": false },
+            { "text": "No, because he is an alien enemy", "correct": false },
+            { "text": "Yes, he can always make a contract", "correct": false },
+            { "text": "Yes, but only when he is of sound mind", "correct": true }
+          ]
+        },
+        {
+          "question": "Aman and Raman are two childhood friends. However, Aman is undergoing a treatment for intermittent intervals of insanity as medically he is a lunatic. Suppose Raman enters into a contract with Aman to buy his Flat in Jalandhar Heights for Rs. 75,00,000. Decide whether it will be a valid contract between the two friends?",
+          "options": [
+            { "text": "No, as according to law, any contract with lunatic is void.", "correct": true },
+            { "text": "Yes, as both are childhood friends and can contract.", "correct": false },
+            { "text": "No, as Aman may demand more consideration.", "correct": false },
+            { "text": "Yes, as it shall become executory valid contract.", "correct": false }
+          ]
+        },
+        {
+          "question": "Why a person who is drunk, intoxicated or delirious from fever is incapable to enter into a contract?",
+          "options": [
+            { "text": "He lacks an understanding of nature and effect of an agreement or form a rational judgement", "correct": false },
+            { "text": "He understands the nature and effect of an agreement or form a rational judgement and cannot avoid contract later.", "correct": true },
+            { "text": "He may get out of a contract provided he did not have mental capacity to understand what he was doing and to appreciate its effects on his interests at the time when he made the contract", "correct": false },
+            { "text": "He lacks an understanding of nature and effect of an agreement or form a rational judgement and may also get out of a contract provided he did not have mental capacity to understand what he was doing and to appreciate its effects on his interests at the time when he made the contract.", "correct": false }
+          ]
+        },
+        {
+          "question": "Manoj, a minor aged 17, broke his right arm in a rugby game. He engaged a physician to set it. Can the physician get his fee for the services rendered by him?",
+          "options": [
+            { "text": "No, as a contract with minor is valid in eyes of law", "correct": false },
+            { "text": "Yes, as it is courts’ freedom to decide liability of a minor in case of luxury services", "correct": false },
+            { "text": "Yes, as minor is not capable of fixing his broken arm on his own and requires the services of a physician", "correct": true },
+            { "text": "No, as a minors’ parents will be liable for his deeds", "correct": false }
+          ]
+        },
+        {
+          "question": "If two or more persons have made a joint promise, then, unless a contrary intention appears from the contract, all such persons must fulfill the promise___",
+          "options": [
+            { "text": "Severally", "correct": false },
+            { "text": "Jointly and severally", "correct": false },
+            { "text": "Jointly or severally", "correct": false },
+            { "text": "Jointly", "correct": true }
+          ]
+        },
+        {
+          "question": "If promisee terminates the contract due to non-performance or part-performance by the promisor, the promisee has to return the benefits, if any, he has received from part performance of the promise",
+          "options": [
+            { "text": "Partly True", "correct": false },
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false },
+            { "text": "Partly False", "correct": false }
+          ]
+        },
+        {
+          "question": "If the promisor has offered to perform his promise to the promisee / any one of the joint promisees, and the promisee refuses to accept his performance promisor",
+          "options": [
+            { "text": "Does not lose his rights under the contract", "correct": false },
+            { "text": "Is not responsible for non-performance", "correct": false },
+            { "text": "Both A and B", "correct": true },
+            { "text": "Either A or B", "correct": false }
+          ]
+        },
+        {
+          "question": "What happens when at time of performance, a contract is not performed within that time?",
+          "options": [
+            { "text": "The contract is valid", "correct": false },
+            { "text": "The contract becomes void", "correct": false },
+            { "text": "The contract is unenforceable", "correct": false },
+            { "text": "The contract becomes voidable at the instance of the promise", "correct": true }
+          ]
+        },
+        {
+          "question": "If performance involves the exercise of personal skills by the promisor, the promise should be performed by",
+          "options": [
+            { "text": "A third person", "correct": false },
+            { "text": "Promisor himself", "correct": true },
+            { "text": "Representative of the promisor competent to perform", "correct": false },
+            { "text": "Any of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "X promises to deliver 10 T.V. sets to Y. In case of X’s death before performance,, X’s representatives____________",
+          "options": [
+            { "text": "Shall be bound to deliver the T.V to Y but their liability is limited to the value of the property inherited from the deceased", "correct": true },
+            { "text": "Shall be bound to deliver the T.V to Y", "correct": false },
+            { "text": "Are not bound by the promise", "correct": false },
+            { "text": "Shall Terminate the contract", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of these parties cannot demand performance of a promise?",
+          "options": [
+            { "text": "Promisee", "correct": false },
+            { "text": "Any of the joint promisees", "correct": false },
+            { "text": "On the death of a promisee, his Legal Representative", "correct": false },
+            { "text": "Stranger to the contract", "correct": true }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Who is competent to contract? State the position of contracts with a minor.",
+        "Answer the following problems giving reasons in support of your answer: i) Manjunath, a minor was facing a criminal prosecution for dacoity. He borrowed Rs. 50,000 to defend himself from Jyotinanth. Will Jyotinanthsucceed in recovering the amount? (Hint:It is loan for necessaries. It can be recovered from Minor's property) ii)Harris soldsome goods to Garvit on creditnot knowing that grvit was a minor. Harris did not receive the payment. Can he sue Garvit on attaining majority?. (Hint: No, a contract with a minor is void ab-initio)",
+        "Is it true that a minor’s estate is liable for necessaries of life supplied? Explain in detail with suitable examples.",
+        "What is meant by the term ‘Performance of a Contract?’ Discuss the types and who may demand a performance of a Contract?",
+        "What are reciprocal promises? Discuss the types and rules for the performance of the same.",
+        "What type of persons are treated as persons of unsound mind. State the legal positions of contracts with such persons."
+      ]
+    },
+    {
+      "unit_no": 4,
+      "name": "The Indian Contract Act, 1872",
+      "mcqs": [
+        {
+          "question": "Ordinary damages will be awarded in cases where _________.",
+          "options": [
+            { "text": "The loss naturally flows from the breach of contract", "correct": true },
+            { "text": "The loss is remotely connected with the breach of contract", "correct": false },
+            { "text": "The loss is unusual and arises out of special circumstances peculiar to the contract", "correct": false },
+            { "text": "None of these", "correct": false }
+          ]
+        },
+        {
+          "question": "In the case of wrongful dishonour of a cheque by a banker the damages awarded will be _________.",
+          "options": [
+            { "text": "Nominal", "correct": false },
+            { "text": "Special", "correct": false },
+            { "text": "Exemplary", "correct": true },
+            { "text": "Ordinary", "correct": false }
+          ]
+        },
+        {
+          "question": "Impossibility of performance occurs due to:",
+          "options": [
+            { "text": "Strike", "correct": false },
+            { "text": "Lock-out", "correct": false },
+            { "text": "Partial failure of object", "correct": false },
+            { "text": "Destruction of subject-matter.", "correct": true }
+          ]
+        },
+        {
+          "question": "Specific performance is ordered where:",
+          "options": [
+            { "text": "the contract is of personal nature,", "correct": false },
+            { "text": "monetary compensation is not an adequate remedy,", "correct": true },
+            { "text": "monetary compensation is an adequate remedy,", "correct": false },
+            { "text": "performance is illegal.", "correct": false }
+          ]
+        },
+        {
+          "question": "An injunction order is granted by the Court in case:",
+          "options": [
+            { "text": "specific performance of the contract is possible.", "correct": false },
+            { "text": "specific performance of the contract is impossible.", "correct": false },
+            { "text": "the contract is against public interest.", "correct": false },
+            { "text": "the Court wants to restrain a party from committing a breach of contract.", "correct": true }
+          ]
+        },
+        {
+          "question": "A borrows ₹ 10,000 from B with interest at 12 per cent per annum, with a stipulation that in case of default A shall be liable to pay interest at 75 per cent from the date of default. A commits the default. B is entitled to recover from A _________.",
+          "options": [
+            { "text": "Such compensation as the Court considers reasonable", "correct": true },
+            { "text": "12% interest", "correct": false },
+            { "text": "75% interest", "correct": false },
+            { "text": "87% interest", "correct": false }
+          ]
+        },
+        {
+          "question": "Aman lends Rs.500 to Berry. He later tells Berry that he need not repay the amount, thecontract is discharged by",
+          "options": [
+            { "text": "Breach", "correct": false },
+            { "text": "Waiver", "correct": true },
+            { "text": "Novation", "correct": false },
+            { "text": "Performance.", "correct": false }
+          ]
+        },
+        {
+          "question": "A creditor agrees with his debtor and a third party to accept that third party as his debtor. The contract is discharged by",
+          "options": [
+            { "text": "performance.", "correct": false },
+            { "text": "alteration", "correct": false },
+            { "text": "novation", "correct": true },
+            { "text": "remission", "correct": false }
+          ]
+        },
+        {
+          "question": "Where a party is entitled to claim compensation in proportion to the work done by him, it is possible by way of________",
+          "options": [
+            { "text": "Suit for quantum meruit", "correct": true },
+            { "text": "Suit for damages", "correct": false },
+            { "text": "Suit for injunction", "correct": false },
+            { "text": "None of these.", "correct": false }
+          ]
+        },
+        {
+          "question": "Generally, ____damages are irrecoverable.",
+          "options": [
+            { "text": "Special", "correct": false },
+            { "text": "Nominal", "correct": false },
+            { "text": "Vindictive", "correct": false },
+            { "text": "Remote", "correct": true }
+          ]
+        },
+        {
+          "question": "If there is change in the nature of obligation of a contract, it is called:",
+          "options": [
+            { "text": "Novation", "correct": false },
+            { "text": "Alteration", "correct": true },
+            { "text": "Rescission", "correct": false },
+            { "text": "Repudiation", "correct": false }
+          ]
+        },
+        {
+          "question": "Anticipatory breach of contract takes place when there is",
+          "options": [
+            { "text": "Breach of contract when performance is actually due", "correct": false },
+            { "text": "Breach of contract in the course of performance of the contract", "correct": false },
+            { "text": "Breach of contract prior to the date of performance", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "Remedies in case of refusal to share profits in smuggled goods:",
+          "options": [
+            { "text": "No remedy as the contract is illegal.", "correct": true },
+            { "text": "Agreement can be enforced in the court.", "correct": false },
+            { "text": "Damages can be claimed.", "correct": false },
+            { "text": "Agreement can be enforced in the court or Damages can be claimed.", "correct": false }
+          ]
+        },
+        {
+          "question": "In case of remote and indirect loss or damage sustained by reason of breach of contract, the aggrieved party is entitled to :",
+          "options": [
+            { "text": "Ordinary damages", "correct": false },
+            { "text": "Special damages", "correct": false },
+            { "text": "No damages", "correct": true },
+            { "text": "Exemplary damages", "correct": false }
+          ]
+        },
+        {
+          "question": "In case of impossibility of performance because the subject matter of contract has ceased to exist then:",
+          "options": [
+            { "text": "Both the parties are liable", "correct": false },
+            { "text": "Neither party is liable", "correct": true },
+            { "text": "Only offeror is liable", "correct": false },
+            { "text": "Only acceptor is liable", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "(a) Zenab enters into a contract with Babban for singing at his theatre for three nights for a fee of Rs. 1,500 for every night. She sings for two nights and is taken ill. Can Babban ask for damages for loss of profit from Zenab. Give reasons. (b) The unloading of a ship was delayed beyond the date agreed with the ship owners owing to a strike of dock labourers. On a suit by the ship owners for damages, the plea of impossibility of performance was raised. Will they succeed? Give reasons.",
+        "(a) A music hall was agreed to be let out on certain dates but before those dates it was destroyed by fire. Is the promisor absolved from performing the contract? Give reasons in support of your answer. (b) An artist undertook to paint a masterpiece portrait of the most beautiful lady in Great Britain for a certain price. But, before he could do so, he met with a car accident and lost his vision. Is the promisor absolved from performing the contract? Give reasons in support of your answer.",
+        "Discuss the remedies for breach of contract. Available to an aggrieved party.",
+        "Discuss the ways by which a contract gets discharged in detail."
+      ]
+    },
+    {
+      "unit_no": 5,
+      "name": "Special Contracts",
+      "mcqs": [
+        {
+          "question": "A contract by which one party promises to save the other from loss caused to him by the conduct of the promisor himself or by the conduct of any other person is called __________",
+          "options": [
+            { "text": "Surety contract", "correct": false },
+            { "text": "Simple contract", "correct": false },
+            { "text": "Contract of Indemnity", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "On M's recommendation S, a wealthy landlord, employs P as his estate manager. It was the duty of P to collect rent every month from the tenants of S and remit the same to S before till 15th of each month. M, guarantee this arrangement and promises to make good any default made by P. This is __________",
+          "options": [
+            { "text": "a contract of continuing guarantee", "correct": true },
+            { "text": "contract of specific guarantee", "correct": false },
+            { "text": "either a contract of continuing or specific guarantee", "correct": false },
+            { "text": "neither a contract of continuing or specific guarantee", "correct": false }
+          ]
+        },
+        {
+          "question": "In case of contract of guarantee, what is the liability of the surety against the principal debtor is ___________",
+          "options": [
+            { "text": "Primary", "correct": false },
+            { "text": "Secondary", "correct": true },
+            { "text": "No liability", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "When A requests B to lend Rs. 10,000 to C and guarantees that C will repay the amount within the agreed time and that on C failing to do so, he will himself pay to B, there is a ___________",
+          "options": [
+            { "text": "Sale of Goods", "correct": false },
+            { "text": "contract of indemnity", "correct": false },
+            { "text": "contract of guarantee", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "When a guarantee extends to a single transactions or debt it is called ______",
+          "options": [
+            { "text": "Retrospective guarantee", "correct": false },
+            { "text": "Specific guarantee", "correct": true },
+            { "text": "Prospective guarantee", "correct": false },
+            { "text": "Fidelity guarantee", "correct": false }
+          ]
+        },
+        {
+          "question": "Assume that a surety named Mr. Kumar dies. What will happen to a continuing guarantee?",
+          "options": [
+            { "text": "A Indemnification from the property of the surety with regard to future transactions", "correct": false },
+            { "text": "The continuing guarantee shall be continued by any other person", "correct": false },
+            { "text": "The continuing guarantee shall continue in the name of the surety’s heirs", "correct": false },
+            { "text": "Revocation of the continuing guarantee with regard to future transactions", "correct": true }
+          ]
+        },
+        {
+          "question": "Any guarantee which the creditor has obtained by means of keeping silence as to material circumstances is _____",
+          "options": [
+            { "text": "valid", "correct": false },
+            { "text": "considered to be his approval", "correct": false },
+            { "text": "invalid", "correct": true },
+            { "text": "considered to be his denial", "correct": false }
+          ]
+        },
+        {
+          "question": "X transfers possession or custody of the farmland to his son, S. S shall pay rent or a lease fee in return. S only receives custody and control of the property, but X still owns it. X is thus responsible for paying the property taxes and is liable for what happens on the land. This kind of contract or arrangement is called:",
+          "options": [
+            { "text": "contract of indemnity", "correct": true },
+            { "text": "contract of guarantee", "correct": false },
+            { "text": "contract of sale of goods act", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "Angel becomes surety to Chandru for Bishnus' conduct as a manager in Chandrus' bank. Afterwards Bishnu and Chandru contract, without consent of Angel that Bishnus' salary shall be raised and that he shall become liable for one-fourth of losses om overdraft. Bishnu allows a customer to overdraw, and the bank loses a sum of money. Is Angel liable in this situation?",
+          "options": [
+            { "text": "Yes, as she gave consent", "correct": false },
+            { "text": "No, Chandru shall have to bear the losses", "correct": false },
+            { "text": "Nothing can be received from Angel", "correct": false },
+            { "text": "Angel is discharged from his suretyship by variance made without his consent, and is not liable in such a situation", "correct": true }
+          ]
+        },
+        {
+          "question": "Angad, Virendar, Cikandar are securities to Dholu for the sum of Rs. 3,00,000 lent to Erica. Erica makes default in payment. Angad, Virendar and Cikandar are _____________",
+          "options": [
+            { "text": "not liable any more", "correct": false },
+            { "text": "liable to pay Rs. 1,00,000 each", "correct": true },
+            { "text": "liable to pay Rs. 3,00,000 each", "correct": false },
+            { "text": "Erica is liable", "correct": false }
+          ]
+        },
+        {
+          "question": "About Quasi obligation, which of thefollowing is correct?",
+          "options": [
+            { "text": "There is no real contract in existence", "correct": false },
+            { "text": "There is no offer and acceptance.", "correct": false },
+            { "text": "There is no intension to make contract.", "correct": false },
+            { "text": "All of these.", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is not a quasi contract?",
+          "options": [
+            { "text": "Obligation of a person enjoying benefit of non gratuitous acts", "correct": false },
+            { "text": "Responsibility of finder of goods", "correct": false },
+            { "text": "Quantum merit", "correct": false },
+            { "text": "Novation", "correct": true }
+          ]
+        },
+        {
+          "question": "It is the duty of the finder of goods to trace the true owner of the goods, and if does not do so, he shall be guilty of ———",
+          "options": [
+            { "text": "Extortion", "correct": false },
+            { "text": "No default", "correct": true },
+            { "text": "Criminal misappropriation of property", "correct": false },
+            { "text": "Theft", "correct": false }
+          ]
+        },
+        {
+          "question": "A quasi contract is a contract ————- by law.",
+          "options": [
+            { "text": "Made", "correct": false },
+            { "text": "Not enforceable", "correct": false },
+            { "text": "Imposed", "correct": true },
+            { "text": "Voidable", "correct": false }
+          ]
+        },
+        {
+          "question": "Quasi contracts are imposed upon the parties on the ground of principle of —————",
+          "options": [
+            { "text": "Dignity", "correct": true },
+            { "text": "Equity", "correct": false },
+            { "text": "Quality", "correct": false },
+            { "text": "Honesty", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "(a) Mr. X, is employed as a cashier on a monthly salary of `2,000 by ABC bank for a period of three years. Y gave surety for X’s good conduct. After nine months, the financial position of the bank deteriorates. Then X agrees to accept a lower salary of `1,500/- per month from Bank. Two months later, it was found that X has misappropriated cash since the time of his appointment. What is the liability of Y? (b) A contracts with B for a fixed price to construct a house for B within a stipulated time. B would supply the necessary material to be used in the construction. C guarantees A’s performance of the contract. B does not supply the material as per the agreement. Is C discharged from his liability.",
+        "Discuss the various types of Guarantee in detail.",
+        "Discuss the rights of Surety in detail.",
+        "Write a detailed note on Discharge of Surety from Liability.",
+        "a) Differentiate between a Contract of Guarantee and a Contract of Indemnity b) Differentiate between contract and quasi-contract."
+      ]
+    },
+    {
+      "unit_no": 6,
+      "name": "Special Contracts",
+      "mcqs": [
+        {
+          "question": "An example of bailment without a contract is:",
+          "options": [
+            { "text": "Giving a vehicle in a workshop for repair", "correct": false },
+            { "text": "Giving something in courier", "correct": false },
+            { "text": "Finder of the lost goods", "correct": true },
+            { "text": "None of these", "correct": false }
+          ]
+        },
+        {
+          "question": "A finder of goods is:",
+          "options": [
+            { "text": "Entitled to retain the goods", "correct": false },
+            { "text": "Entitled to claim compensation when specific reward is offered", "correct": false },
+            { "text": "Not entitled to claim compensation and thus not entitled to retain the goods", "correct": false },
+            { "text": "Both (A) and (B)", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is not an example of bailment?",
+          "options": [
+            { "text": "Giving clothes for dry-cleaning", "correct": false },
+            { "text": "Keeping property in mortgage", "correct": true },
+            { "text": "Giving clothes for tailoring", "correct": false },
+            { "text": "Giving book for reading", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following is the Effect of ratification?",
+          "options": [
+            { "text": "Ratification is started from the time of making a contract between the ratifier of the act and the person who did of the act.", "correct": false },
+            { "text": "A contractual relationship is started between the ratifier and the third party.", "correct": false },
+            { "text": "Both A&B", "correct": true },
+            { "text": "None of these", "correct": false }
+          ]
+        },
+        {
+          "question": "____ entitles the bailee to retain those goods of the bailor for a general balance of the account.",
+          "options": [
+            { "text": "Particular lien", "correct": false },
+            { "text": "General lien", "correct": true },
+            { "text": "Ownership", "correct": false },
+            { "text": "Pledge", "correct": false }
+          ]
+        },
+        {
+          "question": "An agent can be appointed by ---",
+          "options": [
+            { "text": "A major of sound mind", "correct": true },
+            { "text": "A minor of sound mind", "correct": false },
+            { "text": "Any person of sound mind", "correct": false },
+            { "text": "Any major of sound or unsound mind", "correct": false }
+          ]
+        },
+        {
+          "question": "Who is Sub-agent?",
+          "options": [
+            { "text": "Who works under the main agent", "correct": false },
+            { "text": "Employed by and acting under the control of the original agent in the business of agency", "correct": true },
+            { "text": "Who works on behalf of the main agent", "correct": false },
+            { "text": "Who carries out the order and direction of a person under whom he works directly", "correct": false }
+          ]
+        },
+        {
+          "question": "--------- is an agent who sells goods or other property by auction.",
+          "options": [
+            { "text": "Auctioneer", "correct": true },
+            { "text": "Del credere agent", "correct": false },
+            { "text": "Factor", "correct": false },
+            { "text": "Broker", "correct": false }
+          ]
+        },
+        {
+          "question": "-------- is a mercantile agent who guarantees the performance of the contract by the third person on the payment of some extra commission.",
+          "options": [
+            { "text": "Broker", "correct": false },
+            { "text": "Factor", "correct": false },
+            { "text": "Auctioneer", "correct": false },
+            { "text": "Del credere agent", "correct": true }
+          ]
+        },
+        {
+          "question": "Martin, who wants to sell a house he owns, authorizes his concierge, Wilhelm, to find a potential buyer, and finalize a deal above a stipulated price. Wilhelm contracts Chris, a real estate broker, and instructs him to only find a potential buyer and send them over to Wilhelm for the sale. Martin then contracts ReNowaitGoodhouses, a home improvement company to renovate the house. ReNowait completes its work and Martin pays them. Chris then searches for a suitable buyer and finds one in George. George buys the house and Chris is paid for his services. Who performs the role of the agent in this land sale transaction?",
+          "options": [
+            { "text": "Wilhelm", "correct": true },
+            { "text": "Chris", "correct": false },
+            { "text": "Martin", "correct": false },
+            { "text": "George", "correct": false }
+          ]
+        },
+        {
+          "question": "Greg, who wants to sell a car he owns, authorizes his concierge, Walter, to find a potential buyer, and finalize a deal above a stipulated price. Walter contracts Jacob, an independent car sales broker, and instructs him to only find a potential buyer and send them over to Walter for the sale. Greg then contracts CarWreckers, an automobile modification company to renovate his car. CarWreckers completes its work and Greg pays them. Jacob then searches for a suitable buyer and finds one in Carl. Carl buys the car and Jacob is paid for his services. Who is the principal during the car sale transaction?",
+          "options": [
+            { "text": "Car Wreckers", "correct": false },
+            { "text": "Walter", "correct": false },
+            { "text": "Greg", "correct": true },
+            { "text": "Carl", "correct": false }
+          ]
+        },
+        {
+          "question": "A principal owes a duty to ________ the agent for any losses the agent suffers because of the principal. This duty usually arises where an agent is held liable for the principal's misconduct.",
+          "options": [
+            { "text": "indemnify", "correct": true },
+            { "text": "vilify", "correct": false },
+            { "text": "rectify", "correct": false },
+            { "text": "ratify", "correct": false }
+          ]
+        },
+        {
+          "question": "When agent is liable to pay compensation to principal ?",
+          "options": [
+            { "text": "Negligence", "correct": false },
+            { "text": "Giants of skills", "correct": false },
+            { "text": "Misconduct", "correct": false },
+            { "text": "All the choices incorporated here", "correct": true }
+          ]
+        },
+        {
+          "question": "Which Guarantee is given by Del – creder agent ?",
+          "options": [
+            { "text": "Own Solvency", "correct": false },
+            { "text": "Solvency of purchaser", "correct": true },
+            { "text": "Solvency of Agent", "correct": false },
+            { "text": "Solvency of seller", "correct": false }
+          ]
+        },
+        {
+          "question": "According to Section 71 of the Contract Act, a person who finds goods belonging to another and takes them into his custody, is subject to the same responsibility as a ----------",
+          "options": [
+            { "text": "Bailee", "correct": true },
+            { "text": "Bailor", "correct": false },
+            { "text": "Surety", "correct": false },
+            { "text": "Pawnor", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Discuss the various kinds of Agent in detail.",
+        "What are the rights of an Agent as per the Contract of Agency?",
+        "Write a detailed note on creation of Agency.",
+        "Discuss the rights and duties of a Bailee in detail.",
+        "Discuss the rights and duties of a Bailer in detail"
+      ]
+    },
+    {
+      "unit_no": 7,
+      "name": "Sale of Goods Act",
+      "mcqs": [
+        {
+          "question": "A farmer was sowing crops for growing potatoes in his farm. Krishna saw him sowing seeds and entered into a contract that he shall buy 50 kg potatoes as it gets ready to be plucked. Here, strawberry is___",
+          "options": [
+            { "text": "Expired good", "correct": false },
+            { "text": "Future good", "correct": true },
+            { "text": "Specific goods", "correct": false },
+            { "text": "Impossible goods", "correct": false }
+          ]
+        },
+        {
+          "question": "Malti goes to a local mobile shop and selects apple iphone 11 for her which is black in shade. Here, apple handset is a perfect example of_____________",
+          "options": [
+            { "text": "Future goods", "correct": false },
+            { "text": "Contingent goods", "correct": false },
+            { "text": "Ascertained goods", "correct": true },
+            { "text": "Generic goods", "correct": false }
+          ]
+        },
+        {
+          "question": "X agrees to sell Y one bag of wheat out of the hundreds of bags placed in his/her godown.In this case, the goods in sale are basically __________",
+          "options": [
+            { "text": "unascertained goods", "correct": true },
+            { "text": "specific goods", "correct": false },
+            { "text": "ascertained goods", "correct": false },
+            { "text": "generic goods", "correct": false }
+          ]
+        },
+        {
+          "question": "Assume that you sell apples from your orchard when the trees are yet to produce apples, the apples are:",
+          "options": [
+            { "text": "Past goods", "correct": false },
+            { "text": "Contingent goods", "correct": true },
+            { "text": "Generic goods", "correct": false },
+            { "text": "Specific goods", "correct": false }
+          ]
+        },
+        {
+          "question": "Anthony, who owns a TV show room, has 20 TV sets and agrees to sell any one of them to Bharti. The contract is for ______",
+          "options": [
+            { "text": "future goods", "correct": false },
+            { "text": "ascertained goods", "correct": false },
+            { "text": "unascertained goods,", "correct": true },
+            { "text": "contingent goods", "correct": false }
+          ]
+        },
+        {
+          "question": "The term ‘Goods’ in the Sale of Goods Act means:",
+          "options": [
+            { "text": "subject matter of the contract of sale", "correct": true },
+            { "text": "specific goods only", "correct": false },
+            { "text": "ascertained goods only", "correct": false },
+            { "text": "unascertained goods only", "correct": false }
+          ]
+        },
+        {
+          "question": "Where no price is fixed by express agreement, the buyer shall pay the seller_________",
+          "options": [
+            { "text": "lowest price", "correct": false },
+            { "text": "reasonable price", "correct": true },
+            { "text": "suitable price", "correct": false },
+            { "text": "adhoc price", "correct": false }
+          ]
+        },
+        {
+          "question": "As per-section 2(1), a person who buys or agrees to buy goods is called",
+          "options": [
+            { "text": "Buyer", "correct": true },
+            { "text": "Seller", "correct": false },
+            { "text": "Both (a) and (b)", "correct": false },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following cannot be said to be included in the term as goods, defined under the Sale of Goods Act, 1930?",
+          "options": [
+            { "text": "Fruits", "correct": false },
+            { "text": "Vegetables", "correct": false },
+            { "text": "Typewriter", "correct": false },
+            { "text": "Actionable Claim", "correct": true }
+          ]
+        },
+        {
+          "question": "The voluntary transfer of possession from one person to another is called",
+          "options": [
+            { "text": "Transfer", "correct": false },
+            { "text": "Change of possession", "correct": false },
+            { "text": "Delivery", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "As per section 2, sub section 7 every kind of moveable property other than actionable claim and money is called as___________",
+          "options": [
+            { "text": "Goods", "correct": false },
+            { "text": "Future goods", "correct": false },
+            { "text": "None of above", "correct": false },
+            { "text": "Both (a) and (b)", "correct": true }
+          ]
+        },
+        {
+          "question": "As per section 4(2), of The Sale of Goods Act, a contract of sale may be",
+          "options": [
+            { "text": "Absolute", "correct": false },
+            { "text": "Conditional", "correct": false },
+            { "text": "Both (a) and (b)", "correct": true },
+            { "text": "None of above", "correct": false }
+          ]
+        },
+        {
+          "question": "According section 5(2) Subject to provision of any law for the time being in force a contract of sale may be_________",
+          "options": [
+            { "text": "Made in writing", "correct": false },
+            { "text": "By words of month", "correct": false },
+            { "text": "Partly in writing or partly in words of month", "correct": false },
+            { "text": "All of above ways", "correct": true }
+          ]
+        },
+        {
+          "question": "A contract of sale may be",
+          "options": [
+            { "text": "Oral", "correct": false },
+            { "text": "Written", "correct": false },
+            { "text": "Neither (A) nor (B)", "correct": false },
+            { "text": "Either (A) & (B)", "correct": true }
+          ]
+        },
+        {
+          "question": "The term ‘possession of goods’ means",
+          "options": [
+            { "text": "ownership of goods", "correct": false },
+            { "text": "custody of goods", "correct": true },
+            { "text": "Either (a) & (b)", "correct": false },
+            { "text": "None of these", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Discuss the essentials of a valid contract of sales in detail.",
+        "Discuss the types of goods with the help of suitable example of each.",
+        "Write a note on: a) Price as per Sale of Goods Act b) Mode of Payment under Sale of Goods Act",
+        "Discuss the rules regarding Passing of Property in Goods from the Seller to the Buyer.",
+        "What do you mean by the term Sale and Agreement for Sales. Also, differentiate the two terms."
+      ]
+    },
+    {
+      "unit_no": 8,
+      "name": "Sale of Goods Act",
+      "mcqs": [
+        {
+          "question": "Conditions are stipulations __________.",
+          "options": [
+            { "text": "essential to the main purpose of the contract", "correct": true },
+            { "text": "collateral to the main purpose of the contract", "correct": false },
+            { "text": "either ‘a’ or ‘b’", "correct": false },
+            { "text": "neither ‘a’ nor ‘b’", "correct": false }
+          ]
+        },
+        {
+          "question": "A warranty is stipulation __________.",
+          "options": [
+            { "text": "essential to the main purpose of the contract", "correct": false },
+            { "text": "collateral to the main purpose of the contract", "correct": true },
+            { "text": "very important to the seller", "correct": false },
+            { "text": "very important to the buyer", "correct": false }
+          ]
+        },
+        {
+          "question": "Breach of a condition gives rise to __________.",
+          "options": [
+            { "text": "claim for damages", "correct": false },
+            { "text": "a right to treat the contract as repudiated", "correct": false },
+            { "text": "both ‘a’ and ‘b’", "correct": true },
+            { "text": "either ‘a’ or ‘b’", "correct": false }
+          ]
+        },
+        {
+          "question": "Breach of a warranty gives rise to __________.",
+          "options": [
+            { "text": "claim for damages", "correct": true },
+            { "text": "a right to treat the contract as repudiated", "correct": false },
+            { "text": "both ‘a’ and ‘b’", "correct": false },
+            { "text": "either ‘a’ or ‘b’", "correct": false }
+          ]
+        },
+        {
+          "question": "What are implied stipulations of a contract?",
+          "options": [
+            { "text": "agreed by the parties.", "correct": false },
+            { "text": "incorporated by law unless specifically agreed otherwise.", "correct": true },
+            { "text": "implied by the circumstances", "correct": false },
+            { "text": "implied by trade customs", "correct": false }
+          ]
+        },
+        {
+          "question": "If the condition as to the title of goods is not fulfilled, the buyer __________.",
+          "options": [
+            { "text": "may reject the goods", "correct": false },
+            { "text": "has no alternative but to buy the goods", "correct": false },
+            { "text": "may reject the goods and claim damages", "correct": true },
+            { "text": "all the above", "correct": false }
+          ]
+        },
+        {
+          "question": "In a sale by sample and description, there is an implied condition __________.",
+          "options": [
+            { "text": "that bulk of the goods correspond with the sample", "correct": false },
+            { "text": "the bulk of goods must correspond either to the description or to the sample", "correct": false },
+            { "text": "the bulk of goods must correspond to the description only", "correct": false },
+            { "text": "that bulk of goods must correspond to the description as well as the sample thereof", "correct": true }
+          ]
+        },
+        {
+          "question": "“If you contract to sell peas, you cannot oblige a party to have beans”: this statement applies to __________.",
+          "options": [
+            { "text": "the implied condition as to fitness of goods for a particular purpose", "correct": false },
+            { "text": "implied condition as to be description of goods", "correct": true },
+            { "text": "implied condition as to sample", "correct": false },
+            { "text": "implied condition as to title", "correct": false }
+          ]
+        },
+        {
+          "question": "As per section 11 of the Sale of Goods Act, 1930, the time of payment can be of the essence of the contract __________.",
+          "options": [
+            { "text": "by operation of law", "correct": false },
+            { "text": "by agreement between the parties", "correct": true },
+            { "text": "both (a) and (b)", "correct": false },
+            { "text": "either (a) or (b)", "correct": false }
+          ]
+        },
+        {
+          "question": "Whether or not any stipulation other than time of payment is of the essence of the contract depends upon __________.",
+          "options": [
+            { "text": "application of section 11", "correct": false },
+            { "text": "operation of law", "correct": false },
+            { "text": "terms of the contract", "correct": true },
+            { "text": "all of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "A stipulation in a contract of sale which is collateral to the main purpose of contract is called as __________.",
+          "options": [
+            { "text": "Guarantee", "correct": false },
+            { "text": "warranty", "correct": true },
+            { "text": "condition", "correct": false },
+            { "text": "term", "correct": false }
+          ]
+        },
+        {
+          "question": "Merchantable quality of goods means __________.",
+          "options": [
+            { "text": "that the goods are commercially saleable", "correct": false },
+            { "text": "they are fit for the purpose for which they are generally used", "correct": false },
+            { "text": "both ‘a’ and ‘b’", "correct": true },
+            { "text": "the quality should be of high standard", "correct": false }
+          ]
+        },
+        {
+          "question": "A told B, a car dealer, that he wanted to purchase a car ' suitable for touring purposes'. B suggested that a 'Bugatti' car would be fit for the purpose. Relying upon this statement, A bought a ' Bugatti' car which turned out to be unfit for touring purposes Here a",
+          "options": [
+            { "text": "Cannot reject the car, he can claim damages only.", "correct": false },
+            { "text": "Can neither reject the car nor claim any damages.", "correct": false },
+            { "text": "Can reject the car and have half refund of price.", "correct": false },
+            { "text": "Can reject the car and have the refund of the price.", "correct": true }
+          ]
+        },
+        {
+          "question": "Implied warranty of freedom from ______ means the buyer is entitled to a warranty that the goods he purchases are not subject to any charge in favour of any third party not declared or known to the buyer before or at the time when the contract is made.",
+          "options": [
+            { "text": "Encumbrance", "correct": true },
+            { "text": "Presentable", "correct": false },
+            { "text": "Wholesome", "correct": false },
+            { "text": "Merchantable", "correct": false }
+          ]
+        },
+        {
+          "question": "X purchased a hot water bag from a Chemist. The bag leaked and injured his wife. The Chemist is liable on account of –",
+          "options": [
+            { "text": "Breach of express condition as to quality", "correct": false },
+            { "text": "Breach of implied condition as to quality", "correct": true },
+            { "text": "Personal injury caused to the Buyer's wife", "correct": false },
+            { "text": "Hot water bottle sales are illegal", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Discuss the conditions and warranties implied by law in a contract for the sale of goods.",
+        "State the conditions implied in a contract for the sale of goods (a) by description, (b) by sample, and required for a particular purpose.",
+        "What do you mean by the term condition and warranty. Differentiate between condition and warranty.",
+        "Do the case analysis of given cases: a) Ajay purchases some chocolates from a shop. One of the chocolates contains a poisonous matter and as a result A’s wife who has eaten it falls seriously ill. What remedy is available to Ajay against the shopkeeper? [Hint: The chocolates are not of merchantable quality and hence A can repudiate the contract and recover damages (Sec. 16 (2)] b) Worsted cotton cloth of quality equal to sample was sold to tailors who could not stick it into coats owing to some defect in its texture. The buyers had examined the cloth before effecting the purchase. Are they entitled to damages? [Hint: Yes, as there is a latent defect in cloth (Sec. 17; Drummond v. Van Ingen).]",
+        "Do the case analysis of given cases: In an auction sale of a set of Napkins and table clothes, these were described as dating from the seventh century; the buyer bought the set after seeing it. Subsequently it was found that the set was not of the seventh century but of the eighteenth century. Is the sale binding on the buyer? [Hint: No, as sales by description is not met] Anwar contracts to sell Bhanita a piece of silk. Bhanita thinks it is Indian Silk and Anwar knows this. Anwar does not correct her and later after sale Bhanita comes to return the cloth. Anwar refuses to take back cloth. Is Anwar supposed to accept the returned good by Bhanita? [Hint: No, as according to rule of caveat emptor Bhanita is responsible for her choice]"
+      ]
+    },
+    {
+      "unit_no": 9,
+      "name": "Sale of Goods Act, 1930",
+      "mcqs": [
+        {
+          "question": "An unpaid seller has not given notice of resale to the buyer. On the resale there is a loss____________.",
+          "options": [
+            { "text": "the unpaid seller can recover it from the buyer.", "correct": false },
+            { "text": "the unpaid seller cannot recover it from the buyer", "correct": true },
+            { "text": "the buyer can recover it from an unpaid seller.", "correct": false },
+            { "text": "the buyer must compensate the unpaid seller.", "correct": false }
+          ]
+        },
+        {
+          "question": "An unpaid seller can excise the right of stoppage in transit when the carrier holds the goods ___",
+          "options": [
+            { "text": "as sellers’ agent.", "correct": false },
+            { "text": "as buyer s agent.", "correct": false },
+            { "text": "as agent of both of them.", "correct": false },
+            { "text": "in his own name.", "correct": true }
+          ]
+        },
+        {
+          "question": "The right of lien excised by an unpaid seller is to ___________",
+          "options": [
+            { "text": "retain possession.", "correct": false },
+            { "text": "regain possession.", "correct": true },
+            { "text": "recovery price and other charges.", "correct": false },
+            { "text": "Damages.", "correct": false }
+          ]
+        },
+        {
+          "question": "An unpaid seller can exercise his rights of lien ___________.",
+          "options": [
+            { "text": "where the goods have been sold on credit and terms of credit has not expired", "correct": false },
+            { "text": "where the buyer has not become insolvent.", "correct": false },
+            { "text": "for the price of the goods.", "correct": true },
+            { "text": "for the price of the goods and expenses.", "correct": false }
+          ]
+        },
+        {
+          "question": "The lien of an unpaid seller depends on _____________.",
+          "options": [
+            { "text": "possession.", "correct": true },
+            { "text": "title.", "correct": false },
+            { "text": "ownership.", "correct": false },
+            { "text": "possession and ownership.", "correct": false }
+          ]
+        },
+        {
+          "question": "In a sale, there is an implied condition on the part of the seller that he __________.",
+          "options": [
+            { "text": "Is in position of the goods.", "correct": false },
+            { "text": "Will have the right to sell.", "correct": false },
+            { "text": "Has right to sell the goods.", "correct": true },
+            { "text": "Has the right to sell the goods", "correct": false }
+          ]
+        },
+        {
+          "question": "The doctrine of caveat emptor applies______________",
+          "options": [
+            { "text": "When the buyer does not intimate the purpose to the seller and depends upon his own skill and judgment", "correct": false },
+            { "text": "In case of implied conditions and warranties.", "correct": true },
+            { "text": "When goods are sold by sample.", "correct": false },
+            { "text": "When goods are sold by description.", "correct": false }
+          ]
+        },
+        {
+          "question": "If a price is not determined by the parties in a contract of sale, the buyer is bound to pay________________",
+          "options": [
+            { "text": "The price demanded by the seller", "correct": false },
+            { "text": "reasonable price", "correct": true },
+            { "text": "The price to be determined by a third independent person", "correct": false },
+            { "text": "The price which the buyer thinks is reasonable.", "correct": false }
+          ]
+        },
+        {
+          "question": "In a sale, the property in goods_____________________",
+          "options": [
+            { "text": "Maybe transferred at a future time", "correct": false },
+            { "text": "Is transferred when the buyer pays the price.", "correct": false },
+            { "text": "Is transferred when goods are delivered to the buyer.", "correct": true },
+            { "text": "Is transferred to the buyer.", "correct": false }
+          ]
+        },
+        {
+          "question": "The word “perishable” in respect of goods, u/s 54 of the Sale of Goods Act, means _________.",
+          "options": [
+            { "text": "physically perishable", "correct": false },
+            { "text": "Commercially perishable", "correct": false },
+            { "text": "both (a) and (b)", "correct": false },
+            { "text": "either (a) or (b)", "correct": true }
+          ]
+        },
+        {
+          "question": "Where the neglected or refusal of the buyer to take delivery of goods amounts to a repudiation of the contract, the seller may sue for the __________.",
+          "options": [
+            { "text": "price of damages.", "correct": true },
+            { "text": "price only.", "correct": false },
+            { "text": "damages only.", "correct": false },
+            { "text": "both for price and damages.", "correct": false }
+          ]
+        },
+        {
+          "question": "Unless otherwise agreed, where goods are sent by the seller to the buyer by a route involving a sea transit of the seller____",
+          "options": [
+            { "text": "must inform the buyer in time to get the goods insured", "correct": false },
+            { "text": "may insure the goods.", "correct": false },
+            { "text": "must insure the goods.", "correct": false },
+            { "text": "no need to insure the goods.", "correct": true }
+          ]
+        },
+        {
+          "question": "When there is n specific agreement as to place, the goods sold are to be delivered at the place__________.",
+          "options": [
+            { "text": "at which they are at the time of sale.", "correct": true },
+            { "text": "of the buyer.", "correct": false },
+            { "text": "decide by the seller.", "correct": false },
+            { "text": "to be determined by the seller.", "correct": false }
+          ]
+        },
+        {
+          "question": "Unless otherwise agreed, where goods are sent by the seller to the buyer by a route involving a sea transit of the seller____",
+          "options": [
+            { "text": "may insure the goods.", "correct": false },
+            { "text": "must insure the goods.", "correct": false },
+            { "text": "A. must inform the buyer in time to get the goods insured", "correct": true },
+            { "text": "no need to insure the goods.", "correct": false }
+          ]
+        },
+        {
+          "question": "A seller delivers goods in excess of the quantity ordered for. The buyer may_______.",
+          "options": [
+            { "text": "accept the whole.", "correct": true },
+            { "text": "reject the whole.", "correct": false },
+            { "text": "accept the goods ordered for and returns.", "correct": false },
+            { "text": "accept the part of goods.", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Explain the concept of doctrine of caveat emptor along with its exceptions.",
+        "Who is an unpaid seller? Discuss the rights of an unpaid seller against goods?",
+        "Who is an unpaid seller? Discuss the rights of an unpaid seller against buyer?",
+        "a) Bankae, a farmer, simply exhibits oats in his farm. Brijesh buys the oats in the belief that they are old oats. In fact, they are new oats. Brijesh wants to return the oats and refuses to pay the price. Can he do so? Give reasons in support of your answer. b) Rosa contracts with Jagdish to buy a necklace, believing it is made of pearls whereas in fact it was made of imitation pearls of no value. Jagdish knows that Rosa is mistaken and takes no steps to correct the error. Is Rosa bound by the Contract? Give reasons in support of your answer.",
+        "a) Mr. Gupta sold a quantity of wheat to Mr. Verma, who paid by cheque which was dishonoured upon presentation, Mr. Gupta gave a delivery order to Mr. Verma for the wheat and Mr. Verma resold it to Sahil, purchaser in good faith, for consideration indorsing the delivery order to him. Mr. Gupta refuses to deliver the goods to Sahil on the plea of non-receipt of price. Advise Sahil. b) Rahul sells and consigns goods to Ravi of the value of ` 10,000. Ravi assigns the bill of lading for these goods to Roshan to secure the sum of ` 4,000 due from him to Roshan, Ravi becomes insolvent. Can Rahul stop the goods in transit?"
+      ]
+    },
+    {
+      "unit_no": 10,
+      "name": "Limited Liability Partnership Act, 2008",
+      "mcqs": [
+        {
+          "question": "A minimum of ____ partners will be required for formation of an LLP.",
+          "options": [
+            { "text": "2", "correct": true },
+            { "text": "3", "correct": false },
+            { "text": "5", "correct": false },
+            { "text": "7", "correct": false }
+          ]
+        },
+        {
+          "question": "What is the maximum limit of Partners that can be added to a Limited Liability Partnership?",
+          "options": [
+            { "text": "2", "correct": false },
+            { "text": "5", "correct": false },
+            { "text": "7", "correct": false },
+            { "text": "No upperlimit", "correct": true }
+          ]
+        },
+        {
+          "question": "Any individual or body corporate may be a partner in an LLP. However, an individual shall not be capable of becoming a partner of an LLP, if ______",
+          "options": [
+            { "text": "he has been found to be of unsound mind by a Court of competent jurisdiction and the finding is in force;", "correct": false },
+            { "text": "he is an undischarged insolvent; or", "correct": false },
+            { "text": "he has applied to be adjudicated as an insolvent and his application is pending", "correct": false },
+            { "text": "All of the above", "correct": true }
+          ]
+        },
+        {
+          "question": "A limited liability partnership is:",
+          "options": [
+            { "text": "Not a separate entity from that of its partners", "correct": false },
+            { "text": "A legal entity separates from that of its partners", "correct": false },
+            { "text": "Only B and C are correct", "correct": true },
+            { "text": "A body corporate", "correct": false }
+          ]
+        },
+        {
+          "question": "An LLP shall be governed by the provisions of:",
+          "options": [
+            { "text": "The Companies Act, 2013", "correct": false },
+            { "text": "The Limited Liability Partnership Act, 2008", "correct": true },
+            { "text": "The Co-operative Societies Act, 1912", "correct": false },
+            { "text": "The Indian Partnership Act, 1932", "correct": false }
+          ]
+        },
+        {
+          "question": "How many designated partners are required in LLP:",
+          "options": [
+            { "text": "At least two designated partners", "correct": true },
+            { "text": "Seven designated partners", "correct": false },
+            { "text": "Two designated partners", "correct": false },
+            { "text": "At least seven designated partners", "correct": false }
+          ]
+        },
+        {
+          "question": "At which place the LLP shall maintain books of accounts:",
+          "options": [
+            { "text": "At its Branch Office", "correct": false },
+            { "text": "At its Corporate Office", "correct": false },
+            { "text": "At its Head Office", "correct": false },
+            { "text": "At its Registered Office", "correct": true }
+          ]
+        },
+        {
+          "question": "Who shall sign the Statement of Account and Solvency prepared by the LLP?",
+          "options": [
+            { "text": "By any one partner, authorised in this behalf", "correct": false },
+            { "text": "By at least two partners, authorised in this behalf", "correct": false },
+            { "text": "By the designated partners", "correct": true },
+            { "text": "By all the partners", "correct": false }
+          ]
+        },
+        {
+          "question": "______does not participate in the day-to-day functioning activities of the partnership firm.",
+          "options": [
+            { "text": "Illegal Partner", "correct": false },
+            { "text": "Sleeping Partner", "correct": false },
+            { "text": "Flexible Partner", "correct": false },
+            { "text": "DormantPartner", "correct": true }
+          ]
+        },
+        {
+          "question": "A resident in India as per the Limited Liability Partnership means a person who has stayed in India for a period of not less than _____ days during the immediately preceding one year",
+          "options": [
+            { "text": "132 days", "correct": false },
+            { "text": "182 days", "correct": true },
+            { "text": "152 days", "correct": false },
+            { "text": "162 days", "correct": false }
+          ]
+        },
+        {
+          "question": "Identify which of the given entity does not have a Perpetual Succession?",
+          "options": [
+            { "text": "Company", "correct": false },
+            { "text": "Limited Liability Partnership", "correct": false },
+            { "text": "Partnership", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the given entities needs to be registered?",
+          "options": [
+            { "text": "Company and Partnership", "correct": false },
+            { "text": "Company and Limited Liability Partnership", "correct": false },
+            { "text": "Partnership and Limited Liability Partnership", "correct": false },
+            { "text": "Partnership", "correct": true }
+          ]
+        },
+        {
+          "question": "The Limited Liability Partnership should file its statement of account and solvency with which of the following parties?",
+          "options": [
+            { "text": "The Limited Liability Partnership should file its statement of account and solvency with the registrar of firms", "correct": false },
+            { "text": "The Limited Liability Partnership should file its statement of account and solvency with the registrar", "correct": true },
+            { "text": "The Limited Liability Partnership should file its statement of account and solvency with the registrar of cooperative societies", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "In case of ____, a partner has liability to the amount of capital invested.",
+          "options": [
+            { "text": "Company", "correct": false },
+            { "text": "Limited Liability Partnership", "correct": false },
+            { "text": "Partnership", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "Perpetual succession is not possible in ______________",
+          "options": [
+            { "text": "Partnership", "correct": true },
+            { "text": "Company", "correct": false },
+            { "text": "Limited Liability Partnership", "correct": false },
+            { "text": "All of the above", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Discuss the incorporation of an LLP in detail.",
+        "What is meant by the term ‘Limited Liability Partnership’? Discuss its features in detail.",
+        "Differentiate between Limited Liability Partnership, Company and Partnership.",
+        "Discuss the various types of Partners as per the Partnership Act and Limited Liability Partnership.",
+        "Write a short note on: a) Partnership by Estoppel b) Partnership by Necessity c) Minor Partner d) Nominal Partnership e) Partnership on basis of Tenure"
+      ]
+    },
+    {
+      "unit_no": 11,
+      "name": "Consumer Protect Act, 2019",
+      "mcqs": [
+        {
+          "question": "A complaint relating to which among the following can forwarded either in writing or in electronic mode, to any one of the authorities, namely, the District Collector or the Commissioner of regional office or the Central Authority?",
+          "options": [
+            { "text": "Violation of consumer rights", "correct": false },
+            { "text": "Unfair trade practices", "correct": false },
+            { "text": "False or misleading advertisements", "correct": false },
+            { "text": "All the options are correct", "correct": true }
+          ]
+        },
+        {
+          "question": "Consumer Protection Act is significant to?",
+          "options": [
+            { "text": "All Goods and Services", "correct": false },
+            { "text": "Immovable Goods", "correct": false },
+            { "text": "Movable Goods", "correct": false },
+            { "text": "All types of Goods and Services", "correct": true }
+          ]
+        },
+        {
+          "question": "How many rights does a consumer have under the Consumer Protection Act?",
+          "options": [
+            { "text": "6", "correct": true },
+            { "text": "5", "correct": false },
+            { "text": "4", "correct": false },
+            { "text": "3", "correct": false }
+          ]
+        },
+        {
+          "question": "What is the maximum penalty that can be imposed by the Central Authority for every subsequent contravention, in respect of such false or misleading advertisement, by a manufacturer or an endorser?",
+          "options": [
+            { "text": "One Lakh", "correct": false },
+            { "text": "Fifty Lakhs", "correct": true },
+            { "text": "Ten lakh", "correct": false },
+            { "text": "One crore", "correct": false }
+          ]
+        },
+        {
+          "question": "Under the Consumer Protection Act, the rights of a consumer do not include:",
+          "options": [
+            { "text": "Safety", "correct": false },
+            { "text": "Choose", "correct": false },
+            { "text": "Presented", "correct": true },
+            { "text": "Informed", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the following forum can reappoint the same person as its member?",
+          "options": [
+            { "text": "National commission", "correct": false },
+            { "text": "State commission", "correct": false },
+            { "text": "District commission", "correct": false },
+            { "text": "None of the above", "correct": true }
+          ]
+        },
+        {
+          "question": "Within how many days does the opposite party have to answer after they are informed about the complaint?",
+          "options": [
+            { "text": "20 days", "correct": false },
+            { "text": "30 days", "correct": true },
+            { "text": "7 days", "correct": false },
+            { "text": "5 days", "correct": false }
+          ]
+        },
+        {
+          "question": "______ is the standardized mark on jewellery",
+          "options": [
+            { "text": "ISI", "correct": false },
+            { "text": "FPO", "correct": false },
+            { "text": "Hallmark", "correct": true },
+            { "text": "CERC", "correct": false }
+          ]
+        },
+        {
+          "question": "______ are made to hear complaints of the value less than 5 lakhs.",
+          "options": [
+            { "text": "District Forum", "correct": true },
+            { "text": "State commission", "correct": false },
+            { "text": "National commission", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "Mahesh bought a packet of chips from a local shopkeeper and found that the ingredients given on the lable were not legible. He complained about it to the company . The company sent a written apology stating that they will make sure that existing packets are withdrawn from the market and new packets with legible labels are soon made available. Which Consumer right has been Mahesh exercised?",
+          "options": [
+            { "text": "Right to choose", "correct": false },
+            { "text": "Right to be informed", "correct": true },
+            { "text": "Right to seek redressal", "correct": false },
+            { "text": "Right to remain silent", "correct": false }
+          ]
+        },
+        {
+          "question": "When the seller manipulates the price, it is known as",
+          "options": [
+            { "text": "Caveat Emptor", "correct": false },
+            { "text": "Unfair trade practices", "correct": false },
+            { "text": "Restricted trade practices", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "The maximum age for a state commission member should be",
+          "options": [
+            { "text": "50", "correct": false },
+            { "text": "70", "correct": true },
+            { "text": "60", "correct": false },
+            { "text": "67", "correct": false }
+          ]
+        },
+        {
+          "question": "In which forum is it compulsory to have a female member?",
+          "options": [
+            { "text": "National commission", "correct": false },
+            { "text": "State commission", "correct": false },
+            { "text": "District commission", "correct": false },
+            { "text": "National commission, State commission as well as District commission", "correct": true }
+          ]
+        },
+        {
+          "question": "Right to ________ provides that a consumer has right to know about the quality, quantity, potency, purity, standard and price of goods or services, as the case may be so as to be protected against unfair trade practices in the Consumer Protection Act.",
+          "options": [
+            { "text": "Information", "correct": true },
+            { "text": "Choose", "correct": false },
+            { "text": "Heard", "correct": false },
+            { "text": "Protected", "correct": false }
+          ]
+        },
+        {
+          "question": "Under this act, the minimum age of forum member of a district forum should be",
+          "options": [
+            { "text": "30", "correct": false },
+            { "text": "35", "correct": true },
+            { "text": "40", "correct": false },
+            { "text": "55", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What are the consumer rights laid under Companies Act?",
+        "Discuss the role of District Forum in Consumer Dispute settlement in detail.",
+        "Discuss the role of State Commission in Consumer Dispute settlement in detail.",
+        "Discuss the role of National Commission in Consumer Dispute settlement in detail.",
+        "Write a short note on: i. Deficiency of Service ii. Unfair Trade Practice iii. Duties of E-commerce Entity"
+      ]
+    },
+    {
+      "unit_no": 12,
+      "name": "Negotiable Instruments Act, 1881",
+      "mcqs": [
+        {
+          "question": "Identify which of the given is not true regarding a Negotiable Instrument?",
+          "options": [
+            { "text": "Transferability", "correct": false },
+            { "text": "Must be Verbal", "correct": true },
+            { "text": "Time of Payment must be Certain", "correct": false },
+            { "text": "Payee also must be certain", "correct": false }
+          ]
+        },
+        {
+          "question": "______ refers to as an instrument that is in a written form writing with an unqualified or unconditional undertaking.",
+          "options": [
+            { "text": "Promissory note", "correct": true },
+            { "text": "Cheque", "correct": false },
+            { "text": "Bill of Exchange", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "Identify the false statement regarding a Bill of Exchange:",
+          "options": [
+            { "text": "It essential that a bill of exchange should be in written.", "correct": false },
+            { "text": "It must outline the time when the money is due.", "correct": false },
+            { "text": "It must outline the amount of money that must be paid.", "correct": false },
+            { "text": "It must not be signed by the party giving it.", "correct": true }
+          ]
+        },
+        {
+          "question": "________ is a bill of exchange drawn on a specified banker and not expressed to be payable.",
+          "options": [
+            { "text": "Bill of Exchange", "correct": false },
+            { "text": "Promissory note", "correct": false },
+            { "text": "Cheque", "correct": true },
+            { "text": "All of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of the given is a Promissory Note?",
+          "options": [
+            { "text": "I promise to pay Ballu Rs. 500 and to deliver to him my white puppy on 1st January 2023.", "correct": false },
+            { "text": "“I acknowledge myself to be indebted to Raghav in Rs. 1,000, to be paid on demand, for value received.”", "correct": true },
+            { "text": "I promise to pay Chandru a sum of Rs. 500 in seven days or after my marriage with Chanda.", "correct": false },
+            { "text": "I promise to pay Bob Rs. 500 on Derrick’s death, provided Derrick leaves me enough to pay that sum.", "correct": false }
+          ]
+        },
+        {
+          "question": "All offences under Negotiable Instruments Act shall be tried by:",
+          "options": [
+            { "text": "A Metropolitan Magistrate", "correct": false },
+            { "text": "A Judicial Magistrate of the first class", "correct": false },
+            { "text": "Either A or B", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "When a bill is said to be dishonoured?",
+          "options": [
+            { "text": "where presentment is excused and the bill is not accepted", "correct": false },
+            { "text": "one of several drawees makes default in acceptance upon being duly required to accept the bill.", "correct": false },
+            { "text": "by non-acceptance by the drawee", "correct": false },
+            { "text": "All of the above.", "correct": true }
+          ]
+        },
+        {
+          "question": "When the day on which a promissory note or bill of exchange is at maturity is a public holiday, the instrument shall be deemed to be due:",
+          "options": [
+            { "text": "On the same day.", "correct": false },
+            { "text": "On the next preceding business day.", "correct": true },
+            { "text": "On the next business day.", "correct": false },
+            { "text": "On the next succeeding business day.", "correct": false }
+          ]
+        },
+        {
+          "question": "Three days grace is allowed to calculate due date of _____",
+          "options": [
+            { "text": "Promissory note", "correct": true },
+            { "text": "Cheque", "correct": false },
+            { "text": "Bill of Exchange", "correct": false },
+            { "text": "Any one of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "_________ involves three parties, i.e. drawer, drawee and payee.",
+          "options": [
+            { "text": "Promissory note", "correct": false },
+            { "text": "Purchase Invoice", "correct": false },
+            { "text": "Bill of Exchange", "correct": true },
+            { "text": "Any one of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "________ is valid for 3 months.",
+          "options": [
+            { "text": "Cheque", "correct": true },
+            { "text": "Bill of exchange", "correct": false },
+            { "text": "Promissory Note", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "In which of the following crossing is not applicable?",
+          "options": [
+            { "text": "Cheque", "correct": false },
+            { "text": "Cheque and Bill of Exchange", "correct": false },
+            { "text": "Bill of Exchange and Promissory note", "correct": true },
+            { "text": "Promissory note and Cheque", "correct": false }
+          ]
+        },
+        {
+          "question": "Identify the false statement regarding a Cheque?",
+          "options": [
+            { "text": "A cheque contains an order to pay the money.", "correct": false },
+            { "text": "Drawer, Drawee and Payee are parties to it.", "correct": false },
+            { "text": "Drawer and drawee can be the same person.", "correct": false },
+            { "text": "It must be stamped.", "correct": true }
+          ]
+        },
+        {
+          "question": "______is prepared by a Debtor.",
+          "options": [
+            { "text": "Promissory note", "correct": true },
+            { "text": "Cheque", "correct": false },
+            { "text": "Bill of Exchange", "correct": false },
+            { "text": "Any of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "If ________is dishonoured it cannot be noted or protested.",
+          "options": [
+            { "text": "Promissory note", "correct": false },
+            { "text": "Cheque", "correct": true },
+            { "text": "Bill of Exchange", "correct": false },
+            { "text": "Any of the above", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Discuss the types of a Negotiable Instrument with the help of suitable examples.",
+        "Write a detailed note on Crossing of a Cheque.",
+        "Discuss the difference between i) Cheque and Promissory note ii) Bill of Exchange and Cheque",
+        "What is a Bill of Exchange? Discuss its features in detail.",
+        "What is a Negotiable Instrument. Discuss the features of a Negotiable Instrument."
+      ]
+    },
+    {
+      "unit_no": 13,
+      "name": "Negotiable Instrument Act,1881",
+      "mcqs": [
+        {
+          "question": "_____ refers to as the payee of a negotiable instrument, who is in possession of it. Such a person is eligible to obtain or recuperate the amount due on the instrument from the parties thereto.",
+          "options": [
+            { "text": "Buyer", "correct": false },
+            { "text": "Holder in due course", "correct": false },
+            { "text": "Holder", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "A person acquiring the negotiable instrument bonafide for some consideration, whose payment is still due is better known as ________",
+          "options": [
+            { "text": "Holder", "correct": false },
+            { "text": "Holder in due course", "correct": true },
+            { "text": "Either Holder or Holder in due case", "correct": false },
+            { "text": "None of these", "correct": false }
+          ]
+        },
+        {
+          "question": "A person can become holder, ________of the negotiable instrument.",
+          "options": [
+            { "text": "Before the maturity", "correct": false },
+            { "text": "After the maturity", "correct": false },
+            { "text": "Before or after the maturity", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "A ____cannot sue all prior parties",
+          "options": [
+            { "text": "Holder", "correct": true },
+            { "text": "Holder in due course", "correct": false },
+            { "text": "Both Holder and Holder in Due course", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "A person can become holder in due course, only ____ of negotiable instrument.",
+          "options": [
+            { "text": "After the maturity", "correct": false },
+            { "text": "Before the maturity", "correct": true },
+            { "text": "Before or after the maturity", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "A ______ can sue all prior parties.",
+          "options": [
+            { "text": "Holder", "correct": false },
+            { "text": "Holder in due course", "correct": true },
+            { "text": "Both Holder and Holder in Due course", "correct": false },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "A signed check without a specified payee is _____",
+          "options": [
+            { "text": "Partial endorsement", "correct": false },
+            { "text": "Restrictive endorsement", "correct": false },
+            { "text": "Full endorsement", "correct": false },
+            { "text": "Blank endorsement", "correct": true }
+          ]
+        },
+        {
+          "question": "When an endorser inserts the endorsement by expressing words, a stipulation negating (excluding) or limiting his own liability to the holder by making such liability or the right of the indorsee to receive the amount due thereon upon the happening of a specified event although such event may never happen, this is known as_________.",
+          "options": [
+            { "text": "Partial endorsement", "correct": false },
+            { "text": "Restrictive endorsement", "correct": true },
+            { "text": "Full endorsement", "correct": false },
+            { "text": "Blank endorsement", "correct": false }
+          ]
+        },
+        {
+          "question": "________ is a kind of endorsement the holder does not incur any liability on the bill as an endorser.",
+          "options": [
+            { "text": "Sans recourse endorsement", "correct": true },
+            { "text": "Liability dependent upon a contingency", "correct": false },
+            { "text": "Facultative endorsement", "correct": false },
+            { "text": "Sans frais endorsement", "correct": false }
+          ]
+        },
+        {
+          "question": "Where the endorser does not want the endorsee or any subsequent holder to incur any expenses on his account on the instrument, the endorsement is _____endorsement.",
+          "options": [
+            { "text": "Sans recourse endorsement", "correct": false },
+            { "text": "Liability dependent upon a contingency", "correct": false },
+            { "text": "Facultative endorsement", "correct": false },
+            { "text": "Sans frais endorsement", "correct": true }
+          ]
+        },
+        {
+          "question": "______ refers to a crossing of cheque as per which a cheque bears across its face an addition of two parallel transverse lines and/or the addition of the words “and Co.” between them, or addition of “not negotiable”.",
+          "options": [
+            { "text": "Special crossing", "correct": true },
+            { "text": "General crossing", "correct": false },
+            { "text": "Both general as well as special crossing", "correct": false },
+            { "text": "Either general or special crossing", "correct": false }
+          ]
+        },
+        {
+          "question": "A cheque bounce is an offence punishable with___",
+          "options": [
+            { "text": "A fine which can extend to twice the amount of the cheque", "correct": false },
+            { "text": "Imprisonment for a term not more than two years or both", "correct": false },
+            { "text": "Either A fine which can extend to twice the amount of the cheque or imprisonment for a term not more than two years or both", "correct": true },
+            { "text": "None of the above", "correct": false }
+          ]
+        },
+        {
+          "question": "The payee must file the complaint against cheque bounce before the magistrate within ____of the expiry of 15 days of the issuance of the cheque bounce notice.",
+          "options": [
+            { "text": "30 days, 15 days", "correct": true },
+            { "text": "10 days, 15 days", "correct": false },
+            { "text": "30 days, 7 days", "correct": false },
+            { "text": "25 days, 10 days", "correct": false }
+          ]
+        },
+        {
+          "question": "When a cheque is bounced due to insufficient funds in the bank account, it can ____at default.",
+          "options": [
+            { "text": "invite civil proceedings against the party", "correct": false },
+            { "text": "invite criminal proceedings against the party", "correct": false },
+            { "text": "invite civil as well as criminal proceedings against the party", "correct": true },
+            { "text": "No action against the party", "correct": false }
+          ]
+        },
+        {
+          "question": "_____ is a type of endorsement as per which an endorser by express words abandons some right or increases his liability under an instrument.",
+          "options": [
+            { "text": "Sans recourse endorsement", "correct": false },
+            { "text": "Liability dependent upon a contingency", "correct": false },
+            { "text": "Sans frais endorsement", "correct": false },
+            { "text": "Facultative endorsement", "correct": true }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "Explain the concept of holder and holder in due course. Discuss the essentials to become holder in due course.",
+        "Discuss meaning and types of endorsements with the help of suitable examples.",
+        "What is meant by the term crossing of a cheque? Discuss the various types of crossing of cheque.",
+        "What is bouncing of Cheque? Discuss the reasons behind the same in detail.",
+        "Discuss the penalty and remedies against Cheque Bounce."
+      ]
+    },
+    {
+      "unit_no": 14,
+      "name": "Intellectual Property Rights",
+      "mcqs": [
+        {
+          "question": "What protects the intellectual property created by artists?",
+          "options": [
+            { "text": "Copyright", "correct": true },
+            { "text": "Patent", "correct": false },
+            { "text": "Industrial Design", "correct": false },
+            { "text": "Geographical Indications", "correct": false }
+          ]
+        },
+        {
+          "question": "What does a trademark protect?",
+          "options": [
+            { "text": "An invention", "correct": false },
+            { "text": "A work of art", "correct": false },
+            { "text": "Logos, names and brands", "correct": true },
+            { "text": "A secret formula", "correct": false }
+          ]
+        },
+        {
+          "question": "How long do patents usually last for?",
+          "options": [
+            { "text": "5 years", "correct": false },
+            { "text": "10 years", "correct": false },
+            { "text": "30 years", "correct": false },
+            { "text": "20 years", "correct": true }
+          ]
+        },
+        {
+          "question": "Imagine a sports team sets up a company to sell its own range of clothes. What type of intellectual property can the team use to show that the clothes are made by them?",
+          "options": [
+            { "text": "Trademark", "correct": true },
+            { "text": "Patent", "correct": false },
+            { "text": "Copyright", "correct": false },
+            { "text": "Industrial Design", "correct": false }
+          ]
+        },
+        {
+          "question": "If a company develops a new technology that improves its main product, what type of intellectual property can they use to stop others from copying their invention?",
+          "options": [
+            { "text": "Copyright", "correct": false },
+            { "text": "Patent", "correct": true },
+            { "text": "Industrial Design", "correct": false },
+            { "text": "Geographical Indications", "correct": false }
+          ]
+        },
+        {
+          "question": "In most countries, how long does copyright last for?",
+          "options": [
+            { "text": "10 years after the creation of the work", "correct": false },
+            { "text": "50 years after the creation of the work", "correct": false },
+            { "text": "10 years after the death of the person who created that work", "correct": false },
+            { "text": "50 years after the death of the person who created that work", "correct": true }
+          ]
+        },
+        {
+          "question": "What does a trademark protect?",
+          "options": [
+            { "text": "Logos, names and brands", "correct": false },
+            { "text": "The look, shape and feel of a product", "correct": true },
+            { "text": "An invention", "correct": false },
+            { "text": "A work of art", "correct": false }
+          ]
+        },
+        {
+          "question": "Which of these is a geographical indication?",
+          "options": [
+            { "text": "BMW", "correct": false },
+            { "text": "Hogwarts", "correct": false },
+            { "text": "Champagne", "correct": true },
+            { "text": "PlayStation", "correct": false }
+          ]
+        },
+        {
+          "question": "What protects the intellectual property created by inventors?",
+          "options": [
+            { "text": "Copyright", "correct": false },
+            { "text": "Geographical indications", "correct": false },
+            { "text": "Patents", "correct": true },
+            { "text": "Registered designs", "correct": false }
+          ]
+        },
+        {
+          "question": "What protects the intellectual property created by designers?",
+          "options": [
+            { "text": "Copyright", "correct": false },
+            { "text": "Geographical indications", "correct": false },
+            { "text": "Patents", "correct": false },
+            { "text": "Registered designs", "correct": true }
+          ]
+        },
+        {
+          "question": "Use of patented invention by a person other than a patentee constitutes………",
+          "options": [
+            { "text": "Co-Operation to patentee", "correct": false },
+            { "text": "Infringement of patent rights of patentee", "correct": true },
+            { "text": "Advertisement of patent", "correct": false },
+            { "text": "Anticipation", "correct": false }
+          ]
+        },
+        {
+          "question": "Can lecture delivered in the classroom be copyrighted?",
+          "options": [
+            { "text": "Occasionally with conditions", "correct": false },
+            { "text": "None", "correct": false },
+            { "text": "No", "correct": false },
+            { "text": "Yes", "correct": true }
+          ]
+        },
+        {
+          "question": "Patent for the ……………is prohibited.",
+          "options": [
+            { "text": "Junk food", "correct": false },
+            { "text": "Atomic energy", "correct": true },
+            { "text": "Arms", "correct": false },
+            { "text": "Traditional knowledge", "correct": false }
+          ]
+        },
+        {
+          "question": "The mark granted by the authority granting the certificate of quality and standard is called ………",
+          "options": [
+            { "text": "Additional Trademark", "correct": false },
+            { "text": "Service Mark", "correct": false },
+            { "text": "Certification Mark", "correct": false },
+            { "text": "Quality Mark", "correct": true }
+          ]
+        },
+        {
+          "question": "Which of the following is not the infringement of copyright?",
+          "options": [
+            { "text": "To make back up copy", "correct": true },
+            { "text": "Copy the software to another computer by company", "correct": false },
+            { "text": "Copy the software to another computer", "correct": false },
+            { "text": "Copy the software to another computer by educational institution", "correct": false }
+          ]
+        }
+      ],
+      "subjective_questions": [
+        "What is meant by the term ‘Copyright’? Discuss the procedure for its registration.",
+        "What is meant by the term ‘Trademark’? Discuss the procedure for its registration.",
+        "What is meant by the term ‘Patent’? Discuss the procedure for its registration.",
+        "a) Sia, a renowned Australian recording artist wrote the lyrics of a song named ‘Chandellier’. Rihana, a Barbadian singer, actress, and fashion designer is a good friend of Sia.On one of her visit to sia’s home during Christmas, she copies the lyrics and launched an album in her name.What type of damage has been done to Sia?What remedy does she have against Rihana? Discuss briefly. b) Edward Stratemeyer is a well-known publisher and author for his creation named ‘Nancy Drew’.His book revolves around his lady hero Nancy and her mysterious stories. Alexander, a movie producer uses one of the mysterious stories of Nancy for one of his film without permission from Edward.He filed a suit against Alexander. Identify the type of damage done to the rights of Edward? What remedy does he have against Alexander? Discuss.",
+        "Write a short note on:a. Fees for Trade Mark Applications and b. Criminal Prosecution for Copyright Infringement"
+      ]
+    }
+  ]
+}

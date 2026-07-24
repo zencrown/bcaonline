@@ -74,18 +74,8 @@ body {
 .header-left h1 {
     font-size: 1.4rem;
     font-weight: 600;
+    font-variant: small-caps;
     transition: all var(--header_toggle_speed);
-}
-
-.app-header:hover .header-left i {
-    font-size: 0rem;
-    color: var(--primary);
-    opacity:0;
-}
-
-.app-header:hover .header-left h1 {
-    font-size: 1.1rem;
-    font-weight: 600;
 }
 
 .header-right {
@@ -467,4 +457,14 @@ body.dark .error {
     .subjective-list li {
         flex-wrap: no-wrap;
     }
+    .app-header:hover .header-left i {
+    font-size: 0rem;
+    color: var(--primary);
+    opacity:0;
+	}
+
+	.app-header:hover .header-left h1 {
+    font-size: 1.1rem;
+    font-weight: 600;
+	}
 }
