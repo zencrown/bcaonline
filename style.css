@@ -66,6 +66,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 10;
+    user-select: none;
 }
 
 .header-left {
@@ -120,6 +121,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 0.3rem 0.5rem;
+    cursor: pointer;
 }
 
 .primary_colors_block .x_primary_color {
@@ -167,6 +169,7 @@ body {
     padding: 0.3rem 1rem;
     border-radius: 10px;
     border: 1px solid var(--border);
+    cursor: pointer;
 }
 
 /* ---------- Controls ---------- */
@@ -425,6 +428,8 @@ body.dark .error {
 	padding: 0.3rem 0.7rem;
 	border-radius: 7px;
 	font-weight: bold;
+	cursor: pointer;
+	user-select: none;
 }
 
 /* ---------- Footer ---------- */
@@ -437,6 +442,7 @@ body.dark .error {
     font-size: 0.9rem;
     color: var(--text);
     margin-top: auto;
+    user-select: none;
 }
 
 /* ---------- Responsive ---------- */
