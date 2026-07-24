@@ -134,6 +134,10 @@ body {
 	transition: all var(--header_toggle_speed);
 }
 
+.primary_colors_block .x_primary_color:hover {
+	transform: scale(1.2);
+}
+
 .primary_colors_block .x_primary_color.off {
 	opacity:0;
 	width: 0rem;
