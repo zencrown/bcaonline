@@ -306,7 +306,7 @@ subjectSelect.addEventListener('change', () => {
 });
 
 unitSelect.addEventListener('change', () => {
-    generateBtn.innerHTML = '<i class="fas fa-play"></i> Generate Test';
+    generateBtn.innerHTML = '<i class="fas fa-play"></i> Generate';
     mcqList.innerHTML = '';
     subjectiveList.innerHTML = '';
     contentEl.style.display = 'none';
