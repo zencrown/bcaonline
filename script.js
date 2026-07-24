@@ -206,7 +206,7 @@ function displayUnit(selected) {
         currentData.all_units.forEach((unit, idx) => {
             // Unit header with zero‑padded number
             const header = document.createElement('h3');
-            header.style.cssText = 'margin-top: 2rem; color: var(--primary); border-bottom: 2px solid var(--border); padding-bottom: 0.5rem;';
+            header.style.cssText = 'margin-top: 2rem; color: var(--primary); border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 0.5rem;';
             const num = String(idx + 1).padStart(2, '0');
             header.textContent = `Unit ${num}: ${unit.name || ''}`;
             mcqList.appendChild(header);
