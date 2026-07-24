@@ -118,9 +118,9 @@ body {
 .generate-btn {
     background: var(--primary); color: #fff; border: none;
     padding: 0.6rem 1.2rem; border-radius: 30px; font-size: 1rem;
-    font-weight: 600; cursor: pointer; display: flex; align-items: center;
+    font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center;
     gap: 0.5rem; transition: all var(--transition); margin-top: auto;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1); user-select: none;
+    user-select: none;
 }
 .generate-btn:hover { transform: scale(1.03); }
 .generate-btn i { font-size: 0.9rem; }

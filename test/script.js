@@ -151,7 +151,7 @@ function generateTest() {
     const subjSample = getRandomSubset(selectedSubjective, subjLimit);
 
     renderTest(mcqSample, subjSample, unitVal);
-    generateBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Re-Generate Test';
+    generateBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Again';
 }
 
 // ---------- Render test content ----------
@@ -292,7 +292,7 @@ function wrong_mcq_option(el) {
 
 // ---------- Event listeners ----------
 subjectSelect.addEventListener('change', () => {
-    generateBtn.innerHTML = '<i class="fas fa-play"></i> Generate Test';
+    generateBtn.innerHTML = '<i class="fas fa-play"></i> Generate';
     const subject = subjectSelect.value;
     if (subject) {
         loadSubjectData(subject);
