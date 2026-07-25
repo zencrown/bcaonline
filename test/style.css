@@ -63,7 +63,7 @@ body {
 .header-left { display: flex; align-items: center; gap: 0.75rem; }
 .header-left i { font-size: 1.4rem; color: var(--primary); transition: all var(--header_toggle_speed); }
 .header-left h1 { font-size: 1.4rem; font-weight: 600; font-variant: small-caps; transition: all var(--header_toggle_speed); }
-.header-right { display: flex; align-items: center; justify-content: center; }
+.header-right { display: flex; align-items: center; justify-content: center; transition: transform var(--header_toggle_speed); }
 .header-right .theme-toggle {
     background: none; border: 1px solid var(--border); border-radius: 50%;
     width: 42px; height: 42px; font-size: 1.2rem; color: var(--text);
@@ -230,4 +230,23 @@ body.dark .mcq-option.wrong {
     .subjective-list li { flex-wrap: nowrap; }
     .app-header:hover .header-left i { font-size: 0; opacity: 0; }
     .app-header:hover .header-left h1 { font-size: 1.1rem; }
+}
+
+@media (max-width: 400px) {
+	.app-header .header-left i {
+    	font-size: 0.8rem;
+	}
+	
+	.app-header .header-left h1 {
+    	font-size: 0.8rem;
+	}
+	
+	.header-right {
+		transform: scale(0.6) translateX(2rem);
+	}
+	
+	.app-header:hover .header-left h1 {
+    	font-size: 0rem;
+    	opacity: 0;
+	}
 }
