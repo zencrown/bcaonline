@@ -414,6 +414,18 @@ body.dark .error {
     min-width: 1rem;
 }
 
+.subjective-list .qTextSpanX {
+	width:100%;
+}
+
+.subjective-list .qSearchQ {
+	padding: 0.5rem;
+	border: none;
+	color: white;
+	background: var(--primary);
+	border-radius: 10px;
+}
+
 /* HELP POPUP X */
 .help_popup {
     display: none;

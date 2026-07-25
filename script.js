@@ -131,8 +131,14 @@ function appendSubjective(questions, container) {
         qNumSpan.textContent = `${i + 1}.`;
         li.appendChild(qNumSpan);
         const qTextSpan = document.createElement('span');
+        qTextSpan.className = 'qTextSpanX';
         qTextSpan.textContent = q;
         li.appendChild(qTextSpan);
+        const qSearchQ = document.createElement('span');
+        qSearchQ.className = 'qSearchQ searchQ';
+        qSearchQ.innerHTML = '<i class="fa fa-search"></i>';
+        qSearchQ.setAttribute('onclick', 'func_searchQ(this.previousElementSibling)');
+        li.appendChild(qSearchQ);
         ul.appendChild(li);
     });
     container.appendChild(ul);
@@ -270,6 +276,12 @@ if (localStorage.getItem("primary_theme_color") === null) {
     // 2. Code runs here if "this_data" DOES exist
     let primary_theme_color_jar = localStorage.getItem('primary_theme_color');
     document.documentElement.style.setProperty('--primary', primary_theme_color_jar);
+}
+
+// ---------- searchQ ----------
+function func_searchQ(elem) {
+	let searchQueryTerm = encodeURIComponent(elem.innerHTML);
+	window.open("https://www.google.com/search?q=Answer%20the%20subjective%20question%3A%20" + searchQueryTerm + "&udm=50", "_blank");
 }
 
 
