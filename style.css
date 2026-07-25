@@ -424,6 +424,7 @@ body.dark .error {
 	color: white;
 	background: var(--primary);
 	border-radius: 10px;
+	user-select: none;
 }
 
 /* HELP POPUP X */
