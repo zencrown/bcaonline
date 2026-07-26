@@ -299,3 +299,13 @@ function popup_help() {
 document.addEventListener('DOMContentLoaded', () => {
     loadSubject(subjectSelect.value);
 });
+
+// ---------- PWA: Service Worker registration ----------
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        // Path is relative to this page (site root), resolves to /sw.js at the site root
+        navigator.serviceWorker.register('./sw.js')
+            .then((reg) => console.log('Service worker registered:', reg.scope))
+            .catch((err) => console.warn('Service worker registration failed:', err));
+    });
+}
