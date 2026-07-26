@@ -404,10 +404,6 @@ body.dark .error {
     transition: transform 0.3s;
 }
 
-.subjective-list li:hover {
-    transform: translateX(3px);
-}
-
 .subjective-list .q-num {
     color: var(--primary);
     font-weight: 600;
@@ -425,6 +421,20 @@ body.dark .error {
 	background: var(--primary);
 	border-radius: 10px;
 	user-select: none;
+	transition: transform var(--transition), opacity var(--transition);
+}
+
+.subjective-list .qSearchQ:hover {
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+
+.subjective-list .qSearchQ i {
+	transition: all var(--transition);
+}
+
+.subjective-list .qSearchQ:hover i {
+	transform: scale(1.2);
 }
 
 /* HELP POPUP X */
