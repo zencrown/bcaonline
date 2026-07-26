@@ -1,13 +1,13 @@
 {
   "name": "Study Notes - BCA Online",
   "short_name": "Study Notes",
-  "description": "BCA study notes, MCQs, and self-tests for Web Fundamentals, Data Structures, Operating System, and Business Law.",
+  "description": "BCA study notes.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#f8f9fa",
-  "theme_color": "#0090FF",
+  "theme_color": "#121212",
   "icons": [
     {
       "src": "icons/icon-192.png",
