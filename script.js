@@ -282,9 +282,9 @@ if (localStorage.getItem("primary_theme_color") === null) {
 function func_searchQ(elem) {
     let searchQueryTerm = encodeURIComponent(elem.textContent);
     window.open(
-        "https://www.google.com/search?q=Answer%20this%20long%20subjective%20question%20in%20simple%20words%3A%0A%0A" +
+        "https://www.google.com/search?q=Answer%20this%20LONG%20Subjective%20Question%20in%20simple%20words%3A%0A%0A" +
         searchQueryTerm +
-        "%0A%0AProvide%20only%20as%20much%20as%20is%20asked%20in%20the%20question%2E&udm=50",
+        "%0A%0AProvide%20only%20as%20much%20as%20is%20asked%20in%20the%20question%2E%20Use%20simple%20english%2E&udm=50",
         "_blank",
         "noopener,noreferrer"
     );
