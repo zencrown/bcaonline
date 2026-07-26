@@ -18,6 +18,7 @@
             <h1>Study Notes</h1>
         </div>
         <div class="header-right">
+            <input style="display:none" type="color" value="#fffff" id="primary_color_picker" oninput="change_primary_color(this.value)">
         	<div class="primary_colors_block">
         		<span class="x_primary_color off" style="background: #007D82;" onclick="change_primary_color('#007D82')"></span>
 				<span class="x_primary_color" style="background: #FF0000;" onclick="change_primary_color('#FF0000')"></span>
@@ -25,7 +26,7 @@
 				<span class="x_primary_color" style="background: #18AC00;" onclick="change_primary_color('#18AC00')"></span>
 				<span class="x_primary_color" style="background: #0090FF;" onclick="change_primary_color('#0090FF')"></span>
 				<span class="x_primary_color off" style="background: #8900E3;" onclick="change_primary_color('#8900E3')"></span>
-				<span class="x_primary_color off" style="background: #9E003D;" onclick="change_primary_color('#9E003D')"></span>
+				<label class="x_primary_color primary_color_picker_label off" for="primary_color_picker"></label>
 				<!-- Later more will added -->
 			</div>
             <button id="darkToggle" class="theme-toggle" aria-label="Toggle dark mode">

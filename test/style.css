@@ -82,6 +82,17 @@ body {
 .primary_colors_block .x_primary_color.off { opacity: 0; width: 0; height: 0; margin: 0; }
 .app-header:hover .x_primary_color.off { opacity: 1; width: 1rem; height: 1em; margin: 0 0.2rem; }
 
+.primary_colors_block .x_primary_color.primary_color_picker_label {
+    background-color: #aaaaaa;
+    background-image: url('../gradient.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: var(--text, #aaaaaa);
+}
+
+
 /* ---------- Main ---------- */
 .app-main { flex: 1; max-width: 950px; margin: 0 auto; padding: 1.5rem 2rem; width: 100%; }
 

@@ -153,6 +153,16 @@ body {
 	margin: 0rem 0.2rem;
 }
 
+.primary_colors_block .x_primary_color.primary_color_picker_label {
+    background-color: #aaaaaa;
+    background-image: url('gradient.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: var(--text, #aaaaaa);
+}
+
 /* ---------- Main ---------- */
 .app-main {
     flex: 1;
