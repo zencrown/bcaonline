@@ -329,13 +329,3 @@ numSubjectiveInput.addEventListener('blur', function() {
     if (val > 40) val = 40;
     this.value = val;
 });
-
-// ---------- PWA: Service Worker registration ----------
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        // Path resolves up to the site root, same scope/file as the main page registers
-        navigator.serviceWorker.register('../sw.js')
-            .then((reg) => console.log('Service worker registered:', reg.scope))
-            .catch((err) => console.warn('Service worker registration failed:', err));
-    });
-}
