@@ -431,6 +431,7 @@ body.dark .error {
 	background: var(--primary);
 	border-radius: 10px;
 	user-select: none;
+	cursor: pointer;
 	transition: transform var(--transition), opacity var(--transition);
 }
 
