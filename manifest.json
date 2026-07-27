@@ -1,8 +1,9 @@
 {
+  "id": "/bcaonline/?v2",
   "name": "Study Notes - BCA Online",
   "short_name": "Study Notes",
   "description": "BCA study notes.",
-  "start_url": "./index.html",
+  "start_url": "./index.html?v2",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
