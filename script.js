@@ -280,9 +280,12 @@ if (localStorage.getItem("primary_theme_color") === null) {
 
 // ---------- searchQ ----------
 function func_searchQ(elem) {
-    let searchQueryTerm = encodeURIComponent(elem.textContent);
+    var searchQueryTerm = encodeURIComponent(elem.textContent || elem.innerText);
+    var selected_subject_url = encodeURIComponent(subjectSelect.options[subjectSelect.selectedIndex].text);
+    var selected_unit_url_raw = unitSelect.options[unitSelect.selectedIndex].text.replace(/^\d+\s*-\s*/, "");
+    var selected_unit_url = encodeURIComponent(selected_unit_url_raw);
     window.open(
-        "https://www.google.com/search?q=%5BBCA%5D%5BExam%5D%0AAnswer%20this%20LONG%20Subjective%20Question%20in%20simple%20words%3A%0A%0A" +
+        "https://www.google.com/search?q=Tags%3A%20%5BBCA%5D%5BExam%5D%5B" + selected_subject_url + "%5D%5B" + selected_unit_url + "%5D%0AAnswer%20this%20LONG%20Subjective%20Question%20in%20simple%20words%3A%0A%0A" +
         searchQueryTerm +
         "%0A%0AProvide%20only%20as%20much%20as%20is%20asked%20in%20the%20question%2E%20Use%20simple%20english%2E&udm=50",
         "_blank",
