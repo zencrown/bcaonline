@@ -203,21 +203,13 @@ body {
 }
 
 .primary_colors_block .x_primary_color.toggleGradientBGx {
-    background-image: url("gradient_animated.gif");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background: #00000000;
     border: 0.1rem solid var(--text);
 }
 
 .primary_colors_block .x_primary_color.toggleGradientBGx.enabled {
-    -webkit-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transform: scale(0.8);
-}
-
-.app-header:hover .primary_colors_block .x_primary_color.toggleGradientBGx.enabled {
-    opacity: 0.8;
+    background: var(--text);
+    box-shadow: inset 0px 0px 0px 3px var(--border);
 }
 
 /* ---------- Main ---------- */
