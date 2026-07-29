@@ -96,6 +96,14 @@ body {
     top: 0;
     z-index: 10;
     user-select: none;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+@supports not ((backdrop-filter: blur(8px)) or (-webkit-backdrop-filter: blur(8px))) {
+    .app-header {
+        background-color: var(--card-bg);
+    }
 }
 
 .header-left {

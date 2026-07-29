@@ -5,29 +5,29 @@
     </filter>
 
     <radialGradient id="blob1" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#6E3EF0" stop-opacity="0.65" />
-      <stop offset="100%" stop-color="#6E3EF0" stop-opacity="0" />
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="blob2" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#12B888" stop-opacity="0.55" />
-      <stop offset="100%" stop-color="#12B888" stop-opacity="0" />
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#5EEAD4" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="blob3" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#2B8FEF" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#2B8FEF" stop-opacity="0" />
+      <stop offset="0%" stop-color="#93C5FD" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#93C5FD" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="blob4" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#E356B8" stop-opacity="0.5" />
-      <stop offset="100%" stop-color="#E356B8" stop-opacity="0" />
+      <stop offset="0%" stop-color="#F9A8D4" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#F9A8D4" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="blob5" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4A62E8" stop-opacity="0.55" />
-      <stop offset="100%" stop-color="#4A62E8" stop-opacity="0" />
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#FDE68A" stop-opacity="0" />
     </radialGradient>
   </defs>
 
-  <!-- light base background -->
-  <rect x="0" y="0" width="1600" height="900" fill="#F7F7FB" />
+  <!-- soft light base background -->
+  <rect x="0" y="0" width="1600" height="900" fill="#FAFAFC" />
 
   <g filter="url(#meshBlur)">
 
