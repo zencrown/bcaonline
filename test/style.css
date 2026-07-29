@@ -27,16 +27,32 @@ body.dark {
 
 body.dark.anim {
     background: url("../animated-mesh-gradient-dark.svg");
-    background-attachment: fixed;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     --card-bg: #1E1E1E40;
+}
+
+@supports (-webkit-touch-callout: none) {
+    body.dark.anim {
+        background-attachment: scroll;
+    }
 }
 
 body.anim {
     background: url("../animated-mesh-gradient-light.svg");
-    background-attachment: fixed;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     --card-bg: #FFFFFF40;
+}
+
+@supports (-webkit-touch-callout: none) {
+    body.anim {
+        background-attachment: scroll;
+    }
 }
 
 ::selection {
