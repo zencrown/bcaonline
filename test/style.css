@@ -33,6 +33,7 @@ body.dark.anim {
     background-attachment: fixed;
     --card-bg: #00000070;
     --bg: #12121260;
+    --border: #2B2B2B;
 }
 
 @supports (-webkit-touch-callout: none) {
