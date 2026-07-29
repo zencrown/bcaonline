@@ -42,6 +42,7 @@ function toggleGradientBG() {
     const nowOn = !document.body.classList.contains("anim");
     document.body.classList[nowOn ? "add" : "remove"]("anim");
     localStorage.setItem("isGradientOn", nowOn);
+    toggleGradientBGxID.classList[nowOn ? "add" : "remove"]("enabled");
 }
 
 document.body.classList[isGradientOn ? "add" : "remove"]("anim");

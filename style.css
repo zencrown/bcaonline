@@ -201,7 +201,7 @@ body {
 }
 
 .primary_colors_block .x_primary_color.toggleGradientBGx.enabled {
-    border: 2px solid var(--border);
+    border: 2px solid var(--text);
 }
 
 /* ---------- Main ---------- */
