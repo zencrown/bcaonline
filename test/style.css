@@ -198,7 +198,10 @@ body {
 }
 
 .primary_colors_block .x_primary_color.toggleGradientBGx.enabled {
-    border: 2px solid var(--text);
+    opacity: 0.8;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
 }
 
 /* ---------- Main ---------- */
