@@ -13,6 +13,7 @@ const unitCounter = document.getElementById('unitCounter');
 const mcqList = document.getElementById('mcqList');
 const subjectiveList = document.getElementById('subjectiveList');
 const darkToggle = document.getElementById('darkToggle');
+const toggleGradientBGxID = document.getElementById('toggleGradientBGxID');
 
 // ---------- State ----------
 let currentData = null;
@@ -44,6 +45,7 @@ function toggleGradientBG() {
 }
 
 document.body.classList[isGradientOn ? "add" : "remove"]("anim");
+toggleGradientBGxID.classList[isGradientOn ? "add" : "remove"]("enabled");
 
 
 // ---------- Helper: Append MCQs to container ----------
