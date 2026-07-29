@@ -457,11 +457,11 @@ body.dark .error {
 
 .mcq-option.wrong {
     border-left: 4px solid #dc3545;
-    background: #ffebee;
+    background: #ffebee80;
 }
 
 body.dark .mcq-option.wrong {
-    background: #3d1a1a;
+    background: #3d1a1a80;
 }
 
 /* Icon colors */
