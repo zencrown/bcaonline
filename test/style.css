@@ -200,7 +200,7 @@ body {
 }
 
 .primary_colors_block .x_primary_color.toggleGradientBGx {
-    background: #00000000;
+    background: var(--card-bg);
     border: 0.1rem solid var(--text);
 }
 
