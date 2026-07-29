@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Study Notes</title>
     <link rel="icon" type="image/png" href="favicon.png">
-
+    
     <!-- PWA -->
     <link rel="manifest" href="manifest.json" />
     <meta name="theme-color" content="#121212" />
@@ -13,14 +14,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Study Notes" />
-
+    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <!-- Local CSS -->
     <link rel="stylesheet" href="style.css" />
 </head>
-<body>
 
+<body>
+    
     <header class="app-header">
         <div class="header-left">
             <i class="fas fa-graduation-cap"></i>
@@ -28,29 +30,29 @@
         </div>
         <div class="header-right">
             <input style="display:none" type="color" value="#ffffff" id="primary_color_picker" oninput="change_primary_color(this.value)">
-        	<div class="primary_colors_block">
-        		<span class="x_primary_color off" style="background: #007D82;" onclick="change_primary_color('#007D82')"></span>
-				<span class="x_primary_color" style="background: #FF0000;" onclick="change_primary_color('#FF0000')"></span>
-				<span class="x_primary_color off" style="background: #FFB600;" onclick="change_primary_color('#FFB600')"></span>
-				<span class="x_primary_color" style="background: #18AC00;" onclick="change_primary_color('#18AC00')"></span>
-				<span class="x_primary_color" style="background: #0090FF;" onclick="change_primary_color('#0090FF')"></span>
-				<span class="x_primary_color off" style="background: #8900E3;" onclick="toggleGradientBG()"></span>
-				<label class="x_primary_color primary_color_picker_label off" for="primary_color_picker"></label>
-				<!-- Later more will added -->
-			</div>
+            <div class="primary_colors_block">
+                <span class="x_primary_color off" style="background: #007D82;" onclick="change_primary_color('#007D82')"></span>
+                <span class="x_primary_color" style="background: #FF0000;" onclick="change_primary_color('#FF0000')"></span>
+                <span class="x_primary_color off" style="background: #FFB600;" onclick="change_primary_color('#FFB600')"></span>
+                <span class="x_primary_color" style="background: #18AC00;" onclick="change_primary_color('#18AC00')"></span>
+                <span class="x_primary_color" style="background: #0090FF;" onclick="change_primary_color('#0090FF')"></span>
+                <span class="x_primary_color off" style="background: #8900E3;" onclick="toggleGradientBG()"></span>
+                <label class="x_primary_color primary_color_picker_label off" for="primary_color_picker"></label>
+                <!-- Later more will added -->
+            </div>
             <button id="darkToggle" class="theme-toggle" aria-label="Toggle dark mode">
                 <i class="fas fa-moon"></i>
             </button>
         </div>
     </header>
-
+    
     <main class="app-main">
         <!-- Controls -->
         <section class="controls">
             <div class="control-group">
-            	<div class="check_the_help" onclick="popup_help()">
-        			<i class="fa fa-question" style="font-size: 0.7rem"></i>
-				</div>
+                <div class="check_the_help" onclick="popup_help()">
+                    <i class="fa fa-question" style="font-size: 0.7rem"></i>
+                </div>
                 <label for="subjectSelect"><i class="fas fa-book"></i> Subject</label>
                 <select id="subjectSelect">
                     <option value="web_fundamentals">Web Fundamentals</option>
@@ -68,35 +70,35 @@
             </div>
             <div class="control-group">
                 <div class="take-test-div">
-                	<a href="./test" class="test-btn">Take Test <i class="fa fa-angle-double-right"></i></a>
+                    <a href="./test" class="test-btn">Take Test <i class="fa fa-angle-double-right"></i></a>
                 </div>
             </div>
         </section>
-
+        
         <!-- Loading -->
         <div id="loading" class="loading">
             <i class="fas fa-spinner fa-spin"></i> Loading…
         </div>
-
+        
         <!-- Error -->
         <div id="error" class="error" style="display:none;">
             <i class="fas fa-exclamation-triangle"></i>
             <span id="errorMsg">Failed to load data.</span>
         </div>
-
+        
         <!-- Content -->
         <section id="content" class="content" style="display:none;">
             <div class="unit-header">
                 <h2 id="unitTitle">Unit</h2>
                 <span id="unitCounter" class="unit-counter"></span>
             </div>
-
+            
             <!-- MCQs -->
             <div id="mcqSection" class="section">
                 <h3 class="section-title"><i class="fas fa-question-circle"></i> Multiple Choice Questions</h3>
                 <div id="mcqList"></div>
             </div>
-
+            
             <!-- Subjective -->
             <div id="subjectiveSection" class="section">
                 <h3 class="section-title"><i class="fas fa-pen-fancy"></i> Subjective Questions</h3>
@@ -104,19 +106,20 @@
             </div>
         </section>
     </main>
-
+    
     <footer class="app-footer">
         <p><i class="fas fa-graduation-cap"></i> Study Notes <i class="fas fa-terminal"></i></p>
     </footer>
     
     <section class="help_popup" id="help_popup_X888">
-    	<div><i class="fa fa-exclamation-circle"></i><b style="margin-left:0.5rem">SOURCE</b></div>
-    	<hr/><br/>
-    	<p><b>Source of the content:</b><br/><i> - E-books > Self Assessment. <br/> - <span style="text-decoration: line-through">E-Tutorials > Self Assessment MCQs.</span></i></p><br/>
-    	<div class="popup-close"><span onclick="popup_help()">CLOSE</span></div>
-	</section>
-
+        <div><i class="fa fa-exclamation-circle"></i><b style="margin-left:0.5rem">SOURCE</b></div>
+        <hr /><br />
+        <p><b>Source of the content:</b><br /><i> - E-books > Self Assessment. <br /> - <span style="text-decoration: line-through">E-Tutorials > Self Assessment MCQs.</span></i></p><br />
+        <div class="popup-close"><span onclick="popup_help()">CLOSE</span></div>
+    </section>
+    
     <!-- Local JS -->
     <script src="script.js"></script>
 </body>
+
 </html>

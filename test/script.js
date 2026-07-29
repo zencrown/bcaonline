@@ -38,9 +38,9 @@ darkToggle.addEventListener('click', () => {
 const isGradientOn = localStorage.getItem("isGradientOn") === "true";
 
 function toggleGradientBG() {
-  const nowOn = !document.body.classList.contains("anim");
-  document.body.classList[nowOn ? "add" : "remove"]("anim");
-  localStorage.setItem("isGradientOn", nowOn);
+    const nowOn = !document.body.classList.contains("anim");
+    document.body.classList[nowOn ? "add" : "remove"]("anim");
+    localStorage.setItem("isGradientOn", nowOn);
 }
 
 document.body.classList[isGradientOn ? "add" : "remove"]("anim");
@@ -67,19 +67,19 @@ async function loadSubjectData(subjectName) {
     unitSelect.innerHTML = '<option value="">— Select a unit —</option>';
     mcqList.innerHTML = '';
     subjectiveList.innerHTML = '';
-
+    
     try {
         const url = `${DATA_PATH}${subjectName}.json`;
         const response = await fetch(url);
         if (!response.ok) throw new Error(`Failed to load ${subjectName}.json (HTTP ${response.status})`);
         currentData = await response.json();
-
+        
         if (currentData && currentData.all_units && currentData.all_units.length > 0) {
             const allOpt = document.createElement('option');
             allOpt.value = 'all';
             allOpt.textContent = 'All';
             unitSelect.appendChild(allOpt);
-
+            
             currentData.all_units.forEach((unit, idx) => {
                 const opt = document.createElement('option');
                 opt.value = idx;
@@ -111,6 +111,7 @@ function shuffleArray(array) {
     }
     return arr;
 }
+
 function getRandomSubset(array, count) {
     if (!array || array.length === 0) return [];
     const shuffled = shuffleArray(array);
@@ -121,10 +122,10 @@ function getRandomSubset(array, count) {
 function generateTest() {
     const subject = subjectSelect.value;
     if (!subject) { alert('Please select a subject.'); return; }
-
+    
     const unitVal = unitSelect.value;
     if (!unitVal) { alert('Please select a unit.'); return; }
-
+    
     let mcqCount = parseInt(numMCQsInput.value, 10);
     let subjCount = parseInt(numSubjectiveInput.value, 10);
     if (isNaN(mcqCount) || mcqCount < 1) mcqCount = 1;
@@ -133,15 +134,15 @@ function generateTest() {
     if (subjCount > 40) subjCount = 40;
     numMCQsInput.value = mcqCount;
     numSubjectiveInput.value = subjCount;
-
+    
     if (!currentData) {
         alert('Please wait, loading subject data…');
         return;
     }
-
+    
     let selectedMCQs = [];
     let selectedSubjective = [];
-
+    
     if (unitVal === 'all') {
         currentData.all_units.forEach(unit => {
             if (unit.mcqs) selectedMCQs = selectedMCQs.concat(unit.mcqs);
@@ -154,12 +155,12 @@ function generateTest() {
         if (unit.mcqs) selectedMCQs = selectedMCQs.concat(unit.mcqs);
         if (unit.subjective_questions) selectedSubjective = selectedSubjective.concat(unit.subjective_questions);
     }
-
+    
     const mcqLimit = Math.min(mcqCount, selectedMCQs.length);
     const subjLimit = Math.min(subjCount, selectedSubjective.length);
     const mcqSample = getRandomSubset(selectedMCQs, mcqLimit);
     const subjSample = getRandomSubset(selectedSubjective, subjLimit);
-
+    
     renderTest(mcqSample, subjSample, unitVal);
     generateBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Again';
 }
@@ -169,7 +170,7 @@ function renderTest(mcqs, subjectiveQuestions, unitVal) {
     mcqList.innerHTML = '';
     subjectiveList.innerHTML = '';
     contentEl.style.display = 'block';
-
+    
     if (unitVal === 'all') {
         unitTitle.textContent = 'All Units · Test';
         unitCounter.style.display = 'none';
@@ -182,7 +183,7 @@ function renderTest(mcqs, subjectiveQuestions, unitVal) {
         unitCounter.style.display = 'inline';
         unitCounter.textContent = `Unit ${num} of ${total}`;
     }
-
+    
     // ---- render MCQs ----
     if (!mcqs || mcqs.length === 0) {
         const p = document.createElement('p');
@@ -192,7 +193,7 @@ function renderTest(mcqs, subjectiveQuestions, unitVal) {
         mcqs.forEach((mcq, i) => {
             const block = document.createElement('div');
             block.className = 'mcq-block';
-
+            
             const qDiv = document.createElement('div');
             qDiv.className = 'mcq-question';
             const qNum = document.createElement('span');
@@ -201,15 +202,15 @@ function renderTest(mcqs, subjectiveQuestions, unitVal) {
             qDiv.appendChild(qNum);
             qDiv.appendChild(document.createTextNode(' ' + mcq.question));
             block.appendChild(qDiv);
-
+            
             const optsDiv = document.createElement('div');
             optsDiv.className = 'mcq-options';
-
+            
             mcq.options.forEach((opt, idx) => {
                 const optDiv = document.createElement('div');
                 optDiv.className = 'mcq-option';
                 optDiv.dataset.correct = opt.correct ? 'true' : 'false';
-
+                
                 const letter = String.fromCharCode(65 + idx);
                 const icon = document.createElement('span');
                 icon.className = 'opt-icon';
@@ -218,20 +219,20 @@ function renderTest(mcqs, subjectiveQuestions, unitVal) {
                 iconElem.style.color = 'var(--opt-icon-text2)';
                 icon.appendChild(iconElem);
                 optDiv.appendChild(icon);
-
+                
                 const optText = document.createElement('span');
                 optText.className = 'opt-text';
                 optText.textContent = `${letter}. ${opt.text}`;
                 optDiv.appendChild(optText);
-
+                
                 optDiv.addEventListener('click', function(e) {
                     const parentBlock = this.closest('.mcq-block');
                     if (parentBlock.dataset.answered === 'true') return;
                     parentBlock.dataset.answered = 'true';
-
+                    
                     const allOpts = parentBlock.querySelectorAll('.mcq-option');
                     allOpts.forEach(o => o.style.pointerEvents = 'none');
-
+                    
                     const isCorrect = this.dataset.correct === 'true';
                     if (isCorrect) {
                         correct_mcq_option(this);
@@ -249,15 +250,15 @@ function renderTest(mcqs, subjectiveQuestions, unitVal) {
                         });
                     }
                 });
-
+                
                 optsDiv.appendChild(optDiv);
             });
-
+            
             block.appendChild(optsDiv);
             mcqList.appendChild(block);
         });
     }
-
+    
     // ---- render Subjective ----
     if (!subjectiveQuestions || subjectiveQuestions.length === 0) {
         const p = document.createElement('p');

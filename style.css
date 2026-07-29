@@ -40,13 +40,13 @@ body.anim {
 }
 
 ::selection {
-  color: white;
-  background: var(--primary);
+    color: white;
+    background: var(--primary);
 }
 
 ::-moz-selection {
-  color: white;
-  background: var(--primary);
+    color: white;
+    background: var(--primary);
 }
 
 /* ---------- Reset ---------- */
@@ -93,7 +93,7 @@ body {
     font-size: 1.4rem;
     color: var(--primary);
     transition: all var(--header_toggle_speed);
-    opacity:1;
+    opacity: 1;
 }
 
 .header-left h1 {
@@ -104,10 +104,10 @@ body {
 }
 
 .header-right {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	transition: transform var(--header_toggle_speed);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform var(--header_toggle_speed);
 }
 
 .header-right .theme-toggle {
@@ -132,7 +132,7 @@ body {
 
 /* Primary Color Toggles */
 .primary_colors_block {
-	display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: 0.3rem 0.5rem;
@@ -140,31 +140,31 @@ body {
 }
 
 .primary_colors_block .x_primary_color {
-	display: inline-block;
-	opacity:1;
-	width: 1rem;
-	height: 1em;
-	margin: 0rem 0.2rem;
-	border-radius: 50%;
-	transition: all var(--header_toggle_speed);
+    display: inline-block;
+    opacity: 1;
+    width: 1rem;
+    height: 1em;
+    margin: 0rem 0.2rem;
+    border-radius: 50%;
+    transition: all var(--header_toggle_speed);
 }
 
 .primary_colors_block .x_primary_color:hover {
-	transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .primary_colors_block .x_primary_color.off {
-	opacity:0;
-	width: 0rem;
-	height: 0em;
-	margin: 0rem;
+    opacity: 0;
+    width: 0rem;
+    height: 0em;
+    margin: 0rem;
 }
 
 .app-header:hover .x_primary_color.off {
-	opacity:1;
-	width: 1rem;
-	height: 1em;
-	margin: 0rem 0.2rem;
+    opacity: 1;
+    width: 1rem;
+    height: 1em;
+    margin: 0rem 0.2rem;
 }
 
 .primary_colors_block .x_primary_color.primary_color_picker_label {
@@ -187,7 +187,7 @@ body {
 }
 
 /* HELP */
-.check_the_help{
+.check_the_help {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -237,7 +237,7 @@ body {
     background: var(--bg);
     color: var(--text);
     font-size: 1rem;
-    width:100%;
+    width: 100%;
     cursor: pointer;
     transition: border var(--transition);
 }
@@ -248,30 +248,30 @@ body {
 }
 
 .control-group .take-test-div {
-	height: 100%;
-	padding: 0rem;
-	display: flex;
-	align-items: flex-end;
-	justify-content: flex-end;
+    height: 100%;
+    padding: 0rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
-	
+
 .control-group .take-test-div .test-btn {
-	display: inline-block;
-	color: white;
-	font-weight: bold;
-	padding: 0.4rem 0.8rem;
-	background: var(--primary);
-	border-radius: 25rem;
-	text-decoration: none;
-	user-select: none;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    padding: 0.4rem 0.8rem;
+    background: var(--primary);
+    border-radius: 25rem;
+    text-decoration: none;
+    user-select: none;
 }
 
 .control-group .take-test-div .test-btn i {
-	transition: all var(--transition);
+    transition: all var(--transition);
 }
 
 .control-group .take-test-div .test-btn:hover i {
-	transform: translateX(0.3rem);
+    transform: translateX(0.3rem);
 }
 
 /* ---------- Loading / Error ---------- */
@@ -294,6 +294,7 @@ body {
     align-items: center;
     gap: 0.6rem;
 }
+
 body.dark .error {
     background: #2c0b0e;
     color: #ea868f;
@@ -306,8 +307,15 @@ body.dark .error {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .unit-header {
@@ -435,31 +443,31 @@ body.dark .error {
 }
 
 .subjective-list .qTextSpanX {
-	width:100%;
+    width: 100%;
 }
 
 .subjective-list .qSearchQ {
-	padding: 0.5rem;
-	border: none;
-	color: white;
-	background: var(--primary);
-	border-radius: 10px;
-	user-select: none;
-	cursor: pointer;
-	transition: transform var(--transition), opacity var(--transition);
+    padding: 0.5rem;
+    border: none;
+    color: white;
+    background: var(--primary);
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+    transition: transform var(--transition), opacity var(--transition);
 }
 
 .subjective-list .qSearchQ:hover {
-	transform: scale(1.1);
-	opacity: 0.8;
+    transform: scale(1.1);
+    opacity: 0.8;
 }
 
 .subjective-list .qSearchQ i {
-	transition: all var(--transition);
+    transition: all var(--transition);
 }
 
 .subjective-list .qSearchQ:hover i {
-	transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 /* HELP POPUP X */
@@ -468,13 +476,17 @@ body.dark .error {
     flex-direction: column;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%); /* Android 4.4-, Safari 8-, iOS 8- */
-    -ms-transform: translate(-50%, -50%); /* IE 9 */
-    transform: translate(-50%, -50%); /* Modern browsers (PC, Android, iOS) */
+    -webkit-transform: translate(-50%, -50%);
+    /* Android 4.4-, Safari 8-, iOS 8- */
+    -ms-transform: translate(-50%, -50%);
+    /* IE 9 */
+    transform: translate(-50%, -50%);
+    /* Modern browsers (PC, Android, iOS) */
     position: fixed;
     flex-wrap: wrap;
     background: var(--card-bg);
-    -webkit-backdrop-filter: blur(8px); /* Safari (macOS & iOS) */
+    -webkit-backdrop-filter: blur(8px);
+    /* Safari (macOS & iOS) */
     backdrop-filter: blur(8px);
     padding: 1.2rem 1.5rem;
     width: 90%;
@@ -485,39 +497,40 @@ body.dark .error {
 }
 
 @supports not ((backdrop-filter: blur(8px)) or (-webkit-backdrop-filter: blur(8px))) {
-  .help_popup {
-    background-color: var(--card-bg); /* stronger fallback tint */
-  }
+    .help_popup {
+        background-color: var(--card-bg);
+        /* stronger fallback tint */
+    }
 }
 
-.help_popup.open{
-	display: flex;
-	}
+.help_popup.open {
+    display: flex;
+}
 
 .help_popup hr {
-	border:none;
-	background: var(--correct-opt);
-	width:100%;
-	height: 2px;
-	margin-top: 0.3rem;
-	}
-
-.help_popup .popup-close{
-	width:100%;
-	display: flex;
-	align-items: center;
-	justify-content: right;
+    border: none;
+    background: var(--correct-opt);
+    width: 100%;
+    height: 2px;
+    margin-top: 0.3rem;
 }
 
-.help_popup .popup-close span{
-	display: inline-block;
-	background: var(--primary);
-	color: white;
-	padding: 0.3rem 0.7rem;
-	border-radius: 7px;
-	font-weight: bold;
-	cursor: pointer;
-	user-select: none;
+.help_popup .popup-close {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.help_popup .popup-close span {
+    display: inline-block;
+    background: var(--primary);
+    color: white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
 }
 
 /* ---------- Footer ---------- */
@@ -538,56 +551,64 @@ body.dark .error {
     .app-header {
         padding: 0.75rem 1rem;
     }
+    
     .app-main {
         padding: 1rem;
     }
+    
     .controls {
         flex-direction: column;
         gap: 0.8rem;
         padding: 1rem;
     }
+    
     .control-group {
         flex: 1 1 auto;
     }
+    
     .mcq-block {
         padding: 1rem;
     }
+    
     .mcq-options {
         padding-left: 0.5rem;
     }
+    
     .unit-header h2 {
         font-size: 1.3rem;
     }
+    
     .subjective-list li {
         flex-wrap: no-wrap;
     }
+    
     .app-header:hover .header-left i {
-    	font-size: 0rem;
-    	color: var(--primary);
-    	opacity:0;
-	}
-
-	.app-header:hover .header-left h1 {
-    	font-size: 1.1rem;
-    	font-weight: 600;
-	}
+        font-size: 0rem;
+        color: var(--primary);
+        opacity: 0;
+    }
+    
+    .app-header:hover .header-left h1 {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
 }
 
 @media (max-width: 400px) {
-	.app-header .header-left i {
-    	font-size: 0.8rem;
-	}
-	
-	.app-header .header-left h1 {
-    	font-size: 0.8rem;
-	}
-	
-	.header-right {
-		transform: scale(0.6) translateX(2rem);
-	}
-	
-	.app-header:hover .header-left h1 {
-    	font-size: 0rem;
-    	opacity: 0;
-	}
+    .app-header .header-left i {
+        font-size: 0.8rem;
+    }
+    
+    .app-header .header-left h1 {
+        font-size: 0.8rem;
+    }
+    
+    .header-right {
+        transform: scale(0.6) translateX(2rem);
+    }
+    
+    .app-header:hover .header-left h1 {
+        font-size: 0rem;
+        opacity: 0;
+    }
 }

@@ -57,11 +57,11 @@ function appendMCQs(mcqs, container) {
         container.appendChild(p);
         return;
     }
-
+    
     mcqs.forEach((mcq, i) => {
         const block = document.createElement('div');
         block.className = 'mcq-block';
-
+        
         const qDiv = document.createElement('div');
         qDiv.className = 'mcq-question';
         const qNum = document.createElement('span');
@@ -71,24 +71,24 @@ function appendMCQs(mcqs, container) {
         const qText = document.createTextNode(' ' + mcq.question);
         qDiv.appendChild(qText);
         block.appendChild(qDiv);
-
+        
         const optsDiv = document.createElement('div');
         optsDiv.className = 'mcq-options';
-
+        
         let correctLetter = '';
         mcq.options.forEach((opt, idx) => {
             if (opt.correct) {
                 correctLetter = String.fromCharCode(65 + idx);
             }
         });
-
+        
         mcq.options.forEach((opt, idx) => {
             const optDiv = document.createElement('div');
             optDiv.className = 'mcq-option';
             if (opt.correct) {
                 optDiv.classList.add('correct');
             }
-
+            
             const letter = String.fromCharCode(65 + idx);
             const icon = document.createElement('span');
             icon.className = 'opt-icon';
@@ -97,15 +97,15 @@ function appendMCQs(mcqs, container) {
             iconElem.style.color = opt.correct ? 'var(--primary)' : 'var(--opt-icon-text2)';
             icon.appendChild(iconElem);
             optDiv.appendChild(icon);
-
+            
             const optText = document.createElement('span');
             optText.className = 'opt-text';
             optText.textContent = `${letter}. ${opt.text}`;
             optDiv.appendChild(optText);
-
+            
             optsDiv.appendChild(optDiv);
         });
-
+        
         if (correctLetter) {
             const hint = document.createElement('div');
             hint.style.cssText = 'margin-top:0.5rem; font-size:0.9rem; color:var(--primary); font-weight:500;';
@@ -116,7 +116,7 @@ function appendMCQs(mcqs, container) {
             hint.appendChild(hintText);
             optsDiv.appendChild(hint);
         }
-
+        
         block.appendChild(optsDiv);
         container.appendChild(block);
     });
@@ -133,7 +133,7 @@ function appendSubjective(questions, container) {
         container.appendChild(p);
         return;
     }
-
+    
     const ul = document.createElement('ul');
     ul.className = 'subjective-list';
     questions.forEach((q, i) => {
@@ -164,24 +164,24 @@ async function loadSubject(subjectName) {
     unitSelect.innerHTML = '';
     mcqList.innerHTML = '';
     subjectiveList.innerHTML = '';
-
+    
     try {
         const url = `${DATA_PATH}${subjectName}.json`;
         const response = await fetch(url);
-
+        
         if (!response.ok) {
             throw new Error(`Failed to load ${subjectName}.json (HTTP ${response.status})`);
         }
-
+        
         currentData = await response.json();
-
+        
         if (currentData && currentData.all_units && currentData.all_units.length > 0) {
             // Add "All" option
             const allOpt = document.createElement('option');
             allOpt.value = 'all';
             allOpt.textContent = 'All';
             unitSelect.appendChild(allOpt);
-
+            
             // Add unit options with zero‑padded numbers
             currentData.all_units.forEach((unit, idx) => {
                 const opt = document.createElement('option');
@@ -190,17 +190,17 @@ async function loadSubject(subjectName) {
                 opt.textContent = `${num} - ${unit.name || ''}`;
                 unitSelect.appendChild(opt);
             });
-
+            
             // Set default to Unit 1 (index 0)
             unitSelect.value = '0';
             displayUnit('0');
         } else {
             throw new Error('No units found in the JSON file.');
         }
-
+        
         loadingEl.style.display = 'none';
         contentEl.style.display = 'block';
-
+        
     } catch (err) {
         loadingEl.style.display = 'none';
         errorEl.style.display = 'flex';
@@ -212,15 +212,15 @@ async function loadSubject(subjectName) {
 // ---------- Display Unit(s) ----------
 function displayUnit(selected) {
     if (!currentData || !currentData.all_units) return;
-
+    
     // Clear containers
     mcqList.innerHTML = '';
     subjectiveList.innerHTML = '';
-
+    
     if (selected === 'all') {
         unitTitle.textContent = 'All Units';
         unitCounter.style.display = 'none';
-
+        
         currentData.all_units.forEach((unit, idx) => {
             // Unit header with zero‑padded number
             const header = document.createElement('h3');
@@ -228,10 +228,10 @@ function displayUnit(selected) {
             const num = String(idx + 1).padStart(2, '0');
             header.textContent = `Unit ${num}: ${unit.name || ''}`;
             mcqList.appendChild(header);
-
+            
             // Append MCQs for this unit
             appendMCQs(unit.mcqs, mcqList);
-
+            
             // Append Subjective for this unit (separate container)
             // Add a small separator before subjective if MCQs exist
             if (unit.mcqs && unit.mcqs.length > 0) {
@@ -249,7 +249,7 @@ function displayUnit(selected) {
         unitTitle.textContent = `${num} - ${unit.name || ''}`;
         unitCounter.style.display = 'inline';
         unitCounter.textContent = `Unit ${num} of ${total}`;
-
+        
         appendMCQs(unit.mcqs, mcqList);
         appendSubjective(unit.subjective_questions, subjectiveList);
     }
@@ -282,8 +282,8 @@ function change_primary_color(color) {
 }
 
 if (localStorage.getItem("primary_theme_color") === null) {
-	// 1. Code runs here if "this_data" DOES NOT exist
-	console.log("primary_theme_color data not forund!");
+    // 1. Code runs here if "this_data" DOES NOT exist
+    console.log("primary_theme_color data not forund!");
 } else {
     // 2. Code runs here if "this_data" DOES exist
     let primary_theme_color_jar = localStorage.getItem('primary_theme_color');
@@ -307,7 +307,7 @@ function func_searchQ(elem) {
 
 // ----------- POPUP HELP ------------
 function popup_help() {
-	document.getElementById("help_popup_X888").classList.toggle('open');
+    document.getElementById("help_popup_X888").classList.toggle('open');
 }
 
 // ---------- Initial Load ----------
