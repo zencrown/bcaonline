@@ -35,6 +35,16 @@ darkToggle.addEventListener('click', () => {
     setTheme(!isDark);
 });
 
+const isGradientOn = localStorage.getItem("isGradientOn") === "true";
+
+function toggleGradientBG() {
+  const nowOn = !document.body.classList.contains("anim");
+  document.body.classList[nowOn ? "add" : "remove"]("anim");
+  localStorage.setItem("isGradientOn", nowOn);
+}
+
+document.body.classList[isGradientOn ? "add" : "remove"]("anim");
+
 // ---------- Primary color (unchanged) ----------
 function change_primary_color(color) {
     document.documentElement.style.setProperty('--primary', color);

@@ -25,6 +25,20 @@ body.dark {
     --opt-icon-text2: #4D4D4D;
 }
 
+body.dark.anim {
+    background: url("animated-mesh-gradient-dark.svg");
+    background-attachment: fixed;
+    background-size: cover;
+    --card-bg: #1E1E1E40;
+}
+
+body.anim {
+    background: url("animated-mesh-gradient-light.svg");
+    background-attachment: fixed;
+    background-size: cover;
+    --card-bg: #FFFFFF40;
+}
+
 ::selection {
   color: white;
   background: var(--primary);
@@ -460,12 +474,20 @@ body.dark .error {
     position: fixed;
     flex-wrap: wrap;
     background: var(--card-bg);
+    -webkit-backdrop-filter: blur(8px); /* Safari (macOS & iOS) */
+    backdrop-filter: blur(8px);
     padding: 1.2rem 1.5rem;
     width: 90%;
     max-width: 600px;
     border-radius: var(--radius);
     border: 1px solid var(--border);
     box-shadow: var(--shadow), 0px 0px 0px 100vh #000000A0;
+}
+
+@supports not ((backdrop-filter: blur(8px)) or (-webkit-backdrop-filter: blur(8px))) {
+  .help_popup {
+    background-color: var(--card-bg); /* stronger fallback tint */
+  }
 }
 
 .help_popup.open{
