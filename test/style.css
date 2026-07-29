@@ -457,7 +457,7 @@ body.dark .error {
 
 .mcq-option.wrong {
     border-left: 4px solid #dc3545;
-    background: #ffebee80;
+    background: #ffebee50;
 }
 
 body.dark .mcq-option.wrong {
