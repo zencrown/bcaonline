@@ -96,7 +96,7 @@ function appendMCQs(mcqs, container) {
             const icon = document.createElement('span');
             icon.className = 'opt-icon';
             const iconElem = document.createElement('i');
-            iconElem.className = opt.correct ? 'fas fa-circle-check' : 'fas fa-circle';
+            iconElem.className = opt.correct ? 'fas fa-circle-check' : 'far fa-circle';
             iconElem.style.color = opt.correct ? 'var(--primary)' : 'var(--opt-icon-text2)';
             icon.appendChild(iconElem);
             optDiv.appendChild(icon);

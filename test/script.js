@@ -218,7 +218,7 @@ function renderTest(mcqs, subjectiveQuestions, unitVal) {
                 const icon = document.createElement('span');
                 icon.className = 'opt-icon';
                 const iconElem = document.createElement('i');
-                iconElem.className = 'fas fa-circle';
+                iconElem.className = 'far fa-circle';
                 iconElem.style.color = 'var(--opt-icon-text2)';
                 icon.appendChild(iconElem);
                 optDiv.appendChild(icon);
