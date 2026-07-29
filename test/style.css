@@ -32,6 +32,7 @@ body.dark.anim {
     background-repeat: no-repeat;
     background-attachment: fixed;
     --card-bg: #1E1E1E40;
+    --bg: #12121260;
 }
 
 @supports (-webkit-touch-callout: none) {
@@ -47,6 +48,7 @@ body.anim {
     background-repeat: no-repeat;
     background-attachment: fixed;
     --card-bg: #FFFFFF40;
+    --bg: #f8f9fa60;
 }
 
 @supports (-webkit-touch-callout: none) {
