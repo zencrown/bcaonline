@@ -314,10 +314,6 @@ body {
     transform: translateX(0.3rem);
 }
 
-body.dark.anim .control-group select {
-    background: #121212B1;
-}
-
 /* ---------- Loading / Error ---------- */
 .loading {
     text-align: center;
@@ -587,6 +583,10 @@ body.dark .error {
     color: var(--text);
     margin-top: auto;
     user-select: none;
+}
+
+body.dark.anim .control-group select {
+    background: #121212B1 !important;
 }
 
 /* ---------- Responsive ---------- */
