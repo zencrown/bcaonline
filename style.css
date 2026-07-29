@@ -207,7 +207,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    border: none;
+    border: 1px solid var(--text);
 }
 
 .primary_colors_block .x_primary_color.toggleGradientBGx.enabled {
