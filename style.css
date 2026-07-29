@@ -26,7 +26,7 @@ body.dark {
 }
 
 body.dark.anim {
-    background: url("animated-mesh-gradient-dark.svg");
+    background: #121212 url("animated-mesh-gradient-dark.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ body.dark.anim {
 }
 
 body.anim {
-    background: url("animated-mesh-gradient-light.svg");
+    background: #EFEFEF url("animated-mesh-gradient-light.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
