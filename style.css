@@ -287,6 +287,10 @@ body {
     outline-offset: 2px;
 }
 
+body.dark.anim .control-group select {
+    background: #121212B1;
+}
+
 .control-group .take-test-div {
     height: 100%;
     padding: 0rem;

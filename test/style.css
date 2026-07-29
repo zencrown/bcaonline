@@ -296,6 +296,10 @@ body {
     margin: 0;
 }
 
+body.dark.anim .control-group select {
+    background: #121212B1;
+}
+
 /* Generate button */
 .generate-btn {
     background: var(--primary);
