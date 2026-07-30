@@ -476,7 +476,7 @@ body.dark .error {
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
+    gap: 0rem;
 }
 
 .subjective-list li {
@@ -489,6 +489,7 @@ body.dark .error {
     gap: 0.6rem;
     box-shadow: var(--shadow);
     transition: transform 0.3s;
+    margin: 0.3rem 0rem;
 }
 
 .subjective-list .q-num {
