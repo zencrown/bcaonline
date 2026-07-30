@@ -326,7 +326,7 @@ body {
 }
 
 .control-group .searchTag:focus {
-	border: 0.1rem solid var(--primary);
+	border: 2px solid var(--primary);
 }
 
 /* ---------- Loading / Error ---------- */
