@@ -281,7 +281,6 @@ body {
 
 .control-group select:focus {
     outline: 2px solid var(--primary);
-    outline-offset: 2px;
 }
 
 .control-group .take-test-div {
@@ -324,13 +323,12 @@ body {
     border-radius: 8px;
     text-decoration: none;
     outline: none;
-    transition: all var(--transition), border 0.1s linear;
     color: var(--text);
     font-size: 1rem;
 }
 
 .control-group .search_div .searchTag:focus {
-    border: 2px solid var(--primary);
+    outline: 2px solid var(--primary);
 }
 
 .control-group .search_div .case_sensitive_btn {

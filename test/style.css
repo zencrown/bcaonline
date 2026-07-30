@@ -279,7 +279,6 @@ body {
 .control-group select:focus,
 .control-group input:focus {
     outline: 2px solid var(--primary);
-    outline-offset: 2px;
 }
 
 .control-group input[type="number"] {
