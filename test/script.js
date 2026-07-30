@@ -14,7 +14,9 @@ const contentEl = document.getElementById('content');
 const unitTitle = document.getElementById('unitTitle');
 const unitCounter = document.getElementById('unitCounter');
 const mcqList = document.getElementById('mcqList');
+const mcqSectionX = document.getElementById('mcqSection');
 const subjectiveList = document.getElementById('subjectiveList');
+const subjectiveSectionX = document.getElementById('subjectiveSection');
 const darkToggle = document.getElementById('darkToggle');
 const toggleGradientBGxID = document.getElementById('toggleGradientBGxID');
 
@@ -166,6 +168,10 @@ function generateTest() {
     
     renderTest(mcqSample, subjSample, unitVal);
     generateBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Again';
+    
+    mcqSectionX.style.display = "block";
+    subjectiveSectionX.style.display = "block";
+    subjectiveSectionX.style.marginTop = "5rem";
 }
 
 // ---------- Render test content ----------

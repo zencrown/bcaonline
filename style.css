@@ -460,6 +460,9 @@ body.dark .error {
     align-items: center;
     gap: 0.6rem;
     color: var(--primary);
+    padding: 1rem;
+    border-bottom: 2px solid var(--primary);
+    border-top: 2px solid var(--primary);
 }
 
 /* ---------- MCQs ---------- */
@@ -522,6 +525,10 @@ body.dark .error {
 }
 
 /* ---------- Subjective ---------- */
+#subjectiveSection {
+    margin-top: 5rem;
+}
+
 .subjective-list {
     list-style: none;
     padding: 0;

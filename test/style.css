@@ -404,6 +404,9 @@ body.dark .error {
     align-items: center;
     gap: 0.6rem;
     color: var(--primary);
+    padding: 1rem;
+    border-bottom: 2px solid var(--primary);
+    border-top: 2px solid var(--primary);
 }
 
 /* ---------- MCQs ---------- */
@@ -488,6 +491,10 @@ body.dark .mcq-option.wrong {
 }
 
 /* ---------- Subjective ---------- */
+#subjectiveSection.addMargin {
+    margin-top: 7rem;
+}
+
 .subjective-list {
     list-style: none;
     padding: 0;
@@ -519,6 +526,11 @@ body.dark .mcq-option.wrong {
 }
 
 /* ---------- Help popup ---------- */
+
+#mcqSection, #subjectiveSection {
+    display: none;
+}
+
 .help_popup {
     display: none;
     flex-direction: column;
