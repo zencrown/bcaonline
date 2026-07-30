@@ -238,9 +238,11 @@ function displayUnit(selected) {
             // Append Subjective for this unit (separate container)
             // Add a small separator before subjective if MCQs exist
             if (unit.mcqs && unit.mcqs.length > 0) {
-                const sep = document.createElement('hr');
-                sep.style.cssText = 'display: none; border: 0; border-top: 0px dashed var(--border); margin: 1rem 0;';
-                subjectiveList.appendChild(sep);
+                const header = document.createElement('h3');
+                header.style.cssText = 'margin-top: 2rem; color: var(--primary); border-bottom: 0px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 0.5rem;';
+                const num = String(idx + 1).padStart(2, '0');
+                header.textContent = `Unit ${num}: ${unit.name || ''}`;
+                subjectiveList.appendChild(header);
             }
             appendSubjective(unit.subjective_questions, subjectiveList);
         });
