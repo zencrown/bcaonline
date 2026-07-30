@@ -312,9 +312,13 @@ body {
     transform: translateX(0.3rem);
 }
 
-.control-group .searchTag {
-	width:100%;
-	padding: 0.5rem 0.8rem;
+.control-group .search_div {
+    display: flex;
+}
+
+.control-group .search_div .searchTag {
+    width: 100%;
+    padding: 0.5rem 0.8rem;
     background: var(--bg);
     border: 1px solid var(--border);
     border-radius: 8px;
@@ -325,8 +329,57 @@ body {
     font-size: 1rem;
 }
 
-.control-group .searchTag:focus {
-	border: 2px solid var(--primary);
+.control-group .search_div .searchTag:focus {
+    border: 2px solid var(--primary);
+}
+
+.control-group .search_div .case_sensitive_btn {
+    position: relative;
+    background: #00000000;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    outline: none;
+    margin-left: 0.3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.2rem;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+    overflow: hidden;
+}
+
+.control-group .search_div .case_sensitive_btn.on {
+    border: 2px solid var(--primary);
+}
+
+.control-group .search_div .case_sensitive_btn::before {
+    content: "Aa";
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    background: var(--border);
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    -webkit-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+
+.control-group .search_div .case_sensitive_btn.on::before {
+    background: var(--primary);
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
 }
 
 /* ---------- Loading / Error ---------- */

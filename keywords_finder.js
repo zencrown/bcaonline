@@ -1,14 +1,31 @@
-var _searchDebounceTimer = null;
+var searchDebounceTimer = null;
+var isCaseSensitiveOn = false;
+
+function toggle_case_sensitive(btn_elem) {
+    if (isCaseSensitiveOn == false) {
+        btn_elem.classList.add('on');
+        isCaseSensitiveOn = true;
+    }
+    else {
+        btn_elem.classList.remove('on');
+        isCaseSensitiveOn = false;
+    }
+}
 
 function findKeywords(keyword_x) {
-    clearTimeout(_searchDebounceTimer);
-    _searchDebounceTimer = setTimeout(function() {
+    clearTimeout(searchDebounceTimer);
+    searchDebounceTimer = setTimeout(function() {
         runFilter(keyword_x);
     }, 500);
 }
 
 function runFilter(keyword_x) {
-    var raw = (keyword_x || "").replace(/^\s+|\s+$/g, "").toLowerCase();
+    if (isCaseSensitiveOn == false) {
+        var raw = (keyword_x || "").replace(/^\s+|\s+$/g, "").toLowerCase();
+    }
+    else {
+        var raw = (keyword_x || "").replace(/^\s+|\s+$/g, "");
+    }
     var keywords = raw.length ? raw.split(/\s+/) : [];
     
     filterGroup(
@@ -27,7 +44,7 @@ function runFilter(keyword_x) {
 function filterGroup(nodeList, keywords, getContainer) {
     for (var i = 0; i < nodeList.length; i++) {
         var el = nodeList[i];
-        var text = getText(el).toLowerCase();
+        var text = isCaseSensitiveOn == false ? getText(el).toLowerCase() : getText(el);
         var container = getContainer(el);
         var isMatch = matchesAllKeywords(text, keywords);
         container.style.display = isMatch ? "" : "none";
