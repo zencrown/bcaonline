@@ -69,6 +69,10 @@
                 </select>
             </div>
             <div class="control-group">
+                <label for="searchTag"> <i class="fas fa-search"></i> Search</label>
+                <input class="searchTag" type="text" placeholder="search..." id="searchTag" value="" oninput="findKeywords(this.value)">
+            </div>
+            <div class="control-group">
                 <div class="take-test-div">
                     <a href="./test" class="test-btn">Take Test <i class="fa fa-angle-double-right"></i></a>
                 </div>
@@ -120,6 +124,7 @@
     
     <!-- Local JS -->
     <script src="script.js"></script>
+    <script src="keywords_finder.js"></script>
 </body>
 
 </html>
