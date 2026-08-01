@@ -766,4 +766,8 @@ body.dark .mcq-option.wrong {
         font-size: 0rem;
         opacity: 0;
     }
+    
+    .floating_scorer .floating_container span {
+        font-size: 0.8rem;
+    }
 }
