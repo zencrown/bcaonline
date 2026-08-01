@@ -183,6 +183,7 @@ function generateTest() {
     subjectiveSectionX.style.display = "block";
     subjectiveSectionX.style.marginTop = "3rem";
     feedback_scorer("semi_clear");
+    show_floating_scorer_x();
 }
 
 // ---------- Render test content ----------
