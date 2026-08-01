@@ -498,7 +498,7 @@ body.dark .error {
 }
 
 .choose_LLM i.LLM_google {
-    background: #FFFFFF url("/images/google_icon.svg");
+    background: #FFFFFF url("images/google_icon.svg");
 }
 
 .choose_LLM i.LLM_perplexity {
