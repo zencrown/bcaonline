@@ -512,7 +512,7 @@ body.dark .mcq-option.wrong {
     align-items: baseline;
     gap: 0.6rem;
     box-shadow: var(--shadow);
-    transition: transform 0.3s;
+    transition: all 0.3s;
 }
 
 .subjective-list li:hover {

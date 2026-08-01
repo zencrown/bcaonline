@@ -592,7 +592,7 @@ body.dark .error {
     align-items: baseline;
     gap: 0.6rem;
     box-shadow: var(--shadow);
-    transition: transform 0.3s;
+    transition: all 0.3s;
     margin: 0.3rem 0rem;
 }
 
