@@ -482,19 +482,25 @@ body.dark .error {
 .choose_LLM i {
     display: inline-block;
     padding: 1rem;
-    margin: 0rem 0.3rem;
+    margin: 0rem 0.1rem;
     border-radius: 10px;
     background-size: cover;
     background-position: center;
     border: 2px solid var(--border);
     box-shadow: var(--shadow);
-    transition: all var(--transition);
+    transition: all var(--transition), transform 0.2s;
     opacity: 0.6;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
 }
 
 .choose_LLM i.checked {
     border-color: var(--primary);
     opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
 }
 
 .choose_LLM i.LLM_google {
