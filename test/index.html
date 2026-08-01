@@ -111,16 +111,23 @@
                 <div id="mcqList"></div>
             </div>
             
+            <!-- Test footer -->
+            <div id="floating_scorer" class="floating_scorer">
+                <div class="floating_container">
+                    <span><span class="score_titles">Attempts:</span><span class="score_values" id="current_attempts">0</span></span>
+                    <span class="score_separators"></span>
+                    <span><span class="score_titles">Correct:</span><span class="score_values" id="current_score">00/00</span></span>
+                    <span class="score_separators"></span>
+                    <span><span class="score_titles">Accuracy:</span><span class="score_values" id="current_accuracy">0%</span></span>
+                </div>
+                <div class="floating_hide" onclick="hide_floating_scorer()"><i class="fa fa-close"></i></div>
+            </div>
+            <div id="show_floating_scorer" class="show_floating_scorer_div hide" onclick="show_floating_scorer_x()"><span>Show MCQs Scores</span></div>
+            
             <!-- Subjective -->
             <div id="subjectiveSection" class="section">
                 <h3 class="section-title"><i class="fas fa-pen-fancy"></i> Subjective Questions</h3>
                 <div id="subjectiveList"></div>
-            </div>
-            
-            <!-- Test footer -->
-            <div style="margin-top:2rem; text-align:center; font-size:0.9rem; color:var(--text); opacity:0.7;">
-                <i class="fas fa-check-circle" style="color:var(--primary);"></i>
-                Click an option to check your answer.
             </div>
         </section>
     </main>

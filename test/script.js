@@ -19,6 +19,11 @@ const subjectiveList = document.getElementById('subjectiveList');
 const subjectiveSectionX = document.getElementById('subjectiveSection');
 const darkToggle = document.getElementById('darkToggle');
 const toggleGradientBGxID = document.getElementById('toggleGradientBGxID');
+const current_attempts = document.getElementById('current_attempts');
+const current_score = document.getElementById('current_score');
+const current_accuracy = document.getElementById('current_accuracy');
+const floating_scorer = document.getElementById('floating_scorer');
+const show_floating_scorer = document.getElementById('show_floating_scorer');
 
 // ---------- State ----------
 let currentData = null;
@@ -95,6 +100,10 @@ async function loadSubjectData(subjectName) {
             unitSelect.value = '0';
             loadingEl.style.display = 'none';
             contentEl.style.display = 'block';
+            unitTitle.textContent = 'Test';
+            unitCounter.textContent = '?';
+            contentEl.style.display = 'none';
+            
         } else {
             throw new Error('No units found in the JSON file.');
         }
@@ -105,6 +114,7 @@ async function loadSubjectData(subjectName) {
         console.error(err);
         currentData = null;
     }
+    feedback_scorer("clear");
 }
 
 // ---------- Helper: Shuffle and pick random subset ----------
@@ -171,7 +181,8 @@ function generateTest() {
     
     mcqSectionX.style.display = "block";
     subjectiveSectionX.style.display = "block";
-    subjectiveSectionX.style.marginTop = "5rem";
+    subjectiveSectionX.style.marginTop = "3rem";
+    feedback_scorer("semi_clear");
 }
 
 // ---------- Render test content ----------
@@ -293,6 +304,7 @@ function renderTest(mcqs, subjectiveQuestions, unitVal) {
 
 // ---------- FEEDBACK FUNCTIONS (CSS-BASED) ----------
 function correct_mcq_option(el) {
+    feedback_scorer(1);
     el.classList.add('correct');
     const icon = el.querySelector('.opt-icon i');
     if (icon) {
@@ -302,12 +314,47 @@ function correct_mcq_option(el) {
 }
 
 function wrong_mcq_option(el) {
+    feedback_scorer(0);
     el.classList.add('wrong');
     const icon = el.querySelector('.opt-icon i');
     if (icon) {
         icon.className = 'fas fa-circle-xmark';
         // color is now managed by CSS (.mcq-option.wrong .opt-icon i)
     }
+}
+
+// ---------- FEEDBACK FUNCTIONS (CSS-BASED) ----------
+let x_score = 0;
+let attempts = 0;
+let qstnCount = 0;
+
+function feedback_scorer(x_point) {
+    if (x_point == "clear") {
+        x_score = 0;
+        attempts = 0;
+        qstnCount = 0;
+    } else if (x_point == "semi_clear") {
+        x_score = 0;
+        attempts = 0;
+        qstnCount = document.querySelectorAll(".mcq-block").length;
+    }
+    if (x_point == 1 || x_point == 0) attempts++;
+    if (x_point == 1) x_score++;
+    let accuracy = attempts === 0 ? 0 : ((x_score / attempts) * 100).toFixed(1);
+    current_attempts.textContent = attempts;
+    current_score.textContent = x_score + "/" + qstnCount;
+    current_accuracy.textContent = accuracy + "%";
+}
+
+// ---------- Hide Floating Scores ----------
+function hide_floating_scorer() {
+    floating_scorer.classList.add('hide');
+    show_floating_scorer.classList.remove('hide');
+}
+
+function show_floating_scorer_x() {
+    floating_scorer.classList.remove('hide');
+    show_floating_scorer.classList.add('hide');
 }
 
 // ---------- Event listeners ----------
@@ -330,6 +377,7 @@ unitSelect.addEventListener('change', () => {
     mcqList.innerHTML = '';
     subjectiveList.innerHTML = '';
     contentEl.style.display = 'none';
+    feedback_scorer("clear");
 });
 
 generateBtn.addEventListener('click', generateTest);
