@@ -14,6 +14,8 @@ const mcqList = document.getElementById('mcqList');
 const subjectiveList = document.getElementById('subjectiveList');
 const darkToggle = document.getElementById('darkToggle');
 const toggleGradientBGxID = document.getElementById('toggleGradientBGxID');
+const choose_LLM_ID = document.getElementById('choose_LLM_ID');
+let searchLLM = "google";
 
 // ---------- State ----------
 let currentData = null;
@@ -296,21 +298,37 @@ if (localStorage.getItem("primary_theme_color") === null) {
 }
 
 // ---------- searchQ ----------
+
+function choose_LLM_function() {
+    if (searchLLM == "google") {
+        choose_LLM_ID.getElementsByClassName("LLM_perplexity")[0].classList.add('checked');
+        choose_LLM_ID.getElementsByClassName("LLM_google")[0].classList.remove('checked');
+        searchLLM = "perplexity";
+    }
+    else if (searchLLM == "perplexity") {
+        choose_LLM_ID.getElementsByClassName("LLM_google")[0].classList.add('checked');
+        choose_LLM_ID.getElementsByClassName("LLM_perplexity")[0].classList.remove('checked');
+        searchLLM = "google";
+    } else {}
+    console.log(searchLLM);
+}
+
 function func_searchQ(elem) {
     var searchQueryTerm = encodeURIComponent(elem.textContent || elem.innerText);
     var selected_subject_url = encodeURIComponent(subjectSelect.options[subjectSelect.selectedIndex].text);
     var selected_unit_url_raw = unitSelect.options[unitSelect.selectedIndex].text.replace(/^\d+\s*-\s*/, "");
     var selected_unit_url = encodeURIComponent(selected_unit_url_raw);
-    window.open(
-        "https://www.google.com/search?q=Tags%3A%20%5BBCA%5D%5BExam%5D%5B" + selected_subject_url + "%5D%5B" + selected_unit_url + "%5D%0AAnswer%20this%20LONG%20Subjective%20Question%20in%20simple%20words%3A%0A%0AQuestion%3A%20" +
-        searchQueryTerm +
-        "%0A%0AAnswer%20Format%3A%0A-%20Provide%20only%20as%20much%20as%20is%20asked%20in%20the%20question%2E%0A-%20Also%20use%20Sensible%20Google%20or%20AI%20Generated%20%20Images%20along%20with%20concepts%20and%20theories%2E%0A-%20Keep%20Answer%20Simplified%2E%0A-%20Use%20Simple%20English%2C%20avoid%20Jargon%2E&udm=50",
-        "_blank",
-        "noopener,noreferrer"
-    );
+    if (searchLLM == "google") {
+        window.open(
+            "https://www.google.com/search?q=Tags%3A%20%5BBCA%5D%5BExam%5D%5B" + selected_subject_url + "%5D%5B" + selected_unit_url + "%5D%0AAnswer%20this%20LONG%20Subjective%20Question%20in%20simple%20words%3A%0A%0AQuestion%3A%20" + searchQueryTerm + "%0A%0AAnswer%20Format%3A%0A-%20Provide%20only%20as%20much%20as%20is%20asked%20in%20the%20question%2E%0A-%20Also%20use%20Sensible%20Google%20or%20AI%20Generated%20%20Images%20along%20with%20concepts%20and%20theories%2E%0A-%20Keep%20Answer%20Simplified%2E%0A-%20Use%20Simple%20English%2C%20avoid%20Jargon%2E&udm=50", "_blank", "noopener,noreferrer"
+        );
+    }
+    else if (searchLLM = "perplexity") {
+        window.open(
+            "https://www.perplexity.ai/search?q=Tags%3A%20%5BBCA%5D%5BExam%5D%5B" + selected_subject_url + "%5D%5B" + selected_unit_url + "%5D%0AAnswer%20this%20LONG%20Subjective%20Question%20in%20simple%20words%3A%0A%0AQuestion%3A%20" + searchQueryTerm + "%0A%0AAnswer%20Format%3A%0A-%20Provide%20only%20as%20much%20as%20is%20asked%20in%20the%20question%2E%0A-%20Also%20use%20Sensible%20Google%20or%20AI%20Generated%20%20Images%20along%20with%20concepts%20and%20theories%2E%0A-%20Keep%20Answer%20Simplified%2E%0A-%20Use%20Simple%20English%2C%20avoid%20Jargon%2E", "_blank", "noopener,noreferrer"
+        );
+    } else {}
 }
-
-// -%20Do%20not%20provide%20Websites%20Links%20instead%20provide%20only%20AI%20Generated%20Answer%2E%0A
 
 // ----------- POPUP HELP ------------
 function popup_help() {

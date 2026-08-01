@@ -26,7 +26,7 @@ body.dark {
 }
 
 body.dark.anim {
-    background: #121212 url("animated-mesh-gradient-dark.svg");
+    background: #121212 url("images/animated-mesh-gradient-dark.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ body.dark.anim {
 }
 
 body.anim {
-    background: #EFEFEF url("animated-mesh-gradient-light.svg");
+    background: #EFEFEF url("images/animated-mesh-gradient-light.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -197,7 +197,7 @@ body {
 
 .primary_colors_block .x_primary_color.primary_color_picker_label {
     background-color: var(--text, #aaaaaa);
-    background-image: url('gradient.jpg');
+    background-image: url('images/gradient.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -463,6 +463,46 @@ body.dark .error {
     padding: 1rem;
     border-bottom: 2px solid var(--primary);
     border-top: 2px solid var(--primary);
+}
+
+#subjectiveSection .section-title {
+    padding: 0.5rem 1rem;
+    padding-right: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#subjectiveSection .section-title .choose_LLM {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose_LLM i {
+    display: inline-block;
+    padding: 1rem;
+    margin: 0rem 0.3rem;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--border);
+    box-shadow: var(--shadow);
+    transition: all var(--transition);
+    opacity: 0.8;
+}
+
+.choose_LLM i.checked {
+    border-color: var(--primary);
+    opacity: 1;
+}
+
+.choose_LLM i.LLM_google {
+    background: #FFFFFF url("/images/google_icon.svg");
+}
+
+.choose_LLM i.LLM_perplexity {
+    background: #1F1F1F url("images/perplexity_ai_icon.svg");
 }
 
 /* ---------- MCQs ---------- */

@@ -26,7 +26,7 @@ body.dark {
 }
 
 body.dark.anim {
-    background: #121212 url("../animated-mesh-gradient-dark.svg");
+    background: #121212 url("../images/animated-mesh-gradient-dark.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ body.dark.anim {
 }
 
 body.anim {
-    background: #EFEFEF url("../animated-mesh-gradient-light.svg");
+    background: #EFEFEF url("../images/animated-mesh-gradient-light.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -194,7 +194,7 @@ body {
 
 .primary_colors_block .x_primary_color.primary_color_picker_label {
     background-color: var(--text, #aaaaaa);
-    background-image: url('../gradient.jpg');
+    background-image: url('../images/gradient.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
