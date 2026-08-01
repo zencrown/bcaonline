@@ -608,7 +608,7 @@ body.dark .error {
     border-radius: 10px;
     user-select: none;
     cursor: pointer;
-    transition: transform var(--transition), opacity var(--transition);
+    transition: all var(--transition);
 }
 
 .subjective-list .qSearchQ:hover {
