@@ -516,7 +516,7 @@ body.dark .mcq-option.wrong {
 
 .floating_scorer .floating_container span {
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .floating_scorer .floating_container .score_titles {
@@ -712,6 +712,12 @@ body.dark .mcq-option.wrong {
         opacity: 0;
     }
     
+    .floating_scorer .floating_container span {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 300px) {
     .floating_scorer .floating_container span {
         font-size: 0.6rem;
     }
