@@ -98,6 +98,9 @@ body {
     position: sticky;
     top: 0;
     z-index: 10;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
@@ -313,6 +316,9 @@ body.dark.anim .control-group select {
     gap: 0.5rem;
     transition: all var(--transition);
     margin-top: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
 }
 
@@ -425,6 +431,10 @@ body.dark .error {
     font-size: 1.05rem;
     display: flex;
     gap: 0.5rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .mcq-question .q-num {
@@ -569,6 +579,13 @@ body.dark .mcq-option.wrong {
     min-width: 1rem;
 }
 
+.subjective-list span {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 /* ---------- Help popup ---------- */
 
 #mcqSection,
@@ -635,6 +652,9 @@ body.dark .mcq-option.wrong {
     border-radius: 7px;
     font-weight: bold;
     cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
 }
 
@@ -648,6 +668,9 @@ body.dark .mcq-option.wrong {
     font-size: 0.9rem;
     color: var(--text);
     margin-top: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
 }
 

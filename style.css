@@ -100,6 +100,9 @@ body {
     position: sticky;
     top: 0;
     z-index: 10;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
@@ -299,6 +302,9 @@ body {
     background: var(--primary);
     border-radius: 25rem;
     text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     flex-shrink: 0;
 }
@@ -620,6 +626,9 @@ body.dark .error {
     color: white;
     background: var(--primary);
     border-radius: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     cursor: pointer;
     transition: all var(--transition);
@@ -703,6 +712,9 @@ body.dark .error {
     border-radius: 7px;
     font-weight: bold;
     cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
 }
 
@@ -716,6 +728,9 @@ body.dark .error {
     font-size: 0.9rem;
     color: var(--text);
     margin-top: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
 }
 
