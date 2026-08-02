@@ -15,6 +15,9 @@ const subjectiveList = document.getElementById('subjectiveList');
 const darkToggle = document.getElementById('darkToggle');
 const toggleGradientBGxID = document.getElementById('toggleGradientBGxID');
 const choose_LLM_ID = document.getElementById('choose_LLM_ID');
+const google_LLM_btn = document.getElementsByClassName("LLM_google")[0];
+const perplexity_LLM_btn = document.getElementsByClassName("LLM_perplexity")[0];
+const chatgpt_LLM_btn = document.getElementsByClassName("LLM_chatgpt")[0];
 let searchLLM = "google";
 
 // ---------- State ----------
@@ -299,18 +302,25 @@ if (localStorage.getItem("primary_theme_color") === null) {
 
 // ---------- searchQ ----------
 
-function choose_LLM_function() {
-    if (searchLLM == "google") {
-        choose_LLM_ID.getElementsByClassName("LLM_perplexity")[0].classList.add('checked');
-        choose_LLM_ID.getElementsByClassName("LLM_google")[0].classList.remove('checked');
-        searchLLM = "perplexity";
-    }
-    else if (searchLLM == "perplexity") {
-        choose_LLM_ID.getElementsByClassName("LLM_google")[0].classList.add('checked');
-        choose_LLM_ID.getElementsByClassName("LLM_perplexity")[0].classList.remove('checked');
+function choose_aiLLM(aiValue) {
+    if (aiValue == 1) {
+        google_LLM_btn.classList.add('checked');
+        perplexity_LLM_btn.classList.remove('checked');
+        chatgpt_LLM_btn.classList.remove('checked');
         searchLLM = "google";
+    }
+    else if (aiValue == 2) {
+        google_LLM_btn.classList.remove('checked');
+        perplexity_LLM_btn.classList.add('checked');
+        chatgpt_LLM_btn.classList.remove('checked');
+        searchLLM = "perplexity";
+    } else if (aiValue == 3) {
+        google_LLM_btn.classList.remove('checked');
+        perplexity_LLM_btn.classList.remove('checked');
+        chatgpt_LLM_btn.classList.add('checked');
+        searchLLM = "chatgpt";
     } else {}
-    console.log(searchLLM);
+    //console.log(searchLLM, aiValue);
 }
 
 function func_searchQ(elem) {
@@ -323,9 +333,13 @@ function func_searchQ(elem) {
             "https://www.google.com/search?q=Tags%3A%20%5BBCA%5D%5BExam%5D%5B" + selected_subject_url + "%5D%5B" + selected_unit_url + "%5D%0AAnswer%20this%20LONG%20Subjective%20Question%20in%20simple%20words%3A%0A%0AQuestion%3A%20" + searchQueryTerm + "%0A%0AAnswer%20Format%3A%0A-%20Provide%20only%20as%20much%20as%20is%20asked%20in%20the%20question%2E%0A-%20Also%20use%20Sensible%20Google%20or%20AI%20Generated%20%20Images%20along%20with%20concepts%20and%20theories%2E%0A-%20Keep%20Answer%20Simplified%2E%0A-%20Use%20Simple%20English%2C%20avoid%20Jargon%2E&udm=50", "_blank", "noopener,noreferrer"
         );
     }
-    else if (searchLLM = "perplexity") {
+    else if (searchLLM == "perplexity") {
         window.open(
             "https://www.perplexity.ai/search?q=Tags%3A%20%5BBCA%5D%5BExam%5D%5B" + selected_subject_url + "%5D%5B" + selected_unit_url + "%5D%0AAnswer%20this%20LONG%20Subjective%20Question%20in%20simple%20words%3A%0A%0AQuestion%3A%20" + searchQueryTerm + "%0A%0AAnswer%20Format%3A%0A-%20Provide%20only%20as%20much%20as%20is%20asked%20in%20the%20question%2E%0A-%20Also%20use%20Sensible%20Google%20or%20AI%20Generated%20%20Images%20along%20with%20concepts%20and%20theories%2E%0A-%20Keep%20Answer%20Simplified%2E%0A-%20Use%20Simple%20English%2C%20avoid%20Jargon%2E", "_blank", "noopener,noreferrer"
+        );
+    } else if (searchLLM == "chatgpt") {
+        window.open(
+            "https://chatgpt.com/?q=Tags%3A%20%5BBCA%5D%5BExam%5D%5B" + selected_subject_url + "%5D%5B" + selected_unit_url + "%5D%0AAnswer%20this%20LONG%20Subjective%20Question%20in%20simple%20words%3A%0A%0AQuestion%3A%20" + searchQueryTerm + "%0A%0AAnswer%20Format%3A%0A-%20Provide%20only%20as%20much%20as%20is%20asked%20in%20the%20question%2E%0A-%20Also%20use%20Sensible%20Google%20or%20AI%20Generated%20%20Images%20along%20with%20concepts%20and%20theories%2E%0A-%20Keep%20Answer%20Simplified%2E%0A-%20Use%20Simple%20English%2C%20avoid%20Jargon%2E", "_blank", "noopener,noreferrer"
         );
     } else {}
 }

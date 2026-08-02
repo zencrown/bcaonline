@@ -504,6 +504,7 @@ body.dark .error {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+    pointer-events: none;
 }
 
 .choose_LLM i.LLM_google {
@@ -512,6 +513,10 @@ body.dark .error {
 
 .choose_LLM i.LLM_perplexity {
     background: #1F1F1F url("images/perplexity_ai_icon.svg");
+}
+
+.choose_LLM i.LLM_chatgpt {
+    background: #FFFFFF url("images/chatgpt_ai_icon.svg");
 }
 
 /* ---------- MCQs ---------- */
