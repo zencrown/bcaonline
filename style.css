@@ -488,7 +488,10 @@ body.dark .error {
     background-position: center;
     border: 2px solid var(--border);
     box-shadow: var(--shadow);
-    transition: all 0.2s linear;
+    -webkit-transition: all 0.3s cubic-bezier(.22, .68, 0, 1.71);
+    -moz-transition: all 0.3s cubic-bezier(.22, .68, 0, 1.71);
+    -o-transition: all 0.3s cubic-bezier(.22, .68, 0, 1.71);
+    transition: all 0.3s cubic-bezier(.22, .68, 0, 1.71);
     opacity: 0.6;
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
