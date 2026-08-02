@@ -179,7 +179,7 @@ function generateTest() {
     
     mcqSectionX.style.display = "block";
     subjectiveSectionX.style.display = "block";
-    subjectiveSectionX.style.marginTop = "3rem";
+    subjectiveSectionX.style.marginTop = "5rem";
     feedback_scorer("semi_clear");
 }
 
