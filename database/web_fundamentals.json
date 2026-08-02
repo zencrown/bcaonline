@@ -2120,7 +2120,7 @@
           ]
         },
         {
-          "question": "The DOM is a ____W3C________ standard.",
+          "question": "The DOM is a ________ standard.",
           "options": [
             { "text": "WWW", "correct": false },
             { "text": "W3C", "correct": true },
