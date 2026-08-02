@@ -493,10 +493,7 @@ body.dark .mcq-option.wrong {
 
 /* ---------- Floating Scorer --------*/
 .floating_scorer {
-    position: -webkit-sticky;
-    position: sticky;
-    left: 0;
-    bottom: 0;
+    position: static;
     margin: 0;
     width: 100%;
     display: flex;
