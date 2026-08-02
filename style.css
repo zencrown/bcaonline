@@ -493,17 +493,17 @@ body.dark .error {
     -o-transition: all 0.3s cubic-bezier(.22, .68, 0, 1.71);
     transition: all 0.3s cubic-bezier(.22, .68, 0, 1.71);
     opacity: 0.6;
-    -webkit-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transform: scale(0.8);
+    -webkit-transform: scale(0.8) rotate(0deg);
+    -ms-transform: scale(0.8) rotate(0deg);
+    transform: scale(0.8) rotate(0deg);
 }
 
 .choose_LLM i.checked {
     border-color: var(--primary);
     opacity: 1;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
+    -webkit-transform: scale(1) rotate(10deg);
+    -ms-transform: scale(1) rotate(10deg);
+    transform: scale(1) rotate(10deg);
     pointer-events: none;
 }
 
