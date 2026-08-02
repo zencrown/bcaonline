@@ -496,44 +496,12 @@ body.dark .mcq-option.wrong {
     position: -webkit-sticky;
     position: sticky;
     left: 0;
-    bottom: 0.2rem;
-    margin-top: 2rem;
+    bottom: 0;
+    margin: 0;
     width: 100%;
     display: flex;
     align-items: stretch;
     justify-content: center;
-}
-
-.floating_scorer.hide {
-    display: none;
-}
-
-.floating_scorer .floating_hide {
-    height: auto;
-    margin-left: 0.2rem;
-    background: var(--card-bg);
-    border: 0.1rem solid var(--border);
-    border-radius: 12px;
-    padding: 0.3rem 0.5rem;
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 0px 10px #00000020;
-    color: var(--primary);
-}
-
-.floating_scorer .floating_container {
-    background: var(--card-bg);
-    border: 0.1rem solid var(--border);
-    border-radius: 12px;
-    padding: 0.3rem 0.5rem;
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    width: 100%;
-    max-width: 600px;
-    box-shadow: 0px 0px 10px #00000020;
 }
 
 .floating_scorer .floating_container {
@@ -541,12 +509,14 @@ body.dark .mcq-option.wrong {
     align-items: center;
     justify-content: space-around;
     flex-wrap: no-wrap;
-    padding: 0.5rem 0.5rem;
+    border: none;
+    padding: 0px 0.5rem;
+    width: 100%;
 }
 
 .floating_scorer .floating_container span {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
 
 .floating_scorer .floating_container .score_titles {
@@ -565,31 +535,6 @@ body.dark .mcq-option.wrong {
     padding-left: 0.1rem;
     height: 100%;
     margin: 0px 0.1rem;
-}
-
-
-.show_floating_scorer_div {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.show_floating_scorer_div span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--primary);
-    color: white;
-    padding: 0.5rem 1rem;
-    font-weight: bold;
-    border-radius: 8px;
-    font-size: 1.2rem;
-}
-
-.show_floating_scorer_div.hide {
-    display: none;
 }
 
 /* ---------- Subjective ---------- */
@@ -746,12 +691,6 @@ body.dark .mcq-option.wrong {
     
     .app-header:hover .header-left h1 {
         font-size: 1.1rem;
-    }
-}
-
-@media (max-width: 450px) {
-    .floating_scorer .floating_container span {
-        font-size: 0.8rem;
     }
 }
 

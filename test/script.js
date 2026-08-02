@@ -22,8 +22,6 @@ const toggleGradientBGxID = document.getElementById('toggleGradientBGxID');
 const current_attempts = document.getElementById('current_attempts');
 const current_score = document.getElementById('current_score');
 const current_accuracy = document.getElementById('current_accuracy');
-const floating_scorer = document.getElementById('floating_scorer');
-const show_floating_scorer = document.getElementById('show_floating_scorer');
 
 // ---------- State ----------
 let currentData = null;
@@ -183,7 +181,6 @@ function generateTest() {
     subjectiveSectionX.style.display = "block";
     subjectiveSectionX.style.marginTop = "3rem";
     feedback_scorer("semi_clear");
-    show_floating_scorer_x();
 }
 
 // ---------- Render test content ----------
@@ -345,17 +342,6 @@ function feedback_scorer(x_point) {
     current_attempts.textContent = attempts;
     current_score.textContent = x_score + "/" + qstnCount;
     current_accuracy.textContent = accuracy + "%";
-}
-
-// ---------- Hide Floating Scores ----------
-function hide_floating_scorer() {
-    floating_scorer.classList.add('hide');
-    show_floating_scorer.classList.remove('hide');
-}
-
-function show_floating_scorer_x() {
-    floating_scorer.classList.remove('hide');
-    show_floating_scorer.classList.add('hide');
 }
 
 // ---------- Event listeners ----------
