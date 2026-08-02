@@ -749,6 +749,12 @@ body.dark .mcq-option.wrong {
     }
 }
 
+@media (max-width: 450px) {
+    .floating_scorer .floating_container span {
+        font-size: 0.8rem;
+    }
+}
+
 @media (max-width: 400px) {
     .app-header .header-left i {
         font-size: 0.8rem;
@@ -768,6 +774,6 @@ body.dark .mcq-option.wrong {
     }
     
     .floating_scorer .floating_container span {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 }
