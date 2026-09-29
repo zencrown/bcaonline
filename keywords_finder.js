@@ -4,10 +4,12 @@ var isCaseSensitiveOn = false;
 function toggle_case_sensitive(btn_elem) {
     if (isCaseSensitiveOn == false) {
         btn_elem.classList.add('on');
+        case_sensitive_btn_value.innerHTML = "On";
         isCaseSensitiveOn = true;
     }
     else {
         btn_elem.classList.remove('on');
+        case_sensitive_btn_value.innerHTML = "Off";
         isCaseSensitiveOn = false;
     }
 }

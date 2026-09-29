@@ -2,6 +2,7 @@
 const DATA_PATH = './database/';
 
 // ---------- DOM refs ----------
+const case_sensitive_btn_value = document.getElementById('case_sensitive_btn_value');
 const subjectSelect = document.getElementById('subjectSelect');
 const unitSelect = document.getElementById('unitSelect');
 const loadingEl = document.getElementById('loading');
