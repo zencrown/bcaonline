@@ -26,6 +26,7 @@ const notify_mcq = document.getElementById('notify_mcq');
 
 // ---------- State ----------
 let currentData = null;
+let notify_mcq_timeout;
 
 // ---------- Dark Mode (unchanged) ----------
 function setTheme(dark) {
@@ -362,7 +363,7 @@ function feedback_scorer(x_point) {
             setTimeout(() => {
                 notify_mcq.classList.add('show');
             }, 500);
-            setTimeout(() => {
+            notify_mcq_timeout = setTimeout(() => {
                 notify_mcq.classList.remove('show');
             }, 14000);
         }
