@@ -703,7 +703,7 @@ body.dark .mcq-option.wrong {
 
 .notify_mcq.show {
     opacity: 0.8;
-    right: 1re;
+    right: 1rem;
 }
 
 .notify_mcq.show i.bell {
