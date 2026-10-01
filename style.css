@@ -650,12 +650,6 @@ body.dark .error {
     flex-direction: column;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    /* Android 4.4-, Safari 8-, iOS 8- */
-    -ms-transform: translate(-50%, -50%);
-    /* IE 9 */
-    transform: translate(-50%, -50%);
-    /* Modern browsers (PC, Android, iOS) */
     position: fixed;
     flex-wrap: wrap;
     background: var(--card-bg);
@@ -667,6 +661,12 @@ body.dark .error {
     border-radius: var(--radius);
     border: 1px solid var(--border);
     box-shadow: var(--shadow), 0px 0px 0px 100vh #000000A0;
+    -webkit-transform: scale(0.8) translate(-50%, -50%);
+    -ms-transform: scale(0.8) translate(-50%, -50%);
+    transform: scale(0.8) translate(-50%, -50%);
+    transform-origin: left;
+    opacity: 0;
+    transition: 350ms ease-in-out;
 }
 
 @supports not ((backdrop-filter: blur(8px)) or (-webkit-backdrop-filter: blur(8px))) {
@@ -677,7 +677,10 @@ body.dark .error {
 }
 
 .help_popup.open {
-    display: flex;
+    -webkit-transform: scale(1) translate(-50%, -50%);
+    -ms-transform: scale(1) translate(-50%, -50%);
+    transform: scale(1) translate(-50%, -50%);
+    opacity: 1;
 }
 
 .help_popup hr {

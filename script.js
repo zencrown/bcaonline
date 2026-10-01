@@ -346,8 +346,21 @@ function func_searchQ(elem) {
 }
 
 // ----------- POPUP HELP ------------
-function popup_help() {
-    document.getElementById("help_popup_X888").classList.toggle('open');
+var popupTimer;
+
+function popup_help(ev) {
+    var el = document.getElementById("help_popup_X888");
+    if (!el) return;
+    
+    clearTimeout(popupTimer);
+    
+    if (ev === 'in') {
+        el.style.display = "flex";
+        popupTimer = setTimeout(function() { el.classList.add('open'); }, 100);
+    } else if (ev === 'out') {
+        el.classList.remove('open');
+        popupTimer = setTimeout(function() { el.style.display = "none"; }, 350);
+    }
 }
 
 // ---------- Initial Load ----------
