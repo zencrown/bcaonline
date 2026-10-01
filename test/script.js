@@ -360,6 +360,8 @@ function feedback_scorer(x_point) {
     
     if (attempts == qstnCount) {
         if (attempts != 0) {
+            notify_mcq.classList.remove('show');
+            clearTimeout(notify_mcq_timeout);
             setTimeout(() => {
                 notify_mcq.classList.add('show');
             }, 500);
