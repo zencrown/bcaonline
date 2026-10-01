@@ -25,7 +25,7 @@
     <header class="app-header">
         <div class="header-left">
             <i class="fas fa-check-double"></i>
-            <h1>Test Mode</h1>
+            <h1 onclick="notify_mcq.classList.toggle('show')">Test Mode</h1>
         </div>
         <div class="header-right">
             <input style="display:none" type="color" value="#ffffff" id="primary_color_picker" oninput="change_primary_color(this.value)">
@@ -130,6 +130,7 @@
                 <div id="subjectiveList"></div>
             </div>
         </section>
+        <div class="notify_mcq" id="notify_mcq" onclick="this.classList.remove('show');"><i class="bell fa fa-blind"></i><i class="check fa fa-check-circle"></i> All MCQs Done!</div>
     </main>
     
     <footer class="app-footer">

@@ -667,6 +667,69 @@ body.dark .mcq-option.wrong {
     user-select: none;
 }
 
+/* NOTIFY MCQ */
+.notify_mcq {
+    background: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    bottom: 1rem;
+    right: 0rem;
+    padding: 0.7rem;
+    border-radius: 50px;
+    border: 2px solid var(--border);
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.notify_mcq i.check {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.notify_mcq i.bell {
+    position: absolute;
+    color: var(--text);
+    left: 5%;
+    top: -0.4rem;
+    /* transform: rotate(340deg); */
+    opacity: 0;
+}
+
+.notify_mcq.show {
+    opacity: 0.8;
+    right: 1re;
+}
+
+.notify_mcq.show i.bell {
+    animation: bellswing 12s 1s linear 1 normal;
+}
+
+@keyframes bellswing {
+    0% {
+        left: 10%;
+        opacity: 0;
+    }
+    
+    10% {
+        opacity: 1;
+    }
+    
+    95% {
+        opacity: 1;
+    }
+    
+    100% {
+        left: 80%;
+        opacity: 0;
+    }
+}
+
 /* ---------- Footer ---------- */
 .app-footer {
     background: var(--card-bg);

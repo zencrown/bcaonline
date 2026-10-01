@@ -22,6 +22,7 @@ const toggleGradientBGxID = document.getElementById('toggleGradientBGxID');
 const current_attempts = document.getElementById('current_attempts');
 const current_score = document.getElementById('current_score');
 const current_accuracy = document.getElementById('current_accuracy');
+const notify_mcq = document.getElementById('notify_mcq');
 
 // ---------- State ----------
 let currentData = null;
@@ -355,6 +356,17 @@ function feedback_scorer(x_point) {
     current_attempts.textContent = attempts;
     current_score.textContent = x_score + "/" + qstnCount;
     current_accuracy.textContent = accuracy + "%";
+    
+    if (attempts == qstnCount) {
+        if (attempts != 0) {
+            setTimeout(() => {
+                notify_mcq.classList.add('show');
+            }, 500);
+            setTimeout(() => {
+                notify_mcq.classList.remove('show');
+            }, 14000);
+        }
+    }
 }
 
 // ---------- Event listeners ----------
