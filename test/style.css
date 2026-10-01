@@ -696,7 +696,7 @@ body.dark .mcq-option.wrong {
     position: absolute;
     color: var(--text);
     left: 5%;
-    top: -0.4rem;
+    top: -0.45rem;
     /* transform: rotate(340deg); */
     opacity: 0;
 }
