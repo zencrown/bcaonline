@@ -372,6 +372,7 @@ function feedback_scorer(x_point) {
     }
 }
 
+
 // ---------- Event listeners ----------
 subjectSelect.addEventListener('change', () => {
     generateBtn.innerHTML = '<i class="fas fa-play"></i> Generate';
