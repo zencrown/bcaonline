@@ -359,6 +359,7 @@ body.dark .error {
 
 /* ---------- Content ---------- */
 .content {
+    -webkit-animation: fadeIn 0.3s ease;
     animation: fadeIn 0.3s ease;
 }
 
@@ -509,6 +510,7 @@ body.dark .mcq-option.wrong {
     display: flex;
     align-items: stretch;
     justify-content: center;
+    border:none;
 }
 
 .floating_scorer .floating_container {
@@ -707,6 +709,7 @@ body.dark .mcq-option.wrong {
 }
 
 .notify_mcq.show i.bell {
+    -webkit-animation: bellswing 12s 1s linear 1 normal;
     animation: bellswing 12s 1s linear 1 normal;
 }
 
