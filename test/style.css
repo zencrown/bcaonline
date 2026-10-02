@@ -363,6 +363,18 @@ body.dark .error {
     animation: fadeIn 0.3s ease;
 }
 
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -711,6 +723,26 @@ body.dark .mcq-option.wrong {
 .notify_mcq.show i.bell {
     -webkit-animation: bellswing 12s 1s linear 1 normal;
     animation: bellswing 12s 1s linear 1 normal;
+}
+
+@-webkit-keyframes bellswing {
+    0% {
+        left: 10%;
+        opacity: 0;
+    }
+    
+    15% {
+        opacity: 1;
+    }
+    
+    95% {
+        opacity: 1;
+    }
+    
+    100% {
+        left: 80%;
+        opacity: 0;
+    }
 }
 
 @keyframes bellswing {
