@@ -15,10 +15,10 @@
 }
 
 body.dark {
-    --bg: #080808;
+    --bg: #0a0a0a;
     --text: #e0e0e0;
-    --card-bg: #0e0e0e;
-    --border: #1e1e1e;
+    --card-bg: #121212;
+    --border: #242424;
     --shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     --code-bg: #2c2c2c;
     --correct-opt: #FFFFFF10;
