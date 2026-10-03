@@ -27,8 +27,8 @@ Reading this README is irreversible. Still here? Of course you are.
 
 ```bash
 # DON'T run this
-git clone https://github.com/your-username/dont-read-me.git
-cd dont-read-me && npm install && npm start
+git clone https://github.com/......NOTHING......HERE. ....git
+cd -- ./
 ```
 
 ❌ Don't click the big red button.
