@@ -99,7 +99,7 @@ body {
     box-shadow: var(--shadow);
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 999;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
