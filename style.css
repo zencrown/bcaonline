@@ -748,7 +748,7 @@ body.dark .error {
   line-height: 2.75rem;
   text-align: center;
   cursor: pointer;
-  z-index: 9999;
+  z-index: 99;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.45);
   -webkit-tap-highlight-color: transparent;
 
