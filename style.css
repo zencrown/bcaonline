@@ -738,8 +738,8 @@ body.dark .error {
     position: fixed;
     right: 0.7rem;
     bottom: 0.7rem;
-    width: 2.75rem;
-    height: 2.75rem;
+    width: 3rem;
+    height: 3rem;
     padding: 0;
     border: 2px solid var(--border);
     border-radius: 1rem;
