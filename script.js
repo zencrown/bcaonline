@@ -363,6 +363,75 @@ function popup_help(ev) {
     }
 }
 
+// ---------- Floating Section Navigation Button ----------
+(function () {
+  var MCQ_TEXT   = 'multiple choice questions';
+  var SUBJ_TEXT  = 'subjective questions';
+  var TOP_OFFSET = 70; // px, height of your sticky header
+  var ICON_CLASS = 'fas fa-caret-down';
+
+  var btn = document.createElement('button');
+  btn.id = 'sectionNavBtn';
+  btn.type = 'button';
+  btn.setAttribute('aria-label', 'Jump to section');
+  var icon = document.createElement('i');
+  icon.className = ICON_CLASS;
+  btn.appendChild(icon);
+  document.body.appendChild(btn);
+
+  function findSection(text) {
+    var list = document.querySelectorAll('h1,h2,h3,h4,h5,h6');
+    for (var i = 0; i < list.length; i++) {
+      if ((list[i].textContent || '').toLowerCase().indexOf(text) !== -1) return list[i];
+    }
+    return null;
+  }
+
+  function absTop(el) {
+    return el.getBoundingClientRect().top + (window.pageYOffset || document.documentElement.scrollTop);
+  }
+
+  function update() {
+    var mcq = findSection(MCQ_TEXT);
+    var subj = findSection(SUBJ_TEXT);
+    if (!mcq || !subj || document.getElementById('content').style.display === 'none') {
+      btn.classList.remove('show');
+      return;
+    }
+    btn.classList.add('show');
+    var toMcq = subj.getBoundingClientRect().top <= window.innerHeight * 0.5;
+    if (toMcq) {
+      btn.classList.add('flip');
+    } else {
+      btn.classList.remove('flip');
+    }
+    btn.setAttribute('data-target', toMcq ? 'mcq' : 'subj');
+  }
+
+  btn.addEventListener('click', function () {
+    var target = findSection(btn.getAttribute('data-target') === 'mcq' ? MCQ_TEXT : SUBJ_TEXT);
+    if (!target) return;
+    var y = Math.max(0, absTop(target) - TOP_OFFSET);
+    if ('scrollBehavior' in document.documentElement.style) {
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    } else {
+      window.scrollTo(0, y);
+    }
+  });
+
+  var ticking = false;
+  window.addEventListener('scroll', function () {
+    if (ticking) return;
+    ticking = true;
+    setTimeout(function () { ticking = false; update(); }, 100);
+  }, false);
+  window.addEventListener('resize', update, false);
+
+  // Content loads via fetch, so re-check after it appears
+  setInterval(update, 700);
+  update();
+})();
+
 // ---------- Initial Load ----------
 document.addEventListener('DOMContentLoaded', () => {
     loadSubject(subjectSelect.value);
