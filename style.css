@@ -27,7 +27,7 @@ body.dark {
 }
 
 body.dark.anim {
-    background: #121212 url("backgrounds/animated-waves-dark.svg");
+    background: #121212 url("backgrounds/animated-waves-grayscale-dark.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ body.dark.anim {
 }
 
 body.anim {
-    background: #EFEFEF url("backgrounds/animated-waves-light.svg");
+    background: #EFEFEF url("backgrounds/animated-waves-grayscale-light.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -768,7 +768,7 @@ body.dark .error {
 
 /* visible state: soft pop with a tiny bounce */
 #sectionNavBtn.show {
-    opacity: 0.8;
+    opacity: 0.6;
     visibility: visible;
     pointer-events: auto;
     -webkit-transform: translateY(0) scale(1);
