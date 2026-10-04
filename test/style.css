@@ -27,7 +27,7 @@ body.dark {
 }
 
 body.dark.anim {
-    background: #121212 url("../backgrounds/animated-waves-grayscale-dark.svg");
+    background: #525252 url("../backgrounds/animated-waves-grayscale-dark.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ body.dark.anim {
 }
 
 body.anim {
-    background: #EFEFEF url("../backgrounds/animated-waves-grayscale-light.svg");
+    background: #929292 url("../backgrounds/animated-waves-grayscale-light.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -616,8 +616,8 @@ body.dark .mcq-option.wrong {
     position: fixed;
     flex-wrap: wrap;
     background: var(--card-bg);
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
     padding: 1.2rem 1.5rem;
     width: 90%;
     max-width: 600px;
