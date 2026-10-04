@@ -368,7 +368,7 @@ function popup_help(ev) {
   var MCQ_TEXT   = 'multiple choice questions';
   var SUBJ_TEXT  = 'subjective questions';
   var TOP_OFFSET = 70; // px, height of your sticky header
-  var ICON_CLASS = 'fas fa-caret-down';
+  var ICON_CLASS = 'fas fa-angle-double-down';
 
   var btn = document.createElement('button');
   btn.id = 'sectionNavBtn';
