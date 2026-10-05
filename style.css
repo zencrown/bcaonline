@@ -27,7 +27,7 @@ body.dark {
 }
 
 body.dark.anim {
-    background: #525252 url("backgrounds/animated-waves-grayscale-dark.svg");
+    background: #525252 url("backgrounds/animated-waves-dark.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ body.dark.anim {
 }
 
 body.anim {
-    background: #929292 url("backgrounds/animated-waves-grayscale-light.svg");
+    background: #929292 url("backgrounds/animated-waves-light.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
