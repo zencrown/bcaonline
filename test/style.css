@@ -697,7 +697,7 @@ body.dark .mcq-option.wrong {
     right: 0rem;
     padding: 0.7rem;
     border-radius: 50px;
-    border: 2px solid var(--border);
+    border: 1.4px solid var(--border);
     opacity: 0;
     transition: all 0.4s;
 }
@@ -732,8 +732,8 @@ body.dark .mcq-option.wrong {
 
 .notify_mcq .bg-contain i.bg-mark {
     position: absolute;
-    right: -3rem;
-    top: auto;
+    right: -1rem;
+    top: -6%;
     font-size: 7rem;
     z-index: -1;
     opacity: 0.25;
